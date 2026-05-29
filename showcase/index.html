@@ -1,0 +1,515 @@
+﻿<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Investment Brief Showcase</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: "Segoe UI", sans-serif; background: #0f1117; color: #e2e8f0; min-height: 100vh; }
+  .header { background: linear-gradient(135deg, #1a1f2e, #2d3748); padding: 24px 32px; border-bottom: 1px solid #2d3748; }
+  .header h1 { font-size: 1.6rem; font-weight: 700; color: #f7fafc; }
+  .header p { color: #718096; font-size: 0.85rem; margin-top: 4px; }
+  .container { max-width: 1200px; margin: 0 auto; padding: 24px 20px; }
+  .section { margin-bottom: 36px; }
+  .section-title { font-size: 1.1rem; font-weight: 700; color: #a0aec0; text-transform: uppercase; letter-spacing: 0.08em; margin-bottom: 16px; padding-bottom: 8px; border-bottom: 1px solid #2d3748; }
+  .tier-row { display: flex; align-items: flex-start; gap: 12px; margin-bottom: 10px; }
+  .tier-label { width: 48px; height: 48px; border-radius: 8px; display: flex; align-items: center; justify-content: center; font-weight: 800; font-size: 1.2rem; flex-shrink: 0; }
+  .tier-S { background: #f6e05e; color: #1a202c; }
+  .tier-A { background: #68d391; color: #1a202c; }
+  .tier-B { background: #f6ad55; color: #1a202c; }
+  .tier-C { background: #fc8181; color: #1a202c; }
+  .tier-chips { display: flex; flex-wrap: wrap; gap: 8px; padding: 8px 0; align-items: center; }
+  .chip { background: #2d3748; border: 1px solid #4a5568; border-radius: 20px; padding: 6px 14px; font-size: 0.82rem; font-weight: 600; color: #e2e8f0; cursor: default; }
+  .chip:hover { background: #3d4a5c; }
+  .cards-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 16px; }
+  .card { background: #1a1f2e; border: 1px solid #2d3748; border-radius: 12px; padding: 18px; }
+  .card:hover { border-color: #4a5568; }
+  .card-header { display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 10px; }
+  .ticker { font-size: 1.25rem; font-weight: 800; color: #f7fafc; }
+  .badge { font-size: 0.7rem; font-weight: 700; padding: 3px 8px; border-radius: 4px; text-transform: uppercase; }
+  .badge-hold { background: #dd6b20; color: white; }
+  .badge-scout { background: #3182ce; color: white; }
+  .company-name { font-size: 0.82rem; color: #718096; margin-bottom: 8px; }
+  .sector-tag { font-size: 0.75rem; color: #4299e1; background: rgba(66,153,225,0.1); padding: 2px 8px; border-radius: 4px; display: inline-block; margin-bottom: 10px; }
+  .metrics { display: grid; grid-template-columns: 1fr 1fr; gap: 6px; margin: 10px 0; }
+  .metric { background: #2d3748; border-radius: 6px; padding: 6px 10px; }
+  .metric-label { font-size: 0.68rem; color: #718096; text-transform: uppercase; }
+  .metric-value { font-size: 0.9rem; font-weight: 700; color: #e2e8f0; }
+  .pnl-pos { color: #68d391; }
+  .pnl-neg { color: #fc8181; }
+  .thesis-status { font-size: 0.8rem; margin-top: 8px; padding: 6px 10px; border-radius: 6px; }
+  .thesis-ok { background: rgba(72,187,120,0.1); color: #68d391; border: 1px solid rgba(72,187,120,0.2); }
+  .thesis-watch { background: rgba(237,137,54,0.1); color: #f6ad55; border: 1px solid rgba(237,137,54,0.2); }
+  .action-box { border-radius: 8px; padding: 10px 14px; margin-bottom: 12px; font-size: 0.83rem; line-height: 1.6; }
+  .action-enter { background: rgba(72,187,120,0.12); border: 1.5px solid #68d391; }
+  .action-wait  { background: rgba(246,173,85,0.12);  border: 1.5px solid #f6ad55; }
+  .action-avoid { background: rgba(252,129,129,0.12); border: 1.5px solid #fc8181; }
+  .action-hold  { background: rgba(66,153,225,0.12);  border: 1.5px solid #4299e1; }
+  .action-sell  { background: rgba(252,129,129,0.15); border: 1.5px solid #fc8181; }
+  .action-label { font-size: 1rem; font-weight: 800; display: block; margin-bottom: 4px; }
+  .action-detail { color: #a0aec0; font-size: 0.78rem; }
+  .stars { color: #f6e05e; font-size: 1rem; margin: 6px 0; }
+  .moat-tag { font-size: 0.72rem; color: #9f7aea; background: rgba(159,122,234,0.1); padding: 2px 7px; border-radius: 4px; display: inline-block; margin: 2px; }
+  .trend { font-size: 0.78rem; color: #718096; margin-top: 6px; }
+  .divider { border: none; border-top: 1px solid #2d3748; margin: 32px 0; }
+  .day-section-header { display: flex; align-items: center; gap: 12px; margin-bottom: 16px; }
+  .day-label { font-size: 0.9rem; font-weight: 700; color: #4299e1; background: rgba(66,153,225,0.1); padding: 4px 12px; border-radius: 6px; }
+  .updated-at { font-size: 0.75rem; color: #4a5568; }
+</style>
+</head>
+<body>
+<div class="header">
+  <h1>Investment Brief Showcase</h1>
+  <p>US Stocks | Long-Term (1-3 yr) | Moat + Downside Protection | Updated: 2026-05-29 | Top Pick: SYK 🟡 Tier B (รอ Q2 Jul) | CME 24/7 Crypto LIVE วันนี้</p>
+</div>
+<div class="container">
+
+<!-- TIERLIST_START -->
+<div class="section">
+  <div class="section-title">Tier List</div>
+  <div class="tier-row">
+    <div class="tier-label tier-S">S</div>
+    <div class="tier-chips">
+      <div class="chip">MA</div><div class="chip">SPGI</div><div class="chip">NVDA</div><div class="chip">AVGO</div><div class="chip">SNPS</div>
+    </div>
+  </div>
+  <div class="tier-row">
+    <div class="tier-label tier-A">A</div>
+    <div class="tier-chips">
+      <div class="chip">CME</div><div class="chip">MSFT</div><div class="chip">AMZN</div><div class="chip">COST</div><div class="chip">LLY</div><div class="chip">DDOG</div><div class="chip">VRT</div><div class="chip">IT</div><div class="chip">TEAM</div><div class="chip">NEE</div>
+    </div>
+  </div>
+  <div class="tier-row">
+    <div class="tier-label tier-B">B</div>
+    <div class="tier-chips">
+      <div class="chip">SYK</div><div class="chip">IDXX</div><div class="chip">GRMN</div><div class="chip">MCO</div><div class="chip">MRVL</div><div class="chip">CRM</div><div class="chip">MU</div><div class="chip">LMT</div><div class="chip">CSCO</div><div class="chip">LOW</div><div class="chip">PLTR</div><div class="chip">SNOW</div>
+    </div>
+  </div>
+  <div class="tier-row">
+    <div class="tier-label tier-C">C</div>
+    <div class="tier-chips"><div class="chip">MDGL</div></div>
+  </div>
+</div>
+<!-- TIERLIST_END -->
+
+<hr class="divider">
+
+<div class="section">
+  <div class="section-title">Holdings (กำลังเล่นอยู่)</div>
+  <div class="cards-grid">
+
+    <!-- SPGI -->
+    <div class="card">
+      <div class="card-header">
+        <div><div class="ticker">SPGI</div><div class="company-name">S&amp;P Global Inc.</div></div>
+        <span class="badge badge-hold">HOLDING</span>
+      </div>
+      <div class="sector-tag">Financials / Data &amp; Analytics</div>
+
+      <div class="action-box action-hold">
+        <span class="action-label">✅ ถือต่อ</span>
+        <span class="action-detail">Spin-off MBGL วันที่ 1 ก.ค. — รอ catalyst ผ่านก่อน | ดูอีกครั้ง: หลัง Jul 1</span>
+      </div>
+
+      <div style="background:#1e2535;border-left:3px solid #4299e1;border-radius:6px;padding:10px 12px;margin:10px 0;font-size:0.82rem;line-height:1.65;color:#cbd5e0;">
+        <strong style="color:#90cdf4;display:block;margin-bottom:4px;">🏢 บริษัทนี้ทำอะไร?</strong>
+        S&P Global เป็นเจ้าของ <strong>ป้าย S&P 500</strong> — index ที่กองทุนทั่วโลกต้องจ่ายค่า license เพื่อใช้ชื่อ ยิ่งเงินไหลเข้ากองทุน passive มากเท่าไหร่ S&P Global ก็ได้เงินมากขึ้นเรื่อยๆ โดยไม่ต้องทำอะไรเพิ่ม นอกจากนี้ยังมีธุรกิจ <strong>credit rating</strong> (ประเมินความเชื่อถือได้ของบริษัทและรัฐบาลที่ออกพันธบัตร) และ <strong>Platts</strong> ที่เป็นราคา reference ของตลาดน้ำมันและสินค้าโภคภัณฑ์โลก
+      </div>
+
+      <div><span class="moat-tag">Index Monopoly</span><span class="moat-tag">Ratings Duopoly</span><span class="moat-tag">Switching Cost</span></div>
+      <div class="metrics">
+        <div class="metric"><div class="metric-label">ราคาซื้อ</div><div class="metric-value">$417.00</div></div>
+        <div class="metric"><div class="metric-label">ราคาปัจจุบัน</div><div class="metric-value">$417.70</div></div>
+        <div class="metric"><div class="metric-label">P&amp;L</div><div class="metric-value pnl-pos">+0.17%</div></div>
+        <div class="metric"><div class="metric-label">Analyst PT</div><div class="metric-value">$534 (+28%)</div></div>
+      </div>
+      <div class="trend">📈 +0.17% | Spin-off MBGL Jul 1 ✅ | MI President Saha ลาออก ⚠️</div>
+      <div class="thesis-status thesis-watch">⚠️ Watch — MI leadership gap เป็น near-term risk | ติดตามหลัง spin-off</div>
+    </div>
+
+    <!-- CME -->
+    <div class="card">
+      <div class="card-header">
+        <div><div class="ticker">CME</div><div class="company-name">CME Group Inc.</div></div>
+        <span class="badge badge-hold">HOLDING</span>
+      </div>
+      <div class="sector-tag">Financials / Exchange</div>
+
+      <div class="action-box action-hold">
+        <span class="action-label">⚠️ ถือต่อ — รอดู volume</span>
+        <span class="action-detail">24/7 Crypto launch วันนี้ ✅ — รอ volume data มิ.ย. ก่อนตัดสินใจเพิ่ม | ดูอีกครั้ง: ต้น มิ.ย.</span>
+      </div>
+
+      <div style="background:#1e2535;border-left:3px solid #4299e1;border-radius:6px;padding:10px 12px;margin:10px 0;font-size:0.82rem;line-height:1.65;color:#cbd5e0;">
+        <strong style="color:#90cdf4;display:block;margin-bottom:4px;">🏢 บริษัทนี้ทำอะไร?</strong>
+        CME Group คือ <strong>ตลาดซื้อขาย futures และ options ที่ใหญ่ที่สุดในโลก</strong> — ถ้าธนาคาร กองทุน หรือบริษัทน้ำมันอยากล็อคราคาดอกเบี้ย ราคาข้าวโพด หรือค่าเงินล่วงหน้า ต้องมาซื้อขายที่ CME ทุกครั้งที่มีคนซื้อหรือขาย CME ก็เก็บค่าธรรมเนียม ไม่ว่าตลาดจะขึ้นหรือลง ยิ่งตลาดผันผวนมาก คนยิ่งต้องมา hedge มากขึ้น → CME ยิ่งได้เงินมาก จึงเป็น <strong>defensive business</strong> ที่กลับมาดีในช่วงวิกฤต
+      </div>
+
+      <div><span class="moat-tag">Network Effect</span><span class="moat-tag">Liquidity Monopoly</span><span class="moat-tag">Cross-Margin Benefit</span></div>
+      <div class="metrics">
+        <div class="metric"><div class="metric-label">ราคาซื้อ</div><div class="metric-value">$287.00</div></div>
+        <div class="metric"><div class="metric-label">ราคาปัจจุบัน</div><div class="metric-value">$278.12</div></div>
+        <div class="metric"><div class="metric-label">P&amp;L</div><div class="metric-value pnl-neg">-3.1%</div></div>
+        <div class="metric"><div class="metric-label">Div Yield</div><div class="metric-value">3.8%+</div></div>
+      </div>
+      <div class="trend">🚀 <strong>24/7 Crypto Trading LAUNCHED วันนี้ (May 29) ✅</strong> | BVI June 1 CFTC certified ✅ | "CME Gap" สิ้นสุดแล้ว | Crypto ADV +46% YoY</div>
+      <div class="thesis-status thesis-watch">⚠️ Watch — Catalyst ทั้ง 2 ตัว execute ตามแผน 100% | รอ volume data June ก่อน re-rate | ราคายัง underwater -3.1%</div>
+    </div>
+
+    <!-- MA -->
+    <div class="card">
+      <div class="card-header">
+        <div><div class="ticker">MA</div><div class="company-name">Mastercard Inc.</div></div>
+        <span class="badge badge-hold">HOLDING</span>
+      </div>
+      <div class="sector-tag">Financials / Payments</div>
+
+      <div class="action-box action-hold">
+        <span class="action-label">✅ ถือต่อ</span>
+        <span class="action-detail">Moat แข็งแกร่ง + analyst PT +31% | UK regulatory เป็น noise ไม่ใช่ thesis เปลี่ยน | ดูอีกครั้ง: earnings Q2</span>
+      </div>
+
+      <div style="background:#1e2535;border-left:3px solid #4299e1;border-radius:6px;padding:10px 12px;margin:10px 0;font-size:0.82rem;line-height:1.65;color:#cbd5e0;">
+        <strong style="color:#90cdf4;display:block;margin-bottom:4px;">🏢 บริษัทนี้ทำอะไร?</strong>
+        Mastercard เป็น <strong>เจ้าของเครือข่ายที่เชื่อมระหว่างธนาคารกับร้านค้าทั่วโลก</strong> — ทุกครั้งที่รูดบัตร Mastercard ทุกที่บนโลก Mastercard ได้ค่าผ่านทางเล็กๆ ประมาณ 0.1-0.2% ของทุก transaction สำคัญคือ Mastercard <strong>ไม่ปล่อยสินเชื่อเอง</strong> ไม่แบกรับความเสี่ยงว่าลูกค้าจะจ่ายได้ไหม — แค่เป็น "ทางด่วน" ที่เงินวิ่งผ่าน ยิ่งโลกใช้ cash น้อยลง ยิ่งรูดบัตรมากขึ้น Mastercard ยิ่งได้เงินมากขึ้น โดยแทบไม่ต้องลงทุนเพิ่ม
+      </div>
+
+      <div><span class="moat-tag">Bilateral Network Effect</span><span class="moat-tag">Switching Cost</span><span class="moat-tag">Asset-Light</span></div>
+      <div class="metrics">
+        <div class="metric"><div class="metric-label">ราคาซื้อ</div><div class="metric-value">$498.00</div></div>
+        <div class="metric"><div class="metric-label">ราคาปัจจุบัน</div><div class="metric-value">$493.75</div></div>
+        <div class="metric"><div class="metric-label">P&amp;L</div><div class="metric-value pnl-neg">-0.86%</div></div>
+        <div class="metric"><div class="metric-label">Analyst PT</div><div class="metric-value">$647 (+31%)</div></div>
+      </div>
+      <div class="trend">📉 -0.86% | JD.com Agentic AI partnership active | Q1: EPS $4.60 beat | FCA ⚠️ สอบสวน Mastercard+PayPal digital wallet ใหม่ซ้อน CMA</div>
+      <div class="thesis-status thesis-watch">⚠️ Watch — UK regulatory overhang หนักขึ้น (CMA + FCA) | Network moat แข็งแกร่ง + JD.com catalyst | consensus PT +31%</div>
+    </div>
+
+  </div>
+</div>
+
+<hr class="divider">
+
+<!-- WATCHLIST -->
+<div class="section">
+  <div class="section-title">👁 Watchlist</div>
+  <div class="cards-grid">
+    <div class="card" style="border-color:#9f7aea; border-width:2px;">
+      <div class="card-header">
+        <div><div class="ticker" style="color:#9f7aea;">SYK</div><div class="company-name">Stryker Corporation</div></div>
+        <span class="badge" style="background:#9f7aea;color:white;">WATCHLIST</span>
+      </div>
+      <div class="sector-tag">Healthcare / Medical Devices &amp; Surgical Robotics</div>
+
+      <div style="background:#1e2535;border-left:3px solid #f6e05e;border-radius:6px;padding:10px 12px;margin:10px 0;font-size:0.82rem;line-height:1.65;color:#cbd5e0;">
+        <strong style="color:#fef08a;display:block;margin-bottom:4px;">🏢 บริษัทนี้ทำอะไร?</strong>
+        Stryker ผลิต <strong>หุ่นยนต์ผ่าตัดและอุปกรณ์การแพทย์</strong> — จุดเด่นที่สุดคือ Mako robot ที่ช่วยแพทย์ผ่าตัดเข่าและสะโพกได้แม่นยำกว่า เมื่อโรงพยาบาลซื้อ Mako ไปแล้ว ต้อง <strong>ซื้อ consumables และ implants จาก Stryker ต่อเนื่องตลอดอายุเครื่อง</strong> เหมือนโมเดลเครื่องโกนหนวด Gillette — และการเปลี่ยนไปใช้ยี่ห้ออื่นหมายถึงต้องเทรนแพทย์และทีมงานใหม่ทั้งหมด ซึ่งแพงกว่าการอยู่กับ Stryker มาก เงินที่เพิ่มขึ้นทุกปีมาจากโรงพยาบาลใหม่ที่ adopt Mako บวกกับ recurring revenue จากทุก installation เดิม
+      </div>
+
+      <div><span class="moat-tag">Razor-and-Blade (Mako)</span><span class="moat-tag">Switching Cost</span><span class="moat-tag">2,100+ Patents</span><span class="moat-tag">Fundsmith #2</span></div>
+      <div class="metrics">
+        <div class="metric"><div class="metric-label">ราคาปัจจุบัน</div><div class="metric-value" style="color:#f6ad55;">~$307</div></div>
+        <div class="metric"><div class="metric-label">GF Fair Value</div><div class="metric-value">$405 (~24% discount)</div></div>
+        <div class="metric"><div class="metric-label">Entry Range</div><div class="metric-value" style="color:#fc8181;">&lt;$300 (เกิน entry แล้ว)</div></div>
+        <div class="metric"><div class="metric-label">Forward P/E</div><div class="metric-value">~20x</div></div>
+      </div>
+      <div class="trend">ราคา +$15 จากวาน ($285→$307) ⚠️ เกิน entry range &lt;$300 | Mako 3,000+ | รอ pullback &lt;$295 หรือ Q2 confirm recovery ก่อน</div>
+      <div class="thesis-status thesis-watch">🟡 Tie (Bear-leaning) — Tier B | Thesis คงเดิม ไม่มี news ใหม่ | Cyber resolved | H2 execution + tariff $400M ยังเป็น risk | Next: Q2 Jul 2026</div>
+    </div>
+
+    <!-- LLY - TRIGGERED +5% -->
+    <div class="card" style="border-color:#68d391; border-width:2px;">
+      <div class="card-header">
+        <div><div class="ticker" style="color:#68d391;">LLY</div><div class="company-name">Eli Lilly &amp; Co.</div></div>
+        <span class="badge" style="background:#22543d;color:#68d391;">+4-5% ⚡</span>
+      </div>
+      <div class="sector-tag">Healthcare / Pharma (GLP-1)</div>
+      <div><span class="moat-tag">GLP-1 First-Mover</span><span class="moat-tag">Pipeline Depth</span><span class="moat-tag">Scale R&amp;D</span></div>
+      <div class="metrics">
+        <div class="metric"><div class="metric-label">ราคาปัจจุบัน</div><div class="metric-value pnl-pos">~$1,148 ATH</div></div>
+        <div class="metric"><div class="metric-label">Market Cap</div><div class="metric-value">~$1T ทะลุแล้ว</div></div>
+        <div class="metric"><div class="metric-label">Q1 EPS</div><div class="metric-value">$8.55 beat $6.97</div></div>
+        <div class="metric"><div class="metric-label">Analyst PT avg</div><div class="metric-value">$1,224 (+7%)</div></div>
+      </div>
+      <div class="trend">CVS Caremark เพิ่ม Zepbound กลับ formulary ต.ค. 2026 ($25/เดือน) + Foundayo มิ.ย. 2026 — แก้ access headwind หลัก | Mounjaro+Zepbound $12.8B Q1</div>
+      <div class="thesis-status thesis-ok">🟢 Thesis แข็งแกร่งขึ้น — CVS catalyst แก้ปัญหา access ที่กดราคามา 6 เดือน | ที่ ATH ไม่มี margin of safety อีกต่อไป | ถ้าถือแล้ว hold, ถ้าไม่ซื้อ รอ pullback</div>
+    </div>
+
+    <!-- SNPS - TRIGGERED -9.1% -->
+    <div class="card" style="border-color:#fc8181; border-width:2px;">
+      <div class="card-header">
+        <div><div class="ticker" style="color:#fc8181;">SNPS</div><div class="company-name">Synopsys Inc.</div></div>
+        <span class="badge" style="background:#742a2a;color:#fc8181;">-9.1% ⚡</span>
+      </div>
+      <div class="sector-tag">Technology / EDA &amp; Silicon IP</div>
+      <div><span class="moat-tag">EDA Duopoly</span><span class="moat-tag">Silicon IP #1</span><span class="moat-tag">Ansys Moat Expand</span></div>
+      <div class="metrics">
+        <div class="metric"><div class="metric-label">ราคาปัจจุบัน</div><div class="metric-value pnl-neg">~$524 (-9.1%)</div></div>
+        <div class="metric"><div class="metric-label">Q2 Revenue</div><div class="metric-value">$2.28B beat ✅</div></div>
+        <div class="metric"><div class="metric-label">FY26 Guidance</div><div class="metric-value">$9.625B–$9.705B ↑</div></div>
+        <div class="metric"><div class="metric-label">Analyst PT avg</div><div class="metric-value">$545 (+4%)</div></div>
+      </div>
+      <div class="trend">Q2 beat + guidance ปรับขึ้น แต่ Design IP segment ลด YoY → "Sell the news" | Elliott + Jesse Cohn เข้า board | BofA PT $515→$600</div>
+      <div class="thesis-status thesis-watch">🟡 Fundamental ยังดี EDA moat สมบูรณ์ | ร่วง -9.1% จาก Design IP weak — รอดู Q3 ก่อน Ansys synergy จะชัด | ถ้า Design IP ฟื้น = entry ดี</div>
+    </div>
+
+  </div>
+</div>
+
+<hr class="divider">
+
+<!-- 2026-05-29 NEW SECTION -->
+<div class="section">
+  <div class="day-section-header">
+    <div class="day-label">2026-05-29</div>
+    <div class="updated-at">Top Pick: SYK 🟡 (ซ้ำ, Tier B) | CME 24/7 Crypto LIVE | LLY ATH +5% | SNPS -9%</div>
+  </div>
+  <div class="cards-grid">
+
+    <!-- SYK Top Pick update -->
+    <div class="card">
+      <div class="card-header">
+        <div><div class="ticker">SYK</div><div class="company-name">Stryker Corporation</div></div>
+        <span class="badge badge-scout">TOP PICK ซ้ำ</span>
+      </div>
+      <div class="sector-tag">Healthcare / Medical Devices &amp; Surgical Robotics</div>
+      <div><span class="moat-tag">Razor-and-Blade (Mako)</span><span class="moat-tag">Switching Cost</span><span class="moat-tag">Fundsmith #2</span></div>
+      <div class="stars">&#9733;&#9733;&#9733;</div>
+      <div class="metrics">
+        <div class="metric"><div class="metric-label">ราคาปัจจุบัน</div><div class="metric-value" style="color:#f6ad55;">~$307</div></div>
+        <div class="metric"><div class="metric-label">Entry Range</div><div class="metric-value" style="color:#fc8181;">&lt;$300 (เกิน)</div></div>
+        <div class="metric"><div class="metric-label">GF Value</div><div class="metric-value">$405 (~24% disc)</div></div>
+        <div class="metric"><div class="metric-label">Tier</div><div class="metric-value">B — รอ Q2 Jul 26</div></div>
+      </div>
+      <div class="trend">ราคา +$15 ใน 1 วัน ($285→$307) โดยไม่มี news ใหม่ — เกิน entry range แล้ว | Cyber resolved ✅ | ไม่มี news material 48hr</div>
+      <div class="thesis-status thesis-watch">⚠️ Watch — Thesis คงเดิม | ถ้ายังไม่ซื้อ รอ pullback &lt;$295 หรือ รอ Q2 July confirm organic growth 8%+ ก่อน | Tier B ยังคงเดิม</div>
+    </div>
+
+    <!-- CME Catalyst Live -->
+    <div class="card">
+      <div class="card-header">
+        <div><div class="ticker">CME</div><div class="company-name">CME Group — Catalyst Live</div></div>
+        <span class="badge" style="background:#276749;color:#68d391;">CATALYST ✅</span>
+      </div>
+      <div class="sector-tag">Financials / Exchange</div>
+      <div><span class="moat-tag">Network Effect</span><span class="moat-tag">CFTC Regulated</span></div>
+      <div class="metrics">
+        <div class="metric"><div class="metric-label">24/7 Crypto</div><div class="metric-value pnl-pos">LAUNCHED วันนี้</div></div>
+        <div class="metric"><div class="metric-label">BVI Launch</div><div class="metric-value">June 1 ✅ CFTC</div></div>
+        <div class="metric"><div class="metric-label">Crypto ADV YTD</div><div class="metric-value">407K/วัน +46%</div></div>
+        <div class="metric"><div class="metric-label">P&amp;L</div><div class="metric-value pnl-neg">-3.1%</div></div>
+      </div>
+      <div class="trend">24/7 trading เปิดตัว 4PM CT วันนี้ ✅ | BVI CFTC certified แล้ว → launch June 1 | "CME Gap" สิ้นสุดแล้ว (institutional structural shift)</div>
+      <div class="thesis-status thesis-watch">⚠️ Watch — Catalyst execute ครบ แต่ราคา -3.1% ตลาดยังไม่ reprice | รอ June volume data ก่อน upgrade | Next check: BVI volume หลัง June 1</div>
+    </div>
+
+  </div>
+</div>
+
+<hr class="divider">
+
+<!-- 2026-05-28 NEW SECTION -->
+<div class="section">
+  <div class="day-section-header">
+    <div class="day-label">2026-05-28</div>
+    <div class="updated-at">Scout: SYK → Watchlist (Tier B)</div>
+  </div>
+  <div class="cards-grid">
+    <div class="card">
+      <div class="card-header">
+        <div><div class="ticker">SYK</div><div class="company-name">Stryker Corporation</div></div>
+        <span class="badge badge-scout">TOP PICK</span>
+      </div>
+      <div class="sector-tag">Healthcare / Medical Devices &amp; Surgical Robotics</div>
+      <div><span class="moat-tag">Razor-and-Blade (Mako)</span><span class="moat-tag">Switching Cost</span><span class="moat-tag">2,100+ Patents</span></div>
+      <div class="stars">&#9733;&#9733;&#9733;</div>
+      <div class="metrics">
+        <div class="metric"><div class="metric-label">Market Cap</div><div class="metric-value">~$110B</div></div>
+        <div class="metric"><div class="metric-label">FY2025 Revenue</div><div class="metric-value">$25.1B +11%</div></div>
+        <div class="metric"><div class="metric-label">GF Value</div><div class="metric-value">$405 (30% discount)</div></div>
+        <div class="metric"><div class="metric-label">Mako Installed</div><div class="metric-value">3,000+ units</div></div>
+      </div>
+      <div class="trend">Q1 miss -5.1% (cyber) แต่ FY guidance intact | Fundsmith holding #2 (7.84%) | 21 Buy / 9 Hold / 1 Sell</div>
+      <div class="thesis-status thesis-watch">🟡 Tie (Bear-leaning) — H2 execution risk + tariff $400M + J&amp;J Velys | Bull: moat + 30% discount | รอ Q2 Jul 2026 ก่อน entry | Tier B</div>
+    </div>
+
+    <!-- SNOW -->
+    <div class="card">
+      <div class="card-header">
+        <div><div class="ticker">SNOW</div><div class="company-name">Snowflake Inc.</div></div>
+        <span class="badge badge-scout">SCOUT</span>
+      </div>
+      <div class="sector-tag">Technology / Cloud Data Platform</div>
+
+      <div style="background:#1e2535;border-left:3px solid #4299e1;border-radius:6px;padding:10px 12px;margin:10px 0;font-size:0.82rem;line-height:1.65;color:#cbd5e0;">
+        <strong style="color:#90cdf4;display:block;margin-bottom:4px;">🏢 บริษัทนี้ทำอะไร?</strong>
+        Snowflake เป็น <strong>คลังเก็บและวิเคราะห์ข้อมูลบน cloud</strong> — บริษัทใหญ่ๆ ที่มีข้อมูลกระจายอยู่ใน AWS, Azure, GCP พร้อมกัน ใช้ Snowflake เป็น "ศูนย์กลาง" รวมข้อมูลทุกที่ไว้ที่เดียวแล้ววิเคราะห์ได้เลยโดยไม่ต้องย้ายข้อมูล เงินมาจากโมเดล <strong>จ่ายตามการใช้จริง</strong> (ไม่ใช่ subscription ตายตัว) ทำให้ยิ่งลูกค้าใช้ data มากขึ้น Snowflake ยิ่งได้เงินมากขึ้นตาม กำลัง pivot เพิ่มเติมเข้าสู่ AI workloads ผ่าน Cortex AI และการซื้อกิจการ Natoma
+      </div>
+
+      <div><span class="moat-tag">Multi-Cloud Data Sharing</span><span class="moat-tag">Consumption Model</span><span class="moat-tag">Network Effect (Data)</span></div>
+      <div class="metrics">
+        <div class="metric"><div class="metric-label">Market Cap</div><div class="metric-value">~$59B</div></div>
+        <div class="metric"><div class="metric-label">Q1 FY27 Revenue</div><div class="metric-value">$1.39B +33%</div></div>
+        <div class="metric"><div class="metric-label">EV/Revenue</div><div class="metric-value">~10x (median 22x)</div></div>
+        <div class="metric"><div class="metric-label">NRR</div><div class="metric-value">126%</div></div>
+      </div>
+      <div class="trend">Q1 beat +5.5% | AWS deal $6B | FY27 guidance $5.84B (+31%) | หุ้น +36% after Q1 | YTD ร่วง ~50% ก่อน earnings</div>
+      <div class="thesis-status thesis-ok">🟢 Q1 แรง — valuation 10x EV/Rev ต่ำกว่า median 45% | Risk: Databricks IPO + Microsoft Fabric | moat defensible แต่ไม่ wide</div>
+    </div>
+
+  </div>
+</div>
+
+<hr class="divider">
+
+<!-- 2026-05-27 NEW SECTION -->
+<div class="section">
+  <div class="day-section-header">
+    <div class="day-label">2026-05-27</div>
+    <div class="updated-at">Scout: GRMN, IDXX, MCO</div>
+  </div>
+  <div class="cards-grid">
+
+    <div class="card">
+      <div class="card-header">
+        <div><div class="ticker">GRMN</div><div class="company-name">Garmin Ltd.</div></div>
+        <span class="badge badge-scout">SCOUT</span>
+      </div>
+      <div class="sector-tag">Consumer Electronics / Navigation &amp; Wearables</div>
+      <div><span class="moat-tag">2100+ Patents</span><span class="moat-tag">Vertical Integration</span><span class="moat-tag">Aviation FAA Moat</span></div>
+      <div class="stars">&#9733;&#9733;&#9733;</div>
+      <div class="metrics">
+        <div class="metric"><div class="metric-label">Market Cap</div><div class="metric-value">~$52B</div></div>
+        <div class="metric"><div class="metric-label">Q1 Revenue</div><div class="metric-value">$1.75B +14%</div></div>
+        <div class="metric"><div class="metric-label">EPS Beat</div><div class="metric-value">$2.09 vs $1.81</div></div>
+        <div class="metric"><div class="metric-label">Fitness YoY</div><div class="metric-value">+42%</div></div>
+      </div>
+      <div class="trend">+5.9% YTD | Forerunner 70/170 launched May 15 | P/E จริง 28–31x</div>
+      <div class="thesis-status thesis-watch">🟡 Tie — Bull: Aviation moat + FCF | Bear: Valuation premium (DCF $165) + Apple 32% market share | รอ $175–185</div>
+    </div>
+
+    <div class="card">
+      <div class="card-header">
+        <div><div class="ticker">IDXX</div><div class="company-name">IDEXX Laboratories</div></div>
+        <span class="badge badge-scout">SCOUT</span>
+      </div>
+      <div class="sector-tag">Healthcare / Veterinary Diagnostics</div>
+      <div><span class="moat-tag">Razor-and-Blade</span><span class="moat-tag">Switching Cost</span><span class="moat-tag">Ref Lab Network 40+ Countries</span></div>
+      <div class="stars">&#9733;&#9733;&#9733;</div>
+      <div class="metrics">
+        <div class="metric"><div class="metric-label">Market Cap</div><div class="metric-value">~$38B</div></div>
+        <div class="metric"><div class="metric-label">Q1 Revenue</div><div class="metric-value">$1.14B +14%</div></div>
+        <div class="metric"><div class="metric-label">FY26 EPS Guide</div><div class="metric-value">$14.45–$14.90</div></div>
+        <div class="metric"><div class="metric-label">Instrument Rev</div><div class="metric-value">+28% organic</div></div>
+      </div>
+      <div class="trend">Guidance raised | SDMA integration May 19 | P/E จริง 38–44x (สูงมาก)</div>
+      <div class="thesis-status thesis-watch">🟢 Bull ชนะ (business) แต่ valuation ไม่มี margin of safety | รอ entry $420–450</div>
+    </div>
+
+    <div class="card">
+      <div class="card-header">
+        <div><div class="ticker">MCO</div><div class="company-name">Moody's Corporation</div></div>
+        <span class="badge badge-scout">SCOUT</span>
+      </div>
+      <div class="sector-tag">Financials / Credit Ratings &amp; Analytics</div>
+      <div><span class="moat-tag">NRSRO Duopoly</span><span class="moat-tag">MA Switching Cost</span><span class="moat-tag">Private Credit Tailwind</span></div>
+      <div class="stars">&#9733;&#9733;&#9733;</div>
+      <div class="metrics">
+        <div class="metric"><div class="metric-label">Market Cap</div><div class="metric-value">~$80B</div></div>
+        <div class="metric"><div class="metric-label">Q1 Revenue</div><div class="metric-value">$2.08B +8%</div></div>
+        <div class="metric"><div class="metric-label">Adj EPS +13%</div><div class="metric-value">$4.33</div></div>
+        <div class="metric"><div class="metric-label">Private Credit</div><div class="metric-value">+80% YoY</div></div>
+      </div>
+      <div class="trend">FCF +26% | Buyback $2.5B | ถือ SPGI อยู่แล้ว = portfolio overlap 100%</div>
+      <div class="thesis-status thesis-watch">🔴 Bear ชนะ — Duplicate moat กับ SPGI + leverage สูงกว่า + valuation 27x | รอ $360–400</div>
+    </div>
+
+  </div>
+</div>
+
+<!-- 2026-05-26 -->
+<div class="section">
+  <div class="day-section-header">
+    <div class="day-label">2026-05-26</div>
+    <div class="updated-at">Scout: DDOG, VRT, MA, SPGI, CME</div>
+  </div>
+  <div class="cards-grid">
+    <div class="card">
+      <div class="card-header"><div><div class="ticker">DDOG</div><div class="company-name">Datadog Inc.</div></div><span class="badge badge-scout">SCOUT</span></div>
+      <div class="sector-tag">Technology / Cloud Observability</div>
+      <div class="stars">&#9733;&#9733;</div>
+      <div class="trend">Briefed 2026-05-26 | Bear debate complete</div>
+    </div>
+    <div class="card">
+      <div class="card-header"><div><div class="ticker">VRT</div><div class="company-name">Vertiv Holdings</div></div><span class="badge badge-scout">SCOUT</span></div>
+      <div class="sector-tag">Industrials / Data Center Infrastructure</div>
+      <div class="stars">&#9733;&#9733;&#9733;</div>
+      <div class="trend">Briefed 2026-05-26 | Bear + Debate done</div>
+    </div>
+  </div>
+</div>
+
+<!-- 2026-05-25 -->
+<div class="section">
+  <div class="day-section-header">
+    <div class="day-label">2026-05-25</div>
+    <div class="updated-at">Scout: CSCO, TEAM, IT, MDGL, LOW, NEE</div>
+  </div>
+  <div class="cards-grid">
+    <div class="card">
+      <div class="card-header"><div><div class="ticker">CSCO</div><div class="company-name">Cisco Systems</div></div><span class="badge badge-scout">SCOUT</span></div>
+      <div class="sector-tag">Technology / Networking</div>
+      <div class="stars">&#9733;&#9733;</div>
+    </div>
+    <div class="card">
+      <div class="card-header"><div><div class="ticker">TEAM</div><div class="company-name">Atlassian Corp.</div></div><span class="badge badge-scout">SCOUT</span></div>
+      <div class="sector-tag">Technology / Dev Tools SaaS</div>
+      <div class="stars">&#9733;&#9733;</div>
+    </div>
+    <div class="card">
+      <div class="card-header"><div><div class="ticker">IT</div><div class="company-name">Gartner Inc.</div></div><span class="badge badge-scout">SCOUT</span></div>
+      <div class="sector-tag">Technology / Research &amp; Advisory</div>
+      <div class="stars">&#9733;&#9733;&#9733;</div>
+    </div>
+    <div class="card">
+      <div class="card-header"><div><div class="ticker">NEE</div><div class="company-name">NextEra Energy</div></div><span class="badge badge-scout">SCOUT</span></div>
+      <div class="sector-tag">Utilities / Renewables</div>
+      <div class="stars">&#9733;&#9733;</div>
+    </div>
+  </div>
+</div>
+
+<!-- 2026-05-24 -->
+<div class="section">
+  <div class="day-section-header">
+    <div class="day-label">2026-05-24</div>
+    <div class="updated-at">Scout: NVDA, AVGO, LLY, MSFT, MU, LMT, AMZN, MRVL, CRM, COST</div>
+  </div>
+  <div class="cards-grid">
+    <div class="card">
+      <div class="card-header"><div><div class="ticker">NVDA</div><div class="company-name">NVIDIA Corp.</div></div><span class="badge badge-scout">SCOUT</span></div>
+      <div class="sector-tag">Technology / AI Semiconductors</div>
+      <div class="stars">&#9733;&#9733;&#9733;</div>
+    </div>
+    <div class="card">
+      <div class="card-header"><div><div class="ticker">AVGO</div><div class="company-name">Broadcom Inc.</div></div><span class="badge badge-scout">SCOUT</span></div>
+      <div class="sector-tag">Technology / Semiconductors</div>
+      <div class="stars">&#9733;&#9733;&#9733;</div>
+    </div>
+    <div class="card">
+      <div class="card-header"><div><div class="ticker">LLY</div><div class="company-name">Eli Lilly &amp; Co.</div></div><span class="badge badge-scout">SCOUT</span></div>
+      <div class="sector-tag">Healthcare / Pharma</div>
+      <div class="stars">&#9733;&#9733;&#9733;</div>
+    </div>
+    <div class="card">
+      <div class="card-header"><div><div class="ticker">MSFT</div><div class="company-name">Microsoft Corp.</div></div><span class="badge badge-scout">SCOUT</span></div>
+      <div class="sector-tag">Technology / Cloud &amp; Software</div>
+      <div class="stars">&#9733;&#9733;&#9733;</div>
+    </div>
+  </div>
+</div>
+
+</div>
+</body>
+</html>
