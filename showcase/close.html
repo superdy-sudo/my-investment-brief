@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Close Brief — Post-Market</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: "Segoe UI", sans-serif; background: #0f1117; color: #e2e8f0; min-height: 100vh; }
+
+  /* ─── Header ─── */
+  .header { background: linear-gradient(135deg, #0d1b2a, #1a2744); padding: 20px 32px; border-bottom: 1px solid #1e3a5f; display: flex; align-items: center; gap: 20px; flex-wrap: wrap; }
+  .header-left h1 { font-size: 1.5rem; font-weight: 800; color: #93c5fd; letter-spacing: -0.02em; }
+  .header-left p { color: #64748b; font-size: 0.8rem; margin-top: 3px; }
+  .header-nav { margin-left: auto; display: flex; gap: 10px; }
+  .nav-link { font-size: 0.78rem; color: #64748b; text-decoration: none; padding: 5px 12px; border: 1px solid #2d3748; border-radius: 6px; transition: all 0.15s; }
+  .nav-link:hover { color: #93c5fd; border-color: #3b82f6; }
+  .nav-link.active { color: #93c5fd; border-color: #3b82f6; background: rgba(59,130,246,0.08); }
+  .close-time-badge { background: rgba(147,197,253,0.1); border: 1px solid #3b82f6; border-radius: 8px; padding: 6px 14px; font-size: 0.8rem; color: #93c5fd; font-weight: 600; }
+
+  /* ─── Ticker Tape ─── */
+  .ticker-tape { background: #0d1b2a; border-bottom: 1px solid #1e3a5f; padding: 7px 0; overflow: hidden; white-space: nowrap; }
+  .tape-inner { display: inline-block; animation: scroll-tape 30s linear infinite; }
+  .tape-inner:hover { animation-play-state: paused; }
+  @keyframes scroll-tape { 0% { transform: translateX(0); } 100% { transform: translateX(-50%); } }
+  .tape-item { display: inline-block; margin: 0 24px; font-size: 0.78rem; }
+  .tape-item .t-sym { font-weight: 700; color: #e2e8f0; margin-right: 5px; }
+  .tape-item .t-price { color: #a0aec0; margin-right: 4px; }
+  .t-up { color: #4ade80; }
+  .t-down { color: #f87171; }
+  .t-flat { color: #94a3b8; }
+
+  /* ─── Layout ─── */
+  .container { max-width: 1200px; margin: 0 auto; padding: 24px 20px; }
+  .section { margin-bottom: 32px; }
+  .section-title { font-size: 0.78rem; font-weight: 700; color: #64748b; text-transform: uppercase; letter-spacing: 0.1em; margin-bottom: 14px; padding-bottom: 8px; border-bottom: 1px solid #1e293b; display: flex; align-items: center; gap: 8px; }
+  .section-title .dot { width: 6px; height: 6px; border-radius: 50%; background: #3b82f6; display: inline-block; }
+  hr.divider { border: none; border-top: 1px solid #1e293b; margin: 28px 0; }
+
+  /* ─── Index Cards Row ─── */
+  .indices-row { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 10px; margin-bottom: 14px; }
+  .idx-card { background: #131c2e; border: 1px solid #1e3a5f; border-radius: 10px; padding: 10px 14px; }
+  .idx-label { font-size: 0.67rem; color: #64748b; text-transform: uppercase; letter-spacing: 0.06em; margin-bottom: 4px; }
+  .idx-val { font-size: 1rem; font-weight: 800; }
+  .idx-sub { font-size: 0.7rem; color: #64748b; margin-top: 2px; }
+  .up { color: #4ade80; }
+  .down { color: #f87171; }
+  .warn { color: #fb923c; }
+  .neutral { color: #94a3b8; }
+
+  /* ─── Market Summary Bar ─── */
+  .market-summary { background: #131c2e; border-left: 3px solid #3b82f6; border-radius: 0 8px 8px 0; padding: 10px 14px; font-size: 0.8rem; color: #94a3b8; line-height: 1.7; }
+
+  /* ─── After Hours ─── */
+  .ah-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 10px; }
+  .ah-card { background: #131c2e; border: 1px solid #1e293b; border-radius: 10px; padding: 10px 14px; display: flex; align-items: center; gap: 12px; }
+  .ah-sym { font-weight: 800; font-size: 0.95rem; color: #e2e8f0; min-width: 52px; }
+  .ah-detail { flex: 1; }
+  .ah-price { font-size: 0.85rem; font-weight: 700; }
+  .ah-pct { font-size: 0.75rem; }
+  .ah-vol { font-size: 0.7rem; color: #64748b; margin-top: 2px; }
+  .ah-badge { font-size: 0.65rem; padding: 2px 6px; border-radius: 4px; font-weight: 700; text-transform: uppercase; }
+  .ah-badge-ah { background: rgba(147,197,253,0.12); color: #93c5fd; border: 1px solid #1e3a5f; }
+  .ah-badge-kill { background: rgba(248,113,113,0.15); color: #f87171; border: 1px solid rgba(248,113,113,0.3); }
+  .ah-badge-ok { background: rgba(74,222,128,0.1); color: #4ade80; border: 1px solid rgba(74,222,128,0.2); }
+  .ah-badge-watch { background: rgba(251,146,60,0.1); color: #fb923c; border: 1px solid rgba(251,146,60,0.2); }
+
+  /* ─── Holdings Table ─── */
+  .holdings-table { width: 100%; border-collapse: collapse; font-size: 0.82rem; }
+  .holdings-table th { text-align: left; padding: 8px 12px; color: #64748b; font-size: 0.68rem; text-transform: uppercase; letter-spacing: 0.06em; border-bottom: 1px solid #1e293b; white-space: nowrap; }
+  .holdings-table th.r { text-align: right; }
+  .holdings-table td { padding: 10px 12px; border-bottom: 1px solid #0f1117; vertical-align: middle; }
+  .holdings-table td.r { text-align: right; }
+  .holdings-table tr:hover td { background: rgba(255,255,255,0.02); }
+  .row-kill { background: rgba(248,113,113,0.07); }
+  .row-ok { background: transparent; }
+  .sym-cell { font-weight: 800; font-size: 0.95rem; }
+  .volume-bar { display: flex; align-items: center; gap: 6px; }
+  .vol-text { font-size: 0.75rem; }
+  .vol-bar-bg { background: #1e293b; border-radius: 3px; height: 4px; width: 60px; overflow: hidden; }
+  .vol-bar-fill { height: 100%; border-radius: 3px; background: #3b82f6; }
+  .vol-bar-fill.high { background: #f87171; }
+  .status-pill { display: inline-flex; align-items: center; gap: 4px; font-size: 0.72rem; font-weight: 700; padding: 3px 8px; border-radius: 12px; white-space: nowrap; }
+  .pill-ok  { background: rgba(74,222,128,0.1); color: #4ade80; border: 1px solid rgba(74,222,128,0.2); }
+  .pill-watch { background: rgba(251,146,60,0.1); color: #fb923c; border: 1px solid rgba(251,146,60,0.2); }
+  .pill-kill { background: rgba(248,113,113,0.15); color: #f87171; border: 1px solid rgba(248,113,113,0.3); }
+  .pill-tp { background: rgba(168,85,247,0.12); color: #c084fc; border: 1px solid rgba(168,85,247,0.3); }
+
+  /* ─── Accuracy Section ─── */
+  .accuracy-header { display: flex; align-items: center; gap: 16px; margin-bottom: 16px; flex-wrap: wrap; }
+  .accuracy-score { background: #131c2e; border: 1px solid #1e3a5f; border-radius: 12px; padding: 12px 20px; text-align: center; }
+  .acc-num { font-size: 2rem; font-weight: 800; color: #4ade80; line-height: 1; }
+  .acc-label { font-size: 0.7rem; color: #64748b; text-transform: uppercase; letter-spacing: 0.06em; margin-top: 4px; }
+  .acc-good { color: #4ade80; }
+  .acc-mid  { color: #fb923c; }
+  .acc-bad  { color: #f87171; }
+  .accuracy-table { width: 100%; border-collapse: collapse; font-size: 0.8rem; }
+  .accuracy-table th { text-align: left; padding: 7px 12px; color: #64748b; font-size: 0.67rem; text-transform: uppercase; letter-spacing: 0.05em; border-bottom: 1px solid #1e293b; }
+  .accuracy-table td { padding: 9px 12px; border-bottom: 1px solid #0f1117; color: #a0aec0; }
+  .accuracy-table tr:last-child td { border-bottom: none; }
+  .acc-icon-right { color: #4ade80; font-weight: 700; }
+  .acc-icon-wrong { color: #f87171; font-weight: 700; }
+  .acc-icon-part  { color: #fb923c; font-weight: 700; }
+  .acc-predicted { color: #64748b; font-size: 0.75rem; }
+  .acc-actual { font-weight: 600; color: #e2e8f0; font-size: 0.8rem; }
+
+  /* ─── News Feed ─── */
+  .news-feed { display: flex; flex-direction: column; gap: 10px; }
+  .news-item { background: #131c2e; border: 1px solid #1e293b; border-radius: 10px; padding: 12px 16px; display: flex; gap: 14px; align-items: flex-start; }
+  .news-item:hover { border-color: #334155; }
+  .news-ticker-tag { font-size: 0.7rem; font-weight: 800; padding: 3px 8px; border-radius: 6px; background: #1e293b; color: #93c5fd; white-space: nowrap; margin-top: 2px; min-width: 48px; text-align: center; }
+  .news-ticker-tag.macro { background: rgba(168,85,247,0.1); color: #c084fc; }
+  .news-ticker-tag.ah { background: rgba(74,222,128,0.08); color: #4ade80; }
+  .news-body { flex: 1; }
+  .news-headline { font-size: 0.82rem; color: #e2e8f0; font-weight: 600; line-height: 1.5; margin-bottom: 4px; }
+  .news-detail { font-size: 0.75rem; color: #64748b; line-height: 1.5; }
+  .news-impact { font-size: 0.7rem; font-weight: 700; padding: 2px 7px; border-radius: 4px; display: inline-block; margin-top: 5px; }
+  .impact-pos { background: rgba(74,222,128,0.1); color: #4ade80; }
+  .impact-neg { background: rgba(248,113,113,0.1); color: #f87171; }
+  .impact-neu { background: rgba(148,163,184,0.1); color: #94a3b8; }
+
+  /* ─── Tomorrow Watch ─── */
+  .watch-list { display: flex; flex-direction: column; gap: 10px; }
+  .watch-item { background: #131c2e; border: 1px solid #1e293b; border-radius: 10px; padding: 12px 16px; display: flex; gap: 14px; align-items: center; }
+  .watch-num { font-size: 1.1rem; font-weight: 800; color: #3b82f6; min-width: 28px; }
+  .watch-text { font-size: 0.83rem; color: #cbd5e1; line-height: 1.5; }
+  .watch-tag { font-size: 0.68rem; font-weight: 700; padding: 2px 7px; border-radius: 4px; margin-left: 6px; vertical-align: middle; }
+  .tag-urgent { background: rgba(248,113,113,0.12); color: #f87171; border: 1px solid rgba(248,113,113,0.2); }
+  .tag-watch  { background: rgba(251,146,60,0.1);  color: #fb923c; border: 1px solid rgba(251,146,60,0.2); }
+  .tag-note   { background: rgba(148,163,184,0.08); color: #94a3b8; border: 1px solid #334155; }
+
+  /* ─── Empty state ─── */
+  .empty-state { text-align: center; padding: 40px 20px; color: #475569; }
+  .empty-state .icon { font-size: 2rem; margin-bottom: 10px; }
+  .empty-state p { font-size: 0.85rem; }
+</style>
+</head>
+<body>
+
+<!-- ─── Header ─── -->
+<div class="header">
+  <div class="header-left">
+    <h1>📊 Close Brief</h1>
+    <!-- CLOSE_DATE_START -->
+    <p>Post-Market Summary · Jun 18, 2026 · US Close 4:00 PM ET</p>
+    <!-- CLOSE_DATE_END -->
+  </div>
+  <div class="header-nav">
+    <a href="index.html" class="nav-link">☀️ Pre-Market</a>
+    <a href="close.html" class="nav-link active">🌙 Close Brief</a>
+  </div>
+</div>
+
+<!-- ─── Ticker Tape ─── -->
+<!-- TAPE_START -->
+<div class="ticker-tape">
+  <div class="tape-inner">
+    <span class="tape-item"><span class="t-sym">S&P 500</span><span class="t-price">7,500.58</span><span class="t-up">+1.08%</span></span>
+    <span class="tape-item"><span class="t-sym">NASDAQ</span><span class="t-price">26,517.93</span><span class="t-up">+1.91%</span></span>
+    <span class="tape-item"><span class="t-sym">DOW</span><span class="t-price">51,564.70</span><span class="t-up">+0.14%</span></span>
+    <span class="tape-item"><span class="t-sym">VIX</span><span class="t-price">18.44</span><span class="t-warn">⚠️ Elevated</span></span>
+    <span class="tape-item"><span class="t-sym">10Y</span><span class="t-price">4.46%</span><span class="t-warn">Hawkish</span></span>
+    <span class="tape-item"><span class="t-sym">SPGI</span><span class="t-price">$418.01</span><span class="t-down">-1.70%</span></span>
+    <span class="tape-item"><span class="t-sym">CME</span><span class="t-price">$246.38</span><span class="t-down">🚨 KILL BREACHED</span></span>
+    <span class="tape-item"><span class="t-sym">MA</span><span class="t-price">$493.01</span><span class="t-down">-0.29%</span></span>
+    <span class="tape-item"><span class="t-sym">V</span><span class="t-price">$330.45</span><span class="t-down">-0.95%</span></span>
+    <span class="tape-item"><span class="t-sym">GWRE</span><span class="t-price">$107.86</span><span class="t-down">-2.98%</span></span>
+    <!-- duplicate for seamless loop -->
+    <span class="tape-item"><span class="t-sym">S&P 500</span><span class="t-price">7,500.58</span><span class="t-up">+1.08%</span></span>
+    <span class="tape-item"><span class="t-sym">NASDAQ</span><span class="t-price">26,517.93</span><span class="t-up">+1.91%</span></span>
+    <span class="tape-item"><span class="t-sym">DOW</span><span class="t-price">51,564.70</span><span class="t-up">+0.14%</span></span>
+    <span class="tape-item"><span class="t-sym">VIX</span><span class="t-price">18.44</span><span class="t-warn">⚠️ Elevated</span></span>
+    <span class="tape-item"><span class="t-sym">10Y</span><span class="t-price">4.46%</span><span class="t-warn">Hawkish</span></span>
+    <span class="tape-item"><span class="t-sym">SPGI</span><span class="t-price">$418.01</span><span class="t-down">-1.70%</span></span>
+    <span class="tape-item"><span class="t-sym">CME</span><span class="t-price">$246.38</span><span class="t-down">🚨 KILL BREACHED</span></span>
+    <span class="tape-item"><span class="t-sym">MA</span><span class="t-price">$493.01</span><span class="t-down">-0.29%</span></span>
+    <span class="tape-item"><span class="t-sym">V</span><span class="t-price">$330.45</span><span class="t-down">-0.95%</span></span>
+    <span class="tape-item"><span class="t-sym">GWRE</span><span class="t-price">$107.86</span><span class="t-down">-2.98%</span></span>
+  </div>
+</div>
+<!-- TAPE_END -->
+
+<div class="container">
+
+<!-- ─── Market Close ─── -->
+<div class="section">
+  <div class="section-title"><span class="dot"></span>ตลาดปิด</div>
+  <!-- INDICES_START -->
+  <div class="indices-row">
+    <div class="idx-card">
+      <div class="idx-label">S&amp;P 500</div>
+      <div class="idx-val up">7,500.58</div>
+      <div class="idx-sub up">+80.48 (+1.08%)</div>
+    </div>
+    <div class="idx-card">
+      <div class="idx-label">NASDAQ</div>
+      <div class="idx-val up">26,517.93</div>
+      <div class="idx-sub up">+496.27 (+1.91%)</div>
+    </div>
+    <div class="idx-card">
+      <div class="idx-label">Dow Jones</div>
+      <div class="idx-val up">51,564.70</div>
+      <div class="idx-sub up">+72.15 (+0.14%)</div>
+    </div>
+    <div class="idx-card">
+      <div class="idx-label">VIX</div>
+      <div class="idx-val warn">18.44</div>
+      <div class="idx-sub warn">⚠️ Elevated (15–20)</div>
+    </div>
+    <div class="idx-card">
+      <div class="idx-label">10Y Yield</div>
+      <div class="idx-val warn">4.46%</div>
+      <div class="idx-sub warn">Fed Hawkish — Warsh</div>
+    </div>
+    <div class="idx-card">
+      <div class="idx-label">Financials (XLF)</div>
+      <div class="idx-val neutral">-0.62%</div>
+      <div class="idx-sub">ดีสุดในวันลง</div>
+    </div>
+  </div>
+  <div class="market-summary">
+    <!-- MARKET_SUMMARY_START -->
+    ⚠️ <strong style="color:#fb923c;">Holdings Diverge จากตลาด</strong> — S&amp;P +1.08% แต่ <strong>SPGI/CME/MA/V/GWRE ทุกตัวลง</strong> | CME 🚨 Kill Condition TRIGGERED: Close $246.38 &lt; Kill $246.51 | สาเหตุ stock-specific: <strong>CME CEO succession + FOMC hawkish shock Jun 17</strong> | GWRE Volume 3.9× avg — institutional activity | ไม่ใช่ market-wide weakness — Financials sector เป็น best sector วันนี้ (-0.62%)
+    <!-- MARKET_SUMMARY_END -->
+  </div>
+</div>
+<!-- INDICES_END -->
+
+<hr class="divider">
+
+<!-- ─── Holdings Close ─── -->
+<div class="section">
+  <div class="section-title"><span class="dot"></span>Holdings ปิด</div>
+  <div style="overflow-x:auto;">
+  <!-- HOLDINGS_START -->
+  <table class="holdings-table">
+    <thead>
+      <tr>
+        <th>Ticker</th>
+        <th class="r">ปิด</th>
+        <th class="r">% วันนี้</th>
+        <th class="r">After-Hours</th>
+        <th class="r">Volume</th>
+        <th class="r">Kill Zone</th>
+        <th class="r">Buffer</th>
+        <th>สถานะ</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr class="row-kill">
+        <td class="sym-cell" style="color:#f87171;">CME 🚨</td>
+        <td class="r" style="color:#f87171; font-weight:700;">$246.38</td>
+        <td class="r down">-2.44%</td>
+        <td class="r neutral">—</td>
+        <td class="r">
+          <div class="volume-bar">
+            <div class="vol-bar-bg"><div class="vol-bar-fill high" style="width:100%;"></div></div>
+            <span class="vol-text warn">2.4× avg</span>
+          </div>
+        </td>
+        <td class="r" style="color:#f87171;">$246.51</td>
+        <td class="r down">BREACHED</td>
+        <td><span class="status-pill pill-kill">🚨 Kill Triggered</span></td>
+      </tr>
+      <tr class="row-ok">
+        <td class="sym-cell">SPGI</td>
+        <td class="r" style="font-weight:700;">$418.01</td>
+        <td class="r down">-1.70%</td>
+        <td class="r neutral">—</td>
+        <td class="r">
+          <div class="volume-bar">
+            <div class="vol-bar-bg"><div class="vol-bar-fill" style="width:55%;"></div></div>
+            <span class="vol-text neutral">1.1× avg</span>
+          </div>
+        </td>
+        <td class="r neutral">$350.87</td>
+        <td class="r up">+17.5%</td>
+        <td><span class="status-pill pill-ok">✅ ถือต่อ</span></td>
+      </tr>
+      <tr class="row-ok">
+        <td class="sym-cell">MA</td>
+        <td class="r" style="font-weight:700;">$493.01</td>
+        <td class="r down">-0.29%</td>
+        <td class="r neutral">—</td>
+        <td class="r">
+          <div class="volume-bar">
+            <div class="vol-bar-bg"><div class="vol-bar-fill" style="width:40%;"></div></div>
+            <span class="vol-text neutral">0.9× avg</span>
+          </div>
+        </td>
+        <td class="r neutral">$420.41</td>
+        <td class="r up">+16.5%</td>
+        <td><span class="status-pill pill-ok">✅ ถือต่อ</span></td>
+      </tr>
+      <tr class="row-ok">
+        <td class="sym-cell">V</td>
+        <td class="r" style="font-weight:700;">$330.45</td>
+        <td class="r down">-0.95%</td>
+        <td class="r neutral">—</td>
+        <td class="r">
+          <div class="volume-bar">
+            <div class="vol-bar-bg"><div class="vol-bar-fill high" style="width:80%;"></div></div>
+            <span class="vol-text warn">2.0× avg</span>
+          </div>
+        </td>
+        <td class="r neutral">$274.55</td>
+        <td class="r up">+19.2%</td>
+        <td><span class="status-pill pill-watch">⚠️ Watch UK PSR</span></td>
+      </tr>
+      <tr class="row-ok">
+        <td class="sym-cell">GWRE</td>
+        <td class="r" style="font-weight:700;">$107.86</td>
+        <td class="r down">-2.98%</td>
+        <td class="r neutral">—</td>
+        <td class="r">
+          <div class="volume-bar">
+            <div class="vol-bar-bg"><div class="vol-bar-fill high" style="width:100%;"></div></div>
+            <span class="vol-text warn">3.9× avg</span>
+          </div>
+        </td>
+        <td class="r neutral">$91.60</td>
+        <td class="r up">+17.7%</td>
+        <td><span class="status-pill pill-watch">⚠️ CEO insider sell</span></td>
+      </tr>
+    </tbody>
+  </table>
+  <!-- HOLDINGS_END -->
+  </div>
+</div>
+
+<hr class="divider">
+
+<!-- ─── After-Hours ─── -->
+<div class="section">
+  <div class="section-title"><span class="dot"></span>After-Hours Movers (อาจกระทบพรุ่งนี้)</div>
+  <!-- AH_START -->
+  <div class="ah-grid">
+    <div class="ah-card">
+      <div class="ah-sym">INTC</div>
+      <div class="ah-detail">
+        <div class="ah-price up">AH +2.1%</div>
+        <div class="ah-vol">Apple chip partnership — US manufacturing</div>
+      </div>
+      <span class="ah-badge ah-badge-ah">Tech</span>
+    </div>
+    <div class="ah-card">
+      <div class="ah-sym">OIL</div>
+      <div class="ah-detail">
+        <div class="ah-price down">Brent $77.8</div>
+        <div class="ah-vol">Iran Peace Deal — Trump ลงนาม Versailles</div>
+      </div>
+      <span class="ah-badge ah-badge-ok">↓ inflation</span>
+    </div>
+    <div class="ah-card">
+      <div class="ah-sym">CME</div>
+      <div class="ah-detail">
+        <div class="ah-price warn">$246.38 AH flat</div>
+        <div class="ah-vol">CEO succession — ยังไม่มีผู้นำใหม่</div>
+      </div>
+      <span class="ah-badge ah-badge-kill">🚨 Kill</span>
+    </div>
+  </div>
+  <!-- AH_END -->
+</div>
+
+<hr class="divider">
+
+<!-- ─── Prediction Accuracy ─── -->
+<div class="section">
+  <div class="section-title"><span class="dot"></span>Prediction vs จริง — วันนี้</div>
+  <!-- ACCURACY_START -->
+  <div class="accuracy-header">
+    <div class="accuracy-score">
+      <div class="acc-num acc-mid">60%</div>
+      <div class="acc-label">3/5 ถูก</div>
+    </div>
+    <div style="font-size:0.8rem;color:#64748b;max-width:360px;line-height:1.6;">
+      ถูก: Market direction + CME kill alert<br>
+      ผิด: Holdings ทุกตัวลงสวนทาง S&amp;P +1.08% — ต้องค้น stock-specific news
+    </div>
+  </div>
+  <table class="accuracy-table">
+    <thead>
+      <tr>
+        <th>ด้าน</th>
+        <th>คาดเช้า</th>
+        <th>จริงปิด</th>
+        <th>ผล</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Market direction</td>
+        <td class="acc-predicted">S&P Futures +0.72%</td>
+        <td class="acc-actual up">S&P +1.08% ✓</td>
+        <td class="acc-icon-right">✅</td>
+      </tr>
+      <tr>
+        <td>NASDAQ</td>
+        <td class="acc-predicted">Futures +1.38%</td>
+        <td class="acc-actual up">+1.91% ✓</td>
+        <td class="acc-icon-right">✅</td>
+      </tr>
+      <tr>
+        <td>Financials sector</td>
+        <td class="acc-predicted">Defensive (best sector)</td>
+        <td class="acc-actual warn">-0.62% (best sector ✓ แต่ Holdings ลงทุกตัว)</td>
+        <td class="acc-icon-part">⚠️</td>
+      </tr>
+      <tr>
+        <td>Holdings follow market</td>
+        <td class="acc-predicted">คาดว่า recover ตาม S&P</td>
+        <td class="acc-actual down">ทุกตัวลง (-0.29% ถึง -2.98%)</td>
+        <td class="acc-icon-wrong">❌</td>
+      </tr>
+      <tr>
+        <td>CME kill alert</td>
+        <td class="acc-predicted">⚠️ ใกล้ kill $246.51</td>
+        <td class="acc-actual down">$246.38 — BREACHED ✓</td>
+        <td class="acc-icon-right">✅</td>
+      </tr>
+    </tbody>
+  </table>
+  <!-- ACCURACY_END -->
+</div>
+
+<hr class="divider">
+
+<!-- ─── News After Close ─── -->
+<div class="section">
+  <div class="section-title"><span class="dot"></span>News หลังปิดตลาด</div>
+  <!-- NEWS_START -->
+  <div class="news-feed">
+    <div class="news-item">
+      <div class="news-ticker-tag">CME</div>
+      <div class="news-body">
+        <div class="news-headline">CEO Terry Duffy ประกาศลาออก — ยังไม่มีผู้สืบทอด</div>
+        <div class="news-detail">CEO succession uncertainty กดราคา -2.44% ขณะที่ตลาดโดยรวมขึ้น +1.08% — ชัดว่าเป็น stock-specific ไม่ใช่ market-wide</div>
+        <span class="news-impact impact-neg">กระทบลบ — Thesis ยังไม่พัง แต่ Kill Triggered</span>
+      </div>
+    </div>
+    <div class="news-item">
+      <div class="news-ticker-tag">GWRE</div>
+      <div class="news-body">
+        <div class="news-headline">CEO/President insider sell $118–$124 Jun 15–16 (ก่อนวันซื้อ)</div>
+        <div class="news-detail">Volume 3.9× avg วันแรกที่ถือ — อาจเป็น institutional distribution ไม่ใช่ retail selloff ปกติ</div>
+        <span class="news-impact impact-neg">⚠️ Watch — ARR deal slippage + insider sell</span>
+      </div>
+    </div>
+    <div class="news-item">
+      <div class="news-ticker-tag macro">MACRO</div>
+      <div class="news-body">
+        <div class="news-headline">Iran Peace Deal — Trump ลงนามที่ Versailles</div>
+        <div class="news-detail">Brent Crude ↓ $77.8/barrel — ลดแรงกดดัน inflation ระยะสั้น อาจช่วย Fed pivot later</div>
+        <span class="news-impact impact-pos">บวก macro — Financials ได้ประโยชน์ถ้า inflation ชะลอ</span>
+      </div>
+    </div>
+    <div class="news-item">
+      <div class="news-ticker-tag ah">AH</div>
+      <div class="news-body">
+        <div class="news-headline">Intel-Apple chip deal — ผลิตใน US</div>
+        <div class="news-detail">INTC +8.5% pre-market → AH +2.1% — Tech sector อาจดึง NASDAQ ต่อพรุ่งนี้</div>
+        <span class="news-impact impact-pos">บวก Tech — ไม่กระทบ Holdings โดยตรง</span>
+      </div>
+    </div>
+  </div>
+  <!-- NEWS_END -->
+</div>
+
+<hr class="divider">
+
+<!-- ─── Tomorrow Watch ─── -->
+<div class="section">
+  <div class="section-title"><span class="dot"></span>พรุ่งนี้ดูอะไร</div>
+  <!-- TOMORROW_START -->
+  <div class="watch-list">
+    <div class="watch-item">
+      <div class="watch-num">1</div>
+      <div class="watch-text">
+        <strong style="color:#f87171;">CME</strong> — Kill Zone BREACHED ปิด $246.38 &lt; Kill $246.51
+        <span class="watch-tag tag-urgent">ด่วน</span><br>
+        <span style="font-size:0.76rem;color:#64748b;">ตัดสินใจ: ขาย / partial 50% / ถือถึง Q2 Jul 22 — CEO succession ยังไม่ชัดเจน</span>
+      </div>
+    </div>
+    <div class="watch-item">
+      <div class="watch-num">2</div>
+      <div class="watch-text">
+        <strong style="color:#93c5fd;">Conference Board LEI</strong> — ประกาศ 10:00 AM ET
+        <span class="watch-tag tag-watch">Macro</span><br>
+        <span style="font-size:0.76rem;color:#64748b;">Leading Economic Index — ถ้า miss อาจกดตลาด โดยเฉพาะ Financials</span>
+      </div>
+    </div>
+    <div class="watch-item">
+      <div class="watch-num">3</div>
+      <div class="watch-text">
+        <strong style="color:#93c5fd;">GWRE</strong> — Volume 3.9× avg วันแรก
+        <span class="watch-tag tag-watch">Watch</span><br>
+        <span style="font-size:0.76rem;color:#64748b;">ถ้า volume ยังสูงพรุ่งนี้ = institutional exit — re-evaluate thesis</span>
+      </div>
+    </div>
+  </div>
+  <!-- TOMORROW_END -->
+</div>
+
+</div><!-- /container -->
+
+<div style="text-align:center;padding:20px;color:#334155;font-size:0.72rem;">
+  <!-- FOOTER_START -->
+  Close Brief · Jun 18, 2026 · ข้อมูลจาก Yahoo Finance + WebSearch · สร้างโดย /daily-brief close
+  <!-- FOOTER_END -->
+</div>
+
+</body>
+</html>
