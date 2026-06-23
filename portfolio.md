@@ -6,24 +6,24 @@
 
 ## Top Pick (วันนี้)
 
-> 🏆 **Jun 20, 2026** — **MDLZ** (Mondelez International) | ราคา $60.12 | Entry Zone $55–$63 ✅ อยู่ใน zone | Debate: ⚠️ Tie (Jun 19) | Tier A | ≤3% พอร์ต | **Top Pick Day 2**
-> Moat: Wide (Morningstar — brand intangibles: Oreo, Cadbury, Toblerone) | 7 แบรนด์ $1B+/ปี | Revenue +8.2% Q1 YoY | GF Value $77.41 → undervalued 22% | MOAT ETF #4
-> ⚠️ Gross margin declining (32%→28%) cocoa cost pressure — size เล็กก่อน | รอ Q2 earnings Jul 28 confirm margin stabilize
+> 🏆 **Jun 23, 2026** — **ไม่มี Top Pick** (MDLZ ซื้อไปแล้ว Jun 22 → ย้ายเข้า Holdings) | รอ daily-brief หา Top Pick ใหม่
 
 ---
 
 ## Holdings
 
-> อัปเดต Jun 20, 2026 | Total: **$312.00** (≈10,215 THB) | 1 USD = 32.74 THB | ⚠️ Jun 19–22 ตลาดปิด Juneteenth — ราคา T-1 Jun 18
+> อัปเดต Jun 23, 2026 17:49 | Total: **$387.39** (≈12,826.41 THB) | 1 USD = 33.11 THB (โดยประมาณ)
 > 💰 SPCX ขายแล้ว Jun 17 @ $191.38 | Realized gain: **+$20.94 (+12.29%)**
+> 💸 CME ขายแล้ว Jun 23 @ $246.22 | Realized loss: **-$5.29 (-15.14%)** (cost $34.94 → proceeds $29.65, หัก fee $0.02)
+> 🛒 MDLZ ซื้อแล้ว Jun 22 22:17 | 1.8745223 shares @ $60.1860 | ลงทุน $113.00 (รวม fee)
 
 | Ticker | Shares | Buy Price | มูลค่า | P&L % | P&L USD | ราคาปัจจุบัน | Kill Buffer |
 |--------|--------|-----------|--------|--------|---------|--------------|------------|
-| SPGI | 0.1816941 | $412.79 | **$74.90** | **-0.12%** | -$0.09 | $412.30 | Kill $350.87 (+17.5% ✅) |
-| V | 0.2287306 | $323.00 | **$74.85** | **+1.31% ✅** | +$0.97 | $327.24 | Kill $274.55 (+19.2% ✅) |
-| CME | 0.1204786 | $290.01 | **$29.68** | **-15.04% 🚨** | -$5.26 | $246.38 | Kill $246.51 (**BREACHED 🚨**) |
-| MA | 0.0504650 | $494.60 | **$24.72** | **-0.97%** | -$0.24 | $489.79 | Kill $420.41 (+16.5% ✅) |
-| GWRE | 1.0000000 | $107.76 | **$107.86** | **+0.09% ✅** | +$0.10 | $107.86 | Kill $91.60 (+17.7% ✅) |
+| MDLZ | 1.8745223 | $60.1860 | **$111.55** | **-1.12%** | -$1.27 | $59.51 | Kill $51.16 (+14.9% ✅) |
+| GWRE | 1.0000000 | $107.76 | **$102.69** | **-4.70%** | -$5.07 | $102.69 | Kill $91.60 (+12.1% ✅) |
+| V | 0.2287306 | $323.00 | **$74.70** | **+1.11% ✅** | +$0.82 | $326.60 | Kill $274.55 (+19.0% ✅) |
+| SPGI | 0.1816941 | $412.79 | **$74.02** | **-1.28%** | -$0.96 | $407.49 | Kill $350.87 (+16.1% ✅) |
+| MA | 0.0504650 | $494.60 | **$24.43** | **-2.12%** | -$0.53 | $484.10 | Kill $420.41 (+15.7% ✅) |
 
 ---
 
@@ -33,22 +33,28 @@
 
 | Ticker | TP1 — Trim 30% | TP2 — Sell All | Time Horizon | Re-evaluate เมื่อ |
 |--------|----------------|----------------|--------------|-------------------|
-| GWRE | **$150** (+39%) | **$180** (+67%) | ถึง Q4 FY26 earnings | Q4 FY26 earnings Sep 2026 |
-| SPGI | **$520** (+26%) | **$580** (+41%) | 3 ปี | MBGL Jul 1 + Q2 earnings Aug 4 |
-| V | **$390** (+21%) | **$430** (+33%) | 2–3 ปี | Q3 earnings Jul 28 + UK Court |
-| CME | **$310** (+7%) | **$340** (+17%) | ถึง Q2 earnings | Q2 earnings Jul 22 (make-or-break) |
-| MA | **$600** (+21%) | **$670** (+35%) | 3–5 ปี | Q2 earnings Jul 23 |
+| MDLZ | **$72** (+20%) | **$80** (+33%) | 1–2 ปี | Q2 earnings Jul 28 |
+| GWRE | **$150** (+46%) | **$180** (+75%) | ถึง Q4 FY26 earnings | Q4 FY26 earnings Sep 2026 |
+| SPGI | **$520** (+28%) | **$580** (+42%) | 3 ปี | MBGL Jul 1 + Q2 earnings Aug 4 |
+| V | **$390** (+19%) | **$430** (+32%) | 2–3 ปี | Q3 earnings Jul 28 + UK Court |
+| MA | **$600** (+24%) | **$670** (+38%) | 3–5 ปี | Q2 earnings Jul 23 |
+| ~~CME~~ | ~~$310~~ | ~~$340~~ | ✅ **ขายแล้ว Jun 23** | loss -15.14% realized |
 
 **หลักการ:**
 - **TP1** = trim 30% ของ position — lock กำไรบางส่วน ยังถือต่อ
 - **TP2** = ขายทั้งหมด — thesis realized หรือ valuation stretch เกินไป
 - **Time deadline** = ถ้าถึงเวลาแล้วราคายังไม่ขยับตาม thesis → re-evaluate ว่าจะถือต่อหรือไม่
-- **CME พิเศษ:** ถ้า Q2 earnings Jul 22 ADV data miss → พิจารณาขายทั้งหมดโดยไม่รอ TP
 
 ### รายละเอียดต่อตัว
 
+**MDLZ** — Brand Moat / Dividend Play
+- TP1 $72: +20% จากราคาซื้อ — ใกล้ analyst fair value
+- TP2 $80: fully valued สำหรับ consumer staple ที่ cocoa cost ยังกดดัน
+- 🎯 Catalyst: Q2 earnings Jul 28 ถ้า margin stabilize → thesis confirm
+- 🚨 ถ้า Jul 28 EPS miss + guidance cut → re-evaluate ทันที ไม่รอ TP
+
 **GWRE** — Growth / SaaS Transition Play
-- TP1 $150: momentum + ARR growth confirmed, lock กำไร 39% ก่อน
+- TP1 $150: momentum + ARR growth confirmed, lock กำไร ก่อน
 - TP2 $180: fully priced สำหรับ cloud ARR thesis ปัจจุบัน
 - ⚠️ ถ้า Q4 FY26 ARR growth < 15% หรือ churn เพิ่ม → ขายทันทีไม่รอ TP
 - 🚨 size เล็ก (1 share) — รอ confirm record quarter ก่อน size up
@@ -62,11 +68,6 @@
 - TP1 $390: ใกล้ GF Fair Value $396 → ไม่มี discount แล้ว
 - TP2 $430: overvalued territory → ขาย แล้วรอ pullback ซื้อใหม่
 - ⚠️ UK Court of Appeal fee cap ถ้าผ่าน → re-evaluate ก่อน TP
-
-**CME** — Turnaround Watch
-- TP1 $310: กลับมา near analyst target ($323), เริ่ม trim
-- TP2 $340: above analyst target → thesis realized
-- 🚨 Q2 Jul 22 คือ checkpoint สำคัญ — ถ้า ADV miss ขายก่อน TP
 
 **MA** — Long-term Compounder
 - TP1 $600: midway สู่ analyst avg ($650) → ล็อกกำไรบางส่วน
@@ -91,10 +92,13 @@
 - ⚠️ **เฝ้าระวัง:** ราคาลง >15% จากราคาซื้อ avg $412.79 (= ต่ำกว่า $350.87) โดยไม่มีเหตุผล fundamental
 
 ### CME Kill Conditions
-- 🚨 **หลัก:** Crypto ADV หลัง 3 เดือน < 10% ของ total ADV (= adoption ล้มเหลว)
-- 🚨 **หลัก:** คู่แข่งได้ CFTC license + liquidity เริ่มย้ายออกจาก CME
-- ⚠️ **เฝ้าระวัง:** Total ADV ลด YoY ติด 2 quarters
-- ⚠️ **เฝ้าระวัง:** ราคาลง >15% จากราคาซื้อ $290.01 (= ต่ำกว่า $246.51) โดยไม่มีเหตุผล fundamental
+> ✅ **ขายแล้ว Jun 23, 2026 @ $246.22** — Realized loss -$5.29 (-15.14%) | ปิด position แล้ว
+
+### MDLZ Kill Conditions
+- 🚨 **หลัก:** Revenue ลด YoY ติด 2 quarters (cocoa cost ทำให้ volume ลด)
+- 🚨 **หลัก:** Gross margin ลงต่ำกว่า 25% — pricing power หมด ไม่สามารถส่งต้นทุนให้ผู้บริโภค
+- ⚠️ **เฝ้าระวัง:** Q2 earnings Jul 28 — ถ้า EPS miss + guidance cut → re-evaluate ทันที
+- ⚠️ **เฝ้าระวัง:** ราคาลง >15% จากราคาซื้อ $60.1860 (= ต่ำกว่า $51.16) โดยไม่มีเหตุผล fundamental
 
 ### MA Kill Conditions
 - 🚨 **หลัก:** FCA ออก Statement of Objections (SoO) อย่างเป็นทางการ — ไม่ใช่แค่ evidence-gathering
@@ -153,9 +157,9 @@
 | **GWRE** | Wide Moat (P&C insurance switching costs) — ซื้อแล้ว Jun 18 | **ถือแล้ว** | **$107.86** (Jun 18) ⚠️ Watch (CEO insider sell) |
 | **MDLZ** | Wide Moat (Morningstar) Oreo/Cadbury/Toblerone — Top Pick Jun 19 | $55–$63 | **$60.12** (Jun 19) ⚠️ gross margin watch |
 | SYK | Wide Moat + GF discount ~22% — Leading candidate | รอ pull back < $295 | $307.80 (+2.2%) — เกิน zone |
-| COST | Membership model + pricing power — Q3 beat (+11.6% YoY) | ยังไม่กำหนด | $965.59 (-2.1%) |
-| AMZN | AWS moat +28% YoY + Anthropic partnership | รอ $225-230 (GF zone) | $237.50 (-3.5%) |
-| LLY | GLP-1 + ADA data strong Jun 8 | รอ pullback | $1,112.00 (-1.0%) |
-| SNPS | EDA duopoly + Q2 FY26 beat + Elliott on Board ✅ | รอ Design IP Q3 FY26 | $461.74 (+2.9%) |
-| NVDA | AI compute monopoly | รอ $182-190 (DCF zone) ⚠️ value trap warning | $204.65 (-1.3%) |
+| COST | Membership model + pricing power — Q3 beat (+11.6% YoY) | ยังไม่กำหนด | $951.45 (-1.5%) (Jun 22) |
+| AMZN | AWS moat +28% YoY + Anthropic partnership | รอ $225-230 (GF zone) | $244.39 (+2.9%) (Jun 22) — เกิน zone |
+| LLY | GLP-1 + ADA data strong Jun 8 | รอ pullback | $1,098.57 (-1.2%) (Jun 22) |
+| SNPS | EDA duopoly + Q2 FY26 beat + Elliott on Board ✅ | รอ Design IP Q3 FY26 | $455.51 (-1.4%) (Jun 22) |
+| NVDA | AI compute monopoly | รอ $182-190 (DCF zone) ⚠️ value trap warning | $210.69 (+3.0%) (Jun 22) — เกิน zone |
 | **PLTR** | Narrow Moat AI platform (Ontology switching cost) — Rule of 40 = 145%, +85% YoY — Tier B | รอ **$110–$120** (GF Value ~$133, รอ discount 10–15%) | **$128.47** (Jun 20) |
