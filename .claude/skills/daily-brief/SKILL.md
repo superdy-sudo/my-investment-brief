@@ -164,6 +164,15 @@ git pull origin main
 
 **วิธีอัปเดต:** แทนที่เฉพาะ content ระหว่าง markers — อย่าแตะ markers เอง
 
+**8. Git commit + push (บังคับ — ทำหลัง save เสมอ):**
+```bash
+git add briefs/close-<YYYY-MM-DD>.md showcase/close.html
+git commit -m "close brief <YYYY-MM-DD>: [สรุป 1 ประโยค เช่น S&P +X%, Holdings ✅]"
+git push origin main
+```
+- ถ้า push สำเร็จ → แจ้ง "✅ pushed to GitHub"
+- ถ้า push ล้มเหลว → แจ้ง "⚠️ push ไม่สำเร็จ — ผู้ใช้ต้อง git pull ด้วยตัวเอง" แต่ยังจบ session ตามปกติ
+
 ---
 
 ## Step 0B: Spot Brief Mode (ใช้เฉพาะเมื่อมี argument)
@@ -550,7 +559,17 @@ Holdings ใช้:
 👁 Watchlist: X ตัว (Y ตัวมีการขยับ, Z ตัวถูก drop)
 
 🌐 Showcase: อัปเดตแล้ว
+📤 Git: pushed ✅ / ⚠️ push ล้มเหลว
 ```
+
+**หลัง Step 6 — Git commit + push (บังคับทุก mode):**
+```bash
+git add briefs/ showcase/ portfolio.md
+git commit -m "daily-brief <YYYY-MM-DD>: [Top Pick] | [market summary 1 ประโยค]"
+git push origin main
+```
+- ถ้า push สำเร็จ → แจ้ง "✅ pushed to GitHub" ใน summary
+- ถ้า push ล้มเหลว → แจ้ง "⚠️ push ไม่สำเร็จ" แต่ยังจบ pipeline ตามปกติ
 
 ---
 
