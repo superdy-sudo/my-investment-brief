@@ -6,24 +6,24 @@
 
 ## Top Pick (วันนี้)
 
-> 🏆 **Jun 23, 2026** — **ไม่มี Top Pick** (MDLZ ซื้อไปแล้ว Jun 22 → ย้ายเข้า Holdings) | รอ daily-brief หา Top Pick ใหม่
+> 🏆 **Jun 26, 2026** — **ไม่มี Top Pick** | Watchlist ทุกตัวเกิน entry zone | SYK ใกล้สุด ($307 vs zone <$295, เกิน ~4%) — รอ pullback
 
 ---
 
 ## Holdings
 
-> อัปเดต Jun 23, 2026 17:49 | Total: **$387.39** (≈12,826.41 THB) | 1 USD = 33.11 THB (โดยประมาณ)
+> อัปเดต Jun 26, 2026 | Total: **$413.06** (≈13,783 THB) | 1 USD = 33.37 THB | Portfolio gain: **+$18.48 (+4.68%)**
 > 💰 SPCX ขายแล้ว Jun 17 @ $191.38 | Realized gain: **+$20.94 (+12.29%)**
 > 💸 CME ขายแล้ว Jun 23 @ $246.22 | Realized loss: **-$5.29 (-15.14%)** (cost $34.94 → proceeds $29.65, หัก fee $0.02)
 > 🛒 MDLZ ซื้อแล้ว Jun 22 22:17 | 1.8745223 shares @ $60.1860 | ลงทุน $113.00 (รวม fee)
 
 | Ticker | Shares | Buy Price | มูลค่า | P&L % | P&L USD | ราคาปัจจุบัน | Kill Buffer |
 |--------|--------|-----------|--------|--------|---------|--------------|------------|
-| MDLZ | 1.8745223 | $60.1860 | **$111.55** | **-1.12%** | -$1.27 | $59.51 | Kill $51.16 (+14.9% ✅) |
-| GWRE | 1.0000000 | $107.76 | **$102.69** | **-4.70%** | -$5.07 | $102.69 | Kill $91.60 (+12.1% ✅) |
-| V | 0.2287306 | $323.00 | **$74.70** | **+1.11% ✅** | +$0.82 | $326.60 | Kill $274.55 (+19.0% ✅) |
-| SPGI | 0.1816941 | $412.79 | **$74.02** | **-1.28%** | -$0.96 | $407.49 | Kill $350.87 (+16.1% ✅) |
-| MA | 0.0504650 | $494.60 | **$24.43** | **-2.12%** | -$0.53 | $484.10 | Kill $420.41 (+15.7% ✅) |
+| MDLZ | 1.8745223 | $60.1860 | **$115.94** | **+2.76% ✅** | +$2.94 | $61.85 | Kill $51.16 (+17.3% ✅) |
+| GWRE | 1.0000000 | $107.76 | **$120.35** | **+11.69% ✅** | +$12.59 | $120.35 | Kill $91.60 (+23.9% ✅) |
+| V | 0.2287306 | $323.00 | **$77.05** | **+4.33% ✅** | +$3.17 | $336.96 | Kill $274.55 (+22.6% ✅) |
+| SPGI | 0.1816941 | $412.79 | **$74.53** | **-0.64% ⚠️** | -$0.45 | $410.17 | Kill $350.87 (+14.5% ✅) |
+| MA | 0.0504650 | $494.60 | **$25.19** | **+0.94% ✅** | +$0.23 | $499.28 | Kill $420.41 (+15.8% ✅) |
 
 ---
 
@@ -147,6 +147,38 @@
 ### SPCX — Space Exploration Technologies Corp. ✅ SOLD
 - **ซื้อ Jun 15** @ $170.44 | **ขาย Jun 17** @ $191.38 | Realized P&L: **+$20.94 (+12.29%)**
 - เหตุผลที่ขาย: IPO volatility หลังเปิดตลาด — ราคาร่วงจาก pre-market ก่อน TP1 $220
+
+---
+
+## Thesis Change Log
+
+> "Git สำหรับ Thesis" — บันทึกทุกครั้งที่ thesis เปลี่ยน daily-brief จะ prepend entry ใหม่ลงใน holding ที่เปลี่ยน
+> Format: `[วันที่] [🟢/🔴/🟡/⚪] [อะไรเปลี่ยน — thesis stronger/weaker/watch/unchanged]`
+
+### MDLZ
+- [2026-06-22] 🟢 ซื้อเข้า Holdings 1.8745 shares @ $60.19 | entry zone $55-63 ✅ | Tier A — Wide Moat, Morningstar undervalued
+
+### GWRE
+- [2026-06-18] 🟡 ซื้อเข้า Holdings 1 share @ $107.76 | Q3 FY26 beat ✅ แต่ CEO+President insider sell พร้อมกัน → watch
+- [2026-06-18] 🟢 Q3 FY26: EPS $0.82 beat ✅ Rev $372.5M ✅ ARR ~$1.23B ✅ $500M buyback ✅
+
+### SPGI
+- [2026-06-26] 🟢 MBGL WI trading เริ่มแล้ว (Jun 26–30) @ ~$25 = spin-off milestone ✅ | ราคา $410.17 +3.80% | near buy price -0.64%
+- [2026-06-22] 🟡 MI President Saugata Saha ลาออก Jul 30 — รอ successor ก่อน size up | thesis intact
+- [2026-05] 🟢 AI Credit Memo Builder launch + Cohere partnership ✅ — thesis stronger
+
+### V
+- [2026-06-15] 🟢 ซื้อเข้า Holdings 0.2287 shares @ $323.00 | Stablecoin $7B annualized ✅ Cross-border +11% ✅
+
+### MA
+- [2026-06-10] 🟢 Agent Pay for Machines (AP4M) launch ✅ + BVNK acquisition รอ approval | thesis expanding
+- [2026-05] ⚪ FCA ยัง evidence-gathering ไม่มี SoO ✅ | thesis unchanged
+
+### CME (SOLD)
+- [2026-06-23] 🔴 ขายแล้ว @ $246.22 | Realized loss -$5.29 (-15.14%) | Kill triggered + CFTC lawsuit
+- [2026-06-22] 🔴 Kill condition confirmed — Close $246.38 < $246.51 + CFTC lawsuit ใหม่
+- [2026-06-18] 🔴 CEO Terry Duffy ประกาศลาออก Mar 2027 → intraday kill breach buffer 2.4%
+- [2026-05] ⚪ ADV May +15% YoY record ✅ | core thesis ดี แต่ CEO transition risk เพิ่ม
 
 ---
 
