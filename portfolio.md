@@ -194,4 +194,4 @@
 | LLY | GLP-1 + ADA data strong Jun 8 | รอ pullback | $1,098.57 (-1.2%) (Jun 22) |
 | SNPS | EDA duopoly + Q2 FY26 beat + Elliott on Board ✅ | รอ Design IP Q3 FY26 | $455.51 (-1.4%) (Jun 22) |
 | NVDA | AI compute monopoly | รอ $182-190 (DCF zone) ⚠️ value trap warning | $210.69 (+3.0%) (Jun 22) — เกิน zone |
-| **PLTR** | Narrow Moat AI platform (Ontology switching cost) — Rule of 40 = 145%, +85% YoY — Tier B | รอ **$110–$120** (GF Value ~$133, รอ discount 10–15%) | **$128.47** (Jun 20) |
+| **PLTR** | Switching Cost (Ontology) — thesis ผิดถ้า US Commercial <30% YoY — /brief Jun 26 | $110–$120 (MS FV $150, -25%) | **$112.93** (Jun 26) ✅ ใน zone |

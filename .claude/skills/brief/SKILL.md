@@ -144,7 +144,29 @@ Fair Value: $XXX (แหล่ง: Morningstar/GuruFocus)
 
 ---
 
-### 5. Save ไฟล์
+### 5. Auto-Watchlist
+
+**ถ้า Action = Buy / Starter / Watch → เพิ่มเข้า portfolio.md Watchlist อัตโนมัติ**
+**ถ้า Action = Avoid → ไม่เพิ่ม**
+
+ตรวจก่อน:
+- ถ้า TICKER **ไม่มีใน Watchlist** → append row ใหม่
+- ถ้า TICKER **มีอยู่แล้ว** → update row เดิม (ราคา + เหตุผล)
+- ถ้า TICKER **อยู่ใน Holdings แล้ว** → ข้าม (ไม่ต้อง add watchlist)
+
+Format row:
+```
+| **[TICKER]** | [moat type] — [thesis killer สั้น] — /brief [DATE] | [entry zone จาก valuation] | **$[price]** ([DATE]) |
+```
+
+ตัวอย่าง:
+```
+| **NVDA** | Narrow Moat AI compute — /brief Jun 26 | รอ $182–190 | **$211** (Jun 26) — เกิน zone |
+```
+
+---
+
+### 6. Save ไฟล์
 
 **บันทึก** `briefs/[TICKER]-[YYYY-MM-DD].md` — ใช้ output format เดิม
 
@@ -202,7 +224,7 @@ Fair Value: $XXX (แหล่ง: Morningstar/GuruFocus)
 
 จากนั้น push:
 ```bash
-git add briefs/ showcase/index.html
+git add briefs/ showcase/index.html portfolio.md
 git commit -m "brief [TICKER] [DATE]: [action] | [valuation] | [thesis killer สั้น]"
 git push origin main
 ```
