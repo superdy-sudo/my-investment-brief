@@ -3,12 +3,28 @@ name: brief
 description: วิเคราะห์หุ้นรายตัว — 4 Layer + Bull/Bear + บันทึก showcase และ briefs/
 ---
 
-# /brief [TICKER] — Company Brief
+# /brief [TICKER ...] — Company Brief
 
 ## Input
 ```
-/brief AAPL
-/brief NVDA
+/brief AAPL              ← ตัวเดียว
+/brief NVDA PLTR SYK     ← หลายตัวพร้อมกัน
+```
+
+---
+
+## Multi-Ticker Mode (2+ tickers)
+
+ถ้า arguments มีมากกว่า 1 ticker:
+
+1. **spawn agent แยกต่อ 1 ticker พร้อมกันทุกตัว** (parallel) — อย่ารอทีละตัว
+2. แต่ละ agent ทำ Step 1–4 (ดึงข้อมูล + วิเคราะห์) ของตัวเอง
+3. รอทุก agent เสร็จ แล้วรวม output ใน chat ต่อกัน
+4. Save ทุก brief file + inject ทุก card เข้า showcase พร้อมกัน
+5. **commit ครั้งเดียว** รวมทุก ticker
+
+```
+git commit -m "brief [TICKER1] [TICKER2] ... [DATE]: [สรุปสั้น]"
 ```
 
 ---
@@ -22,7 +38,7 @@ description: วิเคราะห์หุ้นรายตัว — 4 Lay
 
 ---
 
-## ขั้นตอน
+## ขั้นตอน (ต่อ 1 ticker)
 
 ### 1. ดึงข้อมูล (WebSearch พร้อมกัน)
 
