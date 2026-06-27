@@ -195,3 +195,6 @@
 | SNPS | EDA duopoly + Q2 FY26 beat + Elliott on Board ✅ | รอ Design IP Q3 FY26 | $455.51 (-1.4%) (Jun 22) |
 | NVDA | AI compute monopoly | รอ $182-190 (DCF zone) ⚠️ value trap warning | $210.69 (+3.0%) (Jun 22) — เกิน zone |
 | **PLTR** | Switching Cost (Ontology) — thesis ผิดถ้า US Commercial <30% YoY — /brief Jun 26 | $110–$120 (MS FV $150, -25%) | **$112.93** (Jun 26) ✅ ใน zone |
+| **AVGO** | Wide Moat (XPU IP + VMware) — thesis ผิดถ้า hyperscalers ลด XPU outsourcing — /brief Jun 26 | $340–$380 (MS FV $650, -44%) | **$365.02** (Jun 26) ✅ ใน zone |
+| **RMBS** | Patent Portfolio (DDR5+HBM IP) — thesis ผิดถ้า DOJ formal indictment — /brief Jun 26 | รอ DOJ clarity ก่อน | **$114.73** (Jun 26) ⚠️ DOJ antitrust risk |
+| **ZETA** | Narrow Moat Data Assets — thesis ผิดถ้า Palantir deal ไม่ deliver $100M+ — /brief Jun 26 | $16–$18 (GF Value $17.34) | **$18.98** (Jun 26) ⚠️ เกิน zone เล็กน้อย |
