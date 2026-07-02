@@ -12,7 +12,7 @@
 
 ## Holdings
 
-> อัปเดต Jun 30, 2026 | Total: **$469.86** (≈15,609 THB) | 1 USD = 33.22 THB | Unrealized P&L: **+$14.36 (+3.15%)**
+> อัปเดต Jul 2, 2026 | Total: **$507.87** (≈16,815.62 THB) | 1 USD = 33.11 THB | Unrealized P&L: **+$52.38 (+11.50%)** | 1-Day Change: **+2.98%**
 > 💰 SPCX ขายแล้ว Jun 17 @ $191.38 | Realized gain: **+$20.94 (+12.29%)**
 > 💸 CME ขายแล้ว Jun 23 @ $246.22 | Realized loss: **-$5.29 (-15.14%)**
 > 💸 MDLZ ขายแล้ว Jun 28 @ $60.75 | Realized gain: **+$0.88 (+0.78%)**
@@ -22,11 +22,14 @@
 
 | Ticker | Shares | Buy Price | มูลค่า | P&L % | P&L USD | ราคาปัจจุบัน | Kill Buffer |
 |--------|--------|-----------|--------|--------|---------|--------------|------------|
-| GWRE | 1.0000000 | $107.76 | **$120.87** | **+12.16% ✅** | +$13.11 | $120.87 | Kill $91.60 (+32.0% ✅) |
-| PLTR | 1.0000000 | $118.00 | **$115.70** | **-1.95% ⚠️** | -$2.30 | $115.70 | Kill $100.30 (+15.3% ✅) |
-| AVGO | 0.2172321 | $372.21 (avg) | **$80.91** | **+0.06% ✅** | +$0.05 | $372.45 | Kill $316.38 (+17.7% ✅) |
-| V | 0.2287306 | $323.00 | **$78.15** | **+5.77% ✅** | +$4.27 | $341.65 | Kill $274.55 (+24.4% ✅) |
-| SPGI | 0.1816941 | $412.79 | **$74.23** | **-1.02% ⚠️** | -$0.77 | $408.56 | Kill $350.87 (+16.4% ✅) |
+| GWRE | 1.0000000 | $107.76 | **$132.48** | **+22.94% ✅** | +$24.72 | $132.48 | Kill $91.60 (+44.6% ✅) |
+| PLTR | 1.0000000 | $118.00 | **$131.50** | **+11.44% ✅** | +$13.50 | $131.50 | Kill $100.30 (+31.1% ✅) |
+| AVGO | 0.2172321 | $372.21 (avg) | **$81.03** | **+0.19% ✅** | +$0.16 | $372.93 | Kill $316.38 (+17.9% ✅) |
+| V | 0.2287306 | $323.00 | **$81.27** | **+10.00% ✅** | +$7.39 | $355.36 | Kill $274.55 (+29.4% ✅) |
+| SPGI | 0.1816941 | $412.79* | **$77.92** | **+9.54% ✅** | +$6.79 | $428.87 | Kill $350.87 (+22.2% ✅) |
+| MBGL | spin-off† | $3.85† | **$3.68** | **-4.48% ⚠️** | -$0.17 | ~$24.30 | — |
+
+> *SPGI cost basis adjusted by Dime! หลัง MBGL spin-off Jul 1 | †MBGL = spin-off จาก SPGI Jul 1, cost allocated จาก SPGI original basis
 
 ---
 
@@ -106,9 +109,13 @@
 
 ### SPGI Kill Conditions
 - 🚨 **หลัก:** MI segment revenue ลด YoY ติด 2 quarters ติดกัน
-- 🚨 **หลัก:** MBGL spin-off ถูก block หรือยกเลิกหลัง Jul 1
+- ~~🚨 MBGL spin-off ถูก block~~ ✅ **ปิดแล้ว — MBGL distributed Jul 1, 2026**
 - ⚠️ **เฝ้าระวัง:** MI President successor ไม่ประกาศภายใน Q3 2026
 - ⚠️ **เฝ้าระวัง:** ราคาลง >15% จากราคาซื้อ avg $412.79 (= ต่ำกว่า $350.87) โดยไม่มีเหตุผล fundamental
+
+### MBGL Kill Conditions
+- ⚠️ **เฝ้าระวัง:** ราคา MBGL ร่วง >50% จาก spin-off basis ~$25.41 (= ต่ำกว่า ~$12.70)
+- ℹ️ Position เล็กมาก ($3.68) — ไม่ต้อง action เว้นแต่ fundamental เปลี่ยนใหญ่
 
 ### CME Kill Conditions
 > ✅ **ขายแล้ว Jun 23, 2026 @ $246.22** — Realized loss -$5.29 (-15.14%) | ปิด position แล้ว
@@ -133,35 +140,42 @@
 - **Sector:** Financials / Data & Analytics
 - **Moat:** Intangible asset — แบรนด์ credit rating + data monopoly ที่กฎหมายบังคับใช้
 - **Business:** Credit ratings (Moody's competitor), Market Intelligence, Platts (commodity data)
-- **ราคา Jun 29:** $406.62 (-1.46%) | P&L -1.46% vs buy | Kill buffer +13.8% ✅ | **Analyst target avg:** ~$535–563 (Strong Buy)
-- **Thesis Status:** ✅ INTACT — MBGL distribution Jul 1 ✅ | AI Credit Memo Builder launch ✅ | Cohere partnership ✅ | **⚠️ MI President Saugata Saha ลาออก Jul 30** ยังไม่มีผู้สืบทอด | Q2 Earnings Aug 4
+- **ราคา Jul 2:** $428.87 (+9.54% vs adjusted basis) | Kill buffer +22.2% ✅ | **Analyst target avg:** ~$535–563 (Strong Buy)
+- **Thesis Status:** ✅ MBGL spin-off distributed Jul 1 ✅ | AI Credit Memo Builder launch ✅ | Cohere partnership ✅ | **⚠️ MI President Saugata Saha ลาออก Jul 30** ยังไม่มีผู้สืบทอด | Q2 Earnings Aug 4
+
+### MBGL — S&P Global Mobility (Spin-off)
+- **Sector:** Automotive Data & Analytics
+- **Moat:** Data asset (VIN, vehicle history, dealer data)
+- **Business:** Spin-off from SPGI Jul 1, 2026 — automotive data services (formerly IHS Markit Automotive)
+- **ราคา Jul 2:** ~$24.30 (-4.48% vs spin-off cost basis $25.41) | Position: tiny (~$3.68)
+- **Thesis Status:** ⚠️ รับมาจาก spin-off — ยังไม่ได้วิเคราะห์ fully | Position เล็กมาก — monitor เฉยๆ
 
 ### GWRE — Guidewire Software Inc.
 - **Sector:** Enterprise SaaS / P&C Insurance
 - **Moat:** Switching cost — P&C insurers ลงทุน 5-7 ปีใน implementation
 - **Business:** Cloud platform สำหรับ P&C insurance carriers (underwriting, billing, claims)
-- **ราคา Jun 29:** $124.22 (+15.27% vs buy) | Kill buffer +31.1% ✅ | **Next:** Q4 FY26 earnings Sep 2026
+- **ราคา Jul 2:** $132.48 (+22.94% vs buy) | Kill buffer +44.6% ✅ | **Next:** Q4 FY26 earnings Sep 2026
 - **Thesis Status:** ✅ Q3 FY26 beat: EPS $0.82 ✅ Rev $372.5M ✅ ARR ~$1.23B ✅ $500M buyback ✅
 
 ### PLTR — Palantir Technologies Inc.
 - **Sector:** Technology / AI Enterprise Software
 - **Moat:** Switching Cost — Ontology data model ที่ฝังลึก 3-5 ปีต่อ implementation
 - **Business:** AI Operating System (AIP) สำหรับ Government + Commercial | NATO alliance partner
-- **ซื้อ Jun 29:** 1 share @ $118.00 | ราคา Jun 29: $117.68 | P&L -0.27% (-$0.32) | Kill $100.30 buffer +14.5% ✅
-- **Thesis Status:** ✅ ใน entry zone $110–$120 ✅ | Q2 earnings Aug 3 = make-or-break | US Commercial <30% → Kill
+- **ซื้อ Jun 29:** 1 share @ $118.00 | ราคา Jul 2: $131.50 | P&L +11.44% (+$13.50) | Kill $100.30 buffer +31.1% ✅
+- **Thesis Status:** ✅ ออกจาก entry zone แล้ว — ราคา +13.7% ใน 2 วัน | Q2 earnings Aug 3 = make-or-break | US Commercial <30% → Kill
 
 ### AVGO — Broadcom Inc.
 - **Sector:** Semiconductors / AI Infrastructure Software
 - **Moat:** Wide — XPU custom chip IP (hyperscalers ล็อก 5-7 ปี/chip cycle) + VMware switching cost
 - **Business:** Custom AI accelerators (XPUs) สำหรับ Google/Meta/Microsoft/Anthropic + VMware enterprise stack
-- **ซื้อ Jun 28–29:** 0.2172321 shares avg $372.21 | ราคา Jun 29: $365.81 | P&L -1.73% (-$1.40) | Kill $316.38 buffer +13.5% ✅
+- **ซื้อ Jun 28–29:** 0.2172321 shares avg $372.21 | ราคา Jul 2: $372.93 | P&L +0.19% (+$0.16) | Kill $316.38 buffer +17.9% ✅
 - **Thesis Status:** ✅ Q2 FY2026: Revenue $22.19B +48% ✅ AI rev $10.8B +143% ✅ FCF 46% ✅ | Q3 guided $29.4B +84% | MS FV $650
 
 ### V — Visa Inc.
 - **Sector:** Financials / Payments
 - **Moat:** Wide — Network effect 4.7B บัตร × 150M merchants ทั่วโลก switching cost สูงมาก
 - **Business:** Payment network ที่ใหญ่ที่สุดในโลก — เก็บ fee จาก transaction ทุกครั้ง ไม่รับ credit risk
-- **ซื้อ Jun 15:** 0.2287306 shares @ $323.00 | ราคา Jun 29: $343.06 | P&L +6.25% (+$4.62) | Kill $274.55 buffer +25.0% ✅
+- **ซื้อ Jun 15:** 0.2287306 shares @ $323.00 | ราคา Jul 2: $355.36 | P&L +10.00% (+$7.39) | Kill $274.55 buffer +29.4% ✅
 - **Thesis Status:** ✅ Intact + Watch UK Dual Risk — GF Value $396.07 (discount ~15.6%) | UK Court of Appeal: pending | Q3 FY2026 earnings Jul 28
 
 ---
@@ -172,6 +186,7 @@
 > Format: `[วันที่] [🟢/🔴/🟡/⚪] [อะไรเปลี่ยน — thesis stronger/weaker/watch/unchanged]`
 
 ### PLTR
+- [2026-07-02] 🟢 ราคา $115.70 → $131.50 (+13.7% ใน 2 วัน) | P&L -1.95% → +11.44% | catalyst ยังไม่ทราบ — เช็ค news ก่อน TP1 $150
 - [2026-06-29] 🟢 ซื้อเข้า Holdings 1 share @ $118.00 | entry zone $110–$120 ✅ | Watchlist → Holdings | Q2 earnings Aug 3 watch
 
 ### AVGO
@@ -179,13 +194,19 @@
 - [2026-06-28] 🟢 ซื้อเข้า Holdings $60 @ $373.29 (0.1604650 shares) | Watchlist → Holdings | Wide Moat + Cheap -44%
 
 ### GWRE
+- [2026-07-02] 🟢 ราคา $120.87 → $132.48 (+9.6% ใน 2 วัน) | P&L +12.16% → +22.94% | Kill buffer ขยายเป็น +44.6%
 - [2026-06-18] 🟡 ซื้อเข้า Holdings 1 share @ $107.76 | Q3 FY26 beat ✅ แต่ CEO+President insider sell พร้อมกัน → watch
 - [2026-06-18] 🟢 Q3 FY26: EPS $0.82 beat ✅ Rev $372.5M ✅ ARR ~$1.23B ✅ $500M buyback ✅
 
 ### SPGI
+- [2026-07-02] 🟢 SPGI $428.87 (+9.54% post spin-off) | MBGL $3.68 (-4.48%) | combined SPGI+MBGL = +8.84% vs original cost
+- [2026-07-01] 🟢 MBGL distributed to SPGI shareholders ✅ — spin-off milestone completed | cost basis adjusted by Dime!
 - [2026-06-26] 🟢 MBGL WI trading เริ่มแล้ว (Jun 26–30) @ ~$25 = spin-off milestone ✅ | ราคา $410.17 +3.80%
 - [2026-06-22] 🟡 MI President Saugata Saha ลาออก Jul 30 — รอ successor ก่อน size up | thesis intact
 - [2026-05] 🟢 AI Credit Memo Builder launch + Cohere partnership ✅ — thesis stronger
+
+### MBGL
+- [2026-07-01] ⚪ รับ MBGL จาก SPGI spin-off | cost allocated $3.85 | ราคาเปิด ~$25.41 | ยังไม่ได้วิเคราะห์ fundamental
 
 ### V
 - [2026-06-15] 🟢 ซื้อเข้า Holdings 0.2287 shares @ $323.00 | Stablecoin $7B annualized ✅ Cross-border +11% ✅
