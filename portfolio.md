@@ -12,7 +12,7 @@
 
 ## Holdings
 
-> อัปเดต Jul 2, 2026 | Total: **$507.87** (≈16,815.62 THB) | 1 USD = 33.11 THB | Unrealized P&L: **+$52.38 (+11.50%)** | 1-Day Change: **+2.98%**
+> อัปเดต Jul 2, 2026 (ราคาปิด) | Total: **~$508.44** | Unrealized P&L: **~+$52.95 (+11.63%)** | ⚠️ AVGO ติดลบ -3.18%
 > 💰 SPCX ขายแล้ว Jun 17 @ $191.38 | Realized gain: **+$20.94 (+12.29%)**
 > 💸 CME ขายแล้ว Jun 23 @ $246.22 | Realized loss: **-$5.29 (-15.14%)**
 > 💸 MDLZ ขายแล้ว Jun 28 @ $60.75 | Realized gain: **+$0.88 (+0.78%)**
@@ -22,14 +22,14 @@
 
 | Ticker | Shares | Buy Price | มูลค่า | P&L % | P&L USD | ราคาปัจจุบัน | Kill Buffer |
 |--------|--------|-----------|--------|--------|---------|--------------|------------|
-| GWRE | 1.0000000 | $107.76 | **$132.48** | **+22.94% ✅** | +$24.72 | $132.48 | Kill $91.60 (+44.6% ✅) |
-| PLTR | 1.0000000 | $118.00 | **$131.50** | **+11.44% ✅** | +$13.50 | $131.50 | Kill $100.30 (+31.1% ✅) |
-| AVGO | 0.2172321 | $372.21 (avg) | **$81.03** | **+0.19% ✅** | +$0.16 | $372.93 | Kill $316.38 (+17.9% ✅) |
-| V | 0.2287306 | $323.00 | **$81.27** | **+10.00% ✅** | +$7.39 | $355.36 | Kill $274.55 (+29.4% ✅) |
-| SPGI | 0.1816941 | $412.79* | **$77.92** | **+9.54% ✅** | +$6.79 | $428.87 | Kill $350.87 (+22.2% ✅) |
-| MBGL | spin-off† | $3.85† | **$3.68** | **-4.48% ⚠️** | -$0.17 | ~$24.30 | — |
+| GWRE | 1.0000000 | $107.76 | **$134.47** | **+24.79% ✅** | +$26.71 | $134.47 | Kill $91.60 (+46.8% ✅) |
+| PLTR | 1.0000000 | $118.00 | **$129.30** | **+9.58% ✅** | +$11.30 | $129.30 | Kill $100.30 (+28.9% ✅) |
+| AVGO | 0.2172321 | $372.21 (avg) | **$78.30** | **-3.18% ⚠️** | -$2.57 | $360.45 | Kill $316.38 (+13.9% ✅) |
+| V | 0.2287306 | $323.00 | **$82.83** | **+12.11% ✅** | +$8.95 | $362.13 | Kill $274.55 (+31.9% ✅) |
+| SPGI | 0.1816941 | $391.47* | **$79.93** | **+12.37% ✅** | +$8.81 | $439.89 | Kill $350.87 (+25.4% ✅) |
+| MBGL | 0.1816941† | $21.19† | **$3.60** | **-6.56% ⚠️** | -$0.25 | $19.80 | — |
 
-> *SPGI cost basis adjusted by Dime! หลัง MBGL spin-off Jul 1 | †MBGL = spin-off จาก SPGI Jul 1, cost allocated จาก SPGI original basis
+> *SPGI cost per share adjusted post MBGL spin-off (original $412.79 → $391.47) | †MBGL = 1:1 ratio จาก SPGI spin-off Jul 1, cost basis = Jul 1 close $21.19/share
 
 ---
 
@@ -168,7 +168,7 @@
 - **Sector:** Semiconductors / AI Infrastructure Software
 - **Moat:** Wide — XPU custom chip IP (hyperscalers ล็อก 5-7 ปี/chip cycle) + VMware switching cost
 - **Business:** Custom AI accelerators (XPUs) สำหรับ Google/Meta/Microsoft/Anthropic + VMware enterprise stack
-- **ซื้อ Jun 28–29:** 0.2172321 shares avg $372.21 | ราคา Jul 2: $372.93 | P&L +0.19% (+$0.16) | Kill $316.38 buffer +17.9% ✅
+- **ซื้อ Jun 28–29:** 0.2172321 shares avg $372.21 | ราคา Jul 2 ปิด: $360.45 | P&L **-3.18%** (-$2.57) ⚠️ | Kill $316.38 buffer +13.9% ✅
 - **Thesis Status:** ✅ Q2 FY2026: Revenue $22.19B +48% ✅ AI rev $10.8B +143% ✅ FCF 46% ✅ | Q3 guided $29.4B +84% | MS FV $650
 
 ### V — Visa Inc.
@@ -190,6 +190,7 @@
 - [2026-06-29] 🟢 ซื้อเข้า Holdings 1 share @ $118.00 | entry zone $110–$120 ✅ | Watchlist → Holdings | Q2 earnings Aug 3 watch
 
 ### AVGO
+- [2026-07-02] ⚠️ ราคาปิด $360.45 (-4.58% วันเดียว) → P&L vs buy -3.18% | Post-earnings selloff: software $7.18B miss ($7.32B est) + Q3 AI guide $16B ต่ำกว่า $17.2B est | AI growth Q3 $16B = +207% YoY ✅ Thesis ยังอยู่ | Kill buffer 13.9% ✅ — ยังไม่ action
 - [2026-06-29] 🟢 เพิ่ม $21 @ $369.40 (0.0567671 shares) | avg ลงมา $372.21 | รวม 0.2172321 shares
 - [2026-06-28] 🟢 ซื้อเข้า Holdings $60 @ $373.29 (0.1604650 shares) | Watchlist → Holdings | Wide Moat + Cheap -44%
 
@@ -206,7 +207,8 @@
 - [2026-05] 🟢 AI Credit Memo Builder launch + Cohere partnership ✅ — thesis stronger
 
 ### MBGL
-- [2026-07-01] ⚪ รับ MBGL จาก SPGI spin-off | cost allocated $3.85 | ราคาเปิด ~$25.41 | ยังไม่ได้วิเคราะห์ fundamental
+- [2026-07-02] ⚠️ ราคาปิด $19.80 (-6.56% วันเดียว) | spin-off หลังๆ มักผันผวน — ยัง monitor เฉยๆ | ขนาดเล็ก $3.60 ไม่ต้อง action
+- [2026-07-01] ⚪ รับ MBGL จาก SPGI spin-off | 0.1816941 shares (1:1 ratio) | cost basis = Jul 1 close $21.19/share = $3.85 รวม
 
 ### V
 - [2026-06-15] 🟢 ซื้อเข้า Holdings 0.2287 shares @ $323.00 | Stablecoin $7B annualized ✅ Cross-border +11% ✅
