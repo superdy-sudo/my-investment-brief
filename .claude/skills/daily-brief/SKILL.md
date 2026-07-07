@@ -30,6 +30,9 @@ https://query1.finance.yahoo.com/v8/finance/chart/[TICKER]?interval=1d&range=1d
 ```
 อ่านค่า `meta.regularMarketPrice` จาก JSON = ราคา real-time
 
+**⚠️ ห้ามใช้วันที่จาก WebFetch summary** — AI model เล็กที่สรุป WebFetch แปลง Unix timestamp เป็นวันที่ผิดบ่อยมาก (เจอเคสจริง: ราคาถูกต้อง แต่บอกวันที่เป็น "May 2024" ทั้งที่จริงคือ Jul 2026)
+→ **ใช้วันที่ปัจจุบันของระบบเสมอ** (วันที่รัน brief) ไม่ใช่วันที่จาก JSON/timestamp — ราคาที่ได้คือราคา ณ ตอนรันอยู่แล้ว ไม่ต้องพึ่งวันที่จาก API
+
 ตัวอย่าง fetch ทั้งพอร์ตพร้อมกัน (parallel):
 - GWRE: `https://query1.finance.yahoo.com/v8/finance/chart/GWRE?interval=1d&range=1d`
 - PLTR: `https://query1.finance.yahoo.com/v8/finance/chart/PLTR?interval=1d&range=1d`
