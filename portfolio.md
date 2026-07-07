@@ -143,12 +143,13 @@
 - **ราคา Jul 2:** $428.87 (+9.54% vs adjusted basis) | Kill buffer +22.2% ✅ | **Analyst target avg:** ~$535–563 (Strong Buy)
 - **Thesis Status:** ✅ MBGL spin-off distributed Jul 1 ✅ | AI Credit Memo Builder launch ✅ | Cohere partnership ✅ | **⚠️ MI President Saugata Saha ลาออก Jul 30** ยังไม่มีผู้สืบทอด | Q2 Earnings Aug 4
 
-### MBGL — S&P Global Mobility (Spin-off)
-- **Sector:** Automotive Data & Analytics
-- **Moat:** Data asset (VIN, vehicle history, dealer data)
-- **Business:** Spin-off from SPGI Jul 1, 2026 — automotive data services (formerly IHS Markit Automotive)
-- **ราคา Jul 2:** ~$24.30 (-4.48% vs spin-off cost basis $25.41) | Position: tiny (~$3.68)
-- **Thesis Status:** ⚠️ รับมาจาก spin-off — ยังไม่ได้วิเคราะห์ fully | Position เล็กมาก — monitor เฉยๆ
+### MBGL — Mobility Global Inc. (Spin-off จาก SPGI)
+- **Sector:** Automotive Data & Analytics — CARFAX, automotiveMastermind, Polk Automotive Solutions, Market Scan
+- **Moat:** ⚠️ Narrow (Morningstar) — CARFAX vehicle history data network effect + dealer switching cost
+- **Business:** Spin-off from SPGI Jul 1, 2026 — global leader ด้าน automotive data & analytics
+- **ราคา Jul 7:** $19.27 | Cost basis $21.19/share | P&L -9.15% | Position เล็กมาก ($3.50, 0.67% พอร์ต)
+- **🔴 Brief Jul 7, 2026 — Action: Avoid** — Layer 1 ผ่านหมด (FCF margin 25.7% ✅ Net Debt/EBITDA 2.6x ✅) แต่ **Compounder 2/5** (growth guide เพียง 7.5-10%, ไม่ผ่านเกณฑ์ ≥4/5) → ไม่ใช่สาย compounder ถึงราคาจะถูก (MS FV $32, -40% cheap)
+- **คำแนะนำ:** พิจารณาขายทิ้ง — ไม่มี thesis ระยะยาวรองรับตามระบบ + position เล็กจนไม่คุ้มเสียเวลา track ต่อ | ราย breif เต็ม: `briefs/MBGL-2026-07-07.md`
 
 ### GWRE — Guidewire Software Inc.
 - **Sector:** Enterprise SaaS / P&C Insurance
@@ -208,7 +209,8 @@
 - [2026-05] 🟢 AI Credit Memo Builder launch + Cohere partnership ✅ — thesis stronger
 
 ### MBGL
-- [2026-07-07] ⚠️ ราคาลงต่อเนื่อง $19.80 → $19.27 (-9.15% จาก cost basis สะสม) | spin-off มักผันผวนช่วงแรก 2-4 สัปดาห์ | position เล็กมาก ($3.50) ไม่กระทบพอร์ตรวม — ไม่ต้อง action จนกว่าจะมี fundamental thesis วิเคราะห์
+- [2026-07-07] 🔴 /brief เต็มรูปแบบ — Layer 1 ผ่าน (FCF 25.7% ✅ Debt 2.6x ✅) แต่ Compounder 2/5 (growth 7.5-10% ต่ำเกินไป) → **Avoid** แม้ราคาถูก (-40% MS FV) | แนะนำพิจารณาขาย — ไม่มี thesis compounder รองรับ
+- [2026-07-07] ⚠️ ราคาลงต่อเนื่อง $19.80 → $19.27 (-9.15% จาก cost basis สะสม) | spin-off มักผันผวนช่วงแรก 2-4 สัปดาห์ | position เล็กมาก ($3.50) ไม่กระทบพอร์ตรวม
 - [2026-07-02] ⚠️ ราคาปิด $19.80 (-6.56% วันเดียว) | spin-off หลังๆ มักผันผวน — ยัง monitor เฉยๆ | ขนาดเล็ก $3.60 ไม่ต้อง action
 - [2026-07-01] ⚪ รับ MBGL จาก SPGI spin-off | 0.1816941 shares (1:1 ratio) | cost basis = Jul 1 close $21.19/share = $3.85 รวม
 
