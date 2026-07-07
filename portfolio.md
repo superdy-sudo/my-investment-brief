@@ -12,7 +12,7 @@
 
 ## Holdings
 
-> อัปเดต Jul 2, 2026 (ราคาปิด) | Total: **~$508.44** | Unrealized P&L: **~+$52.95 (+11.63%)** | ⚠️ AVGO ติดลบ -3.18%
+> อัปเดต Jul 7, 2026 | Total: **$517.82** (≈17,202.11 THB) | 1 USD = 33.22 THB | Unrealized P&L: **+$62.33 (+13.68%)** | 1-Day Change: **+1.85%**
 > 💰 SPCX ขายแล้ว Jun 17 @ $191.38 | Realized gain: **+$20.94 (+12.29%)**
 > 💸 CME ขายแล้ว Jun 23 @ $246.22 | Realized loss: **-$5.29 (-15.14%)**
 > 💸 MDLZ ขายแล้ว Jun 28 @ $60.75 | Realized gain: **+$0.88 (+0.78%)**
@@ -22,12 +22,12 @@
 
 | Ticker | Shares | Buy Price | มูลค่า | P&L % | P&L USD | ราคาปัจจุบัน | Kill Buffer |
 |--------|--------|-----------|--------|--------|---------|--------------|------------|
-| GWRE | 1.0000000 | $107.76 | **$134.47** | **+24.79% ✅** | +$26.71 | $134.47 | Kill $91.60 (+46.8% ✅) |
-| PLTR | 1.0000000 | $118.00 | **$129.30** | **+9.58% ✅** | +$11.30 | $129.30 | Kill $100.30 (+28.9% ✅) |
-| AVGO | 0.2172321 | $372.21 (avg) | **$78.30** | **-3.18% ⚠️** | -$2.57 | $360.45 | Kill $316.38 (+13.9% ✅) |
-| V | 0.2287306 | $323.00 | **$82.83** | **+12.11% ✅** | +$8.95 | $362.13 | Kill $274.55 (+31.9% ✅) |
-| SPGI | 0.1816941 | $391.47* | **$79.93** | **+12.37% ✅** | +$8.81 | $439.89 | Kill $350.87 (+25.4% ✅) |
-| MBGL | 0.1816941† | $21.19† | **$3.60** | **-6.56% ⚠️** | -$0.25 | $19.80 | — |
+| GWRE | 1.0000000 | $107.76 | **$137.59** | **+27.68% ✅** | +$29.83 | $137.59 | Kill $91.60 (+33.4% ✅) |
+| PLTR | 1.0000000 | $118.00 | **$132.54** | **+12.32% ✅** | +$14.54 | $132.54 | Kill $100.30 (+24.3% ✅) |
+| AVGO | 0.2172321 | $372.21 (avg) | **$81.22** | **+0.44% ✅** | +$0.35 | $373.86 | Kill $316.38 (+15.4% ✅) |
+| V | 0.2287306 | $323.00 | **$81.71** | **+10.60% ✅** | +$7.83 | $357.24 | Kill $274.55 (+23.2% ✅) |
+| SPGI | 0.1816941 | $391.47* | **$81.26** | **+14.24% ✅** | +$10.13 | $447.24 | Kill $350.87 (+21.5% ✅) |
+| MBGL | 0.1816941† | $21.19† | **$3.50** | **-9.15% ⚠️** | -$0.35 | $19.27 | — |
 
 > *SPGI cost per share adjusted post MBGL spin-off (original $412.79 → $391.47) | †MBGL = 1:1 ratio จาก SPGI spin-off Jul 1, cost basis = Jul 1 close $21.19/share
 
@@ -168,7 +168,7 @@
 - **Sector:** Semiconductors / AI Infrastructure Software
 - **Moat:** Wide — XPU custom chip IP (hyperscalers ล็อก 5-7 ปี/chip cycle) + VMware switching cost
 - **Business:** Custom AI accelerators (XPUs) สำหรับ Google/Meta/Microsoft/Anthropic + VMware enterprise stack
-- **ซื้อ Jun 28–29:** 0.2172321 shares avg $372.21 | ราคา Jul 2 ปิด: $360.45 | P&L **-3.18%** (-$2.57) ⚠️ | Kill $316.38 buffer +13.9% ✅
+- **ซื้อ Jun 28–29:** 0.2172321 shares avg $372.21 | ราคา Jul 7: $373.86 | P&L **+0.44%** (+$0.35) ✅ | Kill $316.38 buffer +15.4% ✅ | ฟื้นจาก post-earnings dip $360.45 (Jul 2)
 - **Thesis Status:** ✅ Q2 FY2026: Revenue $22.19B +48% ✅ AI rev $10.8B +143% ✅ FCF 46% ✅ | Q3 guided $29.4B +84% | MS FV $650
 
 ### V — Visa Inc.
@@ -190,6 +190,7 @@
 - [2026-06-29] 🟢 ซื้อเข้า Holdings 1 share @ $118.00 | entry zone $110–$120 ✅ | Watchlist → Holdings | Q2 earnings Aug 3 watch
 
 ### AVGO
+- [2026-07-07] 🟢 ฟื้นตัวเต็มที่ $360.45 → $373.86 (+3.7% ใน 3 วัน) | P&L กลับมาเป็นบวก +0.44% | selloff Jul 2 เป็น overreaction ระยะสั้น thesis ไม่เปลี่ยน
 - [2026-07-02] ⚠️ ราคาปิด $360.45 (-4.58% วันเดียว) → P&L vs buy -3.18% | Post-earnings selloff: software $7.18B miss ($7.32B est) + Q3 AI guide $16B ต่ำกว่า $17.2B est | AI growth Q3 $16B = +207% YoY ✅ Thesis ยังอยู่ | Kill buffer 13.9% ✅ — ยังไม่ action
 - [2026-06-29] 🟢 เพิ่ม $21 @ $369.40 (0.0567671 shares) | avg ลงมา $372.21 | รวม 0.2172321 shares
 - [2026-06-28] 🟢 ซื้อเข้า Holdings $60 @ $373.29 (0.1604650 shares) | Watchlist → Holdings | Wide Moat + Cheap -44%
@@ -207,6 +208,7 @@
 - [2026-05] 🟢 AI Credit Memo Builder launch + Cohere partnership ✅ — thesis stronger
 
 ### MBGL
+- [2026-07-07] ⚠️ ราคาลงต่อเนื่อง $19.80 → $19.27 (-9.15% จาก cost basis สะสม) | spin-off มักผันผวนช่วงแรก 2-4 สัปดาห์ | position เล็กมาก ($3.50) ไม่กระทบพอร์ตรวม — ไม่ต้อง action จนกว่าจะมี fundamental thesis วิเคราะห์
 - [2026-07-02] ⚠️ ราคาปิด $19.80 (-6.56% วันเดียว) | spin-off หลังๆ มักผันผวน — ยัง monitor เฉยๆ | ขนาดเล็ก $3.60 ไม่ต้อง action
 - [2026-07-01] ⚪ รับ MBGL จาก SPGI spin-off | 0.1816941 shares (1:1 ratio) | cost basis = Jul 1 close $21.19/share = $3.85 รวม
 
