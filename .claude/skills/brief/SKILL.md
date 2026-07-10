@@ -38,6 +38,21 @@ git commit -m "brief [TICKER1] [TICKER2] ... [DATE]: [สรุปสั้น]"
 
 ---
 
+## ⚠️ สถานะข้อมูล — 4 แบบ (ห้ามใช้ ❌ พร่ำเพรื่อ)
+
+ทุกข้อใน Layer 1 และ Layer 2 ต้องให้สถานะ 1 ใน 4 แบบนี้เท่านั้น — **ห้ามใช้ ❌ แทน "หาไม่เจอ"**
+
+| สัญลักษณ์ | ความหมาย | เมื่อไหร่ใช้ |
+|---|---|---|
+| ✅ | ผ่าน (Confirmed Pass) | มีข้อมูลยืนยันชัดเจนว่าเข้าเกณฑ์ |
+| ❌ | ไม่ผ่าน (Confirmed Fail) | มีข้อมูลยืนยันชัดเจนว่า**ไม่**เข้าเกณฑ์ — ต้องมีตัวเลข/หลักฐานอ้างอิงเสมอ |
+| ⚠️ | Data Conflict | หาข้อมูลมาได้ แต่แหล่งขัดแย้งกันเอง (เช่น ราคาจาก 2 แหล่งไม่ตรงกัน, ADR ratio ไม่ชัด) |
+| ⚪ | Unknown | ค้นแล้วแต่หาไม่เจอเลย ไม่มีข้อมูลจะยืนยันหรือปฏิเสธ |
+
+**ทำไมต้องแยก:** "หาไม่เจอ" กับ "รู้ว่าไม่ผ่าน" คือคนละเรื่องกัน ระบบเดิมที่บังคับ ✅/❌ แบบ binary ทำให้ default ไปทาง ❌ เวลาไม่มีข้อมูล ซึ่งเอนเอียงไปทาง Avoid โดยไม่มีหลักฐานจริงรองรับ — ไม่เป็นมืออาชีพ
+
+---
+
 ## ขั้นตอน (ต่อ 1 ticker)
 
 ### 1. ดึงข้อมูล (WebSearch พร้อมกัน)
@@ -55,7 +70,8 @@ git commit -m "brief [TICKER1] [TICKER2] ... [DATE]: [สรุปสั้น]"
 
 ### 2. วิเคราะห์ 4 Layer
 
-**Layer 1: Quality Filter** — ถ้าไม่ผ่านข้อใดข้อหนึ่ง หยุดทันที
+**Layer 1: Quality Filter** — หยุดทันทีเฉพาะเมื่อมีข้อที่เป็น **❌ (Confirmed Fail)** อย่างน้อย 1 ข้อ
+ถ้ามีแต่ ⚠️/⚪ (ไม่มี ❌ เลย) → **ผ่านต่อไป Layer 2 ได้** แต่ต้องติด flag "ข้อมูลไม่ครบ" ไว้ในสรุปด้วย
 
 ```
 ☐ Wide Moat (brand / switching cost / network effect / cost advantage)
@@ -65,7 +81,7 @@ git commit -m "brief [TICKER1] [TICKER2] ... [DATE]: [สรุปสั้น]"
 ☐ Interest coverage > 5x
 ```
 
-**Layer 2: Compounder Filter** (≥4/5 ผ่าน)
+**Layer 2: Compounder Filter** — นับคะแนนจาก ✅ เท่านั้น (ต้อง ≥4/5 ถึงผ่าน), ❌ นับเป็นลบ, ส่วน ⚠️/⚪ **ไม่นับทั้งสองฝั่ง** แต่ต้องแสดงในผลลัพธ์เสมอ
 
 ```
 1. โตได้อีก 5–10 ปีไหม?
@@ -74,6 +90,8 @@ git commit -m "brief [TICKER1] [TICKER2] ... [DATE]: [สรุปสั้น]"
 4. Competitive advantage ยั่งยืนอีก 10 ปี?
 5. ถ้าย้อนมาจากปี 2036 จะเสียดายที่ไม่ซื้อปี 2026?
 ```
+
+**กฎ caveat:** ถ้ามีข้อที่เป็น ⚠️ หรือ ⚪ รวมกัน ≥2 ข้อ จาก 5 ข้อ → Layer 4 Action **ห้ามฟันธงมั่นใจเต็มร้อย** ต้องเขียนกำกับว่า "Provisional — ข้อมูลไม่ครบ X ข้อ" และแนะนำว่าต้องหาข้อมูลอะไรเพิ่มถึงจะฟันธงได้ชัดกว่านี้
 
 **Layer 3: Valuation**
 
@@ -86,11 +104,13 @@ git commit -m "brief [TICKER1] [TICKER2] ... [DATE]: [สรุปสั้น]"
 **Layer 4: Action**
 
 ```
-🟢 Buy              — Cheap + ≥4/5 + thesis แข็ง
-🔵 Starter Position — Fair + ≥4/5 + catalyst ชัด
+🟢 Buy              — Cheap + ≥4/5 confirmed + thesis แข็ง
+🔵 Starter Position — Fair + ≥4/5 confirmed + catalyst ชัด
 🟠 Watch            — ดีแต่ราคา Expensive หรือรอ catalyst
-🔴 Avoid            — ไม่ผ่าน Quality หรือ <4/5
+🔴 Avoid            — มีข้อ ❌ confirmed ใน Layer 1 หรือ <4/5 confirmed ใน Layer 2
 ```
+
+**ถ้ามี ⚠️/⚪ รวม ≥2 ข้อ** (จาก Layer 1+2 ทั้งหมด) → เติม "(Provisional)" ต่อท้าย Action เสมอ ไม่ว่าผลจะออกมาเป็นอะไร — สื่อว่ายังฟันธงได้ไม่เต็มที่เพราะข้อมูลไม่ครบ
 
 ---
 
@@ -112,27 +132,27 @@ git commit -m "brief [TICKER1] [TICKER2] ... [DATE]: [สรุปสั้น]"
 💰 ราคา: $XXX [+X%] | Fair Value: $XXX | [🟢 Cheap / 🟡 Fair / 🔴 Expensive]
 
 ━━ Layer 1: Quality ━━
-Wide Moat    ✅/❌ — [เหตุผล]
-Management   ✅/❌ — [เหตุผล]
-Balance Sheet✅/❌ — Net Debt/EBITDA [X.Xx]
-FCF          ✅/❌ — [margin หรือ trend]
-Debt         ✅/❌ — Interest coverage [Xx]
-→ ผล: ✅ ผ่าน / ❌ หยุด ([ข้อที่ fail])
+Wide Moat    ✅/❌/⚠️/⚪ — [เหตุผล + แหล่งอ้างอิงถ้า ❌]
+Management   ✅/❌/⚠️/⚪ — [เหตุผล]
+Balance Sheet✅/❌/⚠️/⚪ — Net Debt/EBITDA [X.Xx หรือ "ไม่พบข้อมูล"]
+FCF          ✅/❌/⚠️/⚪ — [margin หรือ trend หรือ "ไม่พบข้อมูล"]
+Debt         ✅/❌/⚠️/⚪ — Interest coverage [Xx หรือ "ไม่พบข้อมูล"]
+→ ผล: ✅ ผ่าน / ❌ หยุด (ระบุข้อที่ ❌ จริง) — ถ้ามีแต่ ⚠️/⚪ ให้เขียน "ผ่านแบบมีข้อมูลไม่ครบ"
 
-━━ Layer 2: Compounder (X/5) ━━
-1. โตได้ 5–10 ปี?    ✅/❌ — [เหตุผล]
-2. TAM ≥5x mkt cap?  ✅/❌ — [ตัวเลข]
-3. Growth ≥15%?      ✅/❌ — [ตัวเลข]
-4. Moat ยั่งยืน?     ✅/❌ — [เหตุผล]
-5. เสียดายไม่ซื้อ?   ✅/❌ — [เหตุผล]
+━━ Layer 2: Compounder (X/5 confirmed, Y ⚠️/⚪) ━━
+1. โตได้ 5–10 ปี?    ✅/❌/⚠️/⚪ — [เหตุผล]
+2. TAM ≥5x mkt cap?  ✅/❌/⚠️/⚪ — [ตัวเลข หรือ "ไม่พบข้อมูล"]
+3. Growth ≥15%?      ✅/❌/⚠️/⚪ — [ตัวเลข]
+4. Moat ยั่งยืน?     ✅/❌/⚠️/⚪ — [เหตุผล]
+5. เสียดายไม่ซื้อ?   ✅/❌/⚠️/⚪ — [เหตุผล]
 
 ━━ Layer 3: Valuation ━━
 Fair Value: $XXX (แหล่ง: Morningstar/GuruFocus)
 ส่วนต่าง: [−X% Cheap / +X% Expensive]
 
 ━━ Layer 4: Action ━━
-[🟢 Buy / 🔵 Starter / 🟠 Watch / 🔴 Avoid]
-[เหตุผล ≤2 บรรทัด]
+[🟢 Buy / 🔵 Starter / 🟠 Watch / 🔴 Avoid] [+ "(Provisional — ข้อมูลไม่ครบ)" ถ้ามี ⚠️/⚪ ≥2 ข้อ]
+[เหตุผล ≤2 บรรทัด — ถ้า Provisional ระบุด้วยว่าต้องหาข้อมูลอะไรเพิ่มถึงจะฟันธงชัดกว่านี้]
 
 ━━ Bull / Bear ━━
 🐂 Bull: [ข้อ 1] / [ข้อ 2] / [ข้อ 3]
@@ -233,7 +253,10 @@ git push origin main
 
 ## กฎ
 
-- ไม่ผ่าน Layer 1 → หยุดทันที แสดงแค่ข้อที่ fail
+- **ห้ามใช้ ❌ แทน "หาข้อมูลไม่เจอ" เด็ดขาด** — ❌ ต้องมีหลักฐาน/ตัวเลขยืนยันเสมอว่าไม่ผ่านเกณฑ์จริง ถ้าแค่หาไม่เจอ → ⚪ Unknown ถ้าแหล่งขัดแย้งกัน → ⚠️ Data Conflict
+- Layer 1 หยุดทันทีเฉพาะเมื่อมี ❌ confirmed อย่างน้อย 1 ข้อ (ไม่ใช่ ⚠️/⚪)
+- Layer 2 นับคะแนนจาก ✅ เท่านั้น — ⚠️/⚪ ไม่นับทั้งขึ้นทั้งลง แต่ต้องแสดงในผลลัพธ์
+- ถ้า ⚠️/⚪ รวม ≥2 ข้อ → ติด "(Provisional)" ที่ Action เสมอ + บอกว่าต้องหาอะไรเพิ่ม
 - Thesis killer ต้องเป็น 1 ข้อเท่านั้น
 - Bull/Bear แต่ละข้อต้องเป็น observable fact ไม่ใช่ wish
-- Action ต้องชัด 1 คำ — ห้ามกำกวม
+- Action ต้องชัด 1 คำ (+ Provisional tag ถ้าเข้าเงื่อนไข) — ห้ามกำกวม
