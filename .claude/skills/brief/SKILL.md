@@ -51,6 +51,18 @@ git commit -m "brief [TICKER1] [TICKER2] ... [DATE]: [สรุปสั้น]"
 
 **ทำไมต้องแยก:** "หาไม่เจอ" กับ "รู้ว่าไม่ผ่าน" คือคนละเรื่องกัน ระบบเดิมที่บังคับ ✅/❌ แบบ binary ทำให้ default ไปทาง ❌ เวลาไม่มีข้อมูล ซึ่งเอนเอียงไปทาง Avoid โดยไม่มีหลักฐานจริงรองรับ — ไม่เป็นมืออาชีพ
 
+### ⚠️ ห้ามสรุป ⚪ Unknown จาก WebSearch แค่รอบเดียว
+
+**เจอเคสจริง (MU brief):** ค้นด้วย query กว้าง "Micron Morningstar fair value moat rating" → สรุปผิดว่า "ไม่พบ/อยู่หลัง paywall" ทั้งที่ข้อมูลมีอยู่จริงในบทความฟรี — พอค้นซ้ำด้วย query เจาะจง "Micron Morningstar 'No Moat' fair value" กลับเจอทันที
+
+**สาเหตุ:** (1) query กว้างเกินไปมักโดนหน้า paywall แทนบทความข่าวฟรีที่มีคำตอบฝังอยู่ (2) AI ที่สรุปผล WebSearch พลาดข้อมูลที่ฝังอยู่ในประโยคแบบ adjective (เช่น "no-moat Micron") ไม่ใช่ field ชัดๆ
+
+**กฎบังคับ:** สำหรับข้อมูลสำคัญที่จะกลายเป็น Layer 1/Layer 3 (**Moat rating, Fair Value**) — ถ้า WebSearch รอบแรกบอกว่า "ไม่พบ" หรือ "อยู่หลัง paywall" **ห้ามสรุปเป็น ⚪ Unknown ทันที** ต้องค้นซ้ำอย่างน้อย 1 ครั้งด้วย query ที่เจาะจงกว่าเดิมก่อนเสมอ เช่น:
+- รอบแรก (กว้าง): `"[TICKER] Morningstar fair value moat rating"`
+- รอบสอง (เจาะจง) ถ้ารอบแรกไม่เจอ: `"[TICKER] Morningstar 'No Moat' OR 'Wide Moat' OR 'Narrow Moat' fair value"` หรือ `"[TICKER] Morningstar economic moat rating [ปีปัจจุบัน]"`
+
+ถ้าค้นซ้ำแล้วยังไม่เจอจริงๆ ถึงจะสรุป ⚪ Unknown ได้
+
 ---
 
 ## ขั้นตอน (ต่อ 1 ticker)
@@ -61,7 +73,7 @@ git commit -m "brief [TICKER1] [TICKER2] ... [DATE]: [สรุปสั้น]"
 ☐ ราคาปัจจุบัน + % change
 ☐ Revenue, EPS, FCF margin (2 ปีล่าสุด)
 ☐ Net Debt/EBITDA + Interest coverage
-☐ Morningstar Fair Value หรือ GuruFocus GF Value
+☐ Morningstar Fair Value + Moat Rating หรือ GuruFocus GF Value — ค้นซ้ำด้วย query เจาะจงถ้ารอบแรกไม่เจอ (ดูกฎด้านบน)
 ☐ ข่าว/catalyst สำคัญ 30 วันล่าสุด
 ☐ Short interest + insider activity (ถ้ามี)
 ```
