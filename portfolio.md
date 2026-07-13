@@ -6,19 +6,19 @@
 
 ## Top Pick (วันนี้)
 
-> 🏆 **Jun 30, 2026** — **ไม่มี Top Pick** | Watchlist ทุกตัวเกิน entry zone | ZETA ใกล้สุด ($19.73 vs zone $16-18, เกิน ~9.6%)
+> 🏆 **Jul 13, 2026** — **ไม่มี Top Pick** | Watchlist ทุกตัวเกิน entry zone | ZETA ใกล้สุด ($21.49 vs zone $16-18, เกิน ~19.4%)
 
 ---
 
-## 🔮 Today's Prediction (2026-07-11)
-- AVGO: คาดว่าราคาจะ cool off เล็กน้อย (<1% move) เพราะ Apple deal catalyst ถูก priced-in ไปมากแล้วเมื่อวาน
-- VIX: คาดว่าจะอยู่ต่ำกว่า 17 ต่อเนื่อง เพราะไม่มี catalyst ลบใหม่เข้ามา
+## 🔮 Today's Prediction (2026-07-13)
+- VIX: คาดว่าจะย่อกลับมาต่ำกว่า 16 ภายในสัปดาห์นี้ เพราะการกระโดด +9.65% วันนี้ไม่มี catalyst ลบชัดเจนรองรับ น่าจะเป็น mean-reversion จาก base ต่ำช่วงปลายสัปดาห์ก่อน
+- PLTR: คาดว่าจะฟื้นตัวกลับมาใกล้ $130 ภายในไม่กี่วัน เพราะการร่วง -1.74% วันนี้ไม่มีข่าวลบเฉพาะตัวประกอบ น่าจะเป็น profit-taking ต่อเนื่องหลัง rally
 
 ---
 
 ## Holdings
 
-> อัปเดต Jul 11, 2026 | Total: **$511.24** | Unrealized P&L: **+$59.60 (+13.20%)** (คำนวณจากราคา WebFetch — ยังไม่มี THB conversion จาก Dime! รอบนี้)
+> อัปเดต Jul 13, 2026 | Total: **$507.85** | Unrealized P&L: **+$56.23 (+12.45%)** (คำนวณจากราคา WebFetch — ยังไม่มี THB conversion จาก Dime! รอบนี้)
 > 💰 SPCX ขายแล้ว Jun 17 @ $191.38 | Realized gain: **+$20.94 (+12.29%)**
 > 💸 CME ขายแล้ว Jun 23 @ $246.22 | Realized loss: **-$5.29 (-15.14%)**
 > 💸 MDLZ ขายแล้ว Jun 28 @ $60.75 | Realized gain: **+$0.88 (+0.78%)**
@@ -29,11 +29,11 @@
 
 | Ticker | Shares | Buy Price | มูลค่า | P&L % | P&L USD | ราคาปัจจุบัน | Kill Buffer |
 |--------|--------|-----------|--------|--------|---------|--------------|------------|
-| GWRE | 1.0000000 | $107.76 | **$137.94** | **+28.01% ✅** | +$30.18 | $137.94 | Kill $91.60 (+33.6% ✅) 🟢 +2.14% วันนี้ |
-| PLTR | 1.0000000 | $118.00 | **$127.82** | **+8.32% ✅** | +$9.82 | $127.82 | Kill $100.30 (+21.5% ✅) 🔴 -0.95% วันนี้ |
-| AVGO | 0.2172321 | $372.21 (avg) | **$86.73** | **+7.27% ✅** | +$5.87 | $399.25 | Kill $316.38 (+20.8% ✅) 🔴 -0.46% วันนี้ |
-| V | 0.2287306 | $323.00 | **$79.55** | **+7.67% ✅** | +$5.67 | $347.78 | Kill $274.55 (+21.1% ✅) 🔴 -0.12% วันนี้ |
-| SPGI | 0.1816941 | $391.47* | **$79.20** | **+11.35% ✅** | +$8.07 | $435.90 | Kill $350.87 (+19.5% ✅) 🟢 +0.68% วันนี้ |
+| GWRE | 1.0000000 | $107.76 | **$136.13** | **+26.33% ✅** | +$28.37 | $136.13 | Kill $91.60 (+32.7% ✅) 🟢 +0.80% วันนี้ |
+| PLTR | 1.0000000 | $118.00 | **$126.79** | **+7.45% ✅** | +$8.79 | $126.79 | Kill $100.30 (+20.9% ✅) 🔴 -1.74% วันนี้ |
+| AVGO | 0.2172321 | $372.21 (avg) | **$86.89** | **+7.46% ✅** | +$6.03 | $399.97 | Kill $316.38 (+20.9% ✅) 🔴 -0.28% วันนี้ |
+| V | 0.2287306 | $323.00 | **$79.82** | **+8.05% ✅** | +$5.94 | $348.97 | Kill $274.55 (+21.3% ✅) 🟢 +0.22% วันนี้ |
+| SPGI | 0.1816941 | $391.47* | **$78.22** | **+9.97% ✅** | +$7.09 | $430.50 | Kill $350.87 (+18.5% ✅) 🔴 -0.57% วันนี้ |
 
 > *SPGI cost per share adjusted post MBGL spin-off (original $412.79 → $391.47)
 
@@ -146,7 +146,7 @@
 - **Sector:** Financials / Data & Analytics
 - **Moat:** Intangible asset — แบรนด์ credit rating + data monopoly ที่กฎหมายบังคับใช้
 - **Business:** Credit ratings (Moody's competitor), Market Intelligence, Platts (commodity data)
-- **ราคา Jul 10:** $432.96 (+10.60% vs adjusted basis) | Kill buffer +19.0% ✅ | **Analyst target avg:** ~$535–563 (Strong Buy)
+- **ราคา Jul 13:** $430.50 (+9.97% vs adjusted basis) | Kill buffer +18.5% ✅ | **Analyst target avg:** ~$535–563 (Strong Buy)
 - **Thesis Status:** ✅ MBGL spin-off distributed Jul 1 ✅ | AI Credit Memo Builder launch ✅ | Cohere partnership ✅ | **⚠️ MI President Saugata Saha ลาออก Jul 30** ยังไม่มีผู้สืบทอด | Q2 Earnings Aug 4
 
 ### MBGL — Mobility Global Inc. (Spin-off จาก SPGI)
@@ -161,28 +161,28 @@
 - **Sector:** Enterprise SaaS / P&C Insurance
 - **Moat:** Switching cost — P&C insurers ลงทุน 5-7 ปีใน implementation
 - **Business:** Cloud platform สำหรับ P&C insurance carriers (underwriting, billing, claims)
-- **ราคา Jul 10:** $135.05 (+25.33% vs buy) | Kill buffer +32.2% ✅ | **Next:** Q4 FY26 earnings Sep 2026
+- **ราคา Jul 13:** $136.13 (+26.33% vs buy) | Kill buffer +32.7% ✅ | **Next:** Q4 FY26 earnings Sep 2026
 - **Thesis Status:** ✅ Q3 FY26 beat: EPS $0.82 ✅ Rev $372.5M ✅ ARR ~$1.23B ✅ $500M buyback ✅
 
 ### PLTR — Palantir Technologies Inc.
 - **Sector:** Technology / AI Enterprise Software
 - **Moat:** Switching Cost — Ontology data model ที่ฝังลึก 3-5 ปีต่อ implementation
 - **Business:** AI Operating System (AIP) สำหรับ Government + Commercial | NATO alliance partner
-- **ซื้อ Jun 29:** 1 share @ $118.00 | ราคา Jul 10: $129.04 | P&L +9.36% (+$11.04) | Kill $100.30 buffer +22.3% ✅ | 🔴 -2.40% วันนี้ (ไม่พบข่าวชัดเจน — น่าจะ profit-taking หลัง rally)
+- **ซื้อ Jun 29:** 1 share @ $118.00 | ราคา Jul 13: $126.79 | P&L +7.45% (+$8.79) | Kill $100.30 buffer +20.9% ✅ | 🔴 -1.74% วันนี้ (ไม่พบข่าวชัดเจน — น่าจะ profit-taking ต่อเนื่องหลัง rally)
 - **Thesis Status:** ✅ ยังอยู่เหนือ entry zone | Q2 earnings Aug 3 = make-or-break | US Commercial <30% → Kill
 
 ### AVGO — Broadcom Inc.
 - **Sector:** Semiconductors / AI Infrastructure Software
 - **Moat:** Wide — XPU custom chip IP (hyperscalers ล็อก 5-7 ปี/chip cycle) + VMware switching cost
 - **Business:** Custom AI accelerators (XPUs) สำหรับ Google/Meta/Microsoft/Anthropic + VMware enterprise stack
-- **ซื้อ Jun 28–29:** 0.2172321 shares avg $372.21 | ราคา Jul 10: $401.11 | P&L **+7.76%** (+$6.28) ✅ | Kill $316.38 buffer +21.1% ✅ | 🟢 +3.20% วันนี้ — Apple ประกาศดีล custom chip $30B+ (15B+ ชิ้น, US-made) กับ Broadcom
+- **ซื้อ Jun 28–29:** 0.2172321 shares avg $372.21 | ราคา Jul 13: $399.97 | P&L **+7.46%** (+$6.03) ✅ | Kill $316.38 buffer +20.9% ✅ | 🔴 -0.28% วันนี้ — cool off เล็กน้อยหลัง Apple deal rally เมื่อสัปดาห์ก่อน
 - **Thesis Status:** ✅ Q2 FY2026: Revenue $22.19B +48% ✅ AI rev $10.8B +143% ✅ FCF 46% ✅ | Q3 guided $29.4B +84% | MS FV $650 | Apple deal Jul 10 = custom silicon demand ขยายตัวต่อเนื่อง
 
 ### V — Visa Inc.
 - **Sector:** Financials / Payments
 - **Moat:** Wide — Network effect 4.7B บัตร × 150M merchants ทั่วโลก switching cost สูงมาก
 - **Business:** Payment network ที่ใหญ่ที่สุดในโลก — เก็บ fee จาก transaction ทุกครั้ง ไม่รับ credit risk
-- **ซื้อ Jun 15:** 0.2287306 shares @ $323.00 | ราคา Jul 10: $348.20 | P&L +7.80% (+$5.76) | Kill $274.55 buffer +21.1% ✅
+- **ซื้อ Jun 15:** 0.2287306 shares @ $323.00 | ราคา Jul 13: $348.97 | P&L +8.05% (+$5.94) | Kill $274.55 buffer +21.3% ✅
 - **Thesis Status:** ✅ Intact + Watch UK Dual Risk — GF Value $396.07 (discount ~15.6%) | UK Court of Appeal: pending | Q3 FY2026 earnings Jul 28
 
 ---
@@ -245,11 +245,11 @@
 
 | Ticker | เหตุผลที่สนใจ | ราคาที่จะซื้อ | ราคาล่าสุด |
 |--------|--------------|--------------|-----------|
-| SYK | Wide Moat + GF discount ~22% — Leading candidate | รอ pull back < $295 | $327.11 (Jul 10) — เกิน zone |
-| COST | Membership model + pricing power — Q3 beat (+11.6% YoY) | ยังไม่กำหนด | $912.97 (Jul 10) |
-| AMZN | AWS moat +28% YoY + Anthropic partnership | รอ $225-230 (GF zone) | $247.04 (Jul 10) — เกิน zone |
-| LLY | GLP-1 + ADA data strong Jun 8 | รอ pullback | $1,216.95 (Jul 10) |
-| SNPS | EDA duopoly + Q2 FY26 beat + Elliott on Board ✅ | รอ Design IP Q3 FY26 | $443.37 (Jul 10) |
-| NVDA | AI compute monopoly | รอ $182-190 (DCF zone) ⚠️ value trap warning | $202.78 (Jul 10) — เกิน zone |
-| **RMBS** | Patent Portfolio (DDR5+HBM IP) — thesis ผิดถ้า DOJ formal indictment — /brief Jun 26 | รอ DOJ clarity ก่อน | **$114.13** (Jul 10) ⚠️ DOJ antitrust risk |
-| **ZETA** | Narrow Moat Data Assets — thesis ผิดถ้า Palantir deal ไม่ deliver $100M+ — /brief Jun 26 | $16–$18 (GF Value $17.34) | **$21.92** (Jul 10) ⚠️ เกิน zone มากขึ้น |
+| SYK | Wide Moat + GF discount ~22% — Leading candidate | รอ pull back < $295 | $329.78 (Jul 13) — เกิน zone |
+| COST | Membership model + pricing power — Q3 beat (+11.6% YoY) | ยังไม่กำหนด | $912.97 (Jul 10, ยังไม่ fetch รอบนี้) |
+| AMZN | AWS moat +28% YoY + Anthropic partnership | รอ $225-230 (GF zone) | $245.34 (Jul 13) — เกิน zone |
+| LLY | GLP-1 + ADA data strong Jun 8 | รอ pullback | $1,216.95 (Jul 10, ยังไม่ fetch รอบนี้) |
+| SNPS | EDA duopoly + Q2 FY26 beat + Elliott on Board ✅ | รอ Design IP Q3 FY26 | $443.37 (Jul 10, ยังไม่ fetch รอบนี้) |
+| NVDA | AI compute monopoly | รอ $182-190 (DCF zone) ⚠️ value trap warning | $210.96 (Jul 13) — เกิน zone |
+| **RMBS** | Patent Portfolio (DDR5+HBM IP) — thesis ผิดถ้า DOJ formal indictment — /brief Jun 26 | รอ DOJ clarity ก่อน | **$112.10** (Jul 13) ⚠️ DOJ antitrust risk |
+| **ZETA** | Narrow Moat Data Assets — thesis ผิดถ้า Palantir deal ไม่ deliver $100M+ — /brief Jun 26 | $16–$18 (GF Value $17.34) | **$21.49** (Jul 13) ⚠️ เกิน zone มากขึ้น |
