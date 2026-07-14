@@ -5,9 +5,12 @@
 ## 🎯 Investment Style (เปลี่ยน 2026-07-14): Aggressive Growth — Target 100%/ปี
 > เปลี่ยนจาก quality-compounder กระจาย 5 ตัวน้ำหนักใกล้เคียงกัน → **aggressive growth แบบ concentrate** ในตัวที่ conviction สูงสุด
 > - Growth bar (ใช้คัดหุ้นใหม่ผ่าน `/brief`): revenue growth ≥30% YoY หรือ accelerating (ยกจาก ≥15%)
-> - Kill zone คงเดิม -15% จากราคาซื้อ — risk control ไม่เปลี่ยน
-> - Re-evaluate ทุกไตรมาส แทน 2-5 ปีแบบเดิม
-> - ⚠️ Holdings เดิม (V, SPGI) เป็นสาย defensive/quality — thesis ยังไม่พัง ไม่ได้ trigger ให้ขาย แต่ growth ไม่ตรง style ใหม่แล้ว → ให้พิจารณาตอนมี TP/kill/earnings แทนที่จะ hold ระยะยาวต่อแบบเดิม (การขาย/ปรับพอร์ตจริงต้องให้ผู้ใช้สั่งเอง)
+> - ⚠️ Holdings เดิม (V) เป็นสาย defensive/quality — thesis ยังไม่พัง ไม่ได้ trigger ให้ขาย แต่ growth ไม่ตรง style ใหม่แล้ว → ให้พิจารณาตอนมี TP/kill/earnings แทนที่จะ hold ระยะยาวต่อแบบเดิม (การขาย/ปรับพอร์ตจริงต้องให้ผู้ใช้สั่งเอง)
+
+**2026-07-15 Recalibrate Kill/TP ให้ตรง aggressive growth style (เดิมเป็นค่าตกค้างจากยุค quality-compounder เป้า 15-20%/ปี):**
+> - **Kill zone widen -15% → -20%** สำหรับตัว growth แท้ (GWRE/PLTR/AVGO) — เหตุผล: หุ้น growth ผันผวนกว่า defensive เดิมมาก (AVGO เคยร่วง -3.98% ในวันเดียวจาก noise ไม่ใช่ thesis พัง) -15% แบบเดิมเสี่ยง whipsaw ออกจาก position ที่ thesis ยังดีอยู่ตอน correction ปกติ | **V ไม่ปรับ** (คง -15% เดิม เพราะเป็น legacy defensive holding ที่กำลังจะพิจารณาขายผ่าน style-mismatch อยู่แล้ว ไม่ใช่ตัวที่จะ compound ต่อ)
+> - **TP1/TP2 เปลี่ยนวิธีคิดจาก "valuation-anchored" → "return-target-anchored"** สำหรับ GWRE/PLTR/AVGO: TP1 (trim 30%) = **+50%** จากราคาซื้อ, TP2 (ขายส่วนใหญ่) = **+100%** จากราคาซื้อ — ให้ตรงกับเป้า 100%/ปี แทนที่จะ anchor กับ fair value เดิมที่ทำให้ trim เร็วเกินไป (เช่น GWRE TP1 เดิม +7% จากราคาปัจจุบัน — แคบเกินไปมาก) | **V ไม่ปรับ** (คง TP เดิม)
+> - ถ้าราคาแตะ fair value/analyst target (MS FV เดิม) ก่อนถึง TP ใหม่ — ยังใช้เป็นจุดพิจารณา trim เพิ่มได้ ไม่ต้องรอ TP เป๊ะ แต่ TP1/TP2 ใหม่คือเพดานเป้าหมายหลัก
 
 ---
 
@@ -37,10 +40,10 @@
 
 | Ticker | Shares | Buy Price | มูลค่า | P&L % | P&L USD | ราคาปัจจุบัน | Kill Buffer |
 |--------|--------|-----------|--------|--------|---------|--------------|------------|
-| GWRE | 1.0000000 | $107.76 | **$140.31** | **+30.21% ✅** | +$32.55 | $140.31 | Kill $91.60 (+34.7% ✅) 🟢 +3.07% วันนี้ |
-| PLTR | 1.0000000 | $118.00 | **$130.04** | **+10.20% ✅** | +$12.04 | $130.04 | Kill $100.30 (+22.9% ✅) 🟢 +2.56% วันนี้ |
-| AVGO | 0.2172321 | $372.21 (avg) | **$83.43** | **+3.18% ✅** | +$2.57 | $384.05 | Kill $316.38 (+17.6% ✅) 🔴 -3.98% วันนี้ |
-| V | 0.2287306 | $323.00 | **$81.83** | **+10.76% ✅** | +$7.96 | $357.75 | Kill $274.55 (+23.3% ✅) 🟢 +2.51% วันนี้ |
+| GWRE | 1.0000000 | $107.76 | **$140.31** | **+30.21% ✅** | +$32.55 | $140.31 | Kill $86.21 (+62.7% ✅, -20%) 🟢 +3.07% วันนี้ |
+| PLTR | 1.0000000 | $118.00 | **$130.04** | **+10.20% ✅** | +$12.04 | $130.04 | Kill $94.40 (+37.8% ✅, -20%) 🟢 +2.56% วันนี้ |
+| AVGO | 0.2172321 | $372.21 (avg) | **$83.43** | **+3.18% ✅** | +$2.57 | $384.05 | Kill $297.77 (+29.0% ✅, -20%) 🔴 -3.98% วันนี้ |
+| V | 0.2287306 | $323.00 | **$81.83** | **+10.76% ✅** | +$7.96 | $357.75 | Kill $274.55 (+23.3% ✅, -15% เดิม) 🟢 +2.51% วันนี้ |
 | ~~SPGI~~ | ~~0.1816941~~ | ~~$391.47*~~ | ✅ **ขายแล้ว Jul 14** @ $435.934 | Realized +$8.08 (+11.35%) | — | — | — |
 
 > *SPGI cost per share adjusted post MBGL spin-off (original $412.79 → $391.47)
@@ -62,11 +65,11 @@
 
 > daily-brief เช็คทุกวันว่าราคาถึง TP ไหมแล้วแจ้ง alert | TP = Take Profit (ขาย/trim บางส่วน)
 
-| Ticker | TP1 — Trim 30% | TP2 — Sell All | Time Horizon | Re-evaluate เมื่อ |
+| Ticker | TP1 — Trim 30% | TP2 — Sell ส่วนใหญ่ | Time Horizon | Re-evaluate เมื่อ |
 |--------|----------------|----------------|--------------|-------------------|
-| GWRE | **$150** (+39%) | **$180** (+67%) | ถึง Q4 FY26 earnings | Q4 FY26 earnings Sep 2026 |
-| PLTR | **$150** (+27%) | **$180** (+53%) | 2–3 ปี | Q2 earnings Aug 3, 2026 |
-| AVGO | **$500** (+37%) | **$600** (+61%) | 3–5 ปี | Q3 FY2026 earnings Aug/Sep 2026 |
+| GWRE | **$161.64** (+50%) | **$215.52** (+100%) | ถึง Q4 FY26 earnings | Q4 FY26 earnings Sep 2026 |
+| PLTR | **$177.00** (+50%) | **$236.00** (+100%) | 2–3 ปี | Q2 earnings Aug 3, 2026 |
+| AVGO | **$558.32** (+50%) | **$744.42** (+100%) | 3–5 ปี | Q3 FY2026 earnings Aug/Sep 2026 |
 | V | **$390** (+14%) | **$430** (+25%) | 2–3 ปี | Q3 earnings Jul 28 + UK Court |
 | ~~SPGI~~ | ~~$520~~ | ~~$580~~ | ✅ **ขายแล้ว Jul 14, 2026** @ $435.934 | P&L +$8.08 (+11.35%) realized |
 | ~~MDLZ~~ | ~~$72~~ | ~~$80~~ | ✅ **ขายแล้ว Jun 28** @ $60.75 | P&L +$0.88 (+0.78%) realized |
@@ -81,20 +84,20 @@
 ### รายละเอียดต่อตัว
 
 **GWRE** — Growth / SaaS Transition Play
-- TP1 $150: momentum + ARR growth confirmed, lock กำไรก่อน
-- TP2 $180: fully priced สำหรับ cloud ARR thesis ปัจจุบัน
+- TP1 $161.64 (+50%): return-target ตาม 100%/ปี ambition | MS FV เดิม $150 ผ่านไปแล้วก่อน TP1 ใหม่ ถ้าราคานิ่งที่โซนนั้นนานให้พิจารณา trim บางส่วนได้เลยไม่ต้องรอ TP1 เป๊ะ
+- TP2 $215.52 (+100%): เป้าหลัก — ขายส่วนใหญ่เมื่อถึง
 - ⚠️ ถ้า Q4 FY26 ARR growth < 15% หรือ churn เพิ่ม → ขายทันทีไม่รอ TP
 - 🚨 size เล็ก (1 share) — รอ confirm record quarter ก่อน size up
 
 **PLTR** — Switching Cost / AI OS Play
-- TP1 $150: MS Fair Value = $150 | trim 30% ที่ FV
-- TP2 $180: 53% upside จากราคาซื้อ | เกิน analyst high target
+- TP1 $177.00 (+50%): return-target ตาม 100%/ปี ambition | ผ่าน MS FV เดิม $150 แล้วในทางเดียวกัน
+- TP2 $236.00 (+100%): เป้าหลัก — ขายส่วนใหญ่เมื่อถึง
 - 🎯 Catalyst: Q2 earnings Aug 3 — US Commercial growth + NATO expansion
 - 🚨 ขายถ้า US Commercial <30% YoY ติด 2 ไตรมาส
 
 **AVGO** — AI XPU + VMware / Wide Moat Compounder
-- TP1 $500: midpoint ระหว่าง current และ MS FV $650
-- TP2 $600: ใกล้ MS FV $650 | trim หนัก ยังถือบางส่วน
+- TP1 $558.32 (+50%): return-target ตาม 100%/ปี ambition | เกิน MS FV เดิม $650 ยัง (~14% ต่ำกว่า FV ที่ TP1)
+- TP2 $744.42 (+100%): เป้าหลัก — เกิน MS FV $650 ไปแล้ว (+14.5%) ถือว่าเป็น stretch target รอ fundamental ยืนยันเพิ่มก่อนถือเกิน FV มากๆ
 - 🎯 Catalyst: Q3 FY2026 guidance $29.4B (+84% YoY) = confirm thesis
 - 🚨 ขายถ้า AI semiconductor revenue growth <50% YoY ติด 2 ไตรมาส
 
@@ -118,19 +121,19 @@
 - 🚨 **หลัก:** ARR growth ต่ำกว่า 15% YoY (ปัจจุบัน +19%) — SaaS thesis พัง
 - 🚨 **หลัก:** P&C insurance sector ถดถอย + insurers ยกเลิก contract
 - ⚠️ **เฝ้าระวัง:** Gross margin ต่ำกว่า 70% (กำลัง scale ควรดีขึ้น)
-- ⚠️ **เฝ้าระวัง:** ราคาลง >15% จากราคาซื้อ $107.76 (= ต่ำกว่า $91.60)
+- ⚠️ **เฝ้าระวัง:** ราคาลง >20% จากราคาซื้อ $107.76 (= ต่ำกว่า $86.21) — widen จาก -15% เดิม 2026-07-15 ให้ทนต่อ volatility ของ growth stock มากขึ้น
 
 ### PLTR Kill Conditions
 - 🚨 **หลัก:** US Commercial revenue growth <30% YoY ติด 2 ไตรมาส — AIP adoption ชะลอ
 - 🚨 **หลัก:** NATO/Government contract ขาดต่อหรือลดงบประมาณ AI Defense
 - ⚠️ **เฝ้าระวัง:** Insider selling เพิ่มจาก CEO Alex Karp (ปัจจุบัน rule 10b5-1 routine)
-- ⚠️ **เฝ้าระวัง:** ราคาลง >15% จากราคาซื้อ $118.00 (= ต่ำกว่า $100.30)
+- ⚠️ **เฝ้าระวัง:** ราคาลง >20% จากราคาซื้อ $118.00 (= ต่ำกว่า $94.40) — widen จาก -15% เดิม 2026-07-15
 
 ### AVGO Kill Conditions
 - 🚨 **หลัก:** AI semiconductor revenue growth ต่ำกว่า 50% YoY ติด 2 ไตรมาส
 - 🚨 **หลัก:** Hyperscaler major (Google/Meta/Microsoft) ยกเลิก XPU partnership
 - ⚠️ **เฝ้าระวัง:** Infrastructure software (VMware) segment ต่ำกว่า expectations 2 ไตรมาสติด
-- ⚠️ **เฝ้าระวัง:** ราคาลง >15% จาก avg buy $372.21 (= ต่ำกว่า $316.38)
+- ⚠️ **เฝ้าระวัง:** ราคาลง >20% จาก avg buy $372.21 (= ต่ำกว่า $297.77) — widen จาก -15% เดิม 2026-07-15
 
 ### SPGI Kill Conditions
 > ✅ **ขายแล้ว Jul 14, 2026 @ $435.934** — Realized gain +$8.08 (+11.35%) | ปิด position แล้ว | เหตุผล: fund GWRE/PLTR/AVGO ตาม aggressive growth style (ไม่ใช่ thesis พัง)
