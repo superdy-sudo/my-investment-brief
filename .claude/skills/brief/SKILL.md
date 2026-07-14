@@ -75,11 +75,22 @@ git commit -m "brief [TICKER1] [TICKER2] ... [DATE]: [สรุปสั้น]"
 ☐ Net Debt/EBITDA + Interest coverage
 ☐ Morningstar Fair Value + Moat Rating หรือ GuruFocus GF Value — ค้นซ้ำด้วย query เจาะจงถ้ารอบแรกไม่เจอ (ดูกฎด้านบน)
 ☐ ข่าว/catalyst สำคัญ 30 วันล่าสุด
-☐ Short interest + insider activity (ถ้ามี)
+☐ Short interest + insider activity (ถ้ามี) — ดูกฎ materiality filter ด้านล่างก่อนนำไปใช้ใน Bear Case
 ☐ Guru Holdings — เช็คว่ามีกองทุน quality-investing ชื่อดังถืออยู่ไหม (Fundsmith, Berkshire/Buffett, Terry Smith, Nomad, Baillie Gifford ฯลฯ) + สัดส่วนในพอร์ตเขา + เพิ่ม/ลดสถานะล่าสุด — ใช้ query เช่น `"[TICKER] Fundsmith holding"`, `"[TICKER] 13F Berkshire"`, `"[TICKER] guru stock picks"`
 ```
 
 **วิธีใช้ Guru Holdings ใน Layer 2:** ถ้าพบว่ากองทุน quality-investing ชื่อดังถือ/เพิ่มสถานะ → เป็นหลักฐานสนับสนุนข้อ 4 (Competitive advantage ยั่งยืน) หรือข้อ 1 (โตได้ 5-10 ปี) ได้ — แต่ **ไม่ใช่เหตุผลเดี่ยวพอจะให้ ✅** ต้องมีเหตุผลเชิงธุรกิจประกอบด้วยเสมอ ถ้าหาไม่เจอเลย → ⚪ Unknown (ไม่ใช่ ❌)
+
+### ⚠️ Insider Selling — ต้องผ่าน materiality filter ก่อนนับเป็น Bear Case
+
+Insider selling มีหลายแบบ ไม่ใช่ทุกแบบคือสัญญาณลบ: 10b5-1 plan (ตั้งเวลาล่วงหน้าตามกฎหมาย), tax payment, diversification ส่วนตัว, emergency liquidity — เหล่านี้เป็นเรื่องปกติและไม่ควรให้น้ำหนักเท่ากับการขายที่ผิดปกติ
+
+**ให้น้ำหนักสูง (นับเป็น Bear Case point) เฉพาะเมื่อเข้าเงื่อนไขครบทั้ง 3 ข้อ:**
+1. ผู้บริหารระดับสูงหลายคน (เช่น CEO + CFO) ขายพร้อมกันในช่วงเวลาใกล้กัน
+2. สัดส่วนที่ขายมากเมื่อเทียบกับสัดส่วนถือครองเดิม (ไม่ใช่แค่มูลค่า absolute สูงเพราะราคาหุ้นแพง)
+3. ไม่มีคำอธิบายที่ชัดเจนว่าเป็น routine 10b5-1 / tax / diversification ที่ตั้งไว้ล่วงหน้า
+
+**ถ้าไม่ครบ 3 ข้อ** (เช่น เป็นแค่ 10b5-1 plan ปกติของคนเดียว) → ใส่ไว้เป็นข้อมูลประกอบใน Management (Layer 1) แบบ factual เฉยๆ **ห้ามยกเป็น Bear Case หลัก**
 
 ---
 
@@ -103,7 +114,7 @@ git commit -m "brief [TICKER1] [TICKER2] ... [DATE]: [สรุปสั้น]"
 2. TAM ใหญ่กว่า market cap ≥5x ไหม?
 3. Revenue growth ≥15% YoY หรือ accelerating?
 4. Competitive advantage ยั่งยืนอีก 10 ปี?
-5. ถ้าย้อนมาจากปี 2036 จะเสียดายที่ไม่ซื้อปี 2026?
+5. บริษัทนี้มีโอกาสเป็นผู้นำอุตสาหกรรมต่อเนื่องอีก 10 ปีหรือไม่? (ตอบจาก market share trend, R&D moat, competitive positioning — ไม่ใช่การคาดเดา)
 ```
 
 **กฎ caveat:** ถ้ามีข้อที่เป็น ⚠️ หรือ ⚪ รวมกัน ≥2 ข้อ จาก 5 ข้อ → Layer 4 Action **ห้ามฟันธงมั่นใจเต็มร้อย** ต้องเขียนกำกับว่า "Provisional — ข้อมูลไม่ครบ X ข้อ" และแนะนำว่าต้องหาข้อมูลอะไรเพิ่มถึงจะฟันธงได้ชัดกว่านี้
@@ -115,6 +126,14 @@ git commit -m "brief [TICKER1] [TICKER2] ... [DATE]: [สรุปสั้น]"
 🟡 Fair      — ±20% ของ fair value
 🔴 Expensive — เกิน fair value >20%
 ```
+
+**⚠️ ถ้าแหล่ง Fair Value ขัดแย้งกันมาก (เช่น GuruFocus vs Simply Wall St vs analyst consensus ต่างกัน >30-40%)** — **ห้าม**เลือกตัวเลขจากแหล่งเดียวมาฟันธงเป็น Cheap/Fair/Expensive แบบมั่นใจ ให้สรุปเป็น:
+
+```
+⚠️ Valuation Inconclusive — แหล่งขัดแย้งกัน ($X จาก [แหล่ง A] vs $Y จาก [แหล่ง B])
+```
+
+และให้ Layer 4 Action โน้มเอียงไปทาง Provisional/Watch แทนการฟันธง Buy หรือ Avoid ด้วยเหตุผลด้าน valuation เพียงอย่างเดียว (ยังใช้เหตุผลจาก Layer 1/2 ฟันธงได้ตามปกติ)
 
 **Layer 4: Action**
 
@@ -276,3 +295,5 @@ git push origin main
 - Thesis killer ต้องเป็น 1 ข้อเท่านั้น
 - Bull/Bear แต่ละข้อต้องเป็น observable fact ไม่ใช่ wish
 - Action ต้องชัด 1 คำ (+ Provisional tag ถ้าเข้าเงื่อนไข) — ห้ามกำกวม
+- ถ้า Fair Value จากหลายแหล่งขัดแย้งกันมาก (>30-40%) → Layer 3 ต้องเขียน "Valuation Inconclusive" ห้ามฟันธง % จากแหล่งเดียว
+- Insider selling นับเป็น Bear Case ได้เฉพาะเมื่อผ่าน materiality filter ครบ 3 ข้อ (ผู้บริหารหลายคนขายพร้อมกัน + สัดส่วนมาก + ไม่มีคำอธิบายเป็น routine) — ถ้าไม่ครบให้ใส่แค่ factual note ใน Management ไม่ใช่ Bear Case
