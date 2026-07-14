@@ -81,6 +81,14 @@
 - **TP2** = ขายทั้งหมด — thesis realized หรือ valuation stretch เกินไป
 - **Time deadline** = ถ้าถึงเวลาแล้วราคายังไม่ขยับตาม thesis → re-evaluate ว่าจะถือต่อหรือไม่
 
+**🔧 Dynamic TP Reset (2026-07-15) — เฉพาะ GWRE/PLTR/AVGO (return-target ticker):**
+> ทุกครั้งที่ถึง "Re-evaluate เมื่อ" (earnings checkpoint ต่อตัว) ให้เช็คก่อนอย่างอื่นว่า TP ควรขยับไหม — **ห้ามปล่อย TP ตายตัวตลอดไป** เพราะ +50%/+100% เป็นแค่ตัวเลข return-target ไม่ได้ผูกกับ valuation:
+> 1. **Growth ยัง ≥30% YoY หรือ accelerating** (ผ่านเกณฑ์ปัจจุบัน) → **Reset ฐานใหม่จากราคา ณ วันนั้น**: TP1 ใหม่ = ราคาวันนั้น ×1.5, TP2 ใหม่ = ราคาวันนั้น ×2.0 (ให้ winner ที่ thesis ยังแรงวิ่งต่อได้อีกรอบ ไม่ตัดที่เพดานเดิม)
+> 2. **Growth ชะลอแต่ยังผ่านเกณฑ์** (≥30% แต่ไม่ accelerating) → **คง TP เดิมไว้** ไม่ต้อง reset ขึ้น ไม่ต้องลดลง
+> 3. **Fair Value ใหม่ (Morningstar/GuruFocus) ต่างจาก TP2 ที่คำนวณได้ >15%** → เอามาเป็นข้อมูลอ้างอิงประกอบการตัดสินใจ ไม่ override อัตโนมัติ (ให้ user ตัดสินใจว่าจะยึด FV หรือ return-target)
+> 4. **Growth ต่ำกว่าเกณฑ์จนเข้าข่าย Kill Condition** → ไม่ต้องพิจารณา TP เลย เพราะ Kill Condition มาก่อนอยู่แล้ว
+> - V ไม่ใช้กฎนี้ (TP คงที่เดิม เพราะเป็น legacy defensive ไม่ใช่ return-target ticker)
+
 ### รายละเอียดต่อตัว
 
 **GWRE** — Growth / SaaS Transition Play

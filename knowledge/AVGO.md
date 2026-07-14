@@ -14,6 +14,7 @@
 ## Target & Exit
 - TP1 $558.32 (+50%): return-target ตาม aggressive growth 100%/ปี | ยังต่ำกว่า MS FV เดิม $650 (~14%)
 - TP2 $744.42 (+100%): เป้าหลัก — เกิน MS FV $650 ไปแล้ว (+14.5%) ถือเป็น stretch target รอ fundamental ยืนยันเพิ่ม
+- 🔧 **Dynamic TP Reset ที่ Q3 FY2026 earnings (Aug/Sep 2026):** ถ้า AI semiconductor revenue growth ยัง ≥50% YoY (เกณฑ์เฉพาะของ AVGO) → reset TP1/TP2 จากราคาวันนั้น (×1.5/×2.0) ดู portfolio.md "Dynamic TP Reset"
 - 🎯 Catalyst: Q3 FY2026 guidance $29.4B (+84% YoY) = confirm thesis
 
 ## Thesis Change Log

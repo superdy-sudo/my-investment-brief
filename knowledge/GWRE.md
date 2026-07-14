@@ -14,6 +14,7 @@
 ## Target & Exit
 - TP1 $161.64 (+50%): return-target ตาม aggressive growth 100%/ปี | ผ่าน MS FV เดิม $150 ไปแล้ว
 - TP2 $215.52 (+100%): เป้าหลัก — ขายส่วนใหญ่เมื่อถึง
+- 🔧 **Dynamic TP Reset ที่ Q4 FY26 earnings (Sep 2026):** ถ้า ARR growth ยัง ≥30% YoY หรือ accelerating → reset TP1/TP2 จากราคาวันนั้น (×1.5/×2.0) ดู portfolio.md "Dynamic TP Reset"
 - ⚠️ ถ้า Q4 FY26 ARR growth < 15% หรือ churn เพิ่ม → ขายทันทีไม่รอ TP
 - 🚨 size เล็ก (1 share) — รอ confirm record quarter ก่อน size up
 

@@ -14,6 +14,7 @@
 ## Target & Exit
 - TP1 $177.00 (+50%): return-target ตาม aggressive growth 100%/ปี | ผ่าน MS FV เดิม $150 ไปแล้ว
 - TP2 $236.00 (+100%): เป้าหลัก — ขายส่วนใหญ่เมื่อถึง
+- 🔧 **Dynamic TP Reset ที่ Q2 earnings (Aug 3, 2026):** ถ้า US Commercial growth ยัง ≥30% YoY หรือ accelerating → reset TP1/TP2 จากราคาวันนั้น (×1.5/×2.0) ดู portfolio.md "Dynamic TP Reset"
 - 🎯 Catalyst: Q2 earnings Aug 3 — US Commercial growth + NATO expansion
 
 ## Thesis Change Log
