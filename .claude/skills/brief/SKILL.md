@@ -76,7 +76,10 @@ git commit -m "brief [TICKER1] [TICKER2] ... [DATE]: [สรุปสั้น]"
 ☐ Morningstar Fair Value + Moat Rating หรือ GuruFocus GF Value — ค้นซ้ำด้วย query เจาะจงถ้ารอบแรกไม่เจอ (ดูกฎด้านบน)
 ☐ ข่าว/catalyst สำคัญ 30 วันล่าสุด
 ☐ Short interest + insider activity (ถ้ามี)
+☐ Guru Holdings — เช็คว่ามีกองทุน quality-investing ชื่อดังถืออยู่ไหม (Fundsmith, Berkshire/Buffett, Terry Smith, Nomad, Baillie Gifford ฯลฯ) + สัดส่วนในพอร์ตเขา + เพิ่ม/ลดสถานะล่าสุด — ใช้ query เช่น `"[TICKER] Fundsmith holding"`, `"[TICKER] 13F Berkshire"`, `"[TICKER] guru stock picks"`
 ```
+
+**วิธีใช้ Guru Holdings ใน Layer 2:** ถ้าพบว่ากองทุน quality-investing ชื่อดังถือ/เพิ่มสถานะ → เป็นหลักฐานสนับสนุนข้อ 4 (Competitive advantage ยั่งยืน) หรือข้อ 1 (โตได้ 5-10 ปี) ได้ — แต่ **ไม่ใช่เหตุผลเดี่ยวพอจะให้ ✅** ต้องมีเหตุผลเชิงธุรกิจประกอบด้วยเสมอ ถ้าหาไม่เจอเลย → ⚪ Unknown (ไม่ใช่ ❌)
 
 ---
 
@@ -142,6 +145,7 @@ git commit -m "brief [TICKER1] [TICKER2] ... [DATE]: [สรุปสั้น]"
 [sector tag] | [moat type]
 
 💰 ราคา: $XXX [+X%] | Fair Value: $XXX | [🟢 Cheap / 🟡 Fair / 🔴 Expensive]
+👤 Guru Holdings: [รายชื่อกองทุน + สัดส่วน หรือ "ไม่พบข้อมูล"]
 
 ━━ Layer 1: Quality ━━
 Wide Moat    ✅/❌/⚠️/⚪ — [เหตุผล + แหล่งอ้างอิงถ้า ❌]
