@@ -11,14 +11,14 @@
 ---
 
 ## 🔮 Today's Prediction (2026-07-13)
-- VIX: คาดว่าจะย่อกลับมาต่ำกว่า 16 ภายในสัปดาห์นี้ เพราะการกระโดด +9.65% วันนี้ไม่มี catalyst ลบชัดเจนรองรับ น่าจะเป็น mean-reversion จาก base ต่ำช่วงปลายสัปดาห์ก่อน
-- PLTR: คาดว่าจะฟื้นตัวกลับมาใกล้ $130 ภายในไม่กี่วัน เพราะการร่วง -1.74% วันนี้ไม่มีข่าวลบเฉพาะตัวประกอบ น่าจะเป็น profit-taking ต่อเนื่องหลัง rally
+- VIX: คาดว่าจะย่อกลับมาต่ำกว่า 16 ภายในสัปดาห์นี้ เพราะการกระโดด +9.65% วันนี้ไม่มี catalyst ลบชัดเจนรองรับ น่าจะเป็น mean-reversion จาก base ต่ำช่วงปลายสัปดาห์ก่อน → ❌ ปิด **+14.17% ที่ $17.16** (พุ่งต่อ ไม่ย่อ) — catalyst ใหม่เกิดขึ้นจริง: US ประกาศ blockade เรือ Iran ผ่าน Strait of Hormuz อีกครั้ง ทำให้ตลาดกลัวความเสี่ยง geopolitical เพิ่ม
+- PLTR: คาดว่าจะฟื้นตัวกลับมาใกล้ $130 ภายในไม่กี่วัน เพราะการร่วง -1.74% วันนี้ไม่มีข่าวลบเฉพาะตัวประกอบ น่าจะเป็น profit-taking ต่อเนื่องหลัง rally → ✅ ปิด **$130.04 (+2.56%)** ตรงเป้าที่คาดเป๊ะภายใน 1 วัน
 
 ---
 
 ## Holdings
 
-> อัปเดต Jul 13, 2026 | Total: **$507.85** | Unrealized P&L: **+$56.23 (+12.45%)** (คำนวณจากราคา WebFetch — ยังไม่มี THB conversion จาก Dime! รอบนี้)
+> อัปเดต Jul 14, 2026 | Total: **$515.16** | Unrealized P&L: **+$63.53 (+14.07%)** (คำนวณจากราคา WebFetch — ยังไม่มี THB conversion จาก Dime! รอบนี้)
 > 💰 SPCX ขายแล้ว Jun 17 @ $191.38 | Realized gain: **+$20.94 (+12.29%)**
 > 💸 CME ขายแล้ว Jun 23 @ $246.22 | Realized loss: **-$5.29 (-15.14%)**
 > 💸 MDLZ ขายแล้ว Jun 28 @ $60.75 | Realized gain: **+$0.88 (+0.78%)**
@@ -29,11 +29,11 @@
 
 | Ticker | Shares | Buy Price | มูลค่า | P&L % | P&L USD | ราคาปัจจุบัน | Kill Buffer |
 |--------|--------|-----------|--------|--------|---------|--------------|------------|
-| GWRE | 1.0000000 | $107.76 | **$136.13** | **+26.33% ✅** | +$28.37 | $136.13 | Kill $91.60 (+32.7% ✅) 🟢 +0.80% วันนี้ |
-| PLTR | 1.0000000 | $118.00 | **$126.79** | **+7.45% ✅** | +$8.79 | $126.79 | Kill $100.30 (+20.9% ✅) 🔴 -1.74% วันนี้ |
-| AVGO | 0.2172321 | $372.21 (avg) | **$86.89** | **+7.46% ✅** | +$6.03 | $399.97 | Kill $316.38 (+20.9% ✅) 🔴 -0.28% วันนี้ |
-| V | 0.2287306 | $323.00 | **$79.82** | **+8.05% ✅** | +$5.94 | $348.97 | Kill $274.55 (+21.3% ✅) 🟢 +0.22% วันนี้ |
-| SPGI | 0.1816941 | $391.47* | **$78.22** | **+9.97% ✅** | +$7.09 | $430.50 | Kill $350.87 (+18.5% ✅) 🔴 -0.57% วันนี้ |
+| GWRE | 1.0000000 | $107.76 | **$140.31** | **+30.21% ✅** | +$32.55 | $140.31 | Kill $91.60 (+34.7% ✅) 🟢 +3.07% วันนี้ |
+| PLTR | 1.0000000 | $118.00 | **$130.04** | **+10.20% ✅** | +$12.04 | $130.04 | Kill $100.30 (+22.9% ✅) 🟢 +2.56% วันนี้ |
+| AVGO | 0.2172321 | $372.21 (avg) | **$83.43** | **+3.18% ✅** | +$2.57 | $384.05 | Kill $316.38 (+17.6% ✅) 🔴 -3.98% วันนี้ |
+| V | 0.2287306 | $323.00 | **$81.83** | **+10.76% ✅** | +$7.96 | $357.75 | Kill $274.55 (+23.3% ✅) 🟢 +2.51% วันนี้ |
+| SPGI | 0.1816941 | $391.47* | **$79.55** | **+11.84% ✅** | +$8.43 | $437.84 | Kill $350.87 (+19.9% ✅) 🟢 +1.70% วันนี้ |
 
 > *SPGI cost per share adjusted post MBGL spin-off (original $412.79 → $391.47)
 
@@ -146,7 +146,7 @@
 - **Sector:** Financials / Data & Analytics
 - **Moat:** Intangible asset — แบรนด์ credit rating + data monopoly ที่กฎหมายบังคับใช้
 - **Business:** Credit ratings (Moody's competitor), Market Intelligence, Platts (commodity data)
-- **ราคา Jul 13:** $430.50 (+9.97% vs adjusted basis) | Kill buffer +18.5% ✅ | **Analyst target avg:** ~$535–563 (Strong Buy)
+- **ราคา Jul 14:** $437.84 (+11.84% vs adjusted basis) | Kill buffer +19.9% ✅ | **Analyst target avg:** ~$535–563 (Strong Buy)
 - **Thesis Status:** ✅ MBGL spin-off distributed Jul 1 ✅ | AI Credit Memo Builder launch ✅ | Cohere partnership ✅ | **⚠️ MI President Saugata Saha ลาออก Jul 30** ยังไม่มีผู้สืบทอด | Q2 Earnings Aug 4
 
 ### MBGL — Mobility Global Inc. (Spin-off จาก SPGI)
@@ -161,28 +161,28 @@
 - **Sector:** Enterprise SaaS / P&C Insurance
 - **Moat:** Switching cost — P&C insurers ลงทุน 5-7 ปีใน implementation
 - **Business:** Cloud platform สำหรับ P&C insurance carriers (underwriting, billing, claims)
-- **ราคา Jul 13:** $136.13 (+26.33% vs buy) | Kill buffer +32.7% ✅ | **Next:** Q4 FY26 earnings Sep 2026
+- **ราคา Jul 14:** $140.31 (+30.21% vs buy) | Kill buffer +34.7% ✅ | **Next:** Q4 FY26 earnings Sep 2026
 - **Thesis Status:** ✅ Q3 FY26 beat: EPS $0.82 ✅ Rev $372.5M ✅ ARR ~$1.23B ✅ $500M buyback ✅
 
 ### PLTR — Palantir Technologies Inc.
 - **Sector:** Technology / AI Enterprise Software
 - **Moat:** Switching Cost — Ontology data model ที่ฝังลึก 3-5 ปีต่อ implementation
 - **Business:** AI Operating System (AIP) สำหรับ Government + Commercial | NATO alliance partner
-- **ซื้อ Jun 29:** 1 share @ $118.00 | ราคา Jul 13: $126.79 | P&L +7.45% (+$8.79) | Kill $100.30 buffer +20.9% ✅ | 🔴 -1.74% วันนี้ (ไม่พบข่าวชัดเจน — น่าจะ profit-taking ต่อเนื่องหลัง rally)
+- **ซื้อ Jun 29:** 1 share @ $118.00 | ราคา Jul 14: $130.04 | P&L +10.20% (+$12.04) | Kill $100.30 buffer +22.9% ✅ | 🟢 +2.56% วันนี้ — ตรงตาม prediction เมื่อวาน (ฟื้นกลับใกล้ $130)
 - **Thesis Status:** ✅ ยังอยู่เหนือ entry zone | Q2 earnings Aug 3 = make-or-break | US Commercial <30% → Kill
 
 ### AVGO — Broadcom Inc.
 - **Sector:** Semiconductors / AI Infrastructure Software
 - **Moat:** Wide — XPU custom chip IP (hyperscalers ล็อก 5-7 ปี/chip cycle) + VMware switching cost
 - **Business:** Custom AI accelerators (XPUs) สำหรับ Google/Meta/Microsoft/Anthropic + VMware enterprise stack
-- **ซื้อ Jun 28–29:** 0.2172321 shares avg $372.21 | ราคา Jul 13: $399.97 | P&L **+7.46%** (+$6.03) ✅ | Kill $316.38 buffer +20.9% ✅ | 🔴 -0.28% วันนี้ — cool off เล็กน้อยหลัง Apple deal rally เมื่อสัปดาห์ก่อน
+- **ซื้อ Jun 28–29:** 0.2172321 shares avg $372.21 | ราคา Jul 14: $384.05 | P&L **+3.18%** (+$2.57) ✅ | Kill $316.38 buffer +17.6% ✅ | 🔴 -3.98% วันนี้ — semiconductor sell-off ทั้ง sector (AMD -3%, NVDA -1.7%) จาก US ประกาศ blockade เรือ Iran ผ่าน Strait of Hormuz อีกครั้ง กระทบ supply chain วัตถุดิบ chip (noble gas/bromine) ไม่ใช่ AVGO-specific
 - **Thesis Status:** ✅ Q2 FY2026: Revenue $22.19B +48% ✅ AI rev $10.8B +143% ✅ FCF 46% ✅ | Q3 guided $29.4B +84% | MS FV $650 | Apple deal Jul 10 = custom silicon demand ขยายตัวต่อเนื่อง
 
 ### V — Visa Inc.
 - **Sector:** Financials / Payments
 - **Moat:** Wide — Network effect 4.7B บัตร × 150M merchants ทั่วโลก switching cost สูงมาก
 - **Business:** Payment network ที่ใหญ่ที่สุดในโลก — เก็บ fee จาก transaction ทุกครั้ง ไม่รับ credit risk
-- **ซื้อ Jun 15:** 0.2287306 shares @ $323.00 | ราคา Jul 13: $348.97 | P&L +8.05% (+$5.94) | Kill $274.55 buffer +21.3% ✅
+- **ซื้อ Jun 15:** 0.2287306 shares @ $323.00 | ราคา Jul 14: $357.75 | P&L +10.76% (+$7.96) | Kill $274.55 buffer +23.3% ✅
 - **Thesis Status:** ✅ Intact + Watch UK Dual Risk — GF Value $396.07 (discount ~15.6%) | UK Court of Appeal: pending | Q3 FY2026 earnings Jul 28
 
 ---
@@ -193,10 +193,12 @@
 > Format: `[วันที่] [🟢/🔴/🟡/⚪] [อะไรเปลี่ยน — thesis stronger/weaker/watch/unchanged]`
 
 ### PLTR
+- [2026-07-14] 🟢 ปิด $130.04 (+2.56%) — ตรง prediction เป๊ะ (คาดฟื้นใกล้ $130 ภายในไม่กี่วัน) ตลาดรวมลบ (S&P -0.79%) แต่ PLTR แข็งกว่าตลาด
 - [2026-07-02] 🟢 ราคา $115.70 → $131.50 (+13.7% ใน 2 วัน) | P&L -1.95% → +11.44% | catalyst ยังไม่ทราบ — เช็ค news ก่อน TP1 $150
 - [2026-06-29] 🟢 ซื้อเข้า Holdings 1 share @ $118.00 | entry zone $110–$120 ✅ | Watchlist → Holdings | Q2 earnings Aug 3 watch
 
 ### AVGO
+- [2026-07-14] 🔴 ราคาปิด $384.05 (-3.98% วันเดียว) — semiconductor sector sell-off (AMD -3%, NVDA -1.7%) จาก US ประกาศ blockade เรือ Iran ผ่าน Strait of Hormuz อีกครั้ง กังวล supply chain วัตถุดิบ chip | ไม่ใช่ company-specific | Kill buffer ยังกว้าง +17.6% ✅ thesis ไม่เปลี่ยน
 - [2026-07-10] 🟢 ราคา $388.69 → $401.11 (+3.20% วันเดียว) | Apple ประกาศดีล custom chip $30B+ (15B+ ชิ้น, US-made wireless connectivity chips) กับ Broadcom + ลงทุนขยายโรงงาน Fort Collins $1.5B | thesis stronger — ยืนยัน custom silicon moat กับลูกค้า tier-1 รายใหม่
 - [2026-07-07] 🟢 ฟื้นตัวเต็มที่ $360.45 → $373.86 (+3.7% ใน 3 วัน) | P&L กลับมาเป็นบวก +0.44% | selloff Jul 2 เป็น overreaction ระยะสั้น thesis ไม่เปลี่ยน
 - [2026-07-02] ⚠️ ราคาปิด $360.45 (-4.58% วันเดียว) → P&L vs buy -3.18% | Post-earnings selloff: software $7.18B miss ($7.32B est) + Q3 AI guide $16B ต่ำกว่า $17.2B est | AI growth Q3 $16B = +207% YoY ✅ Thesis ยังอยู่ | Kill buffer 13.9% ✅ — ยังไม่ action
@@ -204,6 +206,7 @@
 - [2026-06-28] 🟢 ซื้อเข้า Holdings $60 @ $373.29 (0.1604650 shares) | Watchlist → Holdings | Wide Moat + Cheap -44%
 
 ### GWRE
+- [2026-07-14] 🟢 ราคาปิด $140.31 (+3.07% วันเดียว) — ไม่พบข่าวเฉพาะตัวชัดเจน (ไม่มี analyst upgrade ใหม่ในรอบสัปดาห์) น่าจะเป็น relative strength/rotation เข้า software defensive ระหว่างที่ semiconductor sector ถูกเทขาย | thesis ไม่เปลี่ยน
 - [2026-07-02] 🟢 ราคา $120.87 → $132.48 (+9.6% ใน 2 วัน) | P&L +12.16% → +22.94% | Kill buffer ขยายเป็น +44.6%
 - [2026-06-18] 🟡 ซื้อเข้า Holdings 1 share @ $107.76 | Q3 FY26 beat ✅ แต่ CEO+President insider sell พร้อมกัน → watch
 - [2026-06-18] 🟢 Q3 FY26: EPS $0.82 beat ✅ Rev $372.5M ✅ ARR ~$1.23B ✅ $500M buyback ✅
