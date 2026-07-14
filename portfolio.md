@@ -2,6 +2,13 @@
 
 > daily-brief จะ update ราคาปัจจุบัน + P&L + thesis status ทุกวันอัตโนมัติ
 
+## 🎯 Investment Style (เปลี่ยน 2026-07-14): Aggressive Growth — Target 100%/ปี
+> เปลี่ยนจาก quality-compounder กระจาย 5 ตัวน้ำหนักใกล้เคียงกัน → **aggressive growth แบบ concentrate** ในตัวที่ conviction สูงสุด
+> - Growth bar (ใช้คัดหุ้นใหม่ผ่าน `/brief`): revenue growth ≥30% YoY หรือ accelerating (ยกจาก ≥15%)
+> - Kill zone คงเดิม -15% จากราคาซื้อ — risk control ไม่เปลี่ยน
+> - Re-evaluate ทุกไตรมาส แทน 2-5 ปีแบบเดิม
+> - ⚠️ Holdings เดิม (V, SPGI) เป็นสาย defensive/quality — thesis ยังไม่พัง ไม่ได้ trigger ให้ขาย แต่ growth ไม่ตรง style ใหม่แล้ว → ให้พิจารณาตอนมี TP/kill/earnings แทนที่จะ hold ระยะยาวต่อแบบเดิม (การขาย/ปรับพอร์ตจริงต้องให้ผู้ใช้สั่งเอง)
+
 ---
 
 ## Top Pick (วันนี้)
@@ -140,107 +147,13 @@
 
 ---
 
-## Stock Info
+## 📚 Knowledge Base (Stock Info + Thesis Change Log ต่อ ticker)
 
-### SPGI — S&P Global Inc.
-- **Sector:** Financials / Data & Analytics
-- **Moat:** Intangible asset — แบรนด์ credit rating + data monopoly ที่กฎหมายบังคับใช้
-- **Business:** Credit ratings (Moody's competitor), Market Intelligence, Platts (commodity data)
-- **ราคา Jul 14:** $437.84 (+11.84% vs adjusted basis) | Kill buffer +19.9% ✅ | **Analyst target avg:** ~$535–563 (Strong Buy)
-- **Thesis Status:** ✅ MBGL spin-off distributed Jul 1 ✅ | AI Credit Memo Builder launch ✅ | Cohere partnership ✅ | **⚠️ MI President Saugata Saha ลาออก Jul 30** ยังไม่มีผู้สืบทอด | Q2 Earnings Aug 4
+> ย้าย Stock Info + Thesis Change Log เต็มไปที่ `knowledge/` แล้ว (2026-07-14) — atomize เพื่อประหยัด token: อ่าน `knowledge/INDEX.md` ก่อนเสมอ (สรุป 1 บรรทัด/ticker) แล้วเปิด `knowledge/[TICKER].md` เฉพาะตัวที่จำเป็น (ราคาเปลี่ยน >3%, มี earnings ใกล้, หรือ user ถามเจาะจง)
+>
+> **เมื่อ thesis เปลี่ยน → เขียน entry ใหม่ใน `knowledge/[TICKER].md` (ไม่ใช่ที่นี่แล้ว)** แล้วอัปเดตบรรทัดสรุปใน `knowledge/INDEX.md`
 
-### MBGL — Mobility Global Inc. (Spin-off จาก SPGI)
-- **Sector:** Automotive Data & Analytics — CARFAX, automotiveMastermind, Polk Automotive Solutions, Market Scan
-- **Moat:** ⚠️ Narrow (Morningstar) — CARFAX vehicle history data network effect + dealer switching cost
-- **Business:** Spin-off from SPGI Jul 1, 2026 — global leader ด้าน automotive data & analytics
-- **ราคา Jul 7:** $19.27 | Cost basis $21.19/share | P&L -9.15% | Position เล็กมาก ($3.50, 0.67% พอร์ต)
-- **🔴 Brief Jul 7, 2026 — Action: Avoid** — Layer 1 ผ่านหมด (FCF margin 25.7% ✅ Net Debt/EBITDA 2.6x ✅) แต่ **Compounder 2/5** (growth guide เพียง 7.5-10%, ไม่ผ่านเกณฑ์ ≥4/5) → ไม่ใช่สาย compounder ถึงราคาจะถูก (MS FV $32, -40% cheap)
-- **คำแนะนำ:** พิจารณาขายทิ้ง — ไม่มี thesis ระยะยาวรองรับตามระบบ + position เล็กจนไม่คุ้มเสียเวลา track ต่อ | ราย breif เต็ม: `briefs/MBGL-2026-07-07.md`
-
-### GWRE — Guidewire Software Inc.
-- **Sector:** Enterprise SaaS / P&C Insurance
-- **Moat:** Switching cost — P&C insurers ลงทุน 5-7 ปีใน implementation
-- **Business:** Cloud platform สำหรับ P&C insurance carriers (underwriting, billing, claims)
-- **ราคา Jul 14:** $140.31 (+30.21% vs buy) | Kill buffer +34.7% ✅ | **Next:** Q4 FY26 earnings Sep 2026
-- **Thesis Status:** ✅ Q3 FY26 beat: EPS $0.82 ✅ Rev $372.5M ✅ ARR ~$1.23B ✅ $500M buyback ✅
-
-### PLTR — Palantir Technologies Inc.
-- **Sector:** Technology / AI Enterprise Software
-- **Moat:** Switching Cost — Ontology data model ที่ฝังลึก 3-5 ปีต่อ implementation
-- **Business:** AI Operating System (AIP) สำหรับ Government + Commercial | NATO alliance partner
-- **ซื้อ Jun 29:** 1 share @ $118.00 | ราคา Jul 14: $130.04 | P&L +10.20% (+$12.04) | Kill $100.30 buffer +22.9% ✅ | 🟢 +2.56% วันนี้ — ตรงตาม prediction เมื่อวาน (ฟื้นกลับใกล้ $130)
-- **Thesis Status:** ✅ ยังอยู่เหนือ entry zone | Q2 earnings Aug 3 = make-or-break | US Commercial <30% → Kill
-
-### AVGO — Broadcom Inc.
-- **Sector:** Semiconductors / AI Infrastructure Software
-- **Moat:** Wide — XPU custom chip IP (hyperscalers ล็อก 5-7 ปี/chip cycle) + VMware switching cost
-- **Business:** Custom AI accelerators (XPUs) สำหรับ Google/Meta/Microsoft/Anthropic + VMware enterprise stack
-- **ซื้อ Jun 28–29:** 0.2172321 shares avg $372.21 | ราคา Jul 14: $384.05 | P&L **+3.18%** (+$2.57) ✅ | Kill $316.38 buffer +17.6% ✅ | 🔴 -3.98% วันนี้ — semiconductor sell-off ทั้ง sector (AMD -3%, NVDA -1.7%) จาก US ประกาศ blockade เรือ Iran ผ่าน Strait of Hormuz อีกครั้ง กระทบ supply chain วัตถุดิบ chip (noble gas/bromine) ไม่ใช่ AVGO-specific
-- **Thesis Status:** ✅ Q2 FY2026: Revenue $22.19B +48% ✅ AI rev $10.8B +143% ✅ FCF 46% ✅ | Q3 guided $29.4B +84% | MS FV $650 | Apple deal Jul 10 = custom silicon demand ขยายตัวต่อเนื่อง
-
-### V — Visa Inc.
-- **Sector:** Financials / Payments
-- **Moat:** Wide — Network effect 4.7B บัตร × 150M merchants ทั่วโลก switching cost สูงมาก
-- **Business:** Payment network ที่ใหญ่ที่สุดในโลก — เก็บ fee จาก transaction ทุกครั้ง ไม่รับ credit risk
-- **ซื้อ Jun 15:** 0.2287306 shares @ $323.00 | ราคา Jul 14: $357.75 | P&L +10.76% (+$7.96) | Kill $274.55 buffer +23.3% ✅
-- **Thesis Status:** ✅ Intact + Watch UK Dual Risk — GF Value $396.07 (discount ~15.6%) | UK Court of Appeal: pending | Q3 FY2026 earnings Jul 28
-
----
-
-## Thesis Change Log
-
-> "Git สำหรับ Thesis" — บันทึกทุกครั้งที่ thesis เปลี่ยน daily-brief จะ prepend entry ใหม่ลงใน holding ที่เปลี่ยน
-> Format: `[วันที่] [🟢/🔴/🟡/⚪] [อะไรเปลี่ยน — thesis stronger/weaker/watch/unchanged]`
-
-### PLTR
-- [2026-07-14] 🟢 ปิด $130.04 (+2.56%) — ตรง prediction เป๊ะ (คาดฟื้นใกล้ $130 ภายในไม่กี่วัน) ตลาดรวมลบ (S&P -0.79%) แต่ PLTR แข็งกว่าตลาด
-- [2026-07-02] 🟢 ราคา $115.70 → $131.50 (+13.7% ใน 2 วัน) | P&L -1.95% → +11.44% | catalyst ยังไม่ทราบ — เช็ค news ก่อน TP1 $150
-- [2026-06-29] 🟢 ซื้อเข้า Holdings 1 share @ $118.00 | entry zone $110–$120 ✅ | Watchlist → Holdings | Q2 earnings Aug 3 watch
-
-### AVGO
-- [2026-07-14] 🔴 ราคาปิด $384.05 (-3.98% วันเดียว) — semiconductor sector sell-off (AMD -3%, NVDA -1.7%) จาก US ประกาศ blockade เรือ Iran ผ่าน Strait of Hormuz อีกครั้ง กังวล supply chain วัตถุดิบ chip | ไม่ใช่ company-specific | Kill buffer ยังกว้าง +17.6% ✅ thesis ไม่เปลี่ยน
-- [2026-07-10] 🟢 ราคา $388.69 → $401.11 (+3.20% วันเดียว) | Apple ประกาศดีล custom chip $30B+ (15B+ ชิ้น, US-made wireless connectivity chips) กับ Broadcom + ลงทุนขยายโรงงาน Fort Collins $1.5B | thesis stronger — ยืนยัน custom silicon moat กับลูกค้า tier-1 รายใหม่
-- [2026-07-07] 🟢 ฟื้นตัวเต็มที่ $360.45 → $373.86 (+3.7% ใน 3 วัน) | P&L กลับมาเป็นบวก +0.44% | selloff Jul 2 เป็น overreaction ระยะสั้น thesis ไม่เปลี่ยน
-- [2026-07-02] ⚠️ ราคาปิด $360.45 (-4.58% วันเดียว) → P&L vs buy -3.18% | Post-earnings selloff: software $7.18B miss ($7.32B est) + Q3 AI guide $16B ต่ำกว่า $17.2B est | AI growth Q3 $16B = +207% YoY ✅ Thesis ยังอยู่ | Kill buffer 13.9% ✅ — ยังไม่ action
-- [2026-06-29] 🟢 เพิ่ม $21 @ $369.40 (0.0567671 shares) | avg ลงมา $372.21 | รวม 0.2172321 shares
-- [2026-06-28] 🟢 ซื้อเข้า Holdings $60 @ $373.29 (0.1604650 shares) | Watchlist → Holdings | Wide Moat + Cheap -44%
-
-### GWRE
-- [2026-07-14] 🟢 ราคาปิด $140.31 (+3.07% วันเดียว) — ไม่พบข่าวเฉพาะตัวชัดเจน (ไม่มี analyst upgrade ใหม่ในรอบสัปดาห์) น่าจะเป็น relative strength/rotation เข้า software defensive ระหว่างที่ semiconductor sector ถูกเทขาย | thesis ไม่เปลี่ยน
-- [2026-07-02] 🟢 ราคา $120.87 → $132.48 (+9.6% ใน 2 วัน) | P&L +12.16% → +22.94% | Kill buffer ขยายเป็น +44.6%
-- [2026-06-18] 🟡 ซื้อเข้า Holdings 1 share @ $107.76 | Q3 FY26 beat ✅ แต่ CEO+President insider sell พร้อมกัน → watch
-- [2026-06-18] 🟢 Q3 FY26: EPS $0.82 beat ✅ Rev $372.5M ✅ ARR ~$1.23B ✅ $500M buyback ✅
-
-### SPGI
-- [2026-07-02] 🟢 SPGI $428.87 (+9.54% post spin-off) | MBGL $3.68 (-4.48%) | combined SPGI+MBGL = +8.84% vs original cost
-- [2026-07-01] 🟢 MBGL distributed to SPGI shareholders ✅ — spin-off milestone completed | cost basis adjusted by Dime!
-- [2026-06-26] 🟢 MBGL WI trading เริ่มแล้ว (Jun 26–30) @ ~$25 = spin-off milestone ✅ | ราคา $410.17 +3.80%
-- [2026-06-22] 🟡 MI President Saugata Saha ลาออก Jul 30 — รอ successor ก่อน size up | thesis intact
-- [2026-05] 🟢 AI Credit Memo Builder launch + Cohere partnership ✅ — thesis stronger
-
-### MBGL (SOLD)
-- [2026-07-09] 🔴 ขายแล้ว — Realized loss ประมาณ -$0.19 (-5%) | ปิด position ตาม /brief Jul 7 (Avoid, Compounder 2/5) | ถูกต้องตามระบบ — ไม่ผ่าน compounder filter
-- [2026-07-07] 🔴 /brief เต็มรูปแบบ — Layer 1 ผ่าน (FCF 25.7% ✅ Debt 2.6x ✅) แต่ Compounder 2/5 (growth 7.5-10% ต่ำเกินไป) → **Avoid** แม้ราคาถูก (-40% MS FV) | แนะนำพิจารณาขาย — ไม่มี thesis compounder รองรับ
-- [2026-07-07] ⚠️ ราคาลงต่อเนื่อง $19.80 → $19.27 (-9.15% จาก cost basis สะสม) | spin-off มักผันผวนช่วงแรก 2-4 สัปดาห์ | position เล็กมาก ($3.50) ไม่กระทบพอร์ตรวม
-- [2026-07-02] ⚠️ ราคาปิด $19.80 (-6.56% วันเดียว) | spin-off หลังๆ มักผันผวน — ยัง monitor เฉยๆ | ขนาดเล็ก $3.60 ไม่ต้อง action
-- [2026-07-01] ⚪ รับ MBGL จาก SPGI spin-off | 0.1816941 shares (1:1 ratio) | cost basis = Jul 1 close $21.19/share = $3.85 รวม
-
-### V
-- [2026-06-15] 🟢 ซื้อเข้า Holdings 0.2287 shares @ $323.00 | Stablecoin $7B annualized ✅ Cross-border +11% ✅
-
-### MDLZ (SOLD)
-- [2026-06-28] 🔴 ขายแล้ว @ $60.75 | Realized gain +$0.88 (+0.78%) | ปิด position
-- [2026-06-22] 🟢 ซื้อเข้า Holdings 1.8745 shares @ $60.19 | entry zone $55-63 ✅
-
-### MA (SOLD)
-- [2026-06-28] 🔴 ขายแล้ว @ $502.91 | Realized gain +$0.42 (+1.69%) | ปิด position
-- [2026-06-10] 🟢 Agent Pay for Machines (AP4M) launch ✅ + BVNK acquisition รอ approval
-- [2026-05] ⚪ FCA ยัง evidence-gathering ไม่มี SoO ✅ | thesis unchanged
-
-### CME (SOLD)
-- [2026-06-23] 🔴 ขายแล้ว @ $246.22 | Realized loss -$5.29 (-15.14%) | Kill triggered + CFTC lawsuit
-- [2026-06-22] 🔴 Kill condition confirmed — Close $246.38 < $246.51 + CFTC lawsuit ใหม่
-- [2026-06-18] 🔴 CEO Terry Duffy ประกาศลาออก Mar 2027 → intraday kill breach buffer 2.4%
+👉 [knowledge/INDEX.md](knowledge/INDEX.md)
 
 ---
 

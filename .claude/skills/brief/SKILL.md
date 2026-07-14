@@ -5,6 +5,14 @@ description: วิเคราะห์หุ้นรายตัว — 4 Lay
 
 # /brief [TICKER ...] — Company Brief
 
+## 🎯 Investment Style: Aggressive Growth — Target 100%/ปี
+
+พอร์ตนี้เปลี่ยนจาก quality-compounder แบบกระจายเป็น **aggressive growth แบบ concentrate** (2026-07-14) — เป้าหมายผลตอบแทน 100%/ปี ไม่ใช่ 15-20%/ปีแบบเดิม
+- **Growth bar สูงขึ้น:** เกณฑ์ revenue growth ใน Layer 2 ยกจาก ≥15% → **≥30% YoY หรือ accelerating**
+- **Concentration:** โน้มเอียงไปทาง position ใหญ่ในตัวที่ conviction สูงสุด แทนกระจายเท่าๆ กันหลายตัว — ตัวที่ growth ช้ากว่า (defensive/quality แบบเดิม) ควร flag ว่าอาจไม่ match style ใหม่แล้ว แม้ thesis จะยังไม่พัง
+- **Kill zone คงเดิมที่ -15%** จากราคาซื้อ — ไม่ขยายแม้หุ้น growth จะผันผวนกว่า (risk control ยังเข้มเท่าเดิม)
+- Time horizon สั้นลง — re-evaluate ทุกไตรมาส ไม่รอ 2-5 ปีแบบเดิม
+
 ## Input
 ```
 /brief AAPL              ← ตัวเดียว
@@ -69,6 +77,12 @@ git commit -m "brief [TICKER1] [TICKER2] ... [DATE]: [สรุปสั้น]"
 
 ### 1. ดึงข้อมูล (WebSearch พร้อมกัน)
 
+**ราคา — ใช้ Bash curl ไม่ใช่ WebSearch:** (WebFetch tool โดน Yahoo block บ่อย แต่ curl ตรงจาก Bash ใช้ได้ปกติ)
+```bash
+curl -s -A "Mozilla/5.0 (Windows NT 10.0; Win64; x64)" "https://query1.finance.yahoo.com/v8/finance/chart/[TICKER]?interval=1d&range=1d"
+```
+Parse `meta.regularMarketPrice` — ถ้า curl fail ค่อย fallback ไป WebSearch (ราคาอาจ lag)
+
 ```
 ☐ ราคาปัจจุบัน + % change
 ☐ Revenue, EPS, FCF margin (2 ปีล่าสุด)
@@ -100,7 +114,15 @@ Insider selling มีหลายแบบ ไม่ใช่ทุกแบบ
 ถ้ามีแต่ ⚠️/⚪ (ไม่มี ❌ เลย) → **ผ่านต่อไป Layer 2 ได้** แต่ต้องติด flag "ข้อมูลไม่ครบ" ไว้ในสรุปด้วย
 
 ```
-☐ Wide Moat (brand / switching cost / network effect / cost advantage)
+☐ Wide Moat — ใช้กรอบ "7 Powers" (Hamilton Helmer) ระบุว่าเข้าข้อไหนบ้าง ห้ามตอบกว้างๆ แค่ Wide/Narrow/No Moat:
+    1. Scale Economies — ต้นทุนต่อหน่วยลดลงเมื่อใหญ่ขึ้น คู่แข่งเล็กสู้ไม่ได้
+    2. Network Economies — มูลค่าเพิ่มขึ้นเมื่อผู้ใช้เพิ่มขึ้น (เช่น payment network, marketplace)
+    3. Counter-Positioning — โมเดลธุรกิจใหม่ที่ incumbent เลียนแบบไม่ได้เพราะจะทำร้ายธุรกิจเดิมตัวเอง
+    4. Switching Costs — ต้นทุน/เวลาย้ายออกสูง (เช่น implementation หลายปี, data lock-in)
+    5. Branding — แบรนด์ทำให้ตั้งราคาสูงกว่า/ขายง่ายกว่าคู่แข่งที่คุณภาพเท่ากัน
+    6. Cornered Resource — ครอบครอง asset/IP/license ที่คนอื่นเข้าถึงไม่ได้
+    7. Process Power — กระบวนการภายในที่สั่งสมมานาน คู่แข่งลอกไม่ได้แม้รู้วิธี
+   ระบุ 1-2 ข้อที่เข้าเกณฑ์ชัดเจนที่สุดพร้อมหลักฐาน — ถ้าไม่เข้าข้อไหนเลย = No Moat (❌ ถ้าเป็น commodity/cyclical business ชัดเจน)
 ☐ Management ดี — capital allocation + ไม่ dilute เกิน
 ☐ Balance Sheet แข็ง — Net Debt/EBITDA < 3x
 ☐ FCF margin >10% หรือ trend ขาขึ้น
@@ -112,7 +134,7 @@ Insider selling มีหลายแบบ ไม่ใช่ทุกแบบ
 ```
 1. โตได้อีก 5–10 ปีไหม?
 2. TAM ใหญ่กว่า market cap ≥5x ไหม?
-3. Revenue growth ≥15% YoY หรือ accelerating?
+3. Revenue growth ≥30% YoY หรือ accelerating? (ยกจาก ≥15% เดิม — ตาม aggressive growth style เป้า 100%/ปี)
 4. Competitive advantage ยั่งยืนอีก 10 ปี?
 5. บริษัทนี้มีโอกาสเป็นผู้นำอุตสาหกรรมต่อเนื่องอีก 10 ปีหรือไม่? (ตอบจาก market share trend, R&D moat, competitive positioning — ไม่ใช่การคาดเดา)
 ```
@@ -148,6 +170,27 @@ Insider selling มีหลายแบบ ไม่ใช่ทุกแบบ
 
 ---
 
+### 2.5 Independent Second Opinion — เฉพาะเมื่อ Action = Buy หรือ Starter
+
+**เหตุผล:** ก่อนจะเอาเงินจริงเข้าไปตาม /brief เดียวของ Claude ควรมีมุมมองอิสระเช็คไขว้ก่อน กันจุดบอด/bias — ถ้า Action = Watch/Avoid ไม่ต้องทำขั้นนี้ (ไม่คุ้มเวลา)
+
+**หมายเหตุ 2026-07-14:** เดิมออกแบบให้ยิง OpenAI/Gemini API ตรง แต่ทั้ง 2 key ใน `.env` ไม่มี quota ใช้งาน (billing ไม่ได้เปิด) ผู้ใช้ให้ใช้ Claude ล้วนๆ ทั้งระบบแทน — และ agent `bear` (`.claude/agents/bear.md`) ทำหน้าที่ตรงนี้อยู่แล้ว (devil's advocate, Claude-only) เลย**ใช้ agent เดิมแทนที่จะสร้าง logic ซ้ำ**
+
+**วิธี:** agent `bear` ต้องอ่านไฟล์ `briefs/[TICKER]-[DATE].md` ก่อนถึงจะทำงานได้ — ดังนั้นให้ **save brief file (ตาม step 6 format) ไปก่อนตั้งแต่ตรงนี้เลย** (ยังไม่ต้อง update showcase/portfolio.md ก็ได้ รอทำพร้อมกันตอนท้าย) แล้วเรียก agent `bear` ผ่าน Agent tool (`subagent_type: bear`) ให้อ่านไฟล์ที่เพิ่ง save แล้วทำ bear case + debate ตามหน้าที่ของมัน (จะ save ไฟล์ `briefs/[TICKER]-bear-[DATE].md` และ `briefs/[TICKER]-debate-[DATE].md` เพิ่มเอง) — รันแบบ synchronous (`run_in_background: false`) เพราะต้องรอผล verdict มาใส่ใน output ของ step 4 ต่อ
+
+**นำผลไปใส่ใน Output** เป็น section ใหม่ `🔍 Second Opinion (Bear/Devil's Advocate)` — สรุป verdict จาก debate file สั้นๆ (Bull ชนะ/Bear ชนะ/Tie) — ถ้า Bear ชนะหรือ Tie → เติม "(⚠️ Second opinion flagged)" ต่อท้าย Layer 4 Action ด้วย ไม่ต้องเปลี่ยน Action เอง แค่ flag ให้ user เห็นก่อนตัดสินใจ
+
+### 2.6 Concentration Risk Check — เฉพาะเมื่อ Action = Buy หรือ Starter และ TICKER อยู่ใน Holdings อยู่แล้ว (size-up)
+
+พอร์ตนี้ใช้ style **concentrate ในตัว conviction สูงสุด** (ดู portfolio.md Investment Style) — concentrate ได้ แต่ต้องรู้ตัวว่ากระจุกแค่ไหน:
+
+1. อ่านมูลค่ารวมพอร์ต + มูลค่าปัจจุบันของ TICKER นี้จาก portfolio.md Holdings table
+2. คำนวณ % ของพอร์ตที่ TICKER นี้จะกลายเป็นถ้า buy ตามคำแนะนำ (คร่าวๆ พอ ไม่ต้องเป๊ะ)
+3. ถ้าจะทำให้ตัวเดียวเกิน **40% ของพอร์ตรวม** → เติมคำเตือนสั้นๆ ต่อท้าย Action: "⚠️ Concentration สูง — จะเป็น ~X% ของพอร์ต" (ไม่ใช่ Avoid อัตโนมัติ แค่เตือนให้รู้ตัว เพราะ style นี้ยอมรับ concentration สูงอยู่แล้ว)
+4. ถ้าต่ำกว่า 40% → ไม่ต้องพูดถึงเรื่องนี้เลย (ไม่ต้องเขียนว่า "concentration ok" ให้ยืดเยื้อ)
+
+---
+
 ### 3. Bull/Bear Case
 
 **Bull Case** — เหตุผล 3 ข้อที่ทำให้ราคาขึ้น 50–100% ใน 3–5 ปี
@@ -167,7 +210,7 @@ Insider selling มีหลายแบบ ไม่ใช่ทุกแบบ
 👤 Guru Holdings: [รายชื่อกองทุน + สัดส่วน หรือ "ไม่พบข้อมูล"]
 
 ━━ Layer 1: Quality ━━
-Wide Moat    ✅/❌/⚠️/⚪ — [เหตุผล + แหล่งอ้างอิงถ้า ❌]
+Wide Moat    ✅/❌/⚠️/⚪ — [7 Powers ข้อที่เข้า เช่น "Switching Costs + Scale Economies" + เหตุผล + แหล่งอ้างอิงถ้า ❌]
 Management   ✅/❌/⚠️/⚪ — [เหตุผล]
 Balance Sheet✅/❌/⚠️/⚪ — Net Debt/EBITDA [X.Xx หรือ "ไม่พบข้อมูล"]
 FCF          ✅/❌/⚠️/⚪ — [margin หรือ trend หรือ "ไม่พบข้อมูล"]
@@ -186,8 +229,11 @@ Fair Value: $XXX (แหล่ง: Morningstar/GuruFocus)
 ส่วนต่าง: [−X% Cheap / +X% Expensive]
 
 ━━ Layer 4: Action ━━
-[🟢 Buy / 🔵 Starter / 🟠 Watch / 🔴 Avoid] [+ "(Provisional — ข้อมูลไม่ครบ)" ถ้ามี ⚠️/⚪ ≥2 ข้อ]
+[🟢 Buy / 🔵 Starter / 🟠 Watch / 🔴 Avoid] [+ "(Provisional — ข้อมูลไม่ครบ)" ถ้ามี ⚠️/⚪ ≥2 ข้อ] [+ "(⚠️ Second opinion flagged)" ถ้า agent อิสระไม่เห็นด้วย]
 [เหตุผล ≤2 บรรทัด — ถ้า Provisional ระบุด้วยว่าต้องหาข้อมูลอะไรเพิ่มถึงจะฟันธงชัดกว่านี้]
+
+━━ 🔍 Second Opinion (Bear/Devil's Advocate) ━━ (เฉพาะ Buy/Starter)
+[verdict จาก agent bear สั้นๆ — Bull ชนะ/Bear ชนะ/Tie + เหตุผล 1 ประโยค + ความเสี่ยงอันดับ 1 ที่ bear เจอ]
 
 ━━ Bull / Bear ━━
 🐂 Bull: [ข้อ 1] / [ข้อ 2] / [ข้อ 3]
