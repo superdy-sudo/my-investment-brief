@@ -9,7 +9,6 @@
 | PLTR | [2026-07-14] 🟢 ปิด $130.04 ตรง prediction, thesis ไม่เปลี่ยน | Switching Cost (Ontology) | ✅ ผ่าน (US Commercial accelerating) | [PLTR.md](PLTR.md) |
 | AVGO | [2026-07-14] 🔴 -3.98% sector sell-off (geopolitical ไม่ใช่ company-specific) thesis ไม่เปลี่ยน | Wide (XPU IP + VMware) | ✅ ผ่าน (AI rev +143%) | [AVGO.md](AVGO.md) |
 | GWRE | [2026-07-14] 🟢 +3.07% relative strength, thesis ไม่เปลี่ยน | Switching Cost | ⚠️ ต่ำกว่าเกณฑ์ใหม่ (ARR +19%) | [GWRE.md](GWRE.md) |
-| SPGI | [2026-07-14] ⚠️ MI President ลาออก Jul 30 ยังไม่มีผู้สืบทอด — watch | Intangible (credit rating monopoly) | ❌ ไม่ผ่านเกณฑ์ใหม่ (defensive/quality) | [SPGI.md](SPGI.md) |
 | V | [2026-07-14] 🟢 UK Court fee cap ยังไม่ผ่าน (appeal ongoing) thesis ไม่เปลี่ยน | Wide (network effect) | ❌ ไม่ผ่านเกณฑ์ใหม่ (defensive/quality) | [V.md](V.md) |
 
 ## Sold (archived — reference only)
@@ -20,6 +19,7 @@
 | MDLZ | Realized gain +$0.88 (+0.78%) | [_sold/MDLZ.md](_sold/MDLZ.md) |
 | MA | Realized gain +$0.42 (+1.69%) | [_sold/MA.md](_sold/MA.md) |
 | CME | Realized loss -$5.29 (-15.14%) — Kill triggered | [_sold/CME.md](_sold/CME.md) |
+| SPGI | Realized gain +$8.08 (+11.35%) — ขายเพื่อ fund GWRE/PLTR/AVGO (growth style ไม่ใช่ thesis พัง) | [_sold/SPGI.md](_sold/SPGI.md) |
 
 ## วิธีใช้ (สำหรับ daily-brief / brief / topup)
 

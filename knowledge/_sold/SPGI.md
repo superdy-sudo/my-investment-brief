@@ -18,6 +18,7 @@
 - Milestone: MBGL distribution Jul 1 → ราคา SPGI มักขึ้นหลัง spin-off
 
 ## Thesis Change Log
+- [2026-07-14 evening] 💰 **ขายทั้งหมด @ $435.934** — Realized gain +$8.08 (+11.35%) | เหตุผล: fund GWRE/PLTR/AVGO ตาม aggressive growth style, ไม่ใช่ thesis พัง (SPGI ยังเป็น defensive/quality ที่แข็งแรง แค่ growth ต่ำกว่าเกณฑ์ใหม่)
 - [2026-07-14] ⚠️ MI President Saugata Saha ลาออก Jul 30 ยังไม่มีผู้สืบทอด (17 วัน) — style ใหม่ (aggressive growth) flag ว่า SPGI เป็นสาย defensive/quality ที่ growth ต่ำกว่าเกณฑ์ใหม่ ≥30% YoY แล้ว ไม่ trigger ขาย แต่พิจารณาตอนมี TP/kill/earnings
 - [2026-07-02] 🟢 SPGI $428.87 (+9.54% post spin-off) | MBGL $3.68 (-4.48%) | combined SPGI+MBGL = +8.84% vs original cost
 - [2026-07-01] 🟢 MBGL distributed to SPGI shareholders ✅ — spin-off milestone completed | cost basis adjusted by Dime!
