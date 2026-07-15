@@ -189,3 +189,4 @@
 | NVDA | AI compute monopoly | รอ $182-190 (DCF zone) ⚠️ value trap warning | $212.26 (Jul 15) — เกิน zone +16.6% |
 | **RMBS** | Patent Portfolio (DDR5+HBM IP) — thesis ผิดถ้า DOJ formal indictment — /brief Jun 26 | รอ DOJ clarity ก่อน | **$105.50** (Jul 15) ⚠️ DOJ antitrust risk |
 | **ZETA** | Narrow Moat Data Assets — thesis ผิดถ้า Palantir deal ไม่ deliver $100M+ — /brief Jun 26 | $16–$18 (GF Value $17.34) | **$23.20** (Jul 15) ⚠️ เกิน zone มากขึ้น (+45%) |
+| **ADI** | Wide Moat Analog/Mixed-Signal — Valuation Inconclusive (MS $380 vs GF $278) — thesis ผิดถ้า AI capex ชะลอจน growth <15% YoY — /brief Jul 15 | รอราคาเข้าใกล้ GF Value $278 หรือรอ Q3 FY26 earnings ยืนยัน growth | **$386.83** (Jul 15) |
