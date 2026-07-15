@@ -48,3 +48,7 @@
 - ห้ามแต่งตัวเลข — ทุก claim ต้องมี source + วันที่
 - ห้ามทำนายราคา ห้าม buy/sell recommendation
 - Kill condition trigger → แสดง 🚨 alert เสมอ (ไม่ขายอัตโนมัติ)
+
+## Git — commit + push (2026-07-15)
+- **Commit + push อัตโนมัติได้เลยหลัง /brief หรือ /daily-brief ทุกครั้ง ไม่ต้องถามก่อน** (ยืนยันโดยผู้ใช้ 2026-07-15) — repo `superdy-sudo/my-investment-brief` เป็น public และมีข้อมูลการเงินส่วนตัวอยู่แล้วเป็นปกติของ workflow นี้ ไม่ใช่การเปิดเผยครั้งใหม่
+- **ห้าม commit `.env` และ `.claude/settings.local.json` เสมอ** — ไฟล์นี้เป็น local/อาจมี secret ให้ stage เฉพาะไฟล์ที่เกี่ยวข้องกับงาน (briefs/, portfolio.md, showcase/index.html, .claude/skills/) เท่านั้น
