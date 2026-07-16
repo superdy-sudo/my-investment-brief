@@ -16,19 +16,19 @@
 
 ## Top Pick (วันนี้)
 
-> 🏆 **Jul 15, 2026 (premarket, manual run — scheduled task ไม่ทำงาน)** — **ไม่มี Top Pick** | Watchlist ทุกตัวเกิน entry zone และห่างจาก zone มากขึ้นกว่าเมื่อวาน | SYK ใกล้สุด ($312.98 vs zone <$295, เกิน ~6.1%)
+> 🏆 **Jul 16, 2026 (premarket, manual run)** — **ไม่มี Top Pick** | Watchlist ทุกตัวยังเกิน entry zone (ราคายังไม่เปลี่ยนจาก Jul 15 close เพราะตลาดยังไม่เปิด) | SYK ใกล้สุด ($316.44 vs zone <$295, เกิน ~7.3%)
 
 ---
 
-## 🔮 Today's Prediction (2026-07-15)
-- GWRE/PLTR/AVGO: คาดว่าจะทรงตัวหรือขึ้นต่อได้อีกถ้า PPI/ASML sentiment ยังอยู่ เพราะวันนี้ทั้ง 3 ตัวขึ้น >3% จาก macro rally (PPI มิ.ย. เย็นกว่าคาด + ASML ยกเป้ายอดขาย AI) ไม่ใช่ company-specific — ถ้า sentiment คงอยู่ถึงพรุ่งนี้ควรเห็นแรงส่งต่อ → ✅ ถูก (GWRE -0.12%/PLTR +0.03% ทรงตัว, AVGO +1.33% ขึ้นต่อ — sentiment เย็นเงินเฟ้อยังอยู่)
-- VIX: คาดว่าจะทรงตัวหรือย่อลงต่ำกว่า 16 เพราะไม่มี catalyst ลบใหม่ วันนี้ลงมาที่ $16.16 (-3.7% จาก $16.78 เมื่อวาน) ต่อเนื่องจาก PPI เย็นกว่าคาด → ✅ ถูก (ปิด $15.67, -5.03%, ต่ำกว่า 16 ตามคาด)
+## 🔮 Today's Prediction (2026-07-16)
+- TSM earnings (ก่อนตลาดเปิดวันนี้): คาดว่าถ้า TSM beat + guide AI capex แข็งแรง จะหนุน AVGO/semiconductor sentiment ต่อเนื่องจาก rally เมื่อวาน (+1.33%) แต่ถ้า miss/guide อ่อนกว่าคาด อาจเห็น AVGO และ chip sector ย่อกลับ
+- VIX: คาดว่าจะทรงตัวต่ำกว่า 16 ต่อเนื่องจาก inflation cooling ถ้าไม่มี earnings shock ใหญ่จาก TSM/Netflix/UNH ที่ประกาศวันนี้
 
 ---
 
 ## Holdings
 
-> อัปเดต Jul 15, 2026 (close) | Total holdings: **$441.18** | Unrealized P&L: **+$60.68 (+15.95%)** + Cash Reserve **$157** | 🎯 Pace: +194.1%/yr annualized (เป้า 100%/yr) — ✅ on track เกินเป้า (คำนวณจากราคาปิด curl Yahoo — ยังไม่มี THB conversion จาก Dime! รอบนี้)
+> อัปเดต Jul 16, 2026 (premarket, ราคาอ้างอิงปิด Jul 15 — ตลาดยังไม่เปิดวันนี้) | Total holdings: **$441.18** | Unrealized P&L: **+$60.68 (+15.95%)** + Cash Reserve **$157** | 🎯 Pace: +194.1%/yr annualized (เป้า 100%/yr) — ✅ on track เกินเป้า (คำนวณจากราคาปิด curl Yahoo — ยังไม่มี THB conversion จาก Dime! รอบนี้)
 > 💰 SPCX ขายแล้ว Jun 17 @ $191.38 | Realized gain: **+$20.94 (+12.29%)**
 > 💸 CME ขายแล้ว Jun 23 @ $246.22 | Realized loss: **-$5.29 (-15.14%)**
 > 💸 MDLZ ขายแล้ว Jun 28 @ $60.75 | Realized gain: **+$0.88 (+0.78%)**
