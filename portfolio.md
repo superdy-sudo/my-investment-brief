@@ -193,3 +193,13 @@
 | **PANW** | Wide Moat Cybersecurity — Switching Cost (platformization) — แพงทั้ง MS FV $285 และ GF Value $211 — thesis ผิดถ้า Next-Gen ARR growth หลุด <40% YoY 2 ไตรมาสติด — /brief 2026-07-15 | รอเข้าใกล้ MS FV $285 หรือ GF Value $211 | **$354.02** (Jul 15 close) |
 | **META** | Wide Moat (Network+Scale Economies) — Starter Position (⚠️ Second opinion flagged: Reality Labs ขาดทุนสะสม ~$90B, capex เสี่ยง) — thesis ผิดถ้า capex ไม่แปลงเป็น revenue ภายใน 2-3 ปีจน FCF margin <15% ต่อเนื่อง — /brief 2026-07-16 | Fair value borderline ($819-850 vs ราคา $681.31) | **$681.31** (Jul 16) |
 | **APH** | Wide Moat (Switching Cost+Scale) — Watch, รอ valuation ชัดเจนขึ้น (MS $190 vs GF $138 ต่าง 38%) — thesis ผิดถ้า AI capex ชะลอเร็วกว่าคาด — /brief 2026-07-16 | รอ Q2 earnings 29 ก.ค. ยืนยัน | **$157.04** (Jul 16) |
+
+## 📺 YouTube Digest — ลงทุน Diary
+
+### 2026-07-16 — AVGO: AI เลือกหุ้นจะไม่เหมือนเดิม
+AI Agent ทดลอง "Nick" เลือกถือ AVGO เองแม้เจ้าของช่องไม่เคยถือ เพราะโดดเด่นเรื่องกระจายความเสี่ยงในโครงสร้างพื้นฐาน AI (Networking, ASIC, Software) — ใช้ Q-Condition แทน price trigger เช่น จะพิจารณาขายถ้า revenue AI โตลดลงติดต่อกัน 2 ไตรมาส
+🔗 https://www.youtube.com/watch?v=PyMyz9XiAiw
+
+### 2026-07-16 — AMZN, V: ลองให้ AI รีวิวพอร์ตผม (ดีกว่าที่คิดนะ)
+AI วิเคราะห์ผ่าน Framework 7 Powers: AMZN มี Moat จาก Scale + Network Economies, จัดเป็นหุ้น Core มั่นคงคู่กับ V (Visa) — พร้อมเตือน Concentration Risk ว่า Top 3 holdings รวมกัน >60% ของพอร์ตเสี่ยงถ้ากลุ่มเทคโนโลยี/การเงินชะลอตัว
+🔗 https://www.youtube.com/watch?v=TCjvGxuBsTc
