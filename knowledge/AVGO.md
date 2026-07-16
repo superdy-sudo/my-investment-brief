@@ -17,6 +17,14 @@
 - 🔧 **Dynamic TP Reset ที่ Q3 FY2026 earnings (Aug/Sep 2026):** ถ้า AI semiconductor revenue growth ยัง ≥50% YoY (เกณฑ์เฉพาะของ AVGO) → reset TP1/TP2 จากราคาวันนั้น (×1.5/×2.0) ดู portfolio.md "Dynamic TP Reset"
 - 🎯 Catalyst: Q3 FY2026 guidance $29.4B (+84% YoY) = confirm thesis
 
+## Narrative Drift Check (2026-07-16)
+🚩 **"Responsibly financed" qualifier เงียบหายจาก strategy statement — FY2020-2023 vs FY2024**
+> FY2020-2023 10-K ใช้ประโยคเดิมทุกปี: "We seek to achieve this through **responsibly financed** acquisitions of **category-leading** businesses and technologies..."
+→ FY2024 10-K เปลี่ยนเป็น: "We seek to achieve this through **strategic** acquisitions of businesses and technologies..." — คำว่า "responsibly financed" และ "category-leading" หายไปทั้งคู่ ไม่มีคำอธิบาย
+เหตุผลที่น่าสงสัย: เปลี่ยนคำในปีเดียวกับที่ปิดดีล VMware $69B และหนี้รวมเพิ่มเกือบเท่าตัว ($41.5B → $69.8B) — อาจแค่ปรับสำนวนปกติ แต่ควรจับตาต่อว่าการกู้เพิ่มในอนาคตยังมีวินัยหรือไม่
+
+ตรวจแล้วไม่พบปัญหา: COVID risk factor หายไปตามธรรมชาติ (FY2023), VMware merger risk คงเส้นคงวาไม่ได้เงียบหาย, geopolitical risk (China-Taiwan) คงที่ตั้งแต่ FY2022, หนี้เปิดเผยตัวเลขชัดเจนทุกปีไม่ได้ปิดบัง
+
 ## Thesis Change Log
 - [2026-07-15] 🔧 Recalibrate Kill -15%→-20% ($316.38→$297.77) + TP1/TP2 เปลี่ยนเป็น return-target +50%/+100% ($558.32/$744.42) แทน valuation-anchored เดิม — ให้ตรงกับ aggressive growth 100%/ปี style
 - [2026-07-14] 🔴 ราคาปิด $384.05 (-3.98% วันเดียว) — semiconductor sector sell-off (AMD -3%, NVDA -1.7%) จาก US ประกาศ blockade เรือ Iran ผ่าน Strait of Hormuz อีกครั้ง กังวล supply chain วัตถุดิบ chip | ไม่ใช่ company-specific | Kill buffer ยังกว้าง +17.6% ✅ thesis ไม่เปลี่ยน

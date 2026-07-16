@@ -162,6 +162,7 @@
 ### V Kill Conditions
 - 🚨 **หลัก:** UK Court of Appeal ตัดสินให้ fee cap ผ่าน (กระทบ revenue UK โดยตรง)
 - 🚨 **หลัก:** Stablecoin adoption ลด network share — ถ้า stablecoin bypass Visa network จริง
+- 🚨 **หลัก (เพิ่ม 2026-07-16 จาก Narrative Drift):** US DOJ debit-network monopolization lawsuit (ยื่นฟ้อง 24 ก.ย. 2024, motion to dismiss ถูกปฏิเสธ 23 มิ.ย. 2025) แพ้คดี/settlement หนัก — มี securities fraud class action ควบคู่กล่าวหาปกปิดข้อมูลด้วย ดู `knowledge/V.md` Narrative Drift Check
 - ⚠️ **เฝ้าระวัง:** Cross-border volume growth ต่ำกว่า 8% YoY (ปัจจุบัน ~14%)
 - ⚠️ **เฝ้าระวัง:** ราคาลง >15% จากราคาซื้อ $323.00 (= ต่ำกว่า $274.55) โดยไม่มีเหตุผล fundamental
 

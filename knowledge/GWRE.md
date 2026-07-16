@@ -18,6 +18,14 @@
 - ⚠️ ถ้า Q4 FY26 ARR growth < 15% หรือ churn เพิ่ม → ขายทันทีไม่รอ TP
 - 🚨 size เล็ก (1 share) — รอ confirm record quarter ก่อน size up
 
+## Narrative Drift Check (2026-07-16)
+✅ เทียบ 10-K FY2021–FY2025 แล้ว ไม่พบ narrative drift ที่มีนัยสำคัญ — strategy หลัก (subscription/cloud-first ผ่าน Guidewire Cloud Platform, พึ่งพา SI partners, DWP-based pricing) คงเส้นคงวาทุกปี
+
+สังเกตเห็นแต่ไม่ใช่ red flag:
+- Contract term ยาวขึ้น (3-5 ปี → บางสัญญา 7 ปี+) ใน FY2025 — สอดคล้องกับ ARR growth เร่งขึ้น (13%→20% YoY) เป็นสัญญาณบวก ไม่ใช่ walk-back
+- Risk factor ใหม่เรื่อง AI (เพิ่งปรากฏ FY2024) — เป็นเทรนด์ทั้งอุตสาหกรรมหลัง 2023 ไม่ใช่ปัญหาเฉพาะ GWRE
+- Convertible Notes refinance เป็น "2029 Convertible Senior Notes" — treasury activity ปกติ เปิดเผยชัดเจน
+
 ## Thesis Change Log
 - [2026-07-15] 🔧 Recalibrate Kill -15%→-20% ($91.60→$86.21) + TP1/TP2 เปลี่ยนเป็น return-target +50%/+100% ($161.64/$215.52) แทน valuation-anchored เดิม — ให้ตรงกับ aggressive growth 100%/ปี style
 - [2026-07-14] 🟢 ราคาปิด $140.31 (+3.07% วันเดียว) — ไม่พบข่าวเฉพาะตัวชัดเจน (ไม่มี analyst upgrade ใหม่ในรอบสัปดาห์) น่าจะเป็น relative strength/rotation เข้า software defensive ระหว่างที่ semiconductor sector ถูกเทขาย | thesis ไม่เปลี่ยน
