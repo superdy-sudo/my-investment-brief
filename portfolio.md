@@ -37,6 +37,7 @@
 > 🛒 PLTR ซื้อแล้ว Jun 29 | 1 share @ $118.00
 > 💸 MBGL ขายแล้ว (ระหว่าง Jul 8–9) | cost basis $3.85 → Realized loss ประมาณ **-$0.19 (-5%)** | ตาม /brief Jul 7 (Avoid, Compounder 2/5)
 > 💰 SPGI ขายแล้ว Jul 14 @ $435.934 | Realized gain: **+$8.08 (+11.35%)** | เหตุผล: ต้องการ fund GWRE/PLTR/AVGO ตาม aggressive growth style — SPGI เป็น defensive/quality ที่ไม่ผ่าน growth bar ใหม่แล้ว
+> 🔴 **V: /brief Jul 16 ใหม่ → Avoid** (Growth ❌ low-teens + Moat ⚠️ จาก DOJ antitrust structural remedy risk + Berkshire ขายทิ้งทั้งหมด Q1 2026) — **สัญญาณให้พิจารณาขาย position ปัจจุบัน** ดู `knowledge/V.md` และ `briefs/V-2026-07-16.md`
 
 | Ticker | Shares | Buy Price | มูลค่า | P&L % | P&L USD | ราคาปัจจุบัน | Kill Buffer |
 |--------|--------|-----------|--------|--------|---------|--------------|------------|

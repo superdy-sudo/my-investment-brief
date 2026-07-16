@@ -28,6 +28,7 @@
 ตรวจแล้วไม่พบปัญหา: strategy pillar "consumer payments, new flows, value-added services" คำเดิมเป๊ะทุกปี FY2021-2025 ไม่ได้เปลี่ยน/อ่อนลง
 
 ## Thesis Change Log
+- [2026-07-16] 🔴 **/brief V ใหม่ → Avoid** (เดิมเป็น Holding) — Layer 2 ผ่านแค่ 3/5: Growth ❌ (low-teens vs เกณฑ์ 30%+) + Moat durability ⚠️ (DOJ antitrust ขอ structural remedy) | Valuation ⚠️ Inconclusive (GF Value $415-419 vs DCF $297 vs Morningstar $323 ต่างกันมาก) | Berkshire Hathaway (CEO ใหม่ Greg Abel) ขายทิ้งทั้งหมด Q1 2026 | **สัญญาณให้พิจารณาขาย** — ดู briefs/V-2026-07-16.md เต็ม
 - [2026-07-16] 🚩 **Narrative Drift พบ:** DOJ debit-network antitrust ขยายจาก CID → monopolization lawsuit + securities fraud class action แบบเงียบๆ (ดูรายละเอียดด้านบน) — Kill Conditions ปัจจุบันไม่ครอบคลุมความเสี่ยงนี้เลย แนะนำรัน /brief V ใหม่
 - [2026-07-14] 🟢 Court of Appeal granted Visa/MC permission to appeal (Mar 2026) → fee cap NOT yet imposed, appeal ongoing → kill condition ยังไม่ trigger | GF Value $396 = discount ~12% ยังอยู่ — style ใหม่ (aggressive growth) flag ว่า V เป็นสาย defensive/quality ที่ growth ต่ำกว่าเกณฑ์ใหม่ ≥30% YoY แล้ว ไม่ trigger ขาย แต่พิจารณาตอนมี TP/kill/earnings
 - [2026-06-15] 🟢 ซื้อเข้า Holdings 0.2287 shares @ $323.00 | Stablecoin $7B annualized ✅ Cross-border +11% ✅
