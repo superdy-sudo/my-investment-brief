@@ -16,7 +16,7 @@
 
 ## Top Pick (วันนี้)
 
-> 🏆 **Jul 17, 2026 (intraday, full daily-brief)** — **META** $664.54 (Conviction ~6.8/10, Starter Position ⚠️ Second Opinion Tie) — ราคาลงต่อจากเมื่อวาน (-2.46%) ยิ่งถูกกว่าเดิมเทียบ Fair Value $819-850 — ตัวเดียวใน Watchlist ที่ยังต่ำกว่า FV จริง ตัวอื่นทั้งหมดเกิน entry zone
+> 🏆 **Jul 17, 2026 (later intraday update)** — **META** $629.00 (-5.34% เพิ่มเติมจาก $664.54 เช้านี้, -7.7% จาก Jul 16 close $681.31) — ข้าม threshold 🟢 Cheap แล้วทั้งสองแหล่ง (GuruFocus -23.2%, Morningstar -26.0%) จากเดิม 🟡 Fair borderline — ไม่พบข่าวเฉพาะตัวใหม่ น่าจะเป็น sector-wide sell-off ต่อเนื่อง (VIX +12.5%) + AI capex overhang narrative เดิม ไม่ใช่ catalyst ใหม่ — Conviction ควรขยับขึ้นจาก valuation ที่ดีขึ้นชัดเจน แต่ยังไม่ทำ /brief ใหม่ (thesis/Second Opinion เดิมยังใช้ได้)
 
 ---
 
@@ -194,7 +194,7 @@
 | **ZETA** | Narrow Moat Data Assets — thesis ผิดถ้า Palantir deal ไม่ deliver $100M+ — /brief Jun 26 | $16–$18 (GF Value $17.34) | **$22.41** (Jul 15 close) ⚠️ เกิน zone มากขึ้น (+40%) |
 | **ADI** | Wide Moat Analog/Mixed-Signal — Valuation Inconclusive (MS $380 vs GF $278) — thesis ผิดถ้า AI capex ชะลอจน growth <15% YoY — /brief Jul 15 | รอราคาเข้าใกล้ GF Value $278 หรือรอ Q3 FY26 earnings ยืนยัน growth | **$390.96** (Jul 15 close) |
 | **PANW** | Wide Moat Cybersecurity — Switching Cost (platformization) — แพงทั้ง MS FV $285 และ GF Value $211 — thesis ผิดถ้า Next-Gen ARR growth หลุด <40% YoY 2 ไตรมาสติด — /brief 2026-07-15 | รอเข้าใกล้ MS FV $285 หรือ GF Value $211 | **$354.02** (Jul 15 close) |
-| **META** | Wide Moat (Network+Scale Economies) — Starter Position (⚠️ Second opinion flagged: Reality Labs ขาดทุนสะสม ~$90B, capex เสี่ยง) — thesis ผิดถ้า capex ไม่แปลงเป็น revenue ภายใน 2-3 ปีจน FCF margin <15% ต่อเนื่อง — /brief 2026-07-16 | Fair value borderline ($819-850 vs ราคา $664.54) | **$664.54** (Jul 17, -2.46%) |
+| **META** | Wide Moat (Network+Scale Economies) — Starter Position (⚠️ Second opinion flagged: Reality Labs ขาดทุนสะสม ~$90B, capex เสี่ยง) — thesis ผิดถ้า capex ไม่แปลงเป็น revenue ภายใน 2-3 ปีจน FCF margin <15% ต่อเนื่อง — /brief 2026-07-16 | 🟢 Cheap แล้วทั้ง GuruFocus (-23.2%) และ Morningstar (-26.0%) จาก FV $819-850 | **$629.00** (Jul 17 later, -5.34% เพิ่มเติม) |
 | **APH** | Wide Moat (Switching Cost+Scale) — Watch, รอ valuation ชัดเจนขึ้น (MS $190 vs GF $138 ต่าง 38%) — thesis ผิดถ้า AI capex ชะลอเร็วกว่าคาด — /brief 2026-07-16 | รอ Q2 earnings 29 ก.ค. ยืนยัน | **$157.04** (Jul 16) |
 | **KKR** | Narrow Moat (Scale+Switching Cost) — Starter Position (⚠️ Second opinion: Tie — Global Atlantic insurance arm ลงทุนใน private credit ที่ KKR บริหารเอง เป็น correlated risk ไม่ใช่ diversification) — thesis ผิดถ้า private credit quality เสื่อมวงกว้างแบบ FS KKR Capital Corp (junk-rated) — /brief 2026-07-17 | Fair value ~12% ต่ำกว่า FV ($115 MS) | **$101.73** (Jul 17) |
 
