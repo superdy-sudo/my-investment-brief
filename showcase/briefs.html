@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Company Briefs — By Day</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: "Segoe UI", sans-serif; background: #0f1117; color: #e2e8f0; min-height: 100vh; }
+  .header { background: linear-gradient(135deg, #1a1f2e, #2d3748); padding: 24px 32px; border-bottom: 1px solid #2d3748; display: flex; align-items: flex-start; gap: 20px; flex-wrap: wrap; }
+  .header h1 { font-size: 1.6rem; font-weight: 700; color: #f7fafc; }
+  .header p { color: #718096; font-size: 0.85rem; margin-top: 4px; }
+  .header-left { flex: 1; min-width: 260px; }
+  .header-nav { display: flex; gap: 10px; margin-top: 4px; }
+  .nav-link { font-size: 0.78rem; color: #718096; text-decoration: none; padding: 5px 12px; border: 1px solid #4a5568; border-radius: 6px; transition: all 0.15s; white-space: nowrap; }
+  .nav-link:hover { color: #90cdf4; border-color: #4299e1; }
+  .nav-link.active { color: #90cdf4; border-color: #4299e1; background: rgba(66,153,225,0.08); }
+  .container { max-width: 1200px; margin: 0 auto; padding: 24px 20px; }
+  .section { margin-bottom: 36px; }
+  .day-section-header { display: flex; align-items: center; gap: 12px; margin-bottom: 16px; }
+  .day-label { font-size: 0.9rem; font-weight: 700; color: #4299e1; background: rgba(66,153,225,0.1); padding: 4px 12px; border-radius: 6px; }
+  .day-note { font-size: 0.75rem; color: #4a5568; }
+  .divider { border: none; border-top: 1px solid #2d3748; margin: 32px 0; }
+  .cards-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 16px; }
+  .card { background: #1a1f2e; border: 1px solid #2d3748; border-radius: 12px; padding: 18px; }
+  .card:hover { border-color: #4a5568; }
+  .card-header { display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 10px; }
+  .ticker { font-size: 1.25rem; font-weight: 800; color: #f7fafc; }
+  .company-name { font-size: 0.82rem; color: #718096; margin-bottom: 8px; }
+  .sector-tag { font-size: 0.75rem; color: #4299e1; background: rgba(66,153,225,0.1); padding: 2px 8px; border-radius: 4px; display: inline-block; margin-bottom: 10px; }
+  .badge { font-size: 0.7rem; font-weight: 700; padding: 3px 10px; border-radius: 4px; text-transform: uppercase; white-space: nowrap; }
+  .badge-avoid { background: #742a2a; color: #fc8181; }
+  .badge-watch { background: #7b341e; color: #f6ad55; }
+  .badge-starter { background: #2c5282; color: #90cdf4; }
+  .badge-buy { background: #276749; color: #68d391; }
+  .price-line { font-size: 0.82rem; color: #cbd5e0; margin-bottom: 8px; }
+  .action-box { border-radius: 8px; padding: 10px 12px; margin: 8px 0; font-size: 0.8rem; line-height: 1.6; }
+  .action-avoid { background: rgba(252,129,129,0.08); border: 1.5px solid #742a2a; color: #cbd5e0; }
+  .action-watch { background: rgba(246,173,85,0.08); border: 1.5px solid #7b341e; color: #cbd5e0; }
+  .action-starter { background: rgba(66,153,225,0.08); border: 1.5px solid #2c5282; color: #cbd5e0; }
+  .action-buy { background: rgba(104,211,145,0.08); border: 1.5px solid #276749; color: #cbd5e0; }
+  .wrong-line { font-size: 0.76rem; color: #a0aec0; border-top: 1px solid #2d3748; padding-top: 8px; margin-top: 8px; }
+  .wrong-line strong { color: #f6ad55; }
+  .hold-flag { font-size: 0.72rem; color: #fc8181; font-weight: 700; margin-bottom: 6px; }
+</style>
+</head>
+<body>
+<div class="header">
+  <div class="header-left">
+  <h1>Company Briefs — By Day</h1>
+  <p>Archive ของ /brief แต่ละตัว แยกตามวันที่ทำจริง — ไม่ผสมทุก ticker ไว้การ์ดเดียว | เต็มดูที่ briefs/[TICKER]-[DATE].md</p>
+  </div>
+  <div class="header-nav">
+    <a href="index.html" class="nav-link">☀️ Pre-Market</a>
+    <a href="close.html" class="nav-link">🌙 Close Brief</a>
+    <a href="briefs.html" class="nav-link active">📋 Briefs</a>
+  </div>
+</div>
+<div class="container">
+
+<!-- 2026-07-16 -->
+<div class="section">
+  <div class="day-section-header">
+    <div class="day-label">2026-07-16</div>
+    <div class="day-note">Aggressive Growth style — V thesis re-check (Holding) + 5 candidates ใหม่</div>
+  </div>
+  <div class="cards-grid">
+
+    <div class="card" style="border:2px solid #4299e1;">
+      <div class="card-header">
+        <div><div class="ticker">META</div><div class="company-name">Meta Platforms, Inc.</div></div>
+        <span class="badge badge-starter">Starter</span>
+      </div>
+      <div class="sector-tag">Digital Advertising / AI Infra — Wide Moat</div>
+      <div class="price-line">$681.31 (+3.07%) | FV $819–850 (GuruFocus/Morningstar) — 🟡 Fair, borderline Cheap (-17~20%)</div>
+      <div class="action-box action-starter">
+        Fair value borderline cheap + Compounder 4/5 + catalyst (Meta Compute cloud launch, Muse AI model) ดันหุ้น +15% ในสัปดาห์เดียว | ⚠️ Second Opinion: Tie (เอนเอียง Bear เล็กน้อย) — Reality Labs ขาดทุนสะสม ~$90B, capex $125-145B ยังไม่พิสูจน์ ROI — แนะนำ Starter แบบลดขนาดครึ่งหนึ่ง
+      </div>
+      <div class="wrong-line"><strong>❓ ผิดได้ถ้า:</strong> capex ไม่แปลงเป็น revenue/margin ภายใน 2-3 ปีจน FCF margin &lt;15% ต่อเนื่อง</div>
+    </div>
+
+    <div class="card">
+      <div class="card-header">
+        <div><div class="ticker">V</div><div class="company-name">Visa Inc.</div></div>
+        <span class="badge badge-avoid">Avoid</span>
+      </div>
+      <div class="sector-tag">Financials / Payments — Wide Moat</div>
+      <div class="price-line">$361.91 (+1.91%) | FV Inconclusive (GF $415-419 vs MS $323 vs DCF $297, ต่างกัน &gt;30%)</div>
+      <div class="hold-flag">⚠️ นี่คือ HOLDING ปัจจุบัน — ผลนี้คือสัญญาณให้พิจารณาขาย ไม่ใช่แค่ไม่ซื้อเพิ่ม</div>
+      <div class="action-box action-avoid">
+        Compounder 3/5 (Growth ❌ FY26 guidance low-teens ~13% ห่างเกณฑ์ 30% มาก) + Moat ⚠️ DOJ antitrust ฟ้อง monopolization ขอ structural remedy (motion to dismiss ถูกปฏิเสธ มิ.ย. 2026) + Berkshire Hathaway ขายทิ้งทั้งหมด Q1 2026
+      </div>
+      <div class="wrong-line"><strong>❓ ผิดได้ถ้า:</strong> DOJ ชนะคดีบังคับเปิด debit network ให้คู่แข่ง + จำกัด fee กระทบ take-rate economics ที่เป็นแก่นของ moat</div>
+    </div>
+
+    <div class="card">
+      <div class="card-header">
+        <div><div class="ticker">APH</div><div class="company-name">Amphenol Corporation</div></div>
+        <span class="badge badge-watch">Watch</span>
+      </div>
+      <div class="sector-tag">Electronic Components — Wide Moat</div>
+      <div class="price-line">$157.04 (-0.8%) | FV Inconclusive (MS $190 vs GF $138, ต่าง ~38%)</div>
+      <div class="action-box action-watch">
+        Layer 1 ผ่านหมด + Compounder 4/5 (TAM ceiling: ตลาด connector ~$78-145B ไม่ถึง 5x mkt cap) แต่ valuation ขัดแย้งกันมาก — รอ Q2 earnings 29 ก.ค. 2026 ก่อนตัดสินใจ
+      </div>
+      <div class="wrong-line"><strong>❓ ผิดได้ถ้า:</strong> AI/data-center capex ชะลอตัวเร็วกว่าคาด organic growth หล่นกลับสู่ high-single-digit ขณะ valuation ยังสูง</div>
+    </div>
+
+    <div class="card">
+      <div class="card-header">
+        <div><div class="ticker">DELL</div><div class="company-name">Dell Technologies Inc.</div></div>
+        <span class="badge badge-avoid">Avoid</span>
+      </div>
+      <div class="sector-tag">Enterprise IT / AI Server — Moat ถกเถียง</div>
+      <div class="price-line">$412.68 (-9.8%) | FV Inconclusive (MS $460 vs GF $153.91, ต่าง &gt;100%)</div>
+      <div class="action-box action-avoid">
+        Avoid (Provisional — ข้อมูลไม่ครบ 5 จุด) — Compounder 2/5 (ต้องการ ≥4/5) แม้ AI server backlog $51.3B + revenue +88% YoY จะแรงมาก เพราะ moat/TAM/valuation ยังขัดแย้งกันหนัก
+      </div>
+      <div class="wrong-line"><strong>❓ ผิดได้ถ้า:</strong> AI server margin ถูกบีบแรงกว่าที่ guide หรือ hyperscaler ชะลอ capex เร็วกว่าคาด</div>
+    </div>
+
+    <div class="card">
+      <div class="card-header">
+        <div><div class="ticker">WDC</div><div class="company-name">Western Digital Corporation</div></div>
+        <span class="badge badge-avoid">Avoid</span>
+      </div>
+      <div class="sector-tag">Data Storage (HDD) — Moat ไม่ชัดเจน</div>
+      <div class="price-line">$513.84 (-8.8%) | GF Value $88.06 (Significantly Overvalued +483%) vs analyst PT $575-900</div>
+      <div class="action-box action-avoid">
+        Avoid (Provisional) — Compounder 2/5, TAM Confirmed Fail (ตลาด HDD $44.3B เทียบ mkt cap $177B เพียง ~1.7x ไม่ถึง 5x) แม้ growth +45% YoY ไตรมาสล่าสุดจะแรง
+      </div>
+      <div class="wrong-line"><strong>❓ ผิดได้ถ้า:</strong> AI data center capex ชะลอ หรือ hyperscaler เปลี่ยนไปใช้ flash storage แทน HDD เร็วกว่าคาด</div>
+    </div>
+
+    <div class="card">
+      <div class="card-header">
+        <div><div class="ticker">WELL</div><div class="company-name">Welltower Inc.</div></div>
+        <span class="badge badge-avoid">Avoid</span>
+      </div>
+      <div class="sector-tag">Healthcare REIT — Moat: Data Conflict</div>
+      <div class="price-line">$233.29 (-1.15%) | FV Inconclusive ($180–$228 ตามแหล่ง)</div>
+      <div class="action-box action-avoid">
+        Avoid (Provisional — ข้อมูลไม่ครบ 4 จุด) — Compounder 3/5, growth +38.3% YoY ส่วนใหญ่มาจาก M&A roll-up ไม่ใช่ organic ไม่ตรงเกณฑ์ ≥30% แบบยั่งยืน
+      </div>
+      <div class="wrong-line"><strong>❓ ผิดได้ถ้า:</strong> FFO/revenue growth ที่พึ่ง M&A ชะลอกลับสู่ mid-single-digit ทั่วไปของ REIT</div>
+    </div>
+
+  </div>
+</div>
+
+<hr class="divider">
+
+<!-- 2026-07-15 -->
+<div class="section">
+  <div class="day-section-header">
+    <div class="day-label">2026-07-15</div>
+    <div class="day-note">Semiconductor/Cybersecurity scan — 5 candidates</div>
+  </div>
+  <div class="cards-grid">
+
+    <div class="card">
+      <div class="card-header">
+        <div><div class="ticker">ADI</div><div class="company-name">Analog Devices</div></div>
+        <span class="badge badge-watch">Watch</span>
+      </div>
+      <div class="sector-tag">Semiconductors (Analog) — Wide Moat</div>
+      <div class="price-line">$386.83 (-1.51%) | FV Inconclusive (MS $380 vs GF $278.39, ต่าง ~36%)</div>
+      <div class="action-box action-watch">
+        Wide Moat ยืนยัน + Compounder 4/5 (revenue +37% YoY) แต่ valuation แหล่งขัดแย้งกันเกิน 30% — รอราคาลงมาที่ zone ที่ทั้งสองแหล่งเห็นตรงกัน หรือรอ Q3 FY26 earnings
+      </div>
+      <div class="wrong-line"><strong>❓ ผิดได้ถ้า:</strong> AI/data-center capex ชะลอตัวแรงจน growth กลับไปต่ำกว่า 15% YoY เหมือน down-cycle 2023-24</div>
+    </div>
+
+    <div class="card">
+      <div class="card-header">
+        <div><div class="ticker">AMD</div><div class="company-name">Advanced Micro Devices</div></div>
+        <span class="badge badge-avoid">Avoid</span>
+      </div>
+      <div class="sector-tag">Semiconductors (AI/Data Center) — Narrow Moat</div>
+      <div class="price-line">$517.20 (-5.6%) | FV Inconclusive (MS $450 vs GF $241.73, ต่าง &gt;80%)</div>
+      <div class="action-box action-avoid">
+        Compounder 3/5 (ต้องการ ≥4/5) — TAM รวม AI compute ($1T by 2030) ใกล้เคียง market cap ปัจจุบัน (~1.2x) ไม่เหลือ headroom 5x แม้ revenue +38% YoY (accelerating) จะแรง
+      </div>
+      <div class="wrong-line"><strong>❓ ผิดได้ถ้า:</strong> ROCm/MI-series แย่งงบ AI accelerator จาก hyperscaler ได้เกิน niche ทำให้ Data Center AI revenue เป้า "tens of billions" ปี 2027 เกิดขึ้นจริง (thesis จะกลับด้าน)</div>
+    </div>
+
+    <div class="card">
+      <div class="card-header">
+        <div><div class="ticker">ANET</div><div class="company-name">Arista Networks</div></div>
+        <span class="badge badge-avoid">Avoid</span>
+      </div>
+      <div class="sector-tag">Networking / AI Infrastructure — Wide Moat</div>
+      <div class="price-line">$174.28 (-4.54%) | FV Inconclusive (MS $190 vs GF $140.59 vs DCF $129-229)</div>
+      <div class="action-box action-avoid">
+        Layer 1 ผ่านครบ (zero debt, FCF margin 55%) แต่ Compounder แค่ 3/5 — TAM Confirmed Fail (บริษัทระบุเอง $105B เทียบ mkt cap $219B ไม่ถึง 5x) เป็นจุดตัดหลัก
+      </div>
+      <div class="wrong-line"><strong>❓ ผิดได้ถ้า:</strong> hyperscaler AI capex growth ชะลอตัวกว่าคาด ทำให้ AI networking revenue growth หลุดต่ำกว่า 30% YoY ติดต่อกันหลายไตรมาส</div>
+    </div>
+
+    <div class="card">
+      <div class="card-header">
+        <div><div class="ticker">PANW</div><div class="company-name">Palo Alto Networks</div></div>
+        <span class="badge badge-watch">Watch</span>
+      </div>
+      <div class="sector-tag">Cybersecurity — Wide Moat</div>
+      <div class="price-line">$356.65 (+1.1%) | FV $285 (MS) / $211.36 (GF) — 🔴 Expensive ทั้งสองแหล่ง</div>
+      <div class="action-box action-watch">
+        Moat + Growth ผ่านครบ (Compounder 4/5, Next-Gen ARR +59-60% YoY) แต่แพงทั้ง 2 source (25-67% premium) + CyberArk deal $25B เพิ่ม dilution ~10% — รอ pullback
+      </div>
+      <div class="wrong-line"><strong>❓ ผิดได้ถ้า:</strong> Platformization ชะลอตัว — Next-Gen ARR growth หลุดต่ำกว่า 40% YoY ติดต่อกัน 2 ไตรมาส</div>
+    </div>
+
+    <div class="card">
+      <div class="card-header">
+        <div><div class="ticker">SNDK</div><div class="company-name">Sandisk Corp</div></div>
+        <span class="badge badge-avoid">Avoid</span>
+      </div>
+      <div class="sector-tag">NAND Flash Memory — No Moat</div>
+      <div class="price-line">$1,533.72 (-12.75%) | FV $1,000 (Morningstar) — 🔴 Expensive (+53.4%)</div>
+      <div class="action-box action-avoid">
+        Wide Moat Confirmed Fail (Morningstar: No Moat, commodity/cyclical) → หยุดที่ Layer 1 + Compounder 1/5 — growth +251% YoY เป็นผลจาก supply shortage cycle ชั่วคราว ไม่ใช่ durable advantage
+      </div>
+      <div class="wrong-line"><strong>❓ ผิดได้ถ้า:</strong> NAND contract price roll over จาก oversupply กลับมา gross margin ร่วงจาก 78% กลับสู่ mid-cycle ปกติ</div>
+    </div>
+
+  </div>
+</div>
+
+<hr class="divider">
+
+<!-- 2026-07-14 -->
+<div class="section">
+  <div class="day-section-header">
+    <div class="day-label">2026-07-14</div>
+    <div class="day-note">Memory/Space sector scan — 3 candidates (จุดเริ่ม aggressive growth style)</div>
+  </div>
+  <div class="cards-grid">
+
+    <div class="card">
+      <div class="card-header">
+        <div><div class="ticker">MU</div><div class="company-name">Micron Technology</div></div>
+        <span class="badge badge-avoid">Avoid</span>
+      </div>
+      <div class="sector-tag">Memory (DRAM/NAND/HBM) — No Moat</div>
+      <div class="price-line">$937 (-5.8%) | FV $850 (Morningstar) — 🟡 Fair (~+10% เหนือ FV)</div>
+      <div class="action-box action-avoid">
+        Wide Moat Confirmed Fail (No Moat, commodity chipmaker) + Compounder 1/5 — insider selling สูงสุดตั้งแต่ปี 2010 ($126.4M/3M) แม้ revenue จะโต 100%+ YoY จาก AI memory supercycle
+      </div>
+      <div class="wrong-line"><strong>❓ ผิดได้ถ้า:</strong> AI capex ของ hyperscaler ชะลอตัวเร็วกว่าคาด demand HBM/DRAM หดตัวและวงจรราคากลับเข้าสู่ downturn</div>
+    </div>
+
+    <div class="card">
+      <div class="card-header">
+        <div><div class="ticker">RKLB</div><div class="company-name">Rocket Lab USA, Inc.</div></div>
+        <span class="badge badge-avoid">Avoid</span>
+      </div>
+      <div class="sector-tag">Aerospace/Defense — Narrow Moat</div>
+      <div class="price-line">~$86 (+4.1%) | ⚠️ Data Conflict FV: GF Value $26.55 vs Simply Wall St $87-104 vs analyst PT $103-116</div>
+      <div class="action-box action-avoid">
+        ไม่ผ่าน Layer 1 (Wide Moat / FCF / Debt ❌ confirmed) — cash burn หนัก (-38.6% FCF margin), Compounder 3/5, CEO family trust ขายหุ้น ~$896M ใน 90 วัน
+      </div>
+      <div class="wrong-line"><strong>❓ ผิดได้ถ้า:</strong> Neutron เลื่อน launch ออกไปอีกจากกำหนด Q4 2026 ทำให้ narrative เติบโตสะดุด</div>
+    </div>
+
+    <div class="card">
+      <div class="card-header">
+        <div><div class="ticker">SKHY</div><div class="company-name">SK hynix Inc. (ADR)</div></div>
+        <span class="badge badge-avoid">Avoid</span>
+      </div>
+      <div class="sector-tag">Memory (DRAM/NAND/HBM) — Contested Moat</div>
+      <div class="price-line">$185.375 (+9.0% intraday) | FV $160 (Morningstar ADR est.) — 🟡 Fair, borderline</div>
+      <div class="action-box action-avoid">
+        Avoid (Provisional — ข้อมูลไม่ครบหลายจุด, เพิ่ง IPO 4 วัน) — Compounder 1/5 แม้ headline growth (+269% YoY) จะสูงมาก เพราะเป็น cyclical upcycle ไม่ใช่หลักฐานเติบโตยั่งยืน
+      </div>
+      <div class="wrong-line"><strong>❓ ผิดได้ถ้า:</strong> Samsung หรือ Micron qualify HBM4 กับ Nvidia ได้ใกล้เคียงกันภายใน 2-3 ไตรมาส</div>
+    </div>
+
+  </div>
+</div>
+
+</div>
+</body>
+</html>
