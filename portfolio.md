@@ -16,20 +16,20 @@
 
 ## Top Pick (วันนี้)
 
-> 🏆 **Jul 16, 2026 (intraday, full daily-brief)** — **META** $681.31 (Conviction ~6.5/10, Starter Position ⚠️ Second Opinion Tie) — ตัวเดียวใน Watchlist ที่ราคายังต่ำกว่า Fair Value จริง ($819-850) ตัวอื่นทั้งหมดเกิน entry zone
+> 🏆 **Jul 17, 2026 (intraday, full daily-brief)** — **META** $664.54 (Conviction ~6.8/10, Starter Position ⚠️ Second Opinion Tie) — ราคาลงต่อจากเมื่อวาน (-2.46%) ยิ่งถูกกว่าเดิมเทียบ Fair Value $819-850 — ตัวเดียวใน Watchlist ที่ยังต่ำกว่า FV จริง ตัวอื่นทั้งหมดเกิน entry zone
 
 ---
 
-## 🔮 Today's Prediction (2026-07-16, intraday update)
-- AVGO จะยังอ่อนตัวต่อจน semiconductor sector-wide sentiment คลี่คลาย (ไม่ใช่ company-specific — non-AI segment cooling ทั้งกลุ่ม)
-- GWRE +3.90% วันนี้น่าจะเป็น rotation ชั่วคราว ไม่ใช่ trend ถาวร — เช็คพรุ่งนี้ว่ายืนราคาได้ไหม
-- ตลาดรวมแกว่งแคบต่อจากความกังวล Iran/oil — ถ้า VIX ทะลุ 17 = risk-off ชัดเจนขึ้น
+## 🔮 Today's Prediction (2026-07-17, intraday update)
+- Semiconductor sell-off (Netflix Q3 miss + chip sector weakness) มีแนวโน้มลากต่อจนถึงปิดตลาด — VIX พุ่ง +12.5% เป็น 18.82 ถ้าทะลุ 20 = risk-off ชัดเจนขึ้น
+- GWRE +5.96% วันนี้ (ยังไม่เจอข่าวเฉพาะตัว) มีโอกาสย่อกลับบางส่วนพรุ่งนี้ถ้าไม่มี catalyst ใหม่ยืนยัน — เช็คว่ายืนเหนือ $145 ได้ไหม
+- AVGO -5.03% เป็น sector-wide (ไม่ใช่ company-specific — Apple ขยายสัญญา $30B+ ถึงปี 2031 เป็นข่าวบวกที่ตลาดยังไม่ price-in) น่าจะทรงตัว/ฟื้นเร็วกว่าเซกเตอร์ถ้า sentiment คลี่คลาย
 
 ---
 
 ## Holdings
 
-> อัปเดต Jul 16, 2026 (intraday, ราคาสด curl Yahoo) | Total holdings: **$443.86** | Unrealized P&L: **+$63.36 (+16.65%)** + Cash Reserve **$157** | 🎯 Pace: ~+202.6%/yr annualized (เป้า 100%/yr) — ✅ on track เกินเป้า (ประมาณการ ยังไม่มี THB conversion จาก Dime!)
+> อัปเดต Jul 17, 2026 (intraday, ราคาสด curl Yahoo) | Total holdings: **$448.22** | Unrealized P&L: **+$67.58 (+17.76%)** + Cash Reserve **$157**
 > 💰 SPCX ขายแล้ว Jun 17 @ $191.38 | Realized gain: **+$20.94 (+12.29%)**
 > 💸 CME ขายแล้ว Jun 23 @ $246.22 | Realized loss: **-$5.29 (-15.14%)**
 > 💸 MDLZ ขายแล้ว Jun 28 @ $60.75 | Realized gain: **+$0.88 (+0.78%)**
@@ -42,10 +42,10 @@
 
 | Ticker | Shares | Buy Price | มูลค่า | P&L % | P&L USD | ราคาปัจจุบัน | Kill Buffer |
 |--------|--------|-----------|--------|--------|---------|--------------|------------|
-| GWRE | 1.0000000 | $107.76 | **$146.02** | **+35.53% ✅** | +$38.26 | $146.02 | Kill $86.21 (+69.6% ✅, -20%) 🟢 +3.90% วันนี้ |
-| PLTR | 1.0000000 | $118.00 | **$132.32** | **+12.14% ✅** | +$14.32 | $132.32 | Kill $94.40 (+40.2% ✅, -20%) 🔴 -1.08% วันนี้ |
-| AVGO | 0.2172321 | $372.21 (avg) | **$82.84** | **+2.43% ✅** | +$1.96 | $381.34 | Kill $297.77 (+27.5% ✅, -20%) 🔴 -3.28% วันนี้ |
-| V | 0.2287306 | $323.00 | **$82.68** | **+12.05% ✅** | +$8.88 | $361.49 | Kill $274.55 (+31.8% ✅, -15% เดิม) 🟢 +1.79% วันนี้ 🔴 /brief วันนี้ = Avoid |
+| GWRE | 1.0000000 | $107.76 | **$148.91** | **+38.19% ✅** | +$41.15 | $148.91 | Kill $86.21 (+72.7% ✅, -20%) 🟢 +5.96% วันนี้ (ไม่มีข่าวเฉพาะตัว) |
+| PLTR | 1.0000000 | $118.00 | **$134.44** | **+13.93% ✅** | +$16.44 | $134.44 | Kill $94.40 (+42.4% ✅, -20%) 🟢 +0.51% วันนี้ |
+| AVGO | 0.2172321 | $372.21 (avg) | **$81.34** | **+0.60% ✅** | +$0.49 | $374.45 | Kill $297.77 (+25.8% ✅, -20%) 🔴 -5.03% วันนี้ (sector-wide semis sell-off, ไม่ใช่ company-specific — Apple ขยายสัญญา $30B+ เป็นข่าวบวก) |
+| V | 0.2287306 | $323.00 | **$83.53** | **+13.05% ✅** | +$9.65 | $365.14 | Kill $274.55 (+33.0% ✅, -15% เดิม) 🟢 +2.82% วันนี้ 🔴 /brief Jul 16 = Avoid |
 | ~~SPGI~~ | ~~0.1816941~~ | ~~$391.47*~~ | ✅ **ขายแล้ว Jul 14** @ $435.934 | Realized +$8.08 (+11.35%) | — | — | — |
 
 > *SPGI cost per share adjusted post MBGL spin-off (original $412.79 → $391.47)
@@ -194,7 +194,7 @@
 | **ZETA** | Narrow Moat Data Assets — thesis ผิดถ้า Palantir deal ไม่ deliver $100M+ — /brief Jun 26 | $16–$18 (GF Value $17.34) | **$22.41** (Jul 15 close) ⚠️ เกิน zone มากขึ้น (+40%) |
 | **ADI** | Wide Moat Analog/Mixed-Signal — Valuation Inconclusive (MS $380 vs GF $278) — thesis ผิดถ้า AI capex ชะลอจน growth <15% YoY — /brief Jul 15 | รอราคาเข้าใกล้ GF Value $278 หรือรอ Q3 FY26 earnings ยืนยัน growth | **$390.96** (Jul 15 close) |
 | **PANW** | Wide Moat Cybersecurity — Switching Cost (platformization) — แพงทั้ง MS FV $285 และ GF Value $211 — thesis ผิดถ้า Next-Gen ARR growth หลุด <40% YoY 2 ไตรมาสติด — /brief 2026-07-15 | รอเข้าใกล้ MS FV $285 หรือ GF Value $211 | **$354.02** (Jul 15 close) |
-| **META** | Wide Moat (Network+Scale Economies) — Starter Position (⚠️ Second opinion flagged: Reality Labs ขาดทุนสะสม ~$90B, capex เสี่ยง) — thesis ผิดถ้า capex ไม่แปลงเป็น revenue ภายใน 2-3 ปีจน FCF margin <15% ต่อเนื่อง — /brief 2026-07-16 | Fair value borderline ($819-850 vs ราคา $681.31) | **$681.31** (Jul 16) |
+| **META** | Wide Moat (Network+Scale Economies) — Starter Position (⚠️ Second opinion flagged: Reality Labs ขาดทุนสะสม ~$90B, capex เสี่ยง) — thesis ผิดถ้า capex ไม่แปลงเป็น revenue ภายใน 2-3 ปีจน FCF margin <15% ต่อเนื่อง — /brief 2026-07-16 | Fair value borderline ($819-850 vs ราคา $664.54) | **$664.54** (Jul 17, -2.46%) |
 | **APH** | Wide Moat (Switching Cost+Scale) — Watch, รอ valuation ชัดเจนขึ้น (MS $190 vs GF $138 ต่าง 38%) — thesis ผิดถ้า AI capex ชะลอเร็วกว่าคาด — /brief 2026-07-16 | รอ Q2 earnings 29 ก.ค. ยืนยัน | **$157.04** (Jul 16) |
 
 ## 📺 YouTube Digest — ลงทุน Diary
