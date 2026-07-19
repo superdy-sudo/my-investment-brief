@@ -274,61 +274,48 @@ Format row:
 
 **บันทึก** `briefs/[TICKER]-[YYYY-MM-DD].md` — ใช้ output format เดิม
 
-**อัปเดต showcase/index.html:**
+**อัปเดต showcase/briefs.html** (ไม่ใช่ index.html — index.html ถูกตัด scope ไปแล้ว 2026-07-17 เหลือแค่ Header→Summary→Holdings ห้ามเพิ่ม brief card กลับเข้าไป — ดู `feedback-showcase-scope-trimmed` memory)
 
-หาก `<!-- BRIEF_[TICKER]_START -->` มีอยู่แล้ว → แทนที่ content ระหว่าง markers
+briefs.html คือ archive แยกตามวันจริง (section ต่อวัน ใหม่สุดอยู่บนสุด ใต้ `<div class="container">`):
 
-หากไม่มี → inject card ใหม่ก่อน `<!-- WATCHLIST -->` โดยใช้ format:
+หากมี section `<!-- [DATE] -->` ของวันนี้อยู่แล้ว → เพิ่ม card เข้าไปใน `.cards-grid` นั้น
+หากยังไม่มี → สร้าง section ใหม่ต่อจาก `<div class="container">` (บนสุด ก่อน section ของวันก่อนหน้า):
 
 ```html
-<!-- BRIEF_[TICKER]_START -->
-<div class="card" style="border-color:[action-color];">
-  <div class="card-header">
-    <div>
-      <div class="ticker">[TICKER]</div>
-      <div class="company-name">[ชื่อบริษัท]</div>
+<!-- [YYYY-MM-DD] -->
+<div class="section">
+  <div class="day-section-header">
+    <div class="day-label">[YYYY-MM-DD]</div>
+    <div class="day-note">[บริบทสั้นๆ ว่าทำไมสแกน/บรีฟตัวนี้]</div>
+  </div>
+  <div class="cards-grid">
+
+    <div class="card">
+      <div class="card-header">
+        <div><div class="ticker">[TICKER]</div><div class="company-name">[ชื่อบริษัท]</div></div>
+        <span class="badge badge-[avoid/watch/starter/buy]">[Avoid/Watch/Starter/Buy]</span>
+      </div>
+      <div class="sector-tag">[sector] — [moat type]</div>
+      <div class="price-line">$[XXX] [+X%] | FV [...] — [🟢/🟡/🔴/⚠️ Inconclusive]</div>
+      <div class="action-box action-[avoid/watch/starter/buy]">
+        [สรุป Layer 1 + Layer 2 ผลลัพธ์ + เหตุผลหลัก ≤2-3 บรรทัด]
+      </div>
+      <div class="wrong-line"><strong>❓ ผิดได้ถ้า:</strong> [เหตุผลอันดับ 1]</div>
     </div>
-    <span class="badge" style="background:[action-color];">[BUY/STARTER/WATCH/AVOID]</span>
+
   </div>
-  <div class="sector-tag">[sector]</div>
-  <div class="moat-tag">[moat type]</div>
-  <div class="metrics">
-    <div class="metric"><div class="metric-label">ราคา</div><div class="metric-value">$[XXX]</div></div>
-    <div class="metric"><div class="metric-label">Fair Value</div><div class="metric-value">$[XXX]</div></div>
-    <div class="metric"><div class="metric-label">Valuation</div><div class="metric-value">[🟢/🟡/🔴] [Cheap/Fair/Exp]</div></div>
-    <div class="metric"><div class="metric-label">Compounder</div><div class="metric-value">[X]/5</div></div>
-  </div>
-  <div class="action-box action-[enter/wait/hold/avoid]">
-    <span class="action-label">[🟢 Buy / 🔵 Starter / 🟠 Watch / 🔴 Avoid]</span>
-    <div class="action-detail">[เหตุผล ≤2 บรรทัด]</div>
-  </div>
-  <div style="font-size:0.8rem;margin-top:8px;">
-    <span style="color:#68d391;">🐂 Bull:</span> [ข้อ 1 — สั้น]<br>
-    <span style="color:#fc8181;">🐻 Bear:</span> [ข้อ 1 — สั้น]
-  </div>
-  <div class="wrong-box" style="margin-top:8px;">
-    <strong>❓ Thesis ผิดได้ถ้า</strong>[เหตุผลอันดับ 1]
-  </div>
-  <div class="updated-at">[วันที่]</div>
 </div>
-<!-- BRIEF_[TICKER]_END -->
+
+<hr class="divider">
 ```
 
-**action-color mapping:**
-- Buy → `#68d391`
-- Starter → `#4299e1`  
-- Watch → `#f6ad55`
-- Avoid → `#fc8181`
+**badge/action class mapping:** Buy → `badge-buy`/`action-buy`, Starter → `badge-starter`/`action-starter`, Watch → `badge-watch`/`action-watch`, Avoid → `badge-avoid`/`action-avoid`
 
-**action class mapping:**
-- Buy → `action-enter`
-- Starter → `action-hold`
-- Watch → `action-wait`
-- Avoid → `action-avoid`
+ถ้า TICKER อยู่ใน **Holdings** อยู่แล้ว (ไม่ใช่ scout ใหม่) → เพิ่ม `<div class="hold-flag">⚠️ นี่คือ HOLDING ปัจจุบัน — ผลนี้คือสัญญาณให้พิจารณาขาย</div>` ก่อน action-box ถ้า Action = Avoid
 
 จากนั้น push:
 ```bash
-git add briefs/ showcase/index.html portfolio.md
+git add briefs/ showcase/briefs.html portfolio.md
 git commit -m "brief [TICKER] [DATE]: [action] | [valuation] | [thesis killer สั้น]"
 git push origin main
 ```
