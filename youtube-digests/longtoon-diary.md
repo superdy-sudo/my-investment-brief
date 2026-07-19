@@ -101,3 +101,20 @@
 
 หมายเหตุ: ฝั่งซอฟต์แวร์ Apple ยังเป็นพันธมิตร OpenAI (ChatGPT ใน iOS) อยู่ — คดีนี้เป็นคนละส่วนกัน
 🔗 https://www.youtube.com/watch?v=uKSivIAN9WY
+
+## 2026-07-18 — AI มันเพิ่งเริ่มเองปะ - ส่องงบ TSMC + ASML Q2'26
+1. **ASML "Beat and Raise":** ยอดขายเครื่องฝั่ง Memory คาดโต 75% ปีนี้ Guidance ปีหน้าโต 30-40%
+2. **TSMC ปรับเพิ่ม Capex:** ดีมานด์ล้นจนต้องขยายโรงงาน ตั้งเป้า Gross Margin ~66% (Midpoint) แม้เจอความท้าทายจากโหนดใหม่/โรงงานต่างประเทศ
+3. **มุมมอง AI Demand:** TSMC มองเป็น Multi-year Megatrend ถึงปี 2029-2030 — Lithography Intensity ทำให้ ASML ขายเครื่อง/ซ่อมบำรุงได้มากขึ้นต่อชิป, ฝั่ง Cloud (Amazon/Google/Microsoft) และ CPU Data Center ยังแข็งแกร่ง — TSMC ได้ประโยชน์ไม่ว่าใครชนะศึก CPU (Intel/AMD/ARM)
+4. **Bear Case:** Customer Concentration พึ่งพาลูกค้ารายใหญ่ไม่กี่เจ้า, ASML เริ่มมีอำนาจขึ้นราคาเครื่องจักร (Tools Inflation) เสี่ยงดันต้นทุนชิปของ TSMC สูงขึ้น
+5. **สรุปมุมมองผู้พูด:** "AI แม่งเพิ่งเริ่มว่ะ" มองข้ามความผันผวนราคาหุ้นระยะสั้น — "การไม่มีหุ้น AI เลย น่ากลัวกว่า AI Bubble เยอะ"
+🔗 https://www.youtube.com/watch?v=_pqKCKdmPRo
+
+## 2026-07-18 — ทำไมหุ้น FOUNDRIES ถึงโหด? - เล่าธุรกิจ TSMC SAMSUNG INTEL
+1. **Moat ของ TSMC:** BKM (Best Known Method) — คลังประสบการณ์แก้ปัญหาจากลูกค้าหมื่นเจ้ากว่า 10 ปี ยิ่งทำยิ่งเก่ง (Flywheel); Model-to-Hardware Correlation แม่นสุดในอุตสาหกรรม; เป็น Pure-play Foundry ไม่แข่งกับลูกค้าเอง (ต่าง Samsung/Intel); Talent Magnet ของไต้หวัน
+2. **ทำไมย้าย Fab ไม่ง่าย (Lock-in):** PDK ต้องออกแบบใหม่จากศูนย์ถ้าย้าย; ค่า Mask ชุดละ 15 ล้านเหรียญ (7nm) พุ่งเกิน 100 ล้านเหรียญ (3nm); EDA (Synopsys/Cadence) + IP Blocks ปรับให้เข้ากับ TSMC ก่อนเสมอ ต้อง Validate ใหม่ 12-18 เดือนถ้าย้าย; ลูกค้าใหญ่อย่าง Qualcomm ต้องเตรียมตัวล่วงหน้า 2-3 ปีถ้าจะใช้หลายโรงงาน
+3. **Samsung:** เสนอ Total Solution (HBM + Advance Packaging) ได้เจ้าเดียว เริ่มโรงงานเท็กซัส ได้ลูกค้า Tesla กำลังเจรจา Qualcomm/AMD
+4. **Intel:** CEO ใหม่สายพื้นเป็น EDA เข้าใจ PDK ลึก โหนด 18A เริ่มผลิตแล้ว จุดแข็ง Advance Packaging (EMIB) ได้ Google TPU และ Elon Musk (Tesla/SpaceX) เริ่มเข้ามาใช้บริการ + แต้มต่อ "Made in USA"
+5. **ความเสี่ยง:** BKM Gap ทำให้ Margin ของ Samsung/Intel ยังสู้ TSMC ไม่ได้ในระยะสั้น; Break-even ต้อง Utilization 85% ขาดลูกค้าช่วงสั้นๆ ก็ขาดทุนหนัก; Samsung มี Conflict of Interest จากธุรกิจมือถือ, Intel ต้องพิสูจน์ Execution หลังเคยล้มเหลวหลายครั้ง
+6. **สรุป:** โอกาสของ Samsung/Intel มาถึงแล้ว (Now or Never) เพราะโรงงาน TSMC เต็มตลอด แต่เป้าคือ "ปิดช่องว่าง" ไม่ใช่ขึ้นที่ 1
+🔗 https://www.youtube.com/watch?v=LHn0wsxedwM

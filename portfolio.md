@@ -197,6 +197,8 @@
 | **META** | Wide Moat (Network+Scale Economies) — Starter Position (⚠️ Second opinion: Tie ซ้ำ — CFO ยอมรับคุม AI capex ไม่ได้ต่อเนื่อง + ปฏิเสธ 2027 guidance) — thesis ผิดถ้า capex ไม่แปลงเป็น revenue ภายใน 2-3 ปีจน FCF margin <15% ต่อเนื่อง — /brief 2026-07-17 | 🟢 Cheap แล้วทั้ง GuruFocus (-23.5%) และ Morningstar (-26.3%) จาก FV $819-850 | **$626.60** (Jul 17, -8.0% จาก Jul 16 close) |
 | **APH** | Wide Moat (Switching Cost+Scale) — Watch, รอ valuation ชัดเจนขึ้น (MS $190 vs GF $138 ต่าง 38%) — thesis ผิดถ้า AI capex ชะลอเร็วกว่าคาด — /brief 2026-07-16 | รอ Q2 earnings 29 ก.ค. ยืนยัน | **$157.04** (Jul 16) |
 | **KKR** | Narrow Moat (Scale+Switching Cost) — Starter Position (⚠️ Second opinion: Tie — Global Atlantic insurance arm ลงทุนใน private credit ที่ KKR บริหารเอง เป็น correlated risk ไม่ใช่ diversification) — thesis ผิดถ้า private credit quality เสื่อมวงกว้างแบบ FS KKR Capital Corp (junk-rated) — /brief 2026-07-17 | Fair value ~12% ต่ำกว่า FV ($115 MS) | **$101.73** (Jul 17) |
+| **ASML** | Wide Moat — Cornered Resource (EUV monopoly ~90% share) — Watch, Valuation Inconclusive (Morningstar FV EUR 1,800 vs GuruFocus GF Value $1,127.62 ต่างกัน >70%) | thesis ผิดถ้า AI/foundry capex air-pocket ปี 2027-2028 ทำให้ revenue growth หลุด <15% YoY — /brief 2026-07-19 | รอ valuation บรรจบกัน หรือราคาเข้าใกล้ GF Value $1,127 | **$1,747.58** (Jul 19, -2.09%) |
+| **TSM** | Wide Moat (Process Power+Scale Economies) — Watch, Valuation Inconclusive (MS FV $534 vs GF Value $300.92 ต่าง 77.5%) — thesis ผิดถ้า Taiwan geopolitical risk ทวีขึ้นหรือ AI capex ชะลอจน growth <30% YoY 2 ไตรมาสติด — /brief 2026-07-19 | รอราคาเข้าใกล้ GF Value $300.92 หรือรอ valuation ชัดเจนขึ้น | **$398.37** (2026-07-19) |
 
 ## 📺 YouTube Digest — ลงทุน Diary
 
