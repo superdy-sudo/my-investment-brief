@@ -213,11 +213,45 @@ git push origin main
 
 **หุ้นที่ขายแล้ว:** ลบการ์ดออกจาก Holdings section ใน showcase/index.html ทันทีที่ขาย (ไม่ต้องเก็บการ์ด "SOLD ✅" ไว้) — realized P&L ดูได้จาก portfolio.md และ knowledge/_sold/[TICKER].md อยู่แล้ว
 
-**Top Pick ที่ไม่ใช่ Buy/Starter แล้ว (2026-07-20):** ทุกครั้งที่ Top Pick เปลี่ยน (ตัวเดิมหลุดจาก Buy/Starter, หรือเปลี่ยนไปตัวใหม่) ต้องอัปเดต showcase/index.html ให้ตรงทันที — ลบ/แก้ทุกจุดที่พูดถึง Top Pick เดิม:
-- `<p>` บน Header (ส่วน "Top Pick: [TICKER] (...)")
-- `<!-- WHATS_CHANGED_START -->` ถ้ามีพูดถึง Top Pick
-- `<!-- SUMMARY_START -->` (บรรทัด Comment ระบบ ที่มักอ้างถึง Top Pick)
-ถ้าไม่มี Top Pick ใหม่มาแทน (ไม่มี ticker ไหนใน Watchlist เป็น Buy/Starter เลย) → **ลบทุกการอ้างอิงถึง Top Pick ออกจากหน้านี้ทั้งหมด** ไม่ต้องเว้นว่างไว้เฉยๆ หรือเขียนว่า "ไม่มี Top Pick" ค้างอยู่ในหน้า pre-market — หน้านี้ควรมีแต่ข้อมูล Holdings/Market/Summary ที่เป็นปัจจุบันเท่านั้น
+**Top Pick เป็น card แยกต่างหาก (2026-07-20):** showcase/index.html มี section `<!-- TOPPICK_START -->`/`<!-- TOPPICK_END -->` อยู่ท้ายสุดของหน้า (ใต้ Holdings) เป็นการ์ดสไตล์เดียวกับ Holdings cards — **นี่คือที่แสดงผล Top Pick หลัก** ไม่ใช่แค่ข้อความสั้นๆ ในหัวข้ออื่น
+
+รูปแบบการ์ด:
+```html
+<!-- TOPPICK_START -->
+<div class="section">
+  <div class="section-title">🏆 Top Pick</div>
+  <div class="cards-grid">
+    <div class="card" style="border:2px solid #4299e1;">
+      <div class="card-header">
+        <div><div class="ticker">[TICKER]</div><div class="company-name">[ชื่อบริษัท]</div></div>
+        <span class="badge badge-scout">[BUY/STARTER]</span>
+      </div>
+      <div class="sector-tag">[sector]</div>
+      <div class="action-box action-[enter สำหรับ Buy / hold สำหรับ Starter]">
+        <span class="action-label">[🟢 Buy / 🔵 Starter Position] — $XXX | Conviction X.X/10</span>
+        <span class="action-detail">[เหตุผล valuation + compounder + second opinion ถ้ามี]</span>
+      </div>
+      <div><span class="moat-tag">[moat type]</span></div>
+      <div class="metrics">
+        <div class="metric"><div class="metric-label">ราคา [วันที่]</div><div class="metric-value">$XXX (+/-X%)</div></div>
+        <div class="metric"><div class="metric-label">Fair Value</div><div class="metric-value">$XXX</div></div>
+        <div class="metric"><div class="metric-label">Valuation</div><div class="metric-value">[🟢/🟡] [Cheap/Fair]</div></div>
+        <div class="metric"><div class="metric-label">Compounder</div><div class="metric-value">X/5</div></div>
+      </div>
+      <div class="trend">🐂 Bull: [...] | 🐻 Bear: [...] | /brief [DATE]</div>
+      <div class="thesis-status thesis-watch">❓ Thesis ผิดได้ถ้า: [...]</div>
+    </div>
+  </div>
+</div>
+<!-- TOPPICK_END -->
+```
+
+**ทุกครั้งที่รัน Full Brief:**
+- Top Pick ยังเป็น Buy/Starter เหมือนเดิม → แค่อัปเดตราคา/% change/valuation ในการ์ดนี้ (แทนที่ content ระหว่าง markers)
+- Top Pick เปลี่ยนตัว (ตัวเดิมหลุด Buy/Starter, ตัวใหม่ขึ้นมาแทน) → แทนที่ทั้งการ์ดด้วยตัวใหม่
+- ไม่มี ticker ไหนใน Watchlist เป็น Buy/Starter เลย → **ลบทั้ง section `<!-- TOPPICK_START -->` ถึง `<!-- TOPPICK_END -->` ออกจากหน้าทั้งหมด** (รวม `<hr class="divider">` ที่นำหน้า section นี้ด้วย) ไม่ปล่อยว่างค้างไว้
+
+ส่วนข้อความ Top Pick สั้นๆ ที่ปรากฏใน Header `<p>`, `<!-- WHATS_CHANGED_START -->`, และ `<!-- SUMMARY_START -->` ยังคงอัปเดตตามปกติให้ตรงกับการ์ดนี้เสมอ (เป็นแค่ pointer สั้นๆ ให้เห็นเร็ว การ์ดคือแหล่งข้อมูลหลัก) — ถ้าไม่มี Top Pick ให้ตัดคำว่า "Top Pick: ..." ออกจากจุดเหล่านี้ด้วยเช่นกัน
 
 **เมื่อ daily-brief ทำ /brief ตัวไหน (เช่น Market Scan candidate, spot brief):** นอกจากบันทึก `briefs/[TICKER]-[DATE].md` ตามปกติแล้ว ให้เพิ่มการ์ดใน `showcase/briefs.html` ด้วย — ถ้ามี section ของวันนี้ (`<!-- YYYY-MM-DD -->`) อยู่แล้วให้เพิ่มการ์ดต่อท้าย `cards-grid` ของวันนั้น ถ้ายังไม่มีให้สร้าง section ใหม่ (คัดลอกโครงจาก section ล่าสุด) แล้ววางไว้บนสุด (ใหม่สุดอยู่บน) — ห้ามผสมหลายวันไว้การ์ดเดียวหรือย้อนกลับไปแก้การ์ดของวันเก่า
 
