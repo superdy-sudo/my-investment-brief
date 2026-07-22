@@ -193,7 +193,6 @@
 | COST | Membership model + pricing power — Q3 beat (+11.6% YoY) | ยังไม่กำหนด | $916.54 (Jul 15 close) |
 | AMZN | AWS moat +28% YoY + Anthropic partnership | รอ $225-230 (GF zone) | $254.96 (Jul 15 close) — เกิน zone +13.3% |
 | LLY | GLP-1 + ADA data strong Jun 8 | รอ pullback | $1,156.63 (Jul 15 close) |
-| SNPS | EDA duopoly + Q2 FY26 beat + Elliott on Board ✅ | รอ Design IP Q3 FY26 | $425.28 (Jul 15 close) |
 | NVDA | AI compute monopoly | รอ $182-190 (DCF zone) ⚠️ value trap warning | $212.50 (Jul 15 close) — เกิน zone +16.8% |
 | **RMBS** | Patent Portfolio (DDR5+HBM IP) — thesis ผิดถ้า DOJ formal indictment — /brief Jun 26 | รอ DOJ clarity ก่อน | **$102.89** (Jul 15 close) ⚠️ DOJ antitrust risk |
 | **ZETA** | Narrow Moat Data Assets — thesis ผิดถ้า Palantir deal ไม่ deliver $100M+ — /brief Jun 26 | $16–$18 (GF Value $17.34) | **$22.41** (Jul 15 close) ⚠️ เกิน zone มากขึ้น (+40%) |
