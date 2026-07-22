@@ -16,20 +16,25 @@
 
 ## Top Pick (วันนี้)
 
-> 🏆 **Jul 17, 2026 (/brief refresh)** — **META** $643.81 (2026-07-22, -2.61% vs Tue close $661.04) — 🟢 ยังคง Cheap (GuruFocus/Morningstar FV $819-850, ปัจจุบัน -21.4% ถึง -24.3% ต่ำกว่า FV) | Compounder ยังคง 4/5 confirmed | Action ยังคง **Starter Position** (⚠️ Second Opinion: Tie ซ้ำ — ไม่ upgrade เป็น Buy) — ยังไม่ได้รัน /brief ใหม่ (ไม่มีข่าวใหม่ที่กระทบ thesis — Q2 earnings Jul 29) — ดู `briefs/META-2026-07-17.md`
+> 🏆 **Jul 17, 2026 (/brief refresh)** — **META** $629.12 (2026-07-22, -2.28% vs Tue close $643.81) — 🟢 ยังคง Cheap (GuruFocus/Morningstar FV $819-850, ปัจจุบัน -23.2% ถึง -25.5% ต่ำกว่า FV, discount กว้างขึ้น) | Compounder ยังคง 4/5 confirmed | Action ยังคง **Starter Position** (⚠️ Second Opinion: Tie ซ้ำ — ไม่ upgrade เป็น Buy) — ยังไม่ได้รัน /brief ใหม่ (ไม่มีข่าวใหม่ที่กระทบ thesis — Q2 earnings Jul 29 ภายใน 7 วัน) — ดู `briefs/META-2026-07-17.md`
 
 ---
 
-## 🔮 Today's Prediction (2026-07-22)
-- **V earnings Jul 28 ใกล้เข้ามา (6 วัน)** — V ยังเป็น 🔴 Avoid จาก /brief Jul 16 (growth ❌ + DOJ antitrust ⚠️) แต่ position เดิมยังถืออยู่ ราคาทรงตัว $355.82 — คาดว่าตลาดจะเริ่ม price-in ความไม่แน่นอนของ earnings/DOJ มากขึ้นในสัปดาห์นี้
-- **GWRE ย่อตัวจาก sector rotation ไม่ใช่ company-specific** — ร่วงจาก $149.19 (Mon) → $140.71 (Tue close) ก่อนเด้งกลับเล็กน้อยวันนี้ $142.53 (+1.29%) — ไม่พบข่าวเฉพาะตัว น่าจะเป็น SaaS/software sector sentiment เช่นเดิม คาดว่าจะแกว่งตามกลุ่มต่อจนกว่าจะมี catalyst เฉพาะตัว (Q4 FY26 earnings Sep)
-- **Tech-led rally ต่อเนื่อง** — S&P +0.89%, Nasdaq +1.29% วันนี้นำโดย large-cap tech — คาดพรุ่งนี้ตลาดจับตา Alphabet/Tesla earnings ที่จะออกเป็นตัวชี้ทิศทางต่อ
+## 🔮 Today's Prediction (2026-07-22, intraday update)
+- **GOOGL/TSLA earnings หลังปิดตลาดคืนนี้** — จะเป็นตัวชี้ทิศทางตลาด tech พรุ่งนี้ ถ้า beat อาจพลิกกลับความอ่อนแอของ tech วันนี้ได้เร็ว
+- **GWRE/PLTR ร่วงแรงวันนี้ (-5.78%/-4.29%) เป็น sector-wide ไม่ใช่ company-specific** — ส่วนหนึ่งของ "SaaSpocalypse" (AI software multiple compression กว้างทั้งกลุ่ม, PLTR โดนกดดันเพิ่มจากข่าว Microsoft Frontier $2.5B แข่งขัน) ไม่พบข่าวเฉพาะตัวที่กระทบ fundamentals — คาดว่าจะไม่มีข่าวเฉพาะตัวเปลี่ยน thesis ในคืนนี้/พรุ่งนี้
+- **Oil price ขึ้นจาก Iran tension จะกด VIX ให้ทรงตัวโซน 17-18** จนกว่าจะมีข่าว de-escalation
+
+**Prediction Review (จาก 2026-07-22 เช้า):**
+- ~~V earnings Jul 28 ใกล้เข้ามา~~ ✅ ยังคง track เดิม (earnings เหลือ 6 วัน)
+- ~~GWRE ย่อตัวจาก sector rotation~~ ✅ ถูกต้อง — ร่วงต่อวันนี้ -5.78% ยืนยัน sector-wide ไม่ใช่ company-specific
+- ~~Tech-led rally ต่อเนื่อง~~ ❌ ผิด — วันนี้ tech กลับอ่อนแอ (Nasdaq -0.09%, GWRE/PLTR ร่วงแรง) จาก AI software selloff + oil price จาก Iran tension แทน
 
 ---
 
 ## Holdings
 
-> อัปเดต Jul 22, 2026 | Total holdings: **$440.53** | Unrealized P&L: **+$60.01 (+15.77%)** + Cash Reserve **$157**
+> อัปเดต Jul 22, 2026 (intraday update) | Total holdings: **$427.53** | Unrealized P&L: **+$47.02 (+12.35%)** + Cash Reserve **$157**
 > 💰 SPCX ขายแล้ว Jun 17 @ $191.38 | Realized gain: **+$20.94 (+12.29%)**
 > 💸 CME ขายแล้ว Jun 23 @ $246.22 | Realized loss: **-$5.29 (-15.14%)**
 > 💸 MDLZ ขายแล้ว Jun 28 @ $60.75 | Realized gain: **+$0.88 (+0.78%)**
@@ -42,10 +47,10 @@
 
 | Ticker | Shares | Buy Price | มูลค่า | P&L % | P&L USD | ราคาปัจจุบัน | Kill Buffer |
 |--------|--------|-----------|--------|--------|---------|--------------|------------|
-| GWRE | 1.0000000 | $107.76 | **$142.53** | **+32.27% ✅** | +$34.77 | $142.53 | Kill $86.21 (+65.3% ✅, -20%) 🟢 +1.29% วันนี้ แต่ -4.47% จาก Mon $149.19 (sector rotation ใน SaaS/software ไม่พบข่าวเฉพาะตัว thesis ไม่เปลี่ยน) |
-| PLTR | 1.0000000 | $118.00 | **$132.66** | **+12.42% ✅** | +$14.66 | $132.66 | Kill $94.40 (+40.5% ✅, -20%) 🟢 -0.79% วันนี้ (ทรงตัว) |
-| AVGO | 0.2172321 | $372.21 (avg) | **$83.96** | **+3.81% ✅** | +$3.08 | $386.50 | Kill $297.77 (+29.8% ✅, -20%) 🟢 -0.67% วันนี้ (ทรงตัว) |
-| V | 0.2287306 | $323.00 | **$81.38** | **+10.14% ✅** | +$7.49 | $355.82 | Kill $274.55 (+29.6% ✅, -15% เดิม) 🟢 -0.06% วันนี้ 🔴 /brief Jul 16 = Avoid — Q3 earnings Jul 28 (ภายใน 7 วัน) |
+| GWRE | 1.0000000 | $107.76 | **$134.29** | **+24.62% ✅** | +$26.53 | $134.29 | Kill $86.21 (+55.8% ✅, -20%) 🔴 -5.78% วันนี้ (sector-wide SaaS/AI software selloff ไม่พบข่าวเฉพาะตัว thesis ไม่เปลี่ยน) |
+| PLTR | 1.0000000 | $118.00 | **$126.97** | **+7.60% ✅** | +$8.97 | $126.97 | Kill $94.40 (+34.5% ✅, -20%) 🔴 -4.29% วันนี้ (AI software "SaaSpocalypse" multiple compression + Microsoft Frontier $2.5B ข่าวคู่แข่ง ไม่ใช่ fundamental miss thesis ไม่เปลี่ยน) |
+| AVGO | 0.2172321 | $372.21 (avg) | **$85.17** | **+5.32% ✅** | +$4.30 | $392.03 | Kill $297.77 (+31.7% ✅, -20%) 🟢 +1.43% วันนี้ |
+| V | 0.2287306 | $323.00 | **$81.11** | **+9.77% ✅** | +$7.22 | $354.55 | Kill $274.55 (+29.2% ✅, -15% เดิม) 🟢 -0.36% วันนี้ 🔴 /brief Jul 16 = Avoid — Q3 earnings Jul 28 (ภายใน 7 วัน) |
 | ~~SPGI~~ | ~~0.1816941~~ | ~~$391.47*~~ | ✅ **ขายแล้ว Jul 14** @ $435.934 | Realized +$8.08 (+11.35%) | — | — | — |
 
 > *SPGI cost per share adjusted post MBGL spin-off (original $412.79 → $391.47)
@@ -194,7 +199,7 @@
 | **ZETA** | Narrow Moat Data Assets — thesis ผิดถ้า Palantir deal ไม่ deliver $100M+ — /brief Jun 26 | $16–$18 (GF Value $17.34) | **$22.41** (Jul 15 close) ⚠️ เกิน zone มากขึ้น (+40%) |
 | **ADI** | Wide Moat Analog/Mixed-Signal — Valuation Inconclusive (MS $380 vs GF $278) — thesis ผิดถ้า AI capex ชะลอจน growth <15% YoY — /brief Jul 15 | รอราคาเข้าใกล้ GF Value $278 หรือรอ Q3 FY26 earnings ยืนยัน growth | **$390.96** (Jul 15 close) |
 | **PANW** | Wide Moat Cybersecurity — Switching Cost (platformization) — แพงทั้ง MS FV $285 และ GF Value $211 — thesis ผิดถ้า Next-Gen ARR growth หลุด <40% YoY 2 ไตรมาสติด — /brief 2026-07-15 | รอเข้าใกล้ MS FV $285 หรือ GF Value $211 | **$354.02** (Jul 15 close) |
-| **META** | Wide Moat (Network+Scale Economies) — Starter Position (⚠️ Second opinion: Tie ซ้ำ — CFO ยอมรับคุม AI capex ไม่ได้ต่อเนื่อง + ปฏิเสธ 2027 guidance) — thesis ผิดถ้า capex ไม่แปลงเป็น revenue ภายใน 2-3 ปีจน FCF margin <15% ต่อเนื่อง — /brief 2026-07-17 | 🟢 ยังคง Cheap จาก FV $819-850 (-21.4% ถึง -24.3%) | **$643.81** (2026-07-22, -2.61%) |
+| **META** | Wide Moat (Network+Scale Economies) — Starter Position (⚠️ Second opinion: Tie ซ้ำ — CFO ยอมรับคุม AI capex ไม่ได้ต่อเนื่อง + ปฏิเสธ 2027 guidance) — thesis ผิดถ้า capex ไม่แปลงเป็น revenue ภายใน 2-3 ปีจน FCF margin <15% ต่อเนื่อง — /brief 2026-07-17 | 🟢 ยังคง Cheap จาก FV $819-850 (-23.2% ถึง -25.5%) | **$629.12** (2026-07-22 intraday, -2.28%) |
 | **APH** | Wide Moat (Switching Cost+Scale) — Watch, รอ valuation ชัดเจนขึ้น (MS $190 vs GF $138 ต่าง 38%) — thesis ผิดถ้า AI capex ชะลอเร็วกว่าคาด — /brief 2026-07-16 | รอ Q2 earnings 29 ก.ค. ยืนยัน | **$157.04** (Jul 16) |
 | **KKR** | Narrow Moat (Scale+Switching Cost) — Starter Position (⚠️ Second opinion: Tie — Global Atlantic insurance arm ลงทุนใน private credit ที่ KKR บริหารเอง เป็น correlated risk ไม่ใช่ diversification) — thesis ผิดถ้า private credit quality เสื่อมวงกว้างแบบ FS KKR Capital Corp (junk-rated) — /brief refresh 2026-07-20 | Fair value ~15.7% ต่ำกว่า FV ($115 MS, ไม่เปลี่ยน) | **$96.97** (Mon Jul 20 close, sector-wide alt-manager sell-off ต่อเนื่อง) |
 | **ASML** | Wide Moat — Cornered Resource (EUV monopoly ~90% share) — Watch, Valuation Inconclusive (Morningstar FV EUR 1,800 vs GuruFocus GF Value $1,127.62 ต่างกัน >70%) | thesis ผิดถ้า AI/foundry capex air-pocket ปี 2027-2028 ทำให้ revenue growth หลุด <15% YoY — /brief 2026-07-19 | รอ valuation บรรจบกัน หรือราคาเข้าใกล้ GF Value $1,127 | **$1,739.02** (Mon Jul 20 close, -0.49%) |
