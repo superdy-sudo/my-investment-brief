@@ -204,6 +204,7 @@
 | **ASML** | Wide Moat — Cornered Resource (EUV monopoly ~90% share) — Watch, Valuation Inconclusive (Morningstar FV EUR 1,800 vs GuruFocus GF Value $1,127.62 ต่างกัน >70%) | thesis ผิดถ้า AI/foundry capex air-pocket ปี 2027-2028 ทำให้ revenue growth หลุด <15% YoY — /brief 2026-07-19 | รอ valuation บรรจบกัน หรือราคาเข้าใกล้ GF Value $1,127 | **$1,739.02** (Mon Jul 20 close, -0.49%) |
 | **TSM** | Wide Moat (Process Power+Scale Economies) — Watch, Valuation Inconclusive (MS FV $534 vs GF Value $300.92 ต่าง 77.5%) — thesis ผิดถ้า Taiwan geopolitical risk ทวีขึ้นหรือ AI capex ชะลอจน growth <30% YoY 2 ไตรมาสติด — /brief 2026-07-19 | รอราคาเข้าใกล้ GF Value $300.92 หรือรอ valuation ชัดเจนขึ้น | **$402.30** (Mon Jul 20 close, +0.98% — semiconductor เด้งกลับ) |
 | **DASH** | Narrow Moat (Network+Scale Economies+Switching Costs) — Starter Position (⚠️ Second opinion: Bear ชนะเชิงจังหวะ — sell-side downgrade wave 4 สำนัก + P/E ~86x ไม่มี margin of safety) — thesis ผิดถ้า Adjusted EBITDA/FCF margin หดตัวต่อเนื่อง 2 ไตรมาสจากลงทุน Deliveroo/Wolt/Dot ไม่แปลงเป็น revenue gain — /brief 2026-07-21 | 🟡 Fair (FV MS $170 / GF $211.78) | **$188.32** (2026-07-21) |
+| **KEYS** | Wide Moat (Switching Costs+Process Power) — Watch, Valuation Inconclusive (Morningstar $323-383 vs GuruFocus $183-201 ต่างกัน >40%) — thesis ผิดถ้า AI-datacenter test order surge (+56% YoY) ชะลอตัวลงแรงกลับสู่ระดับปกติ (<15%) — /brief 2026-07-23 | รอราคาย่อ/valuation ชัดเจนขึ้น | **$330.94** (2026-07-23, +1.04%) |
 
 ## 📺 YouTube Digest — ลงทุน Diary
 
