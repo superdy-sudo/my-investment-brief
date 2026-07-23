@@ -16,25 +16,25 @@
 
 ## Top Pick (วันนี้)
 
-> 🏆 **Jul 17, 2026 (/brief refresh)** — **META** $629.12 (2026-07-22, -2.28% vs Tue close $643.81) — 🟢 ยังคง Cheap (GuruFocus/Morningstar FV $819-850, ปัจจุบัน -23.2% ถึง -25.5% ต่ำกว่า FV, discount กว้างขึ้น) | Compounder ยังคง 4/5 confirmed | Action ยังคง **Starter Position** (⚠️ Second Opinion: Tie ซ้ำ — ไม่ upgrade เป็น Buy) — ยังไม่ได้รัน /brief ใหม่ (ไม่มีข่าวใหม่ที่กระทบ thesis — Q2 earnings Jul 29 ภายใน 7 วัน) — ดู `briefs/META-2026-07-17.md`
+> 🏆 **Jul 17, 2026 (/brief refresh)** — **META** $627.17 (2026-07-22 close, -2.58% vs Jul21 close $643.81) — 🟢 ยังคง Cheap (GuruFocus/Morningstar FV $819-850, discount กว้างขึ้นต่อเนื่อง) | Compounder ยังคง 4/5 confirmed | Action ยังคง **Starter Position** (⚠️ Second Opinion: Tie ซ้ำ — ไม่ upgrade เป็น Buy) — ยังไม่ได้รัน /brief ใหม่ (ไม่มีข่าวใหม่ที่กระทบ thesis โดยตรง — Q2 earnings Jul 29 ภายใน 7 วัน, GOOGL earnings คืนนี้ยืนยัน AI capex fear เป็น sector-wide theme ไม่ใช่ META-specific) — ดู `briefs/META-2026-07-17.md`
 
 ---
 
-## 🔮 Today's Prediction (2026-07-22, intraday update)
-- **GOOGL/TSLA earnings หลังปิดตลาดคืนนี้** — จะเป็นตัวชี้ทิศทางตลาด tech พรุ่งนี้ ถ้า beat อาจพลิกกลับความอ่อนแอของ tech วันนี้ได้เร็ว
-- **GWRE/PLTR ร่วงแรงวันนี้ (-5.78%/-4.29%) เป็น sector-wide ไม่ใช่ company-specific** — ส่วนหนึ่งของ "SaaSpocalypse" (AI software multiple compression กว้างทั้งกลุ่ม, PLTR โดนกดดันเพิ่มจากข่าว Microsoft Frontier $2.5B แข่งขัน) ไม่พบข่าวเฉพาะตัวที่กระทบ fundamentals — คาดว่าจะไม่มีข่าวเฉพาะตัวเปลี่ยน thesis ในคืนนี้/พรุ่งนี้
-- **Oil price ขึ้นจาก Iran tension จะกด VIX ให้ทรงตัวโซน 17-18** จนกว่าจะมีข่าว de-escalation
+## 🔮 Today's Prediction (2026-07-23, pre-market)
+- **GOOGL/TSLA earnings ผลออกแล้ว — ตลาดกลัว capex ต่อเนื่อง** — GOOGL beat ทั้ง EPS/Revenue (Cloud +82% YoY!) แต่ราคาร่วง -3.6% ถึง -4.5% premarket เพราะขึ้น capex guidance ปี 2026 จาก $180-190B → $195-205B | TSLA revenue beat แต่ EPS miss หนัก (margin บีบ) ร่วง -4% ถึง -6% premarket — คาดว่าธีม "AI capex fear" นี้จะกดดัน mega-cap tech ต่อเนื่องวันนี้รวมถึง META (Top Pick)
+- **GWRE/PLTR ร่วงต่อเนื่องเข้าปิดตลาด Jul 22** (-6.01%/-6.10% จาก Jul21 close) ยืนยัน sector-wide SaaS/AI software selloff ไม่ใช่ company-specific — คาดว่าจะยังไม่มีข่าวเฉพาะตัวเปลี่ยน thesis วันนี้
+- **VIX กระโดดขึ้นเป็น 18.57 (จาก 16.64) + 10Y yield ขึ้นเป็น 4.71%** สะท้อน risk-off tone รับข่าว earnings คืนนี้ — คาดตลาดจะเปิดลบแต่ผันผวนสูง
 
-**Prediction Review (จาก 2026-07-22 เช้า):**
-- ~~V earnings Jul 28 ใกล้เข้ามา~~ ✅ ยังคง track เดิม (earnings เหลือ 6 วัน)
-- ~~GWRE ย่อตัวจาก sector rotation~~ ✅ ถูกต้อง — ร่วงต่อวันนี้ -5.78% ยืนยัน sector-wide ไม่ใช่ company-specific
-- ~~Tech-led rally ต่อเนื่อง~~ ❌ ผิด — วันนี้ tech กลับอ่อนแอ (Nasdaq -0.09%, GWRE/PLTR ร่วงแรง) จาก AI software selloff + oil price จาก Iran tension แทน
+**Prediction Review (จาก 2026-07-22 intraday):**
+- ~~GOOGL/TSLA earnings จะชี้ทิศทางตลาดพรุ่งนี้~~ ✅ ถูกต้อง — ทั้งคู่ร่วงแรง premarket วันนี้กดดันตลาดชัดเจน
+- ~~GWRE/PLTR จะไม่มีข่าวเฉพาะตัวเปลี่ยน thesis~~ ✅ ถูกต้อง — ร่วงต่อเข้าปิดตลาดจาก sector-wide เดิม ไม่พบข่าวเฉพาะตัวใหม่
+- ~~VIX จะทรงตัวโซน 17-18~~ ⚠️ บางส่วนถูก — VIX ขึ้นไปแตะ 18.57 (ขอบบนของโซนที่คาด) จาก earnings jitters ไม่ใช่ Iran/oil อย่างเดียว
 
 ---
 
 ## Holdings
 
-> อัปเดต Jul 22, 2026 (intraday update) | Total holdings: **$427.53** | Unrealized P&L: **+$47.02 (+12.35%)** + Cash Reserve **$157**
+> อัปเดต Jul 23, 2026 (pre-market — ราคาล่าสุดคือปิดตลาด Jul 22, ตลาดยังไม่เปิดวันนี้) | Total holdings: **$425.59** | Unrealized P&L: **+$45.08 (+11.85%)** + Cash Reserve **$157**
 > 💰 SPCX ขายแล้ว Jun 17 @ $191.38 | Realized gain: **+$20.94 (+12.29%)**
 > 💸 CME ขายแล้ว Jun 23 @ $246.22 | Realized loss: **-$5.29 (-15.14%)**
 > 💸 MDLZ ขายแล้ว Jun 28 @ $60.75 | Realized gain: **+$0.88 (+0.78%)**
@@ -47,10 +47,10 @@
 
 | Ticker | Shares | Buy Price | มูลค่า | P&L % | P&L USD | ราคาปัจจุบัน | Kill Buffer |
 |--------|--------|-----------|--------|--------|---------|--------------|------------|
-| GWRE | 1.0000000 | $107.76 | **$134.29** | **+24.62% ✅** | +$26.53 | $134.29 | Kill $86.21 (+55.8% ✅, -20%) 🔴 -5.78% วันนี้ (sector-wide SaaS/AI software selloff ไม่พบข่าวเฉพาะตัว thesis ไม่เปลี่ยน) |
-| PLTR | 1.0000000 | $118.00 | **$126.97** | **+7.60% ✅** | +$8.97 | $126.97 | Kill $94.40 (+34.5% ✅, -20%) 🔴 -4.29% วันนี้ (AI software "SaaSpocalypse" multiple compression + Microsoft Frontier $2.5B ข่าวคู่แข่ง ไม่ใช่ fundamental miss thesis ไม่เปลี่ยน) |
-| AVGO | 0.2172321 | $372.21 (avg) | **$85.17** | **+5.32% ✅** | +$4.30 | $392.03 | Kill $297.77 (+31.7% ✅, -20%) 🟢 +1.43% วันนี้ |
-| V | 0.2287306 | $323.00 | **$81.11** | **+9.77% ✅** | +$7.22 | $354.55 | Kill $274.55 (+29.2% ✅, -15% เดิม) 🟢 -0.36% วันนี้ 🔴 /brief Jul 16 = Avoid — Q3 earnings Jul 28 (ภายใน 7 วัน) |
+| GWRE | 1.0000000 | $107.76 | **$133.97** | **+24.33% ✅** | +$26.21 | $133.97 | Kill $86.21 (+55.4% ✅, -20%) 🔴 -6.01% (Jul22 close vs Jul21) sector-wide SaaS/AI software selloff ต่อเนื่องเข้าปิดตลาด ไม่พบข่าวเฉพาะตัว thesis ไม่เปลี่ยน |
+| PLTR | 1.0000000 | $118.00 | **$124.57** | **+5.57% ✅** | +$6.57 | $124.57 | Kill $94.40 (+32.0% ✅, -20%) 🔴 -6.10% (Jul22 close vs Jul21) "SaaSpocalypse" ต่อเนื่อง + Microsoft Frontier ข่าวคู่แข่ง ไม่ใช่ fundamental miss thesis ไม่เปลี่ยน |
+| AVGO | 0.2172321 | $372.21 (avg) | **$86.20** | **+6.61% ✅** | +$5.33 | $396.81 | Kill $297.77 (+33.3% ✅, -20%) 🟢 +2.67% (Jul22 close) |
+| V | 0.2287306 | $323.00 | **$80.85** | **+9.42% ✅** | +$6.97 | $353.42 | Kill $274.55 (+28.7% ✅, -15% เดิม) 🟢 -0.67% (Jul22 close) 🔴 /brief Jul 16 = Avoid — Q3 earnings Jul 28 (ภายใน 5 วัน) |
 | ~~SPGI~~ | ~~0.1816941~~ | ~~$391.47*~~ | ✅ **ขายแล้ว Jul 14** @ $435.934 | Realized +$8.08 (+11.35%) | — | — | — |
 
 > *SPGI cost per share adjusted post MBGL spin-off (original $412.79 → $391.47)
@@ -198,7 +198,7 @@
 | **ZETA** | Narrow Moat Data Assets — thesis ผิดถ้า Palantir deal ไม่ deliver $100M+ — /brief Jun 26 | $16–$18 (GF Value $17.34) | **$22.41** (Jul 15 close) ⚠️ เกิน zone มากขึ้น (+40%) |
 | **ADI** | Wide Moat Analog/Mixed-Signal — Valuation Inconclusive (MS $380 vs GF $278) — thesis ผิดถ้า AI capex ชะลอจน growth <15% YoY — /brief Jul 15 | รอราคาเข้าใกล้ GF Value $278 หรือรอ Q3 FY26 earnings ยืนยัน growth | **$390.96** (Jul 15 close) |
 | **PANW** | Wide Moat Cybersecurity — Switching Cost (platformization) — แพงทั้ง MS FV $285 และ GF Value $211 — thesis ผิดถ้า Next-Gen ARR growth หลุด <40% YoY 2 ไตรมาสติด — /brief 2026-07-15 | รอเข้าใกล้ MS FV $285 หรือ GF Value $211 | **$354.02** (Jul 15 close) |
-| **META** | Wide Moat (Network+Scale Economies) — Starter Position (⚠️ Second opinion: Tie ซ้ำ — CFO ยอมรับคุม AI capex ไม่ได้ต่อเนื่อง + ปฏิเสธ 2027 guidance) — thesis ผิดถ้า capex ไม่แปลงเป็น revenue ภายใน 2-3 ปีจน FCF margin <15% ต่อเนื่อง — /brief 2026-07-17 | 🟢 ยังคง Cheap จาก FV $819-850 (-23.2% ถึง -25.5%) | **$629.12** (2026-07-22 intraday, -2.28%) |
+| **META** | Wide Moat (Network+Scale Economies) — Starter Position (⚠️ Second opinion: Tie ซ้ำ — CFO ยอมรับคุม AI capex ไม่ได้ต่อเนื่อง + ปฏิเสธ 2027 guidance) — thesis ผิดถ้า capex ไม่แปลงเป็น revenue ภายใน 2-3 ปีจน FCF margin <15% ต่อเนื่อง — /brief 2026-07-17 | 🟢 ยังคง Cheap จาก FV $819-850 (discount กว้างขึ้น) | **$627.17** (2026-07-22 close, -2.58%) |
 | **APH** | Wide Moat (Switching Cost+Scale) — Watch, รอ valuation ชัดเจนขึ้น (MS $190 vs GF $138 ต่าง 38%) — thesis ผิดถ้า AI capex ชะลอเร็วกว่าคาด — /brief 2026-07-16 | รอ Q2 earnings 29 ก.ค. ยืนยัน | **$157.04** (Jul 16) |
 | **KKR** | Narrow Moat (Scale+Switching Cost) — Starter Position (⚠️ Second opinion: Tie — Global Atlantic insurance arm ลงทุนใน private credit ที่ KKR บริหารเอง เป็น correlated risk ไม่ใช่ diversification) — thesis ผิดถ้า private credit quality เสื่อมวงกว้างแบบ FS KKR Capital Corp (junk-rated) — /brief refresh 2026-07-20 | Fair value ~15.7% ต่ำกว่า FV ($115 MS, ไม่เปลี่ยน) | **$96.97** (Mon Jul 20 close, sector-wide alt-manager sell-off ต่อเนื่อง) |
 | **ASML** | Wide Moat — Cornered Resource (EUV monopoly ~90% share) — Watch, Valuation Inconclusive (Morningstar FV EUR 1,800 vs GuruFocus GF Value $1,127.62 ต่างกัน >70%) | thesis ผิดถ้า AI/foundry capex air-pocket ปี 2027-2028 ทำให้ revenue growth หลุด <15% YoY — /brief 2026-07-19 | รอ valuation บรรจบกัน หรือราคาเข้าใกล้ GF Value $1,127 | **$1,739.02** (Mon Jul 20 close, -0.49%) |
