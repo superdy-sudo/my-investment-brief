@@ -16,25 +16,25 @@
 
 ## Top Pick (วันนี้)
 
-> 🏆 **Jul 17, 2026 (/brief refresh)** — **META** $605.50 (2026-07-23 intraday, -3.46% vs Jul22 close $627.17) — 🟢 ยังคง Cheap (GuruFocus/Morningstar FV $819-850, discount กว้างขึ้นต่อเนื่องอีก) | Compounder ยังคง 4/5 confirmed | Action ยังคง **Starter Position** (⚠️ Second Opinion: Tie ซ้ำ — ไม่ upgrade เป็น Buy) — ยังไม่ได้รัน /brief ใหม่ (ร่วงต่อวันนี้จาก broad AI-capex fear + Iran war/oil escalation ทั้งตลาด ไม่ใช่ META-specific ใหม่ — BMO Capital ระบุ META มี "least visible ROI story among peers" เป็นข้อมูลเสริม bear case เดิมที่รู้อยู่แล้ว ไม่ใช่จุดเปลี่ยน thesis ใหม่ — Q2 earnings Jul 29 ภายใน 6 วัน) — ดู `briefs/META-2026-07-17.md`
+> 🏆 **Jul 17, 2026 (/brief refresh)** — **META** $604.94 (2026-07-24 intraday, -0.19% vs Jul23 close $606.10) — 🟢 ยังคง Cheap (GuruFocus/Morningstar FV $819-850) | Compounder ยังคง 4/5 confirmed | Action ยังคง **Starter Position** (⚠️ Second Opinion: Tie ซ้ำ — ไม่ upgrade เป็น Buy) — ยังไม่ได้รัน /brief ใหม่ (ราคาทรงตัววันนี้หลังร่วงหนัก 3 วันติด ไม่มีข่าวใหม่กระทบ thesis — Q2 earnings Jul 29 ภายใน 5 วัน) — ดู `briefs/META-2026-07-17.md`
 
 ---
 
-## 🔮 Today's Prediction (2026-07-23, intraday)
-- **Iran war escalation + oil >$100/barrel เป็นความเสี่ยง macro ใหม่ที่มาซ้อนกับ AI capex fear** — Trump ขู่ขยายการโจมตีตะวันออกกลาง ดันราคาน้ำมันทะลุ $100 ครั้งแรกในรอบนาน กดดันตลาดรวมทั้ง S&P (-1.23%) และ Nasdaq (-2.11%) แรงกว่าที่คาดไว้เมื่อเช้า — คาดว่าความผันผวนจะสูงต่อจนกว่าจะมีข่าว de-escalation หรือ Meta earnings (Jul 29) ที่จะเป็นตัวช่วยยืนยัน AI ROI story
-- **META ร่วงต่อเนื่อง -3.46% วันนี้** (สะสม 3 วันติดจาก sector-wide AI capex fear) — คาดว่าจะยังไม่มีข่าวเฉพาะตัวเปลี่ยน thesis จนกว่าจะถึง Q2 earnings Jul 29
-- **GWRE/PLTR/AVGO ร่วงตามตลาดรวม** (ไม่ใช่ sector-specific ใหม่) — คาดว่าจะแกว่งตาม risk sentiment ของตลาดโดยรวมมากกว่า catalyst เฉพาะตัว
+## 🔮 Today's Prediction (2026-07-24, intraday)
+- **ตลาดเริ่มทรงตัว/เด้งกลับเล็กน้อยหลังร่วงหนัก 2 วัน** — S&P +0.13%, Nasdaq +0.09%, GWRE เด้งกลับ +2.91% — ยังไม่พบข่าว Iran de-escalation ที่ยืนยันชัดเจน คาดว่าเป็นการเด้งกลับเชิงเทคนิคหลังขายมากเกินไปมากกว่าการเปลี่ยนแปลงพื้นฐาน
+- **VIX ยังทรงตัวสูง (18.85) ไม่ได้ลดลงมาก** แม้ตลาดหุ้นจะเด้ง — สะท้อนว่าความกังวล Iran/oil ยังไม่คลี่คลายจริง คาดว่าความผันผวนจะยังสูงต่อจนกว่าจะมีข่าวชัดเจนกว่านี้
+- **META จะทรงตัวจนกว่าจะถึง Q2 earnings (Jul 29, 5 วัน)** — ไม่คาดว่าจะมีข่าวเฉพาะตัวใหม่ก่อนหน้านั้น
 
-**Prediction Review (จาก 2026-07-23 pre-market):**
-- ~~AI capex fear จาก GOOGL/TSLA จะกดดัน mega-cap tech ต่อเนื่อง~~ ✅ ถูกต้อง — META ร่วงต่อ -3.46% วันนี้, Nasdaq -2.11%
-- ~~GWRE/PLTR จะไม่มีข่าวเฉพาะตัวเปลี่ยน thesis~~ ✅ ถูกต้อง — ร่วงตามตลาดรวม ไม่พบข่าวเฉพาะตัว
-- ~~ตลาดจะเปิดลบแต่ผันผวนสูง~~ ✅ ถูกต้อง แต่รุนแรงกว่าที่คาด — ไม่คาดว่าจะมี Iran war escalation + oil >$100 เข้ามาซ้อนด้วย
+**Prediction Review (จาก 2026-07-23 intraday):**
+- ~~Iran war escalation ยังเป็นความเสี่ยงหลัก ผันผวนสูงต่อ~~ ✅ ถูกต้อง — VIX ยังอยู่โซนสูง (18.85) แม้ตลาดหุ้นจะเด้งกลับ
+- ~~META จะยังไม่มีข่าวเฉพาะตัวเปลี่ยน thesis~~ ✅ ถูกต้อง — ราคาทรงตัว -0.19% วันนี้ ไม่มีข่าวใหม่
+- ~~GWRE/PLTR/AVGO จะแกว่งตาม risk sentiment รวม~~ ✅ ถูกต้อง — GWRE เด้งกลับแรงสุด (+2.91%) ตามการคลายตัวของตลาดรวมเล็กน้อย
 
 ---
 
 ## Holdings
 
-> อัปเดต Jul 23, 2026 (intraday) | Total holdings: **$419.56** | Unrealized P&L: **+$39.04 (+10.26%)** + Cash Reserve **$157**
+> อัปเดต Jul 24, 2026 (intraday) | Total holdings: **$423.96** | Unrealized P&L: **+$43.45 (+11.42%)** + Cash Reserve **$157**
 > 💰 SPCX ขายแล้ว Jun 17 @ $191.38 | Realized gain: **+$20.94 (+12.29%)**
 > 💸 CME ขายแล้ว Jun 23 @ $246.22 | Realized loss: **-$5.29 (-15.14%)**
 > 💸 MDLZ ขายแล้ว Jun 28 @ $60.75 | Realized gain: **+$0.88 (+0.78%)**
@@ -47,10 +47,10 @@
 
 | Ticker | Shares | Buy Price | มูลค่า | P&L % | P&L USD | ราคาปัจจุบัน | Kill Buffer |
 |--------|--------|-----------|--------|--------|---------|--------------|------------|
-| GWRE | 1.0000000 | $107.76 | **$132.29** | **+22.76% ✅** | +$24.53 | $132.29 | Kill $86.21 (+53.4% ✅, -20%) 🔴 -1.26% วันนี้ (ตามตลาดรวม ไม่พบข่าวเฉพาะตัว thesis ไม่เปลี่ยน) |
-| PLTR | 1.0000000 | $118.00 | **$122.01** | **+3.40% ✅** | +$4.01 | $122.01 | Kill $94.40 (+29.3% ✅, -20%) 🔴 -2.06% วันนี้ (AI capex fear + broad market selloff ไม่ใช่ fundamental miss thesis ไม่เปลี่ยน) |
-| AVGO | 0.2172321 | $372.21 (avg) | **$85.10** | **+5.23% ✅** | +$4.23 | $391.69 | Kill $297.77 (+31.6% ✅, -20%) 🔴 -1.29% วันนี้ (ตามตลาดรวม) |
-| V | 0.2287306 | $323.00 | **$80.16** | **+8.50% ✅** | +$6.28 | $350.45 | Kill $274.55 (+27.7% ✅, -15% เดิม) 🔴 -0.84% วันนี้ 🔴 /brief Jul 16 = Avoid — Q3 earnings Jul 28 (ภายใน 4 วัน) |
+| GWRE | 1.0000000 | $107.76 | **$135.20** | **+25.46% ✅** | +$27.44 | $135.20 | Kill $86.21 (+56.8% ✅, -20%) 🟢 +2.91% วันนี้ (เด้งกลับหลังตลาดทรงตัว ไม่พบข่าวเฉพาะตัว thesis ไม่เปลี่ยน) |
+| PLTR | 1.0000000 | $118.00 | **$123.88** | **+4.98% ✅** | +$5.88 | $123.88 | Kill $94.40 (+31.2% ✅, -20%) 🟢 +0.41% วันนี้ (ทรงตัว) |
+| AVGO | 0.2172321 | $372.21 (avg) | **$84.26** | **+4.20% ✅** | +$3.39 | $387.86 | Kill $297.77 (+30.3% ✅, -20%) 🔴 -1.17% วันนี้ |
+| V | 0.2287306 | $323.00 | **$80.62** | **+9.10% ✅** | +$6.74 | $352.42 | Kill $274.55 (+28.4% ✅, -15% เดิม) 🟢 +0.23% วันนี้ 🔴 /brief Jul 16 = Avoid — Q3 earnings Jul 28 (ภายใน 4 วัน) |
 | ~~SPGI~~ | ~~0.1816941~~ | ~~$391.47*~~ | ✅ **ขายแล้ว Jul 14** @ $435.934 | Realized +$8.08 (+11.35%) | — | — | — |
 
 > *SPGI cost per share adjusted post MBGL spin-off (original $412.79 → $391.47)
@@ -198,7 +198,7 @@
 | **ZETA** | Narrow Moat Data Assets — thesis ผิดถ้า Palantir deal ไม่ deliver $100M+ — /brief Jun 26 | $16–$18 (GF Value $17.34) | **$22.41** (Jul 15 close) ⚠️ เกิน zone มากขึ้น (+40%) |
 | **ADI** | Wide Moat Analog/Mixed-Signal — Valuation Inconclusive (MS $380 vs GF $278) — thesis ผิดถ้า AI capex ชะลอจน growth <15% YoY — /brief Jul 15 | รอราคาเข้าใกล้ GF Value $278 หรือรอ Q3 FY26 earnings ยืนยัน growth | **$390.96** (Jul 15 close) |
 | **PANW** | Wide Moat Cybersecurity — Switching Cost (platformization) — แพงทั้ง MS FV $285 และ GF Value $211 — thesis ผิดถ้า Next-Gen ARR growth หลุด <40% YoY 2 ไตรมาสติด — /brief 2026-07-15 | รอเข้าใกล้ MS FV $285 หรือ GF Value $211 | **$354.02** (Jul 15 close) |
-| **META** | Wide Moat (Network+Scale Economies) — Starter Position (⚠️ Second opinion: Tie ซ้ำ — CFO ยอมรับคุม AI capex ไม่ได้ต่อเนื่อง + ปฏิเสธ 2027 guidance | BMO Capital: "least visible ROI story among peers" — ข้อมูลเสริม bear case เดิม) — thesis ผิดถ้า capex ไม่แปลงเป็น revenue ภายใน 2-3 ปีจน FCF margin <15% ต่อเนื่อง — /brief 2026-07-17 | 🟢 ยังคง Cheap จาก FV $819-850 (discount กว้างขึ้นต่อเนื่อง) | **$605.50** (2026-07-23 intraday, -3.46%) |
+| **META** | Wide Moat (Network+Scale Economies) — Starter Position (⚠️ Second opinion: Tie ซ้ำ — CFO ยอมรับคุม AI capex ไม่ได้ต่อเนื่อง + ปฏิเสธ 2027 guidance) — thesis ผิดถ้า capex ไม่แปลงเป็น revenue ภายใน 2-3 ปีจน FCF margin <15% ต่อเนื่อง — /brief 2026-07-17 | 🟢 ยังคง Cheap จาก FV $819-850 | **$604.94** (2026-07-24 intraday, -0.19%) |
 | **APH** | Wide Moat (Switching Cost+Scale) — Watch, รอ valuation ชัดเจนขึ้น (MS $190 vs GF $138 ต่าง 38%) — thesis ผิดถ้า AI capex ชะลอเร็วกว่าคาด — /brief 2026-07-16 | รอ Q2 earnings 29 ก.ค. ยืนยัน | **$157.04** (Jul 16) |
 | **KKR** | Narrow Moat (Scale+Switching Cost) — Starter Position (⚠️ Second opinion: Tie — Global Atlantic insurance arm ลงทุนใน private credit ที่ KKR บริหารเอง เป็น correlated risk ไม่ใช่ diversification) — thesis ผิดถ้า private credit quality เสื่อมวงกว้างแบบ FS KKR Capital Corp (junk-rated) — /brief refresh 2026-07-20 | Fair value ~15.7% ต่ำกว่า FV ($115 MS, ไม่เปลี่ยน) | **$96.97** (Mon Jul 20 close, sector-wide alt-manager sell-off ต่อเนื่อง) |
 | **ASML** | Wide Moat — Cornered Resource (EUV monopoly ~90% share) — Watch, Valuation Inconclusive (Morningstar FV EUR 1,800 vs GuruFocus GF Value $1,127.62 ต่างกัน >70%) | thesis ผิดถ้า AI/foundry capex air-pocket ปี 2027-2028 ทำให้ revenue growth หลุด <15% YoY — /brief 2026-07-19 | รอ valuation บรรจบกัน หรือราคาเข้าใกล้ GF Value $1,127 | **$1,739.02** (Mon Jul 20 close, -0.49%) |
