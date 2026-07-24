@@ -205,6 +205,7 @@
 | **TSM** | Wide Moat (Process Power+Scale Economies) — Watch, Valuation Inconclusive (MS FV $534 vs GF Value $300.92 ต่าง 77.5%) — thesis ผิดถ้า Taiwan geopolitical risk ทวีขึ้นหรือ AI capex ชะลอจน growth <30% YoY 2 ไตรมาสติด — /brief 2026-07-19 | รอราคาเข้าใกล้ GF Value $300.92 หรือรอ valuation ชัดเจนขึ้น | **$402.30** (Mon Jul 20 close, +0.98% — semiconductor เด้งกลับ) |
 | **DASH** | Narrow Moat (Network+Scale Economies+Switching Costs) — Starter Position (⚠️ Second opinion: Bear ชนะเชิงจังหวะ — sell-side downgrade wave 4 สำนัก + P/E ~86x ไม่มี margin of safety) — thesis ผิดถ้า Adjusted EBITDA/FCF margin หดตัวต่อเนื่อง 2 ไตรมาสจากลงทุน Deliveroo/Wolt/Dot ไม่แปลงเป็น revenue gain — /brief 2026-07-21 | 🟡 Fair (FV MS $170 / GF $211.78) | **$188.32** (2026-07-21) |
 | **KEYS** | Wide Moat (Switching Costs+Process Power) — Watch, Valuation Inconclusive (Morningstar $323-383 vs GuruFocus $183-201 ต่างกัน >40%) — thesis ผิดถ้า AI-datacenter test order surge (+56% YoY) ชะลอตัวลงแรงกลับสู่ระดับปกติ (<15%) — /brief 2026-07-23 | รอราคาย่อ/valuation ชัดเจนขึ้น | **$330.94** (2026-07-23, +1.04%) |
+| **BX** | Wide Moat (Scale Economies+Switching Costs) — Buy (⚠️ Second opinion: Bear ชนะเชิงจังหวะ — sister BDC fund BXSL ปรับเป็น Hold, non-accrual 3.1%, ต้องอัดฉีดสภาพคล่อง BCRED รอบสอง) — thesis ผิดถ้า BCRED redemption request เกิน 15% ติดต่อกัน 2 ไตรมาส หรือลามไปยัง perpetual capital fund อื่น — /brief 2026-07-24 | 🟢 Cheap (GF Value -37-38%, Morningstar -19%) | **$126.04** (2026-07-24, +1.24%) |
 
 ## 📺 YouTube Digest — ลงทุน Diary
 
