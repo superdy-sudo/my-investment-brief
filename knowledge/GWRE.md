@@ -27,6 +27,7 @@
 - Convertible Notes refinance เป็น "2029 Convertible Senior Notes" — treasury activity ปกติ เปิดเผยชัดเจน
 
 ## Thesis Change Log
+- [2026-07-25] ⚠️ Improved — ราคาปิด Jul 24 $138.23 (+5.21% วันเดียว) มี catalyst เฉพาะตัวชัดเจน: Guidewire ประกาศ Germania Mutual deploy ProNavigator AI assistant สำหรับ underwriting + claims workflow ตอกย้ำ cloud+AI expansion narrative | P&L จากราคาซื้อ $107.76 = +28.3%
 - [2026-07-15] 🔧 Recalibrate Kill -15%→-20% ($91.60→$86.21) + TP1/TP2 เปลี่ยนเป็น return-target +50%/+100% ($161.64/$215.52) แทน valuation-anchored เดิม — ให้ตรงกับ aggressive growth 100%/ปี style
 - [2026-07-14] 🟢 ราคาปิด $140.31 (+3.07% วันเดียว) — ไม่พบข่าวเฉพาะตัวชัดเจน (ไม่มี analyst upgrade ใหม่ในรอบสัปดาห์) น่าจะเป็น relative strength/rotation เข้า software defensive ระหว่างที่ semiconductor sector ถูกเทขาย | thesis ไม่เปลี่ยน
 - [2026-07-02] 🟢 ราคา $120.87 → $132.48 (+9.6% ใน 2 วัน) | P&L +12.16% → +22.94% | Kill buffer ขยายเป็น +44.6%

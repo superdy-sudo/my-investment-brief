@@ -8,7 +8,7 @@
 |--------|-------------|------|------------------------|------|
 | PLTR | [2026-07-17] 🟢 +0.51% ทรงตัว ไม่มีข่าวใหม่ thesis ไม่เปลี่ยน | Switching Cost (Ontology) | ✅ ผ่าน (US Commercial accelerating) | [PLTR.md](PLTR.md) |
 | AVGO | [2026-07-17] 🔴 -5.03% semiconductor sector-wide sell-off (Netflix miss ลากทั้งกลุ่ม) ไม่ใช่ company-specific — Apple ขยายสัญญา custom chip $30B+ ถึงปี 2031 (บวก) thesis ไม่เปลี่ยน | Wide (XPU IP + VMware) | ✅ ผ่าน (AI rev +143%) | [AVGO.md](AVGO.md) |
-| GWRE | [2026-07-17] 🟢 +5.96% ไม่พบข่าวเฉพาะตัวชัดเจน (ต่อเนื่องจาก Jul 16) น่าจะ rotation ชั่วคราว thesis ไม่เปลี่ยน | Switching Cost | ⚠️ ต่ำกว่าเกณฑ์ใหม่ (ARR +19%) | [GWRE.md](GWRE.md) |
+| GWRE | [2026-07-25] ⚠️ Improved — +5.21% (Jul 24) หลัง Germania Mutual deploy ProNavigator AI assistant ตอกย้ำ cloud+AI expansion narrative | Switching Cost | ⚠️ ต่ำกว่าเกณฑ์ใหม่ (ARR +19%) | [GWRE.md](GWRE.md) |
 | V | [2026-07-16] 🔴 **/brief ใหม่ → Avoid** — growth ❌ + DOJ antitrust ⚠️ + Berkshire ขายทิ้งทั้งหมด — สัญญาณให้พิจารณาขาย | Wide (network effect) | ❌ ไม่ผ่านเกณฑ์ใหม่ (defensive/quality) | [V.md](V.md) |
 
 ## Sold (archived — reference only)
