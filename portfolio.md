@@ -16,25 +16,25 @@
 
 ## Top Pick (วันนี้)
 
-> 🏆 **Jul 17, 2026 (/brief refresh)** — **META** $604.94 (2026-07-24 intraday, -0.19% vs Jul23 close $606.10) — 🟢 ยังคง Cheap (GuruFocus/Morningstar FV $819-850) | Compounder ยังคง 4/5 confirmed | Action ยังคง **Starter Position** (⚠️ Second Opinion: Tie ซ้ำ — ไม่ upgrade เป็น Buy) — ยังไม่ได้รัน /brief ใหม่ (ราคาทรงตัววันนี้หลังร่วงหนัก 3 วันติด ไม่มีข่าวใหม่กระทบ thesis — Q2 earnings Jul 29 ภายใน 5 วัน) — ดู `briefs/META-2026-07-17.md`
+> 🏆 **Jul 17, 2026 (/brief refresh)** — **META** $595.19 (2026-07-24 close, -1.80% vs Jul23 close $606.10) — 🟢 ยังคง Cheap (GuruFocus/Morningstar FV $819-850) | Compounder ยังคง 4/5 confirmed | Action ยังคง **Starter Position** (⚠️ Second Opinion: Tie ซ้ำ — ไม่ upgrade เป็น Buy) — ยังไม่ได้รัน /brief ใหม่ (ไม่มีข่าวใหม่กระทบ thesis — Q2 earnings Jul 29 ภายใน 4 วัน) — ดู `briefs/META-2026-07-17.md`
 
 ---
 
-## 🔮 Today's Prediction (2026-07-24, intraday)
-- **ตลาดเริ่มทรงตัว/เด้งกลับเล็กน้อยหลังร่วงหนัก 2 วัน** — S&P +0.13%, Nasdaq +0.09%, GWRE เด้งกลับ +2.91% — ยังไม่พบข่าว Iran de-escalation ที่ยืนยันชัดเจน คาดว่าเป็นการเด้งกลับเชิงเทคนิคหลังขายมากเกินไปมากกว่าการเปลี่ยนแปลงพื้นฐาน
-- **VIX ยังทรงตัวสูง (18.85) ไม่ได้ลดลงมาก** แม้ตลาดหุ้นจะเด้ง — สะท้อนว่าความกังวล Iran/oil ยังไม่คลี่คลายจริง คาดว่าความผันผวนจะยังสูงต่อจนกว่าจะมีข่าวชัดเจนกว่านี้
-- **META จะทรงตัวจนกว่าจะถึง Q2 earnings (Jul 29, 5 วัน)** — ไม่คาดว่าจะมีข่าวเฉพาะตัวใหม่ก่อนหน้านั้น
+## 🔮 Today's Prediction (2026-07-25, weekend — ตลาดปิด ราคา T-1 Jul 24)
+- **V Q3 earnings ใกล้เข้ามามาก (Jul 28, 3 วัน)** — จะเป็นจุดตัดสินสำคัญว่าจะขาย position ที่เป็น Avoid signal อยู่หรือไม่
+- **META Q2 earnings (Jul 29, 4 วัน)** — คาดว่าจะเป็นตัวชี้ทิศทาง AI capex narrative ทั้งกลุ่มต่อจาก GOOGL/TSLA ที่ออกไปแล้ว
+- **GWRE momentum เชิงบวกจาก AI customer win (Germania Mutual/ProNavigator)** คาดว่าจะช่วยพยุงราคาต่อเนื่องต้นสัปดาห์หน้า แม้ sector sentiment โดยรวมยังผันผวน
 
-**Prediction Review (จาก 2026-07-23 intraday):**
-- ~~Iran war escalation ยังเป็นความเสี่ยงหลัก ผันผวนสูงต่อ~~ ✅ ถูกต้อง — VIX ยังอยู่โซนสูง (18.85) แม้ตลาดหุ้นจะเด้งกลับ
-- ~~META จะยังไม่มีข่าวเฉพาะตัวเปลี่ยน thesis~~ ✅ ถูกต้อง — ราคาทรงตัว -0.19% วันนี้ ไม่มีข่าวใหม่
-- ~~GWRE/PLTR/AVGO จะแกว่งตาม risk sentiment รวม~~ ✅ ถูกต้อง — GWRE เด้งกลับแรงสุด (+2.91%) ตามการคลายตัวของตลาดรวมเล็กน้อย
+**Prediction Review (จาก 2026-07-24 intraday):**
+- ~~ตลาดจะยังผันผวนจนกว่าจะมีข่าว Iran de-escalation~~ ✅ ถูกต้อง — Nasdaq ปิดลบ -0.64% ศุกร์ที่ผ่านมา จาก chip stock weakness ต่อเนื่อง
+- ~~META จะทรงตัวจนกว่าจะถึง Q2 earnings~~ ⚠️ บางส่วนถูก — จริงๆ ร่วงต่อ -1.80% วันศุกร์ ไม่ใช่ทรงตัวเป๊ะ แต่ไม่มีข่าวเฉพาะตัวใหม่จริง
+- ~~GWRE/PLTR/AVGO จะแกว่งตาม risk sentiment รวม~~ ❌ ผิดบางส่วน — GWRE จริงๆ ร่วงขึ้นแรง +5.21% จาก**ข่าวเฉพาะตัว** (AI customer win) ไม่ใช่แค่ sentiment รวมอย่างที่คาด
 
 ---
 
 ## Holdings
 
-> อัปเดต Jul 24, 2026 (intraday) | Total holdings: **$423.96** | Unrealized P&L: **+$43.45 (+11.42%)** + Cash Reserve **$157**
+> อัปเดต Jul 25, 2026 (weekend — ตลาดปิด ราคาปิด Jul 24) | Total holdings: **$425.48** | Unrealized P&L: **+$44.97 (+11.82%)** + Cash Reserve **$157**
 > 💰 SPCX ขายแล้ว Jun 17 @ $191.38 | Realized gain: **+$20.94 (+12.29%)**
 > 💸 CME ขายแล้ว Jun 23 @ $246.22 | Realized loss: **-$5.29 (-15.14%)**
 > 💸 MDLZ ขายแล้ว Jun 28 @ $60.75 | Realized gain: **+$0.88 (+0.78%)**
@@ -47,10 +47,10 @@
 
 | Ticker | Shares | Buy Price | มูลค่า | P&L % | P&L USD | ราคาปัจจุบัน | Kill Buffer |
 |--------|--------|-----------|--------|--------|---------|--------------|------------|
-| GWRE | 1.0000000 | $107.76 | **$135.20** | **+25.46% ✅** | +$27.44 | $135.20 | Kill $86.21 (+56.8% ✅, -20%) 🟢 +2.91% วันนี้ (เด้งกลับหลังตลาดทรงตัว ไม่พบข่าวเฉพาะตัว thesis ไม่เปลี่ยน) |
-| PLTR | 1.0000000 | $118.00 | **$123.88** | **+4.98% ✅** | +$5.88 | $123.88 | Kill $94.40 (+31.2% ✅, -20%) 🟢 +0.41% วันนี้ (ทรงตัว) |
-| AVGO | 0.2172321 | $372.21 (avg) | **$84.26** | **+4.20% ✅** | +$3.39 | $387.86 | Kill $297.77 (+30.3% ✅, -20%) 🔴 -1.17% วันนี้ |
-| V | 0.2287306 | $323.00 | **$80.62** | **+9.10% ✅** | +$6.74 | $352.42 | Kill $274.55 (+28.4% ✅, -15% เดิม) 🟢 +0.23% วันนี้ 🔴 /brief Jul 16 = Avoid — Q3 earnings Jul 28 (ภายใน 4 วัน) |
+| GWRE | 1.0000000 | $107.76 | **$138.23** | **+28.28% ✅** | +$30.47 | $138.23 | Kill $86.21 (+60.3% ✅, -20%) 🟢 +5.21% Jul 24 (AI customer win — Germania Mutual deploy ProNavigator AI assistant — thesis ⚠️ Improved) |
+| PLTR | 1.0000000 | $118.00 | **$122.92** | **+4.17% ✅** | +$4.92 | $122.92 | Kill $94.40 (+30.2% ✅, -20%) 🔴 -0.36% Jul 24 (ทรงตัว) |
+| AVGO | 0.2172321 | $372.21 (avg) | **$82.97** | **+2.61% ✅** | +$2.10 | $381.92 | Kill $297.77 (+28.3% ✅, -20%) 🔴 -2.69% Jul 24 (ตามกลุ่ม chip stock weakness) |
+| V | 0.2287306 | $323.00 | **$81.36** | **+10.13% ✅** | +$7.48 | $355.74 | Kill $274.55 (+29.6% ✅, -15% เดิม) 🟢 +1.18% Jul 24 🔴 /brief Jul 16 = Avoid — Q3 earnings Jul 28 (ภายใน 3 วัน) |
 | ~~SPGI~~ | ~~0.1816941~~ | ~~$391.47*~~ | ✅ **ขายแล้ว Jul 14** @ $435.934 | Realized +$8.08 (+11.35%) | — | — | — |
 
 > *SPGI cost per share adjusted post MBGL spin-off (original $412.79 → $391.47)
@@ -198,14 +198,14 @@
 | **ZETA** | Narrow Moat Data Assets — thesis ผิดถ้า Palantir deal ไม่ deliver $100M+ — /brief Jun 26 | $16–$18 (GF Value $17.34) | **$22.41** (Jul 15 close) ⚠️ เกิน zone มากขึ้น (+40%) |
 | **ADI** | Wide Moat Analog/Mixed-Signal — Valuation Inconclusive (MS $380 vs GF $278) — thesis ผิดถ้า AI capex ชะลอจน growth <15% YoY — /brief Jul 15 | รอราคาเข้าใกล้ GF Value $278 หรือรอ Q3 FY26 earnings ยืนยัน growth | **$390.96** (Jul 15 close) |
 | **PANW** | Wide Moat Cybersecurity — Switching Cost (platformization) — แพงทั้ง MS FV $285 และ GF Value $211 — thesis ผิดถ้า Next-Gen ARR growth หลุด <40% YoY 2 ไตรมาสติด — /brief 2026-07-15 | รอเข้าใกล้ MS FV $285 หรือ GF Value $211 | **$354.02** (Jul 15 close) |
-| **META** | Wide Moat (Network+Scale Economies) — Starter Position (⚠️ Second opinion: Tie ซ้ำ — CFO ยอมรับคุม AI capex ไม่ได้ต่อเนื่อง + ปฏิเสธ 2027 guidance) — thesis ผิดถ้า capex ไม่แปลงเป็น revenue ภายใน 2-3 ปีจน FCF margin <15% ต่อเนื่อง — /brief 2026-07-17 | 🟢 ยังคง Cheap จาก FV $819-850 | **$604.94** (2026-07-24 intraday, -0.19%) |
+| **META** | Wide Moat (Network+Scale Economies) — Starter Position (⚠️ Second opinion: Tie ซ้ำ — CFO ยอมรับคุม AI capex ไม่ได้ต่อเนื่อง + ปฏิเสธ 2027 guidance) — thesis ผิดถ้า capex ไม่แปลงเป็น revenue ภายใน 2-3 ปีจน FCF margin <15% ต่อเนื่อง — /brief 2026-07-17 | 🟢 ยังคง Cheap จาก FV $819-850 | **$595.19** (2026-07-24 close, -1.80%) |
 | **APH** | Wide Moat (Switching Cost+Scale) — Watch, รอ valuation ชัดเจนขึ้น (MS $190 vs GF $138 ต่าง 38%) — thesis ผิดถ้า AI capex ชะลอเร็วกว่าคาด — /brief 2026-07-16 | รอ Q2 earnings 29 ก.ค. ยืนยัน | **$157.04** (Jul 16) |
 | **KKR** | Narrow Moat (Scale+Switching Cost) — Starter Position (⚠️ Second opinion: Tie — Global Atlantic insurance arm ลงทุนใน private credit ที่ KKR บริหารเอง เป็น correlated risk ไม่ใช่ diversification) — thesis ผิดถ้า private credit quality เสื่อมวงกว้างแบบ FS KKR Capital Corp (junk-rated) — /brief refresh 2026-07-20 | Fair value ~15.7% ต่ำกว่า FV ($115 MS, ไม่เปลี่ยน) | **$96.97** (Mon Jul 20 close, sector-wide alt-manager sell-off ต่อเนื่อง) |
 | **ASML** | Wide Moat — Cornered Resource (EUV monopoly ~90% share) — Watch, Valuation Inconclusive (Morningstar FV EUR 1,800 vs GuruFocus GF Value $1,127.62 ต่างกัน >70%) | thesis ผิดถ้า AI/foundry capex air-pocket ปี 2027-2028 ทำให้ revenue growth หลุด <15% YoY — /brief 2026-07-19 | รอ valuation บรรจบกัน หรือราคาเข้าใกล้ GF Value $1,127 | **$1,739.02** (Mon Jul 20 close, -0.49%) |
 | **TSM** | Wide Moat (Process Power+Scale Economies) — Watch, Valuation Inconclusive (MS FV $534 vs GF Value $300.92 ต่าง 77.5%) — thesis ผิดถ้า Taiwan geopolitical risk ทวีขึ้นหรือ AI capex ชะลอจน growth <30% YoY 2 ไตรมาสติด — /brief 2026-07-19 | รอราคาเข้าใกล้ GF Value $300.92 หรือรอ valuation ชัดเจนขึ้น | **$402.30** (Mon Jul 20 close, +0.98% — semiconductor เด้งกลับ) |
 | **DASH** | Narrow Moat (Network+Scale Economies+Switching Costs) — Starter Position (⚠️ Second opinion: Bear ชนะเชิงจังหวะ — sell-side downgrade wave 4 สำนัก + P/E ~86x ไม่มี margin of safety) — thesis ผิดถ้า Adjusted EBITDA/FCF margin หดตัวต่อเนื่อง 2 ไตรมาสจากลงทุน Deliveroo/Wolt/Dot ไม่แปลงเป็น revenue gain — /brief 2026-07-21 | 🟡 Fair (FV MS $170 / GF $211.78) | **$188.32** (2026-07-21) |
 | **KEYS** | Wide Moat (Switching Costs+Process Power) — Watch, Valuation Inconclusive (Morningstar $323-383 vs GuruFocus $183-201 ต่างกัน >40%) — thesis ผิดถ้า AI-datacenter test order surge (+56% YoY) ชะลอตัวลงแรงกลับสู่ระดับปกติ (<15%) — /brief 2026-07-23 | รอราคาย่อ/valuation ชัดเจนขึ้น | **$330.94** (2026-07-23, +1.04%) |
-| **BX** | Wide Moat (Scale Economies+Switching Costs) — Buy (⚠️ Second opinion: Bear ชนะเชิงจังหวะ — sister BDC fund BXSL ปรับเป็น Hold, non-accrual 3.1%, ต้องอัดฉีดสภาพคล่อง BCRED รอบสอง) — thesis ผิดถ้า BCRED redemption request เกิน 15% ติดต่อกัน 2 ไตรมาส หรือลามไปยัง perpetual capital fund อื่น — /brief 2026-07-24 | 🟢 Cheap (GF Value -37-38%, Morningstar -19%) | **$126.04** (2026-07-24, +1.24%) |
+| **BX** | Wide Moat (Scale Economies+Switching Costs) — Buy (⚠️ Second opinion: Bear ชนะเชิงจังหวะ — sister BDC fund BXSL ปรับเป็น Hold, non-accrual 3.1%, ต้องอัดฉีดสภาพคล่อง BCRED รอบสอง) — thesis ผิดถ้า BCRED redemption request เกิน 15% ติดต่อกัน 2 ไตรมาส หรือลามไปยัง perpetual capital fund อื่น — /brief 2026-07-24 | 🟢 Cheap (GF Value -37-38%, Morningstar -19%) | **$130.00** (2026-07-24, +4.42%) |
 
 ## 📺 YouTube Digest — ลงทุน Diary
 
