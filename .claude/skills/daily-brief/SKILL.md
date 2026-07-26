@@ -65,7 +65,7 @@ WebSearch ใช้ได้เฉพาะ: ค้นข่าว/catalyst เ�
 
 **Holdings — fetch ราคาเฉพาะตัวที่เข้าเงื่อนไข:**
 - มี earnings วันนี้ → WebSearch ข่าวเต็ม
-- ราคาเปลี่ยน >3% → WebSearch หาสาเหตุ
+- ราคาเปลี่ยน >3% → WebSearch หาสาเหตุ (ถ้าข่าวทั่วไปไม่ชัดเจน ลองเช็คเพิ่ม `ลงทุน Diary TICKER` / `The Dam Investor TICKER` / `The Investor's Podcast TICKER` — มุมมองเสริม ไม่ใช่ fact source ต้องระบุกำกับว่าเป็นความเห็นช่อง)
 - ที่เหลือ → fetch ราคาอย่างเดียว ไม่ search news
 
 **⚠️ Dynamic TP Reset check — เฉพาะตัวที่มี earnings วันนี้ (GWRE/PLTR/AVGO เท่านั้น, ไม่ใช่ V):**
@@ -79,6 +79,26 @@ WebSearch ใช้ได้เฉพาะ: ค้นข่าว/catalyst เ�
 
 **Top Pick:**
 - fetch ราคา + เช็ค entry zone เทียบ portfolio.md (เฉพาะตัวใน Watchlist ที่ผ่าน /brief แล้ว — ดู step 3)
+
+**Watchlist Next Review Check — เช็คทุกวันพร้อมกับ Top Pick (ไม่ต้อง fetch ราคา แค่เทียบวันที่/เงื่อนไข):**
+
+อ่าน column `Next Review` ของทุก Watchlist ticker ใน portfolio.md แล้ว flag ตัวที่เข้าเงื่อนไข:
+- `earnings YYYY-MM-DD` → วันนี้ ≥ วันนั้น → flag
+- `stale YYYY-MM-DD` → วันนี้ ≥ วันนั้น → flag
+- `event: [description]` → flag เสมอ (user ต้องยืนยันเองว่า event เกิดหรือยัง)
+- `price: <$XXX` หรือ `price: $XXX–$YYY` → flag เฉพา���ถ้าตลาดย่อ >3% วันนั้น (ไม���ต้อง fetch ราคา Watchlist ทุกวัน)
+- `⚠️ ย���งไม่ผ่าน /brief` → flag ทุกวัน
+
+แสดงผลใน output (ใน "สรุป Data vs Decision" ต่อจาก Market Scan):
+```
+📋 Watchlist Due: TICKER (earnings/stale/event/no brief) — รัน `/brief TICKER` ถ้าสนใจ
+```
+ถ้าไม่มีตัวไหน due → ข้ามบรรทัดนี้ (ไม่ต้องแสดง "ไม่มี")
+
+**หลังรัน /brief Watchlist ticker แล้ว — อัปเดต Next Review ใน portfolio.md ด้วยทันที:**
+- ถ้า brief ให���่ → ตั้ง `stale [วันที่ brief + 4 สัปดาห์]` เป็น fallback
+- ถ้ามี earnings ถัดไปรู้แล้ว → ใส่ `earnings YYYY-MM-DD` แทน (priority สูงกว่า stale)
+- ถ้า thesis ยังรอ event → คง `event: [description]`
 
 **Market Scan (หาหุ้นใหม่ทั้งตลาด US ตรง growth style) — รันทุกเช้าคู่กับ Top Pick:**
 
