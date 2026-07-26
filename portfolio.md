@@ -20,21 +20,21 @@
 
 ---
 
-## 🔮 Today's Prediction (2026-07-25, weekend — ตลาดปิด ราคา T-1 Jul 24)
-- **V Q3 earnings ใกล้เข้ามามาก (Jul 28, 3 วัน)** — จะเป็นจุดตัดสินสำคัญว่าจะขาย position ที่เป็น Avoid signal อยู่หรือไม่
-- **META Q2 earnings (Jul 29, 4 วัน)** — คาดว่าจะเป็นตัวชี้ทิศทาง AI capex narrative ทั้งกลุ่มต่อจาก GOOGL/TSLA ที่ออกไปแล้ว
-- **GWRE momentum เชิงบวกจาก AI customer win (Germania Mutual/ProNavigator)** คาดว่าจะช่วยพยุงราคาต่อเนื่องต้นสัปดาห์หน้า แม้ sector sentiment โดยรวมยังผันผวน
+## 🔮 Today's Prediction (2026-07-26, weekend — ตลาดปิด ราคา T-1 Jul 25)
+- **V earnings Jul 28 (2 วัน)** — คาด EPS beat consensus $3.22 เล็กน้อย แต่ management tone เรื่อง DOJ antitrust จะเป็นตัวตัดสินทิศทางราคา ไม่ใช่ตัว beat เอง
+- **META earnings Jul 29 (3 วัน)** — คาด Q2 revenue beat ตาม BofA preview แต่ตลาดจะ focus capex guidance หาก guidance ไม่เกิน $145B → ราคาอาจ bounce จาก discount -28-30%
+- **NASDAQ จะยังอ่อนตัวต่อจนกว่าจะเห็น AI capex ROI narrative พลิกกลับ** จาก earnings week นี้ (ไม่น่าเห็นก่อน Wed/Thu)
 
-**Prediction Review (จาก 2026-07-24 intraday):**
-- ~~ตลาดจะยังผันผวนจนกว่าจะมีข่าว Iran de-escalation~~ ✅ ถูกต้อง — Nasdaq ปิดลบ -0.64% ศุกร์ที่ผ่านมา จาก chip stock weakness ต่อเนื่อง
-- ~~META จะทรงตัวจนกว่าจะถึง Q2 earnings~~ ⚠️ บางส่วนถูก — จริงๆ ร่วงต่อ -1.80% วันศุกร์ ไม่ใช่ทรงตัวเป๊ะ แต่ไม่มีข่าวเฉพาะตัวใหม่จริง
-- ~~GWRE/PLTR/AVGO จะแกว่งตาม risk sentiment รวม~~ ❌ ผิดบางส่วน — GWRE จริงๆ ร่วงขึ้นแรง +5.21% จาก**ข่าวเฉพาะตัว** (AI customer win) ไม่ใช่แค่ sentiment รวมอย่างที่คาด
+**Prediction Review (จาก 2026-07-25):**
+- ~~V Jul 28 earnings: beat EPS consensus~~ รอผล Jul 28
+- ~~META Jul 29 earnings: Q2 revenue beat~~ รอผล Jul 29
+- ~~NASDAQ จะยังอ่อนตัว~~ รอดู Trading week หน้า
 
 ---
 
 ## Holdings
 
-> อัปเดต Jul 25, 2026 (weekend — ตลาดปิด ราคาปิด Jul 24) | Total holdings: **$425.48** | Unrealized P&L: **+$44.97 (+11.82%)** + Cash Reserve **$157**
+> อัปเดต Jul 26, 2026 (weekend — ตลาดปิด ราคาปิด Jul 25) | Total holdings: **$425.48** | Unrealized P&L: **+$44.97 (+11.82%)** + Cash Reserve **$157**
 > 💰 SPCX ขายแล้ว Jun 17 @ $191.38 | Realized gain: **+$20.94 (+12.29%)**
 > 💸 CME ขายแล้ว Jun 23 @ $246.22 | Realized loss: **-$5.29 (-15.14%)**
 > 💸 MDLZ ขายแล้ว Jun 28 @ $60.75 | Realized gain: **+$0.88 (+0.78%)**
@@ -47,7 +47,7 @@
 
 | Ticker | Shares | Buy Price | มูลค่า | P&L % | P&L USD | ราคาปัจจุบัน | Kill Buffer |
 |--------|--------|-----------|--------|--------|---------|--------------|------------|
-| GWRE | 1.0000000 | $107.76 | **$138.23** | **+28.28% ✅** | +$30.47 | $138.23 | Kill $86.21 (+60.3% ✅, -20%) 🟢 +5.21% Jul 24 (AI customer win — Germania Mutual deploy ProNavigator AI assistant — thesis ⚠️ Improved) |
+| GWRE | 1.0000000 | $107.76 | **$138.23** | **+28.28% ✅** | +$30.47 | $138.23 | Kill $86.21 (+60.3% ✅, -20%) 🟢 +5.21% Jul 24 (AI customer win — Germania Mutual deploy ProNavigator AI assistant — thesis ⚠️ Improved) — Jul 25: ทรงตัว |
 | PLTR | 1.0000000 | $118.00 | **$122.92** | **+4.17% ✅** | +$4.92 | $122.92 | Kill $94.40 (+30.2% ✅, -20%) 🔴 -0.36% Jul 24 (ทรงตัว) |
 | AVGO | 0.2172321 | $372.21 (avg) | **$82.97** | **+2.61% ✅** | +$2.10 | $381.92 | Kill $297.77 (+28.3% ✅, -20%) 🔴 -2.69% Jul 24 (ตามกลุ่ม chip stock weakness) |
 | V | 0.2287306 | $323.00 | **$81.36** | **+10.13% ✅** | +$7.48 | $355.74 | Kill $274.55 (+29.6% ✅, -15% เดิม) 🟢 +1.18% Jul 24 🔴 /brief Jul 16 = Avoid — Q3 earnings Jul 28 (ภายใน 3 วัน) |
