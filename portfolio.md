@@ -116,6 +116,7 @@
 - TP2 $744.42 (+100%): เป้าหลัก — เกิน MS FV $650 ไปแล้ว (+14.5%) ถือว่าเป็น stretch target รอ fundamental ยืนยันเพิ่มก่อนถือเกิน FV มากๆ
 - 🎯 Catalyst: Q3 FY2026 guidance $29.4B (+84% YoY) = confirm thesis
 - 🚨 ขายถ้า AI semiconductor revenue growth <50% YoY ติด 2 ไตรมาส
+- ⚠️ **/brief 2026-07-27:** Layer 4 Action ลงจาก Buy → **Watch (Provisional, Second Opinion Tie)** — GuruFocus GF Value ($307-322, ยืนยันซ้ำหลายรอบ) ขัดแย้งกับ Morningstar FV $650 มาก (>100%) เป็นครั้งแรกที่เช็คไขว้ + Macquarie downgrade ชี้ Google TPU revenue share จะลด 95%→65% ภายในปี 2028 (ตัด EPS FY2028 21%) — thesis หลักยังไม่พัง (Layer 1/2 ยังผ่าน) แต่ยังไม่ใช่จังหวะ size up เพิ่ม รอ Q3/Q4 FY2026 earnings ยืนยันว่า customer diversification (OpenAI ฯลฯ) ชดเชย Google erosion ได้จริง ดู `briefs/AVGO-2026-07-27.md`
 
 **SPGI** — Long-term Compounder
 - TP1 $520: ใกล้ analyst target ต่ำสุด ($535), valuation ยังสมเหตุสมผล
