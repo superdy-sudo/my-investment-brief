@@ -20,21 +20,22 @@
 
 ---
 
-## 🔮 Today's Prediction (2026-07-26, weekend — ตลาดปิด ราคา T-1 Jul 25)
-- **V earnings Jul 28 (2 วัน)** — คาด EPS beat consensus $3.22 เล็กน้อย แต่ management tone เรื่อง DOJ antitrust จะเป็นตัวตัดสินทิศทางราคา ไม่ใช่ตัว beat เอง
-- **META earnings Jul 29 (3 วัน)** — คาด Q2 revenue beat ตาม BofA preview แต่ตลาดจะ focus capex guidance หาก guidance ไม่เกิน $145B → ราคาอาจ bounce จาก discount -28-30%
-- **NASDAQ จะยังอ่อนตัวต่อจนกว่าจะเห็น AI capex ROI narrative พลิกกลับ** จาก earnings week นี้ (ไม่น่าเห็นก่อน Wed/Thu)
+## 🔮 Today's Prediction (2026-07-27, pre-market ก่อนตลาดเปิด 20:30 น. ไทย)
+- **Fed rate decision Wed Jul 29 (2 วัน) ตรงกับวัน META earnings พอดี** — คาดตลาดจะผันผวนสูงวันนั้นจาก 2 catalyst พร้อมกัน (oil -7% จาก US-Iran ceasefire pause ลดแรงกดดันเงินเฟ้อ ทำให้ Fed มีช่องว่าง dovish มากขึ้น)
+- **V earnings Jul 28 (1 วัน)** — คาด EPS beat consensus $3.22 เล็กน้อย แต่ management tone เรื่อง DOJ antitrust จะเป็นตัวตัดสินทิศทางราคา ไม่ใช่ตัว beat เอง
+- **META earnings Jul 29 (2 วัน)** — คาด Q2 revenue beat ตาม BofA preview แต่ตลาดจะ focus capex guidance หาก guidance ไม่เกิน $145B → ราคาอาจ bounce จาก discount -28-30%
+- **Futures เปิดบวกแรง (S&P/Dow +0.8%, Nasdaq +1.6%) จาก Iran ceasefire pause** — น่าจะเห็น Holdings/Top Pick เขียวตอนเปิดตลาดคืนนี้ ถ้าไม่มีข่าวลบเฉพาะตัวแทรก
 
-**Prediction Review (จาก 2026-07-25):**
-- ~~V Jul 28 earnings: beat EPS consensus~~ รอผล Jul 28
+**Prediction Review (จาก 2026-07-26):**
+- ~~V Jul 28 earnings: beat EPS consensus~~ รอผล Jul 28 (พรุ่งนี้)
 - ~~META Jul 29 earnings: Q2 revenue beat~~ รอผล Jul 29
-- ~~NASDAQ จะยังอ่อนตัว~~ รอดู Trading week หน้า
+- ~~NASDAQ จะยังอ่อนตัว~~ ❌ ผิดทิศทาง — futures กลับพุ่งบวกแรงจาก Iran ceasefire pause แทน ไม่ได้อ่อนตัวต่อตามคาด
 
 ---
 
 ## Holdings
 
-> อัปเดต Jul 26, 2026 (weekend — ตลาดปิด ราคาปิด Jul 25) | Total holdings: **$425.48** | Unrealized P&L: **+$44.97 (+11.82%)** + Cash Reserve **$157**
+> อัปเดต Jul 27, 2026 (pre-market ก่อนตลาดเปิด 20:30 น. ไทย — ราคายังเป็นปิด Jul 25 Friday เหมือนเดิม ยังไม่มี session ใหม่) | Total holdings: **$425.48** | Unrealized P&L: **+$44.97 (+11.82%)** + Cash Reserve **$157**
 > 💰 SPCX ขายแล้ว Jun 17 @ $191.38 | Realized gain: **+$20.94 (+12.29%)**
 > 💸 CME ขายแล้ว Jun 23 @ $246.22 | Realized loss: **-$5.29 (-15.14%)**
 > 💸 MDLZ ขายแล้ว Jun 28 @ $60.75 | Realized gain: **+$0.88 (+0.78%)**
