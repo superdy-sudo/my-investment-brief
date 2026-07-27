@@ -170,6 +170,26 @@ Top Pick เลือกจาก **Watchlist เท่านั้น** (ตั
 
 ถ้าไม่มี Holding ไหนเข้าเกณฑ์ funding candidate (เช่น thesis ยังแข็งแรงและตรง growth style อยู่) → เขียน "ไม่มี — Holdings ทั้งหมดยังตรง style" แทน ไม่ต้อง force หา candidate
 
+### 3c. Watchlist Status — "รออะไรบ้าง" (2026-07-27)
+
+Section ถาวรทุก Full Brief — สรุป 1 บรรทัด/ticker ว่า Watchlist แต่ละตัวกำลังรออะไรอยู่ก่อนจะเข้าเงื่อนไข Buy/Starter จริง (ไม่ต้อง fetch ราคาใหม่ — ใช้ราคาที่ fetch ไปแล้วตอน Top Pick/Watchlist Next Review Check ในขั้นตอน 1)
+
+**วิธีสร้าง:** อ่าน column `เหตุผลที่สนใจ` + `ราคาที่จะซื้อ` + `Next Review` ของทุกแถวใน Watchlist table (portfolio.md) แล้วสรุปเป็น 1 บรรทัด/ticker: [ราคาปัจจุบัน] | รอ: [catalyst หลัก 1 อย่าง — เอาจาก "เหตุผลที่สนใจ" หรือ "ราคาที่จะซื้อ"] | Next: [earnings/stale date]
+
+**เรียงลำดับตาม Next Review ใกล้สุดก่อน** (earnings/stale date ที่ใกล้ที่สุดขึ้นบนสุด) — ให้เห็นทันทีว่าอะไรจะรู้ผลก่อน
+
+ตัวที่เป็น **Top Pick ปัจจุบันอยู่แล้ว** (เช่น META) → ไม่ต้องซ้ำในตารางนี้ ใส่บรรทัดท้ายตารางแทนว่า "(TICKER = Top Pick ปัจจุบัน ดูรายละเอียดในการ์ด Top Pick ด้านบน)"
+
+```
+📋 Watchlist รออะไรบ้าง (X ตัว)
+   TICKER   $XXX | รอ: [catalyst 1 บรรทัด] | Next: [earnings YYYY-MM-DD / stale YYYY-MM-DD]
+   ...
+
+   (TICKER = Top Pick ปัจจุบัน ดูรายละเอียดในการ์ด Top Pick ด้านบน — ถ้ามี)
+```
+
+**Save:** อัปเดต `showcase/briefs.html` ด้วย — มี section ถาวร `<!-- WATCHLIST_STATUS_START -->`/`<!-- WATCHLIST_STATUS_END -->` อยู่บนสุดของหน้า (เหนือ day-log ที่เรียงตามวันที่) เป็นตารางเดียวที่ **แทนที่ทั้งหมด** ทุกครั้งที่รัน Full Brief (ไม่ใช่ log สะสมแบบ day-section ด้านล่าง — table นี้คือ current status เท่านั้น ไม่ต้องเก็บประวัติ)
+
 ### 4. สรุปใน Chat
 
 ```
@@ -187,6 +207,10 @@ Top Pick เลือกจาก **Watchlist เท่านั้น** (ตั
    ❓ ผิดได้ถ้า: [เหตุผลอันดับ 1]
 
 💰 Funding Source: [TICKER — เงื่อนไขที่ผ่าน/ยังขาด] หรือ "ไม่มี"
+
+📋 Watchlist รออะไรบ้าง (X ตัว):
+   TICKER   $XXX | รอ: [catalyst 1 บรรทัด] | Next: [earnings/stale date]
+   ... (เรียงตาม Next Review ใกล้สุดก่อน — ดูรายละเอียดขั้นตอน 3c)
 
 📅 Earnings ใน 7 วัน: [ถ้ามี]
 ⚠️ ต้องทำวันนี้: [action เดียว หรือ "ไม่มี"]
