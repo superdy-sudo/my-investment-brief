@@ -174,7 +174,9 @@ Top Pick เลือกจาก **Watchlist เท่านั้น** (ตั
 
 Section ถาวรทุก Full Brief — สรุป 1 บรรทัด/ticker ว่า Watchlist แต่ละตัวกำลังรออะไรอยู่ก่อนจะเข้าเงื่อนไข Buy/Starter จริง (ไม่ต้อง fetch ราคาใหม่ — ใช้ราคาที่ fetch ไปแล้วตอน Top Pick/Watchlist Next Review Check ในขั้นตอน 1)
 
-**วิธีสร้าง:** อ่าน column `เหตุผลที่สนใจ` + `ราคาที่จะซื้อ` + `Next Review` ของทุกแถวใน Watchlist table (portfolio.md) แล้วสรุปเป็น 1 บรรทัด/ticker: [ราคาปัจจุบัน] | รอ: [catalyst หลัก 1 อย่าง — เอาจาก "เหตุผลที่สนใจ" หรือ "ราคาที่จะซื้อ"] | Next: [earnings/stale date]
+**วิธีสร้าง:** อ่าน column `เหตุผลที่สนใจ` + `ราคาที่จะซื้อ` + `Next Review` ของทุกแถวใน Watchlist table (portfolio.md) แล้วสรุปเป็น 1 บรรทัด/ticker แยก **Entry Zone ออกเป็นคอลัมน์ของตัวเอง** (ตัวเลข/ช่วงราคาที่ต้องเข้าไปถึงเท่านั้น — ไม่ผสมกับ catalyst) เพื่อให้ดูง่ายว่าราคาต้องไปถึงไหนโดยไม่ต้องอ่านประโยคยาว:
+
+[ราคาปัจจุบัน] | Entry Zone: [ตัวเลข/ช่วงราคาล้วนๆ เช่น "$225-230" หรือ "อยู่ใน zone แล้ว" ถ้าไม่มีเลขชัดเจนให้เขียน "ไม่ระบุชัด"] | รอ: [catalyst/เงื่อนไขที่ไม่ใช่ตัวเลขราคา เช่น earnings ยืนยันอะไร, Second Opinion ต้องพลิกไหม] | Next: [earnings/stale date]
 
 **เรียงลำดับ (2026-07-27): Tier ตามโอกาสจะเป็น Buy ก่อน แล้วค่อยเรียงตามวันที่ใกล้สุดในแต่ละ Tier** — ห้ามเรียงตามวันที่อย่างเดียว เพราะ ticker ที่ earnings ใกล้ที่สุดอาจมีโอกาสเป็น Buy ต่ำมาก (เช่น growth ไม่ผ่านเกณฑ์เชิงโครงสร้าง) ในขณะที่ ticker ที่ยังไม่มี event ใกล้ๆ อาจใกล้ Buy กว่ามาก:
 
@@ -189,7 +191,7 @@ Section ถาวรทุก Full Brief — สรุป 1 บรรทัด/t
 ```
 📋 Watchlist รออะไรบ้าง (X ตัว) — เรียงตามโอกาสเป็น Buy มากสุด → น้อยสุด แล้วค่อยตามวันที่ใกล้สุด
 🟢 ใกล้ Buy:
-   TICKER   $XXX | รอ: [catalyst 1 บรรทัด] | Next: [earnings YYYY-MM-DD / stale YYYY-MM-DD]
+   TICKER   $XXX | Entry Zone: $YYY-ZZZ | รอ: [catalyst 1 บรรทัด] | Next: [earnings YYYY-MM-DD / stale YYYY-MM-DD]
    ...
 🟡 Inconclusive:
    TICKER   ...
