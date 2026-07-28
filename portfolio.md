@@ -16,26 +16,25 @@
 
 ## Top Pick (วันนี้)
 
-> 🏆 **Jul 17, 2026 (/brief refresh)** — **META** $593.87 (2026-07-27 close, -0.22% vs Jul24 close $595.19) — 🟢 ยังคง Cheap (GuruFocus/Morningstar FV $819-850) | Compounder ยังคง 4/5 confirmed | Action ยังคง **Starter Position** (⚠️ Second Opinion: Tie ซ้ำ — ไม่ upgrade เป็น Buy) — ยังไม่ได้รัน /brief ใหม่ (ไม่มีข่าวใหม่กระทบ thesis — Q2 earnings Jul 29 ภายใน 2 วัน) — ดู `briefs/META-2026-07-17.md`
+> 🏆 **Jul 17, 2026 (/brief refresh)** — **META** $596.53 (2026-07-28 intraday, +0.45% vs Jul27 close $593.87) — 🟢 ยังคง Cheap (GuruFocus/Morningstar FV $819-850) | Compounder ยังคง 4/5 confirmed | Action ยังคง **Starter Position** (⚠️ Second Opinion: Tie ซ้ำ — ไม่ upgrade เป็น Buy) — ยังไม่ได้รัน /brief ใหม่ (ไม่มีข่าวใหม่กระทบ thesis — Q2 earnings **พรุ่งนี้ Jul 29**) — ดู `briefs/META-2026-07-17.md`
 
 ---
 
-## 🔮 Today's Prediction (2026-07-28, ก่อนตลาดเปิด 20:30 น. ไทยคืนนี้)
-- **V Q3 FY2026 earnings วันนี้หลังตลาดปิด (Jul 28 after market close, ~05:00 น. ไทยพรุ่งนี้)** — คาด EPS beat consensus $3.22 เล็กน้อย แต่ management tone เรื่อง DOJ antitrust lawsuit + UK Court of Appeal จะเป็นตัวตัดสินทิศทางราคา ไม่ใช่ตัว beat เอง — นี่คือจุดตัดสิน Funding Source (ขาย V หรือไม่)
-- **GWRE/PLTR หลัง pop แรงเมื่อวาน (+8%/+7%) อาจเห็นการ consolidate/profit-taking บ้าง** — ไม่มี fundamental negative ใหม่ที่พบ ดังนั้นถ้าย่อคาดว่าเป็น normal pullback ไม่ใช่ thesis break
-- **ตลาดรวมน่าจะซึมตัวช่วงกลางวัน** — catalyst หลัก (V earnings คืนนี้, META+Fed พรุ่งนี้) ยังไม่มาถึง คาด volume เบาบางจนกว่าจะถึงช่วงเย็น ET
+## 🔮 Today's Prediction (2026-07-28, US regular session กลางวัน)
+- **V Q3 FY2026 earnings คืนนี้หลังตลาดปิด (~03:00-04:00 น. ไทยพรุ่งนี้)** — ยังไม่ออก ณ ตอนเขียน brief นี้ (US เพิ่งเที่ยงวัน) — นี่คือจุดตัดสิน Funding Source (ขาย V หรือไม่) ตาม Avoid signal เดิม
+- **META Q2 earnings พรุ่งนี้ (Jul 29)** — จะเป็นตัวตัดสิน Second Opinion Tie ว่าจะ upgrade เป็น Buy ได้ไหม
+- **GWRE/PLTR แกว่งสวนทางกันวันนี้ตามคาด** — GWRE ยังวิ่งต่อ (momentum), PLTR ย่อ (profit-taking ก่อน earnings Aug 3) ไม่ใช่ thesis break ทั้งคู่
 
-**Prediction Review (จาก 2026-07-27):**
-- ✅ V Jul 28 earnings: รอผลคืนนี้ (ยังไม่ออก ณ ตอนเขียน brief นี้ — เวลา US ยังเป็นเช้า Jul 28)
-- ~~META Jul 29 earnings: Q2 revenue beat~~ รอผล Jul 29 (พรุ่งนี้)
-- ❌ **"Futures เปิดบวกแรง (Nasdaq +1.6%)" ผิด** — pre-market futures ขึ้นจริงจาก Iran ceasefire pause แต่ momentum จางหายไปตลอดวัน ปิดตลาดจริง S&P +0.02% (เกือบ flat) และ NASDAQ -0.18% (ติดลบเล็กน้อย) — บทเรียน: pre-market futures move ไม่ reliable เป็น proxy สำหรับ close-to-close ถ้าไม่มี catalyst ต่อเนื่องมายืนยันระหว่างวัน
-- ✅ GWRE +5.21% Jul 24 ต่อเนื่องเป็น +8.00% Jul 27 (ไม่มีข่าวเดี่ยวชัดเจนวันนี้ — เป็น continuation ของ Guggenheim upgrade $180 PT + board hire ที่ประกาศไปก่อนหน้า) | PLTR +7.00% Jul 27 จาก Oppenheimer reiterate Outperform PT $200 (ก่อน Q2 earnings Aug 3)
+**Prediction Review (จาก 2026-07-27 brief):**
+- ✅ **GWRE/PLTR consolidate ตามคาด** — GWRE +5.67% ต่อ (ไม่มีข่าวเดี่ยวใหม่ยืนยัน เป็น momentum ต่อเนื่อง), PLTR -6.07% จาก profit-taking ก่อน earnings Aug 3 (ยืนยันจาก Benzinga/Investing.com — ไม่ใช่ fundamental negative)
+- ✅ **ตลาดรวมซึมตัวตามคาด** — S&P +0.38%, NASDAQ เกือบ flat, VIX ลดลง -3.64% (risk-off คลายตัว)
+- ⏳ V Jul 28 earnings: ยังรอผล (หลังตลาดปิดคืนนี้)
 
 ---
 
 ## Holdings
 
-> อัปเดต Jul 28, 2026 (ก่อนตลาดเปิด 20:30 น. ไทยคืนนี้ — ราคาปิด Jul 27 Monday) | Total holdings: **$446.99** | Unrealized P&L: **+$66.49 (+17.47%)** + Cash Reserve **$157**
+> อัปเดต Jul 28, 2026 (US regular session กลางวัน) | Total holdings: **$448.83** | Unrealized P&L: **+$68.28 (+17.94%)** + Cash Reserve **$157**
 > 💰 SPCX ขายแล้ว Jun 17 @ $191.38 | Realized gain: **+$20.94 (+12.29%)**
 > 💸 CME ขายแล้ว Jun 23 @ $246.22 | Realized loss: **-$5.29 (-15.14%)**
 > 💸 MDLZ ขายแล้ว Jun 28 @ $60.75 | Realized gain: **+$0.88 (+0.78%)**
@@ -48,10 +47,10 @@
 
 | Ticker | Shares | Buy Price | มูลค่า | P&L % | P&L USD | ราคาปัจจุบัน | Kill Buffer |
 |--------|--------|-----------|--------|--------|---------|--------------|------------|
-| GWRE | 1.0000000 | $107.76 | **$149.28** | **+38.53% ✅** | +$41.52 | $149.28 | Kill $86.21 (+73.2% ✅, -20%) 🟢 +8.00% Jul 27 (ไม่มีข่าวเดี่ยวใหม่ — continuation ของ Guggenheim upgrade PT$180 + board hire ก่อนหน้า) 🎯 TP1 $161.64 ใกล้ (-8.3% ห่าง) |
-| PLTR | 1.0000000 | $118.00 | **$131.53** | **+11.47% ✅** | +$13.53 | $131.53 | Kill $94.40 (+39.3% ✅, -20%) 🟢 +7.00% Jul 27 (Oppenheimer reiterate Outperform PT$200 ก่อน Q2 earnings Aug 3) |
-| AVGO | 0.2172321 | $372.21 (avg) | **$83.25** | **+2.96% ✅** | +$2.39 | $383.22 | Kill $297.77 (+28.7% ✅, -20%) 🟢 +0.34% Jul 27 (ทรงตัว) |
-| V | 0.2287306 | $323.00 | **$82.93** | **+12.25% ✅** | +$9.05 | $362.53 | Kill $274.55 (+32.1% ✅, -15% เดิม) 🟢 +1.91% Jul 27 🎯 TP1 $390 ใกล้ (-7.6% ห่าง) 🔴 /brief Jul 16 = Avoid — Q3 earnings **วันนี้ Jul 28 หลังตลาดปิด** = จุดตัดสิน |
+| GWRE | 1.0000000 | $107.76 | **$157.75** | **+46.39% ✅** | +$49.99 | $157.75 | Kill $86.21 (+83.0% ✅, -20%) 🟢 +5.67% Jul 28 (momentum ต่อเนื่อง ไม่มีข่าวเดี่ยวใหม่ยืนยัน) 🎯 TP1 $161.64 ใกล้มาก (-2.5% ห่าง) |
+| PLTR | 1.0000000 | $118.00 | **$123.55** | **+4.70% ✅** | +$5.55 | $123.55 | Kill $94.40 (+30.9% ✅, -20%) 🟠 -6.07% Jul 28 (profit-taking ก่อน Q2 earnings Aug 3 — ยืนยันจาก Benzinga/Investing.com ไม่ใช่ fundamental negative) |
+| AVGO | 0.2172321 | $372.21 (avg) | **$83.25** | **+2.96% ✅** | +$2.39 | $383.21 | Kill $297.77 (+28.7% ✅, -20%) 🟢 -0.003% Jul 28 (flat — ยัง Watch/Provisional จาก /brief Jul 27) |
+| V | 0.2287306 | $323.00 | **$84.28** | **+14.08% ✅** | +$10.35 | $368.47 | Kill $274.55 (+34.2% ✅, -15% เดิม) 🟢 +1.64% Jul 28 🎯 TP1 $390 ใกล้ (-5.8% ห่าง) 🔴 /brief Jul 16 = Avoid — Q3 earnings **คืนนี้หลังตลาดปิด** = จุดตัดสิน (ยังไม่ออกผล) |
 | ~~SPGI~~ | ~~0.1816941~~ | ~~$391.47*~~ | ✅ **ขายแล้ว Jul 14** @ $435.934 | Realized +$8.08 (+11.35%) | — | — | — |
 
 > *SPGI cost per share adjusted post MBGL spin-off (original $412.79 → $391.47)
