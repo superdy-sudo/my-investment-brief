@@ -20,21 +20,21 @@
 
 ---
 
-## 🔮 Today's Prediction (2026-07-28, US regular session กลางวัน)
-- **V Q3 FY2026 earnings คืนนี้หลังตลาดปิด (~03:00-04:00 น. ไทยพรุ่งนี้)** — ยังไม่ออก ณ ตอนเขียน brief นี้ (US เพิ่งเที่ยงวัน) — นี่คือจุดตัดสิน Funding Source (ขาย V หรือไม่) ตาม Avoid signal เดิม
+## 🔮 Today's Prediction (2026-07-28 ปิดตลาด / after-hours)
 - **META Q2 earnings พรุ่งนี้ (Jul 29)** — จะเป็นตัวตัดสิน Second Opinion Tie ว่าจะ upgrade เป็น Buy ได้ไหม
-- **GWRE/PLTR แกว่งสวนทางกันวันนี้ตามคาด** — GWRE ยังวิ่งต่อ (momentum), PLTR ย่อ (profit-taking ก่อน earnings Aug 3) ไม่ใช่ thesis break ทั้งคู่
+- **V Avoid signal ยังไม่เปลี่ยนหลัง Q3 earnings** — growth ยัง low-teens ไม่ผ่านเกณฑ์ ≥30% แม้ EPS/Revenue beat — คาดว่าจะยังเป็น Avoid ต่อจนกว่า user จะตัดสินใจขายเอง
+- **GWRE ใกล้ TP1 มากขึ้นอีก** — ถ้าราคานิ่งแถวนี้ต่ออีก 1-2 วันไม่มีเหตุผลใหม่ พิจารณา trim 30% ได้
 
-**Prediction Review (จาก 2026-07-27 brief):**
-- ✅ **GWRE/PLTR consolidate ตามคาด** — GWRE +5.67% ต่อ (ไม่มีข่าวเดี่ยวใหม่ยืนยัน เป็น momentum ต่อเนื่อง), PLTR -6.07% จาก profit-taking ก่อน earnings Aug 3 (ยืนยันจาก Benzinga/Investing.com — ไม่ใช่ fundamental negative)
-- ✅ **ตลาดรวมซึมตัวตามคาด** — S&P +0.38%, NASDAQ เกือบ flat, VIX ลดลง -3.64% (risk-off คลายตัว)
-- ⏳ V Jul 28 earnings: ยังรอผล (หลังตลาดปิดคืนนี้)
+**Prediction Review (จาก 2026-07-28 เช้า brief):**
+- ✅ **GWRE/PLTR แกว่งสวนทางตามคาด** — GWRE ปิด +6.79% (จาก momentum ต่อเนื่อง), PLTR ปิด -6.08% (profit-taking pre-earnings) — ทั้งคู่ thesis ไม่เปลี่ยน
+- ✅ **ตลาดรวมซึมตัวตามคาด** — S&P +0.38% intraday, VIX ลดลง -3.64%
+- ✅ **V Q3 FY2026 earnings ออกแล้ว** — EPS $3.32 beat est. $3.29 (+0.9%), Revenue $11.6B +14% YoY beat est. เล็กน้อย, payments volume ทะลุ $4T ครั้งแรก | ⚠️ **Data Conflict:** บาง source รายงานว่า "ปรับ full-year guidance ลงมาที่ low end ของ low-teens" (Seeking Alpha) ขณะที่บาง source รายงานว่า "raised full-year outlook" (Investing.com/MarketBeat) — ทั้งสองอาจถูกพร้อมกันได้ถ้าเป็นการ raise จากช่วงก่อนหน้าแต่ narrow ไปทาง low end กำกวมพอที่ไม่ควรฟันธงว่า "guidance ดีขึ้นชัดเจน" | CEO ยืนยันจุดยืนเดิมว่าคดี DOJ "meritless" ไม่มี escalation ใหม่ แต่ก็ไม่มี de-escalation — ฝาก litigation escrow เพิ่ม $250M (Jun 25) ยืนยันว่ายังเป็น ongoing risk | ราคา after-hours ร่วง -1.05% เหลือ $362.72 จากปิด $366.99 — ตลาดตีความว่าไม่มี positive surprise พอ | **สรุป: Avoid signal เดิมยังไม่เปลี่ยน** (growth ยัง low-teens ไม่ผ่าน ≥30%, DOJ risk ยังไม่คลี่คลาย) — เป็นข้อมูลยืนยันเพิ่มเติม ไม่ใช่จุดพลิก thesis
 
 ---
 
 ## Holdings
 
-> อัปเดต Jul 28, 2026 (US regular session กลางวัน) | Total holdings: **$448.83** | Unrealized P&L: **+$68.28 (+17.94%)** + Cash Reserve **$157**
+> อัปเดต Jul 28, 2026 (ปิดตลาด + V after-hours earnings reaction) | Total holdings: **$448.65** | Unrealized P&L: **+$68.15 (+17.91%)** + Cash Reserve **$157**
 > 💰 SPCX ขายแล้ว Jun 17 @ $191.38 | Realized gain: **+$20.94 (+12.29%)**
 > 💸 CME ขายแล้ว Jun 23 @ $246.22 | Realized loss: **-$5.29 (-15.14%)**
 > 💸 MDLZ ขายแล้ว Jun 28 @ $60.75 | Realized gain: **+$0.88 (+0.78%)**
@@ -43,14 +43,14 @@
 > 🛒 PLTR ซื้อแล้ว Jun 29 | 1 share @ $118.00
 > 💸 MBGL ขายแล้ว (ระหว่าง Jul 8–9) | cost basis $3.85 → Realized loss ประมาณ **-$0.19 (-5%)** | ตาม /brief Jul 7 (Avoid, Compounder 2/5)
 > 💰 SPGI ขายแล้ว Jul 14 @ $435.934 | Realized gain: **+$8.08 (+11.35%)** | เหตุผล: ต้องการ fund GWRE/PLTR/AVGO ตาม aggressive growth style — SPGI เป็น defensive/quality ที่ไม่ผ่าน growth bar ใหม่แล้ว
-> 🔴 **V: /brief Jul 16 ใหม่ → Avoid** (Growth ❌ low-teens + Moat ⚠️ จาก DOJ antitrust structural remedy risk + Berkshire ขายทิ้งทั้งหมด Q1 2026) — **สัญญาณให้พิจารณาขาย position ปัจจุบัน** ดู `knowledge/V.md` และ `briefs/V-2026-07-16.md`
+> 🔴 **V: /brief Jul 16 ใหม่ → Avoid** (Growth ❌ low-teens + Moat ⚠️ จาก DOJ antitrust structural remedy risk + Berkshire ขายทิ้งทั้งหมด Q1 2026) — **Q3 FY26 earnings Jul 28 ออกแล้ว: EPS/Revenue beat เล็กน้อย แต่ growth ยัง low-teens ไม่ผ่านเกณฑ์ — Avoid signal ไม่เปลี่ยน** — **สัญญาณให้พิจารณาขาย position ปัจจุบัน** ดู `knowledge/V.md` และ `briefs/V-2026-07-16.md`
 
 | Ticker | Shares | Buy Price | มูลค่า | P&L % | P&L USD | ราคาปัจจุบัน | Kill Buffer |
 |--------|--------|-----------|--------|--------|---------|--------------|------------|
-| GWRE | 1.0000000 | $107.76 | **$157.75** | **+46.39% ✅** | +$49.99 | $157.75 | Kill $86.21 (+83.0% ✅, -20%) 🟢 +5.67% Jul 28 (momentum ต่อเนื่อง ไม่มีข่าวเดี่ยวใหม่ยืนยัน) 🎯 TP1 $161.64 ใกล้มาก (-2.5% ห่าง) |
-| PLTR | 1.0000000 | $118.00 | **$123.55** | **+4.70% ✅** | +$5.55 | $123.55 | Kill $94.40 (+30.9% ✅, -20%) 🟠 -6.07% Jul 28 (profit-taking ก่อน Q2 earnings Aug 3 — ยืนยันจาก Benzinga/Investing.com ไม่ใช่ fundamental negative) |
-| AVGO | 0.2172321 | $372.21 (avg) | **$83.25** | **+2.96% ✅** | +$2.39 | $383.21 | Kill $297.77 (+28.7% ✅, -20%) 🟢 -0.003% Jul 28 (flat — ยัง Watch/Provisional จาก /brief Jul 27) |
-| V | 0.2287306 | $323.00 | **$84.28** | **+14.08% ✅** | +$10.35 | $368.47 | Kill $274.55 (+34.2% ✅, -15% เดิม) 🟢 +1.64% Jul 28 🎯 TP1 $390 ใกล้ (-5.8% ห่าง) 🔴 /brief Jul 16 = Avoid — Q3 earnings **คืนนี้หลังตลาดปิด** = จุดตัดสิน (ยังไม่ออกผล) |
+| GWRE | 1.0000000 | $107.76 | **$159.40** | **+47.93% ✅** | +$51.64 | $159.40 | Kill $86.21 (+84.9% ✅, -20%) 🟢 +6.79% Jul 28 close (momentum ต่อเนื่อง ไม่มีข่าวเดี่ยวใหม่ยืนยัน) 🎯 TP1 $161.64 ใกล้มาก (-1.4% ห่าง) |
+| PLTR | 1.0000000 | $118.00 | **$123.53** | **+4.69% ✅** | +$5.53 | $123.53 | Kill $94.40 (+30.9% ✅, -20%) 🟠 -6.08% Jul 28 close (profit-taking ก่อน Q2 earnings Aug 3 — ยืนยันจาก Benzinga/Investing.com ไม่ใช่ fundamental negative) |
+| AVGO | 0.2172321 | $372.21 (avg) | **$82.75** | **+2.34% ✅** | +$1.89 | $380.91 | Kill $297.77 (+27.9% ✅, -20%) 🟢 -0.60% Jul 28 close (ยัง Watch/Provisional จาก /brief Jul 27) |
+| V | 0.2287306 | $323.00 | **$82.97** | **+12.30% ✅** | +$9.09 | $362.72 (after-hours) | Kill $274.55 (+32.1% ✅, -15% เดิม) 🟠 -1.05% after-hours (Q3 earnings: EPS $3.32 beat, Rev +14% YoY beat, แต่ growth ยัง low-teens) 🎯 TP1 $390 (-7.5% ห่าง) 🔴 /brief Jul 16 = Avoid — **earnings ยืนยัน Avoid ไม่เปลี่ยน** |
 | ~~SPGI~~ | ~~0.1816941~~ | ~~$391.47*~~ | ✅ **ขายแล้ว Jul 14** @ $435.934 | Realized +$8.08 (+11.35%) | — | — | — |
 
 > *SPGI cost per share adjusted post MBGL spin-off (original $412.79 → $391.47)
