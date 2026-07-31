@@ -22,21 +22,21 @@
 
 ---
 
-## 🔮 Today's Prediction (2026-07-30 ระหว่างวัน — หลัง KKR earnings + ตลาด rebound แรง)
-- **AMZN, SYK earnings คืนนี้หลังตลาดปิด (~16:00-16:30 ET)** — AMZN ต้อง AWS growth ≥30% YoY ยืนยันถึงจะเข้าเกณฑ์ Buy zone, SYK คาดยังโครงสร้างไม่ผ่าน (~11% YoY) ไม่น่าเปลี่ยนภาพ
-- **GWRE ย่อ -9.4% วันนี้แบบไม่มีข่าวลบเฉพาะตัวใหม่** — คาดเป็นการคืนกำไรจาก Jul 29 bounce มากกว่า thesis พัง ถ้าไม่มีข่าวใหม่มา 1-2 วันข้างหน้า น่าจะแค่ noise ไม่ใช่สัญญาณขาย
-- **ตลาดรวม rebound แรงกว่าที่คาด** — S&P +0.8%, NASDAQ +1.5% (ตรงข้ามกับที่คาดไว้เมื่อเช้าว่าจะยังผันผวนขาลงต่อ) — MSFT นำตลาดขึ้นหลัง earnings, VIX ลง -11% เป็น 18.39
+## 🔮 Today's Prediction (2026-07-30 ปิดตลาด — หลัง AMZN/SYK earnings)
+- **พรุ่งนี้ต้องรัน /brief AMZN refresh** — AWS +36.7% YoY (เร็วสุดใน 18 ไตรมาส) ผ่านเกณฑ์ ≥30% ชัดเจนมาก แต่ EPS $5.75 ปนกำไรครั้งเดียว $53.4B จาก Anthropic investment — ต้องแยกก่อนฟันธง Action ใหม่ + ราคาวิ่งขึ้น +8% AH แล้ว เดิม entry zone $225-230 อาจต้องปรับใหม่ทั้งหมด
+- **GWRE ถ้ายังไม่มีข่าวใหม่พรุ่งนี้** — คาดยัง sideways/ทรงตัวแถว $150-155 ไม่ใช่ downtrend ต่อเนื่อง เพราะไม่มี fundamental catalyst ลบ
+- **SYK จะยังอยู่ ⚪ โครงสร้างไม่ผ่านต่อไป** — earnings ออกแล้ว sales +9.4% YoY ยืนยันภาพเดิม ไม่มีเหตุต้อง /brief ใหม่เร็วๆ นี้
 
-**Prediction Review (จาก 2026-07-30 เช้า):**
-- ✅ **"META ต้องรัน /brief refresh วันนี้"** ถูกต้อง — รันแล้ว Action ลงเป็น Avoid ตามคาด (Layer 2 เหลือ 3/5, Growth ชะลอ +33%→+28%)
-- ⚠️ **"AMZN, KKR ใกล้เป็น Top Pick candidate ถัดไป"** ผิดบางส่วน — KKR รีเฟรชแล้วจริง (Starter คงเดิม) แต่ Growth GAAP แค่ +12.5% YoY ไม่ผ่านเกณฑ์ 30% + Second Opinion เอนไปทาง Bear ทำให้ไม่ใช่ผู้ท้าชิง Top Pick ที่แข็งแรง — NVDA ขึ้นเป็น Top Pick แทนจากคนละสาเหตุ (BX หลุดจาก Buy) ไม่ใช่จาก KKR/AMZN ตามที่คาด — AMZN ยังไม่ออกผล (earnings คืนนี้)
-- ❌ **"ตลาดรวมน่าจะยังผันผวนขาลงต่อ"** ผิด — ตลาดกลับ rebound แรงแทน (S&P +0.8%, NASDAQ +1.5%, VIX -11%) หลัง Fed sell-off เมื่อวาน — MSFT earnings ดันตลาดขึ้นแทน
+**Prediction Review (จาก 2026-07-30 ระหว่างวัน):**
+- ✅ **"AMZN earnings คืนนี้ต้อง AWS ≥30% YoY ยืนยันถึงเข้าเกณฑ์"** ถูกต้องและเกินคาด — AWS +36.7% YoY เร็วสุดใน 18 ไตรมาส ยืนยันชัดเจน แต่กำไรมีตัวปรุงแต่งจาก Anthropic gain ต้องแยกก่อนฟันธง
+- ⚠️ **"SYK คาดยังโครงสร้างไม่ผ่าน"** ถูกทิศทาง — sales +9.4% YoY ยืนยันไม่ผ่าน 30% แต่ EPS beat จริง (แม้ revenue พลาดคาดเล็กน้อย) หุ้นก็ยังร่วงแม้ beat — ตลาดโฟกัส revenue miss มากกว่า EPS beat
+- ✅ **"GWRE ย่อวันนี้น่าจะเป็นแค่ noise ไม่ใช่ thesis พัง"** ถูกทิศทาง — ราคาทรงตัวแถวเดิมไม่ได้ร่วงต่อรุนแรง (153.21 ใกล้เคียงช่วงเช้า)
 
 ---
 
 ## Holdings
 
-> อัปเดต Jul 30, 2026 (ระหว่างวัน — หลัง GWRE ย่อแรง) | Total holdings: **$439.93** | Unrealized P&L: **+$59.29 (+15.58%)** + Cash Reserve **$157**
+> อัปเดต Jul 30, 2026 (ปิดตลาด — หลัง AMZN earnings beat แรง) | Total holdings: **$443.50** | Unrealized P&L: **+$62.86 (+16.51%)** + Cash Reserve **$157**
 > 💰 SPCX ขายแล้ว Jun 17 @ $191.38 | Realized gain: **+$20.94 (+12.29%)**
 > 💸 CME ขายแล้ว Jun 23 @ $246.22 | Realized loss: **-$5.29 (-15.14%)**
 > 💸 MDLZ ขายแล้ว Jun 28 @ $60.75 | Realized gain: **+$0.88 (+0.78%)**
@@ -49,10 +49,10 @@
 
 | Ticker | Shares | Buy Price | มูลค่า | P&L % | P&L USD | ราคาปัจจุบัน | Kill Buffer |
 |--------|--------|-----------|--------|--------|---------|--------------|------------|
-| GWRE | 1.0000000 | $107.76 | **$151.52** | **+40.61% ✅** | +$43.76 | $151.52 | Kill $86.21 (+75.8% ✅, -20%) 🔴 -9.41% วันนี้ (ย่อกลับหลังบวกแรง Jul 29 +4.93% — ไม่พบข่าวลบเฉพาะตัวใหม่วันนี้, สอดคล้องกับหุ้นลง 26% YTD + Wells Fargo/Stifel ปรับ price target ลงล่าสุด) ⚠️ **หลุดกลับลงมาต่ำกว่า TP1 $161.64 แล้ว (-6.3%)** — ไม่ต้อง trim ตอนนี้ |
-| PLTR | 1.0000000 | $118.00 | **$121.40** | **+2.88% ✅** | +$3.40 | $121.40 | Kill $94.40 (+28.6% ✅, -20%) 🟢 -1.30% วันนี้ (ทรงตัว) |
-| AVGO | 0.2172321 | $372.21 (avg) | **$84.18** | **+4.12% ✅** | +$3.32 | $387.53 | Kill $297.77 (+30.1% ✅, -20%) 🟢 +4.65% วันนี้ (Samsung $200B AI chip deal ผ่านสิ้นปี 2030 + tech sector broad rally วันนี้) |
-| V | 0.2287306 | $323.00 | **$82.83** | **+12.11% ✅** | +$8.95 | $362.10 | Kill $274.55 (+31.9% ✅, -15% เดิม) 🟠 -1.80% วันนี้ 🎯 TP1 $390 (-7.2% ห่าง) 🔴 /brief Jul 16 = Avoid — ยืนยันไม่เปลี่ยน |
+| GWRE | 1.0000000 | $107.76 | **$153.21** | **+42.18% ✅** | +$45.45 | $153.21 | Kill $86.21 (+77.7% ✅, -20%) 🔴 -8.40% วันนี้ (ย่อกลับหลังบวกแรง Jul 29 — ไม่พบข่าวลบเฉพาะตัวใหม่, สอดคล้องกับหุ้นลง 26% YTD + Wells Fargo/Stifel ปรับ price target ลงล่าสุด) ⚠️ ยังต่ำกว่า TP1 $161.64 (-5.2%) — ไม่ต้อง trim ตอนนี้ |
+| PLTR | 1.0000000 | $118.00 | **$122.26** | **+3.61% ✅** | +$4.26 | $122.26 | Kill $94.40 (+29.6% ✅, -20%) 🟢 -0.60% วันนี้ (ทรงตัว) |
+| AVGO | 0.2172321 | $372.21 (avg) | **$84.26** | **+4.20% ✅** | +$3.39 | $387.84 | Kill $297.77 (+30.2% ✅, -20%) 🟢 +4.72% วันนี้ (Samsung $200B AI chip deal + tech sector broad rally) |
+| V | 0.2287306 | $323.00 | **$83.77** | **+13.37% ✅** | +$9.89 | $366.27 | Kill $274.55 (+33.4% ✅, -15% เดิม) 🟢 -0.67% วันนี้ 🎯 TP1 $390 (-6.5% ห่าง) 🔴 /brief Jul 16 = Avoid — ยืนยันไม่เปลี่ยน |
 | ~~SPGI~~ | ~~0.1816941~~ | ~~$391.47*~~ | ✅ **ขายแล้ว Jul 14** @ $435.934 | Realized +$8.08 (+11.35%) | — | — | — |
 
 > *SPGI cost per share adjusted post MBGL spin-off (original $412.79 → $391.47)
@@ -192,9 +192,9 @@
 
 | Ticker | เหตุผลที่สนใจ | ราคาที่จะซื้อ | ราคาล่าสุด | Next Review |
 |--------|--------------|--------------|-----------|-------------|
-| SYK | Wide Moat + GF discount ~22% — Watch (growth structural ~11% YoY ไม่ผ่าน ≥30% threshold — ไม่ใช่ weakness ชั่วคราว แต่เป็น nature ของ medical device) — thesis ผิดถ้า J&J VELYS/competitor ใหม่ break Mako flywheel + hospital switching cost — /brief 2026-07-26 | รอ Q2 earnings Jul 30 + pullback < $295 | **$330.25** (Jul 26) | earnings 2026-07-30 |
+| SYK | Wide Moat + GF discount ~22% — Watch (Q2 2026 earnings ออกแล้ว 30 ก.ค.: EPS $3.69 beat est. $3.52 แต่ revenue $6.589B พลาดคาด $6.646B เล็กน้อย, sales +9.4% YoY — ยืนยันภาพเดิมชัดเจน growth structural ~9-11% YoY ไม่ผ่าน ≥30% ไม่ใช่ weakness ชั่วคราว แต่เป็น nature ของ medical device, หุ้นร่วงแม้ beat EPS) — thesis ผิดถ้า J&J VELYS/competitor ใหม่ break Mako flywheel + hospital switching cost — /brief 2026-07-26 | รอ pullback < $295 | **$330.25** (Jul 26) | stale 2026-08-27 |
 | COST | Membership model + pricing power — Watch (growth structural ~11% YoY ไม่ผ่าน ≥30%, P/E 47x แพงเกินกับ growth rate จริง) — Quality world-class แต่ไม่ตรง growth style ปัจจุบัน — thesis ผิดถ้า membership renewal rate < 85% สองไตรมาสติด — /brief 2026-07-26 | รอ correction ลึก หรือรอ reevaluate growth style | **$935.03** (Jul 26) | stale 2026-08-23 |
-| AMZN | Wide Moat (4 sources: network, cost, intangibles, switching) — Starter Position (AWS Q1 +28% YoY borderline — รอ Q2 Jul 30 ยืนยัน ≥30%; FCF TTM -$2.47B แต่ investment cycle AI CapEx $200B) — thesis ผิดถ้า AI CapEx ไม่ได้ ROI ทำให้ FCF ติดลบถึงปี 2028+ — /brief 2026-07-26 | รอ $225-230 (GF zone) หรือ Q2 earnings ยืนยัน AWS growth | **$232.11** (Jul 26) — ใกล้ entry zone +1-3% | earnings 2026-07-30 |
+| AMZN | Wide Moat (4 sources: network, cost, intangibles, switching) — Starter Position (Q2 2026 earnings ออกแล้ว 30 ก.ค. หลังตลาดปิด: **AWS +36.7% YoY เร็วสุดใน 18 ไตรมาส** ✅ ผ่านเกณฑ์ ≥30% ชัดเจน, revenue $200.61B +19.6% YoY, EPS $5.75 แต่รวม one-time gain $53.4B จากการลงทุนใน Anthropic — ต้องแยกกำไรจริงจาก core business ก่อนฟันธง) — thesis ผิดถ้า AI CapEx ไม่ได้ ROI ทำให้ FCF ติดลบถึงปี 2028+ — /brief 2026-07-26, ⚠️ ยังไม่ refresh หลังงบ Q2 | ราคาวิ่งขึ้นไปก่อนงบแล้ว (anticipation rally) — เดิมรอ $225-230 อาจต้องปรับ zone ใหม่หลัง AH +8% | **$235.50** (Jul 30 ก่อนตลาดปิด) +8% AH หลังงบ | ⚠️ ควรรัน /brief AMZN refresh เพื่อยืนยันตัวเลขจริง+ปรับ entry zone |
 | LLY | Wide Moat (intangible assets GLP-1 pipeline) — Watch (🔴 Expensive — Morningstar FV $650 vs $1,196 = premium +84%; Compounder 5/5 แต่ราคาสะท้อน perfect execution ล่วงหน้าแล้ว) — thesis ผิดถ้า oral GLP-1 คู่แข่ง (Novo/Pfizer) + IRA กดราคา tirzepatide พร้อมกัน — /brief 2026-07-26 | รอ correction เข้า $900-1,000 (Morningstar FV zone) | **$1,196.03** (Jul 26) | stale 2026-08-23 |
 | NVDA | Wide Moat (Cornered Resource+Process Power — CUDA switching cost) — Starter Position (Provisional — valuation inconclusive) — Q1 FY27 revenue +85% YoY accelerating 3 ไตรมาสติด ✅, FCF margin ~60%, Layer 2 4/5 (TAM ผ่าน Dominant Incumbent Exception) — ⚠️ Morningstar FV $280 vs GuruFocus $354-370 ต่างกัน 32%, GuruFocus ติดป้าย "Possible Value Trap" — thesis ผิดถ้า growth หลุด <30% YoY 2 ไตรมาสติด หรือ custom ASIC กัดกิน market share มีนัยสำคัญ — /brief 2026-07-30 (Second Opinion: Bull ชนะมีเงื่อนไข แนะนำทยอยเข้า) | รอ valuation ชัดเจนขึ้น หรือ DCF conservative $182 = downside zone สำหรับ size up | **$192.41** (Jul 30) | stale 2026-08-27 |
 | **ZETA** | Narrow Moat Data Assets — Starter Position (Q1 2026 +49.9% YoY ✅, Palantir deal confirmed 7 ปี Jun 23 2026, first joint client คาด Q3) — ⚠️ Narrow Moat ไม่ผ่าน primary screener ควรจำกัด ≤2-3% พอร์ต — thesis ผิดถ้า Palantir ไม่ deliver $100M+ YoY + revenue growth ชะลอ <25% → market de-rate — /brief 2026-07-26 | $16–$18 (GF Value) — ราคาปัจจุบัน $19.13 ใกล้ FV พอดี | **$19.13** (Jul 26) — ลงจาก $22.41 (-15%) | earnings 2026-08-04 |
