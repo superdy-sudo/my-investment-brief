@@ -38,6 +38,8 @@
 > "Git สำหรับ Thesis" — บันทึกทุกครั้งที่ thesis เปลี่ยน daily-brief จะ prepend entry ใหม่
 > Format: `[วันที่] [🟢/🔴/🟡/⚪] [อะไรเปลี่ยน]`
 
+- [2026-08-02] 🟡 **Pre-earnings refresh — Layer 2 Compounder 3/5 confirmed** (ลดจาก 5/5 confirmed เมื่อ 2026-06-26): TAM sizing ⚠️ borderline (~4.75x market cap เทียบ TAM 2033 ของ Morningstar ที่ $1.4T ต่ำกว่าเกณฑ์ 5x เล็กน้อย) + 10-year market leadership durability ⚠️ unclear (narrow moat ไม่ใช่ wide + hyperscaler competition risk จาก Microsoft/AWS/Google) — กลไก Layer 4 ออกมาเป็น Avoid (Provisional) ตามกฎเข้มของ framework แต่ brief ระบุชัดว่านี่คือสัญญาณสำหรับตัดสินใจซื้อใหม่จากศูนย์เท่านั้น ไม่ใช่คำสั่งขาย Holding เดิม เพราะ **Kill Condition ยังไม่ trigger** (US Commercial growth <30% YoY 2 ไตรมาสติด — Q1 2026 จริงคือ +133% YoY สูงกว่าเกณฑ์ >4 เท่า) และราคา $123.06 ยังห่างไกลทั้ง TP1 $177 และ kill price $94.40 → สรุป **HOLD** ผ่าน Q2 2026 earnings (2026-08-03 หลังตลาดปิด) brief นี้เป็น pre-earnings setup โดยเจตนา ไม่ใช่ verdict สุดท้าย
+  แหล่ง: /brief 2026-08-02 (briefs/PLTR-2026-08-02.md)
 - [2026-07-16] 🚩 **Narrative Drift พบ:** ภาษา "resilient" หายจากคำอธิบาย government revenue + Ukraine/Israel partnership disclosure ถูกตัดออกจาก FY2025 10-K (ดูรายละเอียดด้านบน) — ไม่ถึงขั้น trigger kill แต่เพิ่มเป็น watch item ใหม่
 - [2026-07-15] 🔧 Recalibrate Kill -15%→-20% ($100.30→$94.40) + TP1/TP2 เปลี่ยนเป็น return-target +50%/+100% ($177.00/$236.00) แทน valuation-anchored เดิม — ให้ตรงกับ aggressive growth 100%/ปี style
 
