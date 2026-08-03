@@ -119,6 +119,20 @@ Filter ที่ใช้: `cap_midover` (mkt cap ≥$2B กันหุ้น�
 
 **หมายเหตุ:** ขั้นนี้แค่ "ค้นพบ" ตัวใหม่ที่ผ่าน growth filter เชิงปริมาณ ไม่ได้แทนที่ 4-Layer analysis — Top Pick ยังคงเลือกจาก Watchlist ที่ผ่าน `/brief` แล้วเท่านั้น (ดู step 3) ตัวจาก Market Scan ต้องผ่าน `/brief` ก่อนถึงจะเข้า Watchlist และมีสิทธิ์เป็น Top Pick ได้
 
+**Catalyst Scan (เสริม Market Scan) — 2026-08-03:** Finviz screener ข้างบนเป็น backward-looking (จับได้แค่หุ้นที่ revenue โตแรง**ไปแล้ว**ในงบที่ผ่านมา) จะพลาดหุ้นที่กำลังจะโตเพราะเพิ่งได้ catalyst ใหม่ (ชนะสัญญาใหญ่, ยกระดับ guidance, partnership ใหม่) ที่ยังไม่ทันสะท้อนใน revenue ตัวเลขจริง — เหมือนที่ PLTR เจอ NGC2/NATO/Nvidia partnership ก่อนตัวเลข revenue จะขยับตาม
+
+รัน **หลัง** Finviz Market Scan เสมอ (เป็นส่วนเสริม ไม่ใช่แทนที่) ด้วย WebSearch 2-3 query กว้างๆ หาข่าว 7 วันล่าสุด:
+```
+"company wins contract" OR "awarded contract" billion [เดือน ปีปัจจุบัน]
+"raises guidance" OR "raises full-year forecast" stock [เดือน ปีปัจจุบัน]
+"announces partnership" OR "signs deal" stock market cap [เดือน ปีปัจจุบัน]
+```
+ดึงชื่อบริษัท/ticker ที่ปรากฏซ้ำในหลายแหล่งข่าวออกมา (ไม่ใช่แค่ mention ผ่านๆ) แล้วทำตามขั้นตอนเดียวกับ Finviz list: ตัด Holdings/Watchlist/เคย Avoid ออก ที่เหลือคือ **Catalyst Candidates**
+
+**กฎการแสดงผล:** แยก section จาก Finviz New Candidates เสมอ (ระบุกำกับว่า "จากข่าว catalyst" ไม่ใช่ "จาก growth screener") เพราะความน่าเชื่อถือต่างกัน — Finviz filter เป็นตัวเลขเชิงปริมาณที่ verify ได้ทันที ส่วน catalyst จากข่าวเป็นแค่สัญญาณเบื้องต้นที่ยังไม่ผ่านการตรวจสอบเชิงตัวเลขเลย **ห้ามข้าม 4-Layer analysis** เด็ดขาดแม้ข่าว catalyst จะดูน่าตื่นเต้นแค่ไหน — โชว์สูงสุด 3 ตัวใน output พร้อมระบุ catalyst สั้นๆ 1 บรรทัด (เช่น "ชนะสัญญา $XXXM จาก [ลูกค้า], ก.ค. 2026")
+
+**ข้อควรระวัง:** query แบบนี้กว้างกว่า Finviz มาก มีโอกาสได้ผลลัพธ์ที่ noise สูง (ข่าว PR เกินจริง, หุ้นเล็กที่ปั่นราคา) — ถ้าหาไม่เจอชื่อที่น่าเชื่อถือจริงๆ (mkt cap ≥$2B, มีแหล่งข่าวมากกว่า 1 แหล่งยืนยัน) ให้เขียนว่า "ไม่พบ catalyst candidate ที่น่าเชื่อถือวันนี้" ไม่ต้องฝืนหา
+
 ### 2. ตอบ 4 คำถามต่อ Holding ทุกตัว
 
 ```
@@ -245,6 +259,7 @@ Section ถาวรทุก Full Brief — สรุป 1 บรรทัด/t
 Fact Check: [อะไร confirmed แล้ว / อะไรยัง unconfirmed — 1 ประโยค]
 Comment ระบบ: [thesis ตัวไหนเปลี่ยนหรือไม่ + ระบบควรทำอะไร] | Confidence XX% | Action: Do Nothing / [action เดียว]
 🆕 Market Scan: [TICKER1, TICKER2, ...] (ยังไม่ผ่าน /brief — รัน `/brief TICKER` ถ้าสนใจ) หรือ "ไม่มีตัวใหม่วันนี้"
+🆕 Catalyst Scan: [TICKER1 — catalyst สั้นๆ 1 บรรทัด, ...] (จากข่าว ไม่ใช่ growth screener — ยังไม่ผ่าน /brief) หรือ "ไม่พบ catalyst candidate ที่น่าเชื่อถือวันนี้"
 
 🎯 สิ่งที่จะทำให้เปลี่ยนใจ
    • [trigger 1 — เช่น earnings/event ที่รอผล]
