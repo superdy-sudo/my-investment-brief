@@ -102,14 +102,14 @@ WebSearch ใช้ได้เฉพาะ: ค้นข่าว/catalyst เ�
 
 **Market Scan (หาหุ้นใหม่ทั้งตลาด US ตรง growth style) — รันทุกเช้าคู่กับ Top Pick:**
 
-ใช้ Finviz screener ผ่าน Bash curl (ทดสอบแล้วว่าใช้ได้โดยไม่ต้อง login/paywall — ต้องใส่ User-Agent) — **ดึง 2 หน้า (40 ตัว) เรียงตาม market cap มากไปน้อย** ห้ามปล่อย default sort (ตัวอักษร A-Z) เพราะจะได้ list ที่ bias ไปทางชื่อขึ้นต้นด้วย A-C ไม่สะท้อนหุ้นที่น่าสนใจจริง:
+ใช้ Finviz screener ผ่าน Bash curl (ทดสอบแล้วว่าใช้ได้โดยไม่ต้อง login/paywall — ต้องใส่ User-Agent) — **ดึง 5 หน้า (~100 ตัว) เรียงตาม market cap มากไปน้อย** ห้ามปล่อย default sort (ตัวอักษร A-Z) เพราะจะได้ list ที่ bias ไปทางชื่อขึ้นต้นด้วย A-C ไม่สะท้อนหุ้นที่น่าสนใจจริง — **ขยายจาก 2 หน้าเดิม (2026-08-03)** เพราะ pool ของหุ้นที่ผ่านเกณฑ์เริ่มหมดจากการ briefed ไปแล้วต่อเนื่องหลายสัปดาห์ ทำให้บางวันเจอ New Candidate แค่ 0-2 ตัว การดึงเพิ่มเป็น 5 หน้าช่วยให้มีโอกาสเจอ ≥3 ตัวใหม่ต่อวันสม่ำเสมอขึ้น:
 ```bash
-for r in "" "&r=21"; do
+for r in "" "&r=21" "&r=41" "&r=61" "&r=81"; do
   curl -sL -A "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0 Safari/537.36" "https://finviz.com/screener.ashx?v=111&f=cap_midover,fa_salesqoq_o30,geo_usa,sh_avgvol_o500,sh_price_o5&o=-marketcap${r}&ft=4"
 done | grep -oE 'class="company-ticker" href="stock\?t=[A-Z.\-]+' | sed 's/.*t=//' | awk '!seen[$0]++'
 ```
 **ห้ามใช้ `sort -u`** — จะทำให้ list กลับไปเรียงตัวอักษรทิ้ง market cap order ที่ตั้งใจไว้ ใช้ `awk '!seen[$0]++'` แทน (dedupe แต่รักษาลำดับเดิม)
-Filter ที่ใช้: `cap_midover` (mkt cap ≥$2B กันหุ้นเล็ก/ผันผวนเกิน) + `fa_salesqoq_o30` (sales growth QoQ >30% — proxy ของ growth bar ≥30% YoY ใน portfolio.md) + `geo_usa` + `sh_avgvol_o500` (สภาพคล่องพอ) + `sh_price_o5` (กัน penny stock) + `o=-marketcap` (เรียง market cap มากไปน้อย — ได้หุ้นตัวใหญ่/รู้จักก่อน) — 20 ตัว/หน้า ดึง 2 หน้า (`r=21` = หน้า 2) รวม ~40 ตัว
+Filter ที่ใช้: `cap_midover` (mkt cap ≥$2B กันหุ้นเล็ก/ผันผวนเกิน) + `fa_salesqoq_o30` (sales growth QoQ >30% — proxy ของ growth bar ≥30% YoY ใน portfolio.md) + `geo_usa` + `sh_avgvol_o500` (สภาพคล่องพอ) + `sh_price_o5` (กัน penny stock) + `o=-marketcap` (เรียง market cap มากไปน้อย — ได้หุ้นตัวใหญ่/รู้จักก่อน) — 20 ตัว/หน้า ดึง 5 หน้า (`r=21/41/61/81` = หน้า 2-5) รวม ~100 ตัว
 
 **หลังได้ list ตัวเลือก:**
 1. ตัดตัวที่อยู่ใน Holdings หรือ Watchlist (portfolio.md) ออก — ไม่ต้องเอามาเทียบซ้ำ
