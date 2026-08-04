@@ -13,6 +13,7 @@
 > - **Watchlist ≠ Holdings** — Market Scan/Catalyst Scan ยังสแกนทุกวันได้ตามปกติเพื่อหา "ตัวสำรอง" ไว้เผื่อสล็อตว่าง (เช่น ตอน Kill trigger หรือถึง TP2 ขายหมด) แต่**ไม่ต้องรีบซื้อเข้า Holdings ทันทีที่เจอตัวผ่านเกณฑ์** ถ้า 5 สล็อตเต็มอยู่แล้วและตัวที่ถืออยู่ thesis ยังดี
 > - **Cash Reserve** ควรเอนเอียงไปทาง Size Up ตัวที่ถืออยู่แล้ว (ดูเงื่อนไข Size Up ด้านล่าง) มากกว่าเปิดตัวใหม่ ยกเว้นตัวใหม่ conviction สูงกว่าตัวที่แย่สุดใน 5 ตัวเดิมชัดเจน
 > - daily-brief ควรเตือนถ้า Holdings กำลังจะเกิน 5 ตัวจากการซื้อใหม่
+> - **🎯 ตัวใหม่ที่จะเปิด Holdings ต้องเป็น 🟢 Buy เท่านั้น (2026-08-04)** — ไม่รับ Starter Position/Watch/Provisional สำหรับการเปิดตัวใหม่อีกต่อไป (Starter เคยใช้ได้ แต่ยกระดับมาตรฐานขึ้นเพื่อคุณภาพของ 5 สล็อต) — ถ้า Watchlist ไม่มีตัวไหนเป็น Buy เต็มรูปแบบ (Cheap + ≥4/5 confirmed + thesis แข็ง, ไม่มี Second Opinion flag ค้าง) → **เอนไปทาง Size Up ตัวเดิมที่ยัง Buy/Starter thesis ✅ อยู่ก่อน หรือถือเงินสดรอ** ไม่ต้องฝืนเปิดตัวใหม่ที่ยัง Provisional/มี second-opinion เตือน
 
 **2026-07-15 Recalibrate Kill/TP ให้ตรง aggressive growth style (เดิมเป็นค่าตกค้างจากยุค quality-compounder เป้า 15-20%/ปี):**
 > - **Kill zone widen -15% → -20%** สำหรับตัว growth แท้ (GWRE/PLTR/AVGO) — เหตุผล: หุ้น growth ผันผวนกว่า defensive เดิมมาก (AVGO เคยร่วง -3.98% ในวันเดียวจาก noise ไม่ใช่ thesis พัง) -15% แบบเดิมเสี่ยง whipsaw ออกจาก position ที่ thesis ยังดีอยู่ตอน correction ปกติ | **V ไม่ปรับ** (คง -15% เดิม เพราะเป็น legacy defensive holding ที่กำลังจะพิจารณาขายผ่าน style-mismatch อยู่แล้ว ไม่ใช่ตัวที่จะ compound ต่อ)
