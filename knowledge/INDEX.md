@@ -6,7 +6,7 @@
 
 | Ticker | สถานะล่าสุด | Moat | Growth bar (≥30% YoY) | ไฟล์ |
 |--------|-------------|------|------------------------|------|
-| PLTR | [2026-08-02] 🟡 Pre-earnings refresh: Layer 2 3/5 confirmed (จาก 5/5) — TAM borderline ~4.75x, 10yr leadership durability unclear (narrow moat + hyperscaler risk). กลไก = Avoid แต่ Kill Condition ไม่ trigger (US Commercial +133% YoY) → HOLD ผ่าน Q2 earnings 8/3 | Switching Cost (Ontology) | ✅ ผ่าน (US Commercial +133% YoY) | [PLTR.md](PLTR.md) |
+| PLTR | [2026-08-04] 🟢 Q2 2026 earnings blowout: rev +93% YoY, US Commercial +149% YoY (+28% QoQ), EPS beat, FY26 guidance raised — thesis Improved, Kill Condition ยิ่งห่างไกล, Dynamic TP Reset triggered (Provisional $188.48/$251.30 รอราคาเปิดจริง) — ต้องรัน `/brief PLTR` ใหม่เพื่อ re-score Layer 2 | Switching Cost (Ontology) | ✅ ผ่านชัดเจน (US Commercial +149% YoY) | [PLTR.md](PLTR.md) |
 | AVGO | [2026-07-27] 🟠 Action Buy→Watch (Valuation Inconclusive) — valuation แตก >100%: MS FV $650 Cheap vs GuruFocus $307-322 Overvalued | Bear: Macquarie downgrade ชี้ Google TPU rev share ของ AVGO ลด 95%→65% (2026-28) จาก MediaTek/in-house silicon เบียด | ไม่ใช่ sell signal, moat/Layer1-2 ยังอยู่ | Wide (XPU IP + VMware) | ✅ ผ่าน (AI rev +143%) | [AVGO.md](AVGO.md) |
 | GWRE | [2026-07-25] ⚠️ Improved — +5.21% (Jul 24) หลัง Germania Mutual deploy ProNavigator AI assistant ตอกย้ำ cloud+AI expansion narrative | Switching Cost | ⚠️ ต่ำกว่าเกณฑ์ใหม่ (ARR +19%) | [GWRE.md](GWRE.md) |
 | V | [2026-07-28] 🔴 Q3 FY2026 earnings beat (EPS/Rev) แต่ growth ยัง low-teens, DOJ ยังไม่คลี่คลาย, guidance มี data conflict ระหว่าง source — Avoid signal (จาก 07-16) คงเดิม | Wide (network effect) | ❌ ไม่ผ่านเกณฑ์ใหม่ (defensive/quality) | [V.md](V.md) |
