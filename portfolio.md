@@ -49,7 +49,7 @@
 > 💸 MBGL ขายแล้ว (ระหว่าง Jul 8–9) | cost basis $3.85 → Realized loss ประมาณ **-$0.19 (-5%)** | ตาม /brief Jul 7 (Avoid, Compounder 2/5)
 > 💰 SPGI ขายแล้ว Jul 14 @ $435.934 | Realized gain: **+$8.08 (+11.35%)** | เหตุผล: ต้องการ fund GWRE/PLTR/AVGO ตาม aggressive growth style — SPGI เป็น defensive/quality ที่ไม่ผ่าน growth bar ใหม่แล้ว
 > 🔴 **V: /brief Jul 16 ใหม่ → Avoid** (Growth ❌ low-teens + Moat ⚠️ จาก DOJ antitrust structural remedy risk + Berkshire ขายทิ้งทั้งหมด Q1 2026) — **Q3 FY26 earnings Jul 28 ออกแล้ว: EPS/Revenue beat เล็กน้อย แต่ growth ยัง low-teens ไม่ผ่านเกณฑ์ — Avoid signal ไม่เปลี่ยน** — **สัญญาณให้พิจารณาขาย position ปัจจุบัน** ดู `knowledge/V.md` และ `briefs/V-2026-07-16.md`
-> 🟢 **PLTR: Q2 2026 earnings blowout (รายงาน 3 ส.ค. หลังตลาดปิด) → Thesis Improved** — US Commercial revenue +149% YoY (เร่งขึ้นจาก +133% YoY ที่ Q1 2026), total revenue +93% YoY, EPS $0.41 beat, FY26 guidance ปรับขึ้นเป็น revenue $8.15-8.158B (เหนือ consensus $7.72B) + US Commercial guidance >134% YoY — after-hours หุ้นเด้ง ~10-12% (StreetInsider) — **ตัวเลขนี้แก้ข้อกังวลจาก /brief Aug 2 pre-earnings refresh ได้เกือบทั้งหมด** (mechanical Avoid ตอนนั้นมาจาก TAM borderline + Layer 2 3/5 — แนะนำรัน `/brief PLTR` ใหม่เพื่อ re-score เต็มรูปแบบ) — **Kill Condition ยิ่งห่างไกลกว่าเดิม** (+149% YoY vs เกณฑ์ kill <30%) — 🔧 TP Reset triggered (Provisional, รอ confirm ราคาตลาดเปิดจริง) ดู `knowledge/PLTR.md` และ `briefs/PLTR-2026-08-02.md`
+> 🟢 **PLTR: /brief Aug 4 post-earnings refresh → Avoid (mechanical, ⚠️ ไม่ใช่สัญญาณขาย)** — Layer 1 ผ่านครบ (net cash $7.2B, zero debt, FCF margin ~55-58%) | Layer 2 ยัง 3/5 confirmed เหมือน /brief Aug 2 แต่**เหตุผลเปลี่ยนไปคนละเรื่อง** — Growth (+149% YoY US Commercial, accelerating) ผ่านแบบไม่มีข้อสงสัยแล้ว, ตัวที่ยังติดคือ TAM (Morningstar base case $1.4T/2033 ÷ market cap ~$348.6B ≈ 4.02x ยังไม่ถึง 5x — Dominant Incumbent Exception ใช้ไม่ได้เพราะ moat มาจาก Switching Cost ไม่ใช่ Cornered Resource/Process Power/Scale Economies) + Moat durability 10 ปี (Morningstar ยืนยัน Narrow ไม่ใช่ Wide) — **Kill Condition ยิ่งห่างไกลกว่าเดิมมาก** (+149% YoY vs เกณฑ์ kill <30%) → คง **HOLD** ไม่ใช่สัญญาณขาย | 🔧 **TP Reset (Provisional):** TP1 $217.88 / TP2 $290.50 (จากราคาอ้างอิง $145.25 pre-market — ยังไม่ confirm ด้วย curl หลังตลาดเปิดจริง) ดู `knowledge/PLTR.md` และ `briefs/PLTR-2026-08-04.md`
 
 | Ticker | Shares | Buy Price | มูลค่า | P&L % | P&L USD | ราคาปัจจุบัน | Kill Buffer |
 |--------|--------|-----------|--------|--------|---------|--------------|------------|
@@ -81,7 +81,7 @@
 | Ticker | TP1 — Trim 30% | TP2 — Sell ส่วนใหญ่ | Time Horizon | Re-evaluate เมื่อ |
 |--------|----------------|----------------|--------------|-------------------|
 | GWRE | **$161.64** (+50%) | **$215.52** (+100%) | ถึง Q4 FY26 earnings | Q4 FY26 earnings Sep 2026 |
-| PLTR | ~~$177.00~~ → **🔧 $188.48 (Provisional)** | ~~$236.00~~ → **🔧 $251.30 (Provisional)** | 2–3 ปี | Q3 2026 earnings (~Nov 2026) |
+| PLTR | ~~$177.00~~ → **🔧 $217.88 (Provisional)** | ~~$236.00~~ → **🔧 $290.50 (Provisional)** | 2–3 ปี | Q3 2026 earnings (~Nov 2026) |
 | AVGO | **$558.32** (+50%) | **$744.42** (+100%) | 3–5 ปี | Q3 FY2026 earnings Aug/Sep 2026 |
 | V | **$390** (+14%) | **$430** (+25%) | 2–3 ปี | Q3 earnings Jul 28 + UK Court |
 | ~~SPGI~~ | ~~$520~~ | ~~$580~~ | ✅ **ขายแล้ว Jul 14, 2026** @ $435.934 | P&L +$8.08 (+11.35%) realized |
@@ -111,9 +111,8 @@
 - 🚨 size เล็ก (1 share) — รอ confirm record quarter ก่อน size up
 
 **PLTR** — Switching Cost / AI OS Play
-- 🔧 **TP Reset 2026-08-04 (Provisional):** Q2 2026 earnings (รายงาน 3 ส.ค. หลังตลาดปิด) — US Commercial revenue +149% YoY (เร่งจาก +133% YoY ที่ Q1 2026), total revenue +93% YoY, FY26 guidance ปรับขึ้นเป็น $8.15-8.158B (เหนือ consensus $7.72B) — **Growth accelerating ชัดเจน** ผ่านเกณฑ์ Dynamic TP Reset ข้อ 1 → Reset TP1/TP2 จากราคา $125.65 (curl pre-market, ตลาดยังไม่เปิดตอนคำนวณ) = TP1 $188.48 (+50%) / TP2 $251.30 (+100%) — **⚠️ Provisional เพราะ after-hours (StreetInsider) ชี้ว่าหุ้นเด้ง ~10-12% หลังงบ ซึ่งยังไม่สะท้อนในราคา curl นี้ — ต้อง curl ราคาใหม่ตอนตลาดเปิดจริง (~21:30 น. เวลาไทย) แล้วคำนวณ TP1/TP2 ที่แท้จริงอีกครั้ง** (Vera quality-check flagged จุดนี้)
-- TP1 (เดิม $177.00 / +50%): ผ่าน MS FV เดิม $150 แล้วในทางเดียวกัน — ใช้ตัวเลข reset ใหม่ข้างบนแทนหลัง confirm
-- TP2 (เดิม $236.00 / +100%): เป้าหลัก — ขายส่วนใหญ่เมื่อถึง
+- 🔧 **TP Reset 2026-08-04 (Provisional, confirmed ผ่าน /brief PLTR เต็มรูปแบบ):** Growth accelerating ชัดเจน (US Commercial +149% YoY เร่งจาก +133%) ผ่านเกณฑ์ Dynamic TP Reset ข้อ 1 → Reset จากราคาอ้างอิง $145.25 (WebSearch pre-market indicative — curl ยังไม่มีข้อมูล extended-hours) = **TP1 $217.88 (+50%) / TP2 $290.50 (+100%)** — ⚠️ ยัง Provisional จนกว่าจะ curl ราคาตลาดเปิดจริงยืนยัน (~21:30 น. เวลาไทย)
+- /brief Aug 4 เต็มรูปแบบสรุป: Layer 1 ผ่านครบ, Layer 2 ยัง 3/5 (TAM ⚠️ borderline ~4.02x base case, Moat durability ⚠️ Narrow ไม่ใช่ Wide) → mechanical Avoid เหมือนเดิม แต่เหตุผลเปลี่ยนจาก "growth ไม่ชัด" เป็น "TAM/moat durability" ล้วนๆ — ดู `briefs/PLTR-2026-08-04.md`
 - 🎯 Catalyst ถัดไป: Q3 2026 earnings (~Nov 2026)
 - 🚨 ขายถ้า US Commercial <30% YoY ติด 2 ไตรมาส (ปัจจุบันห่างไกลมาก +149% YoY)
 
