@@ -160,7 +160,7 @@ FCF ติดลบมี 2 สาเหตุที่ต่างกันม�
 **ข้อยกเว้น TAM (Dominant Incumbent Exception) — 2026-07-19:** กฎ "TAM ≥5x" ออกแบบมาเช็คว่าหุ้น**โตเร็ว**ยังมีที่วิ่งอีกไหม แต่ใช้ผิดกับบริษัทที่ผูกขาดตลาดตัวเองอยู่แล้ว (เช่น TSM, ASML) เพราะ market cap ตัวเองก็ใหญ่จนหา TAM ที่ใหญ่กว่า 5 เท่าแทบเป็นไปไม่ได้ ทั้งที่ธุรกิจคุณภาพดีมาก
 
 ถ้าเข้าเงื่อนไข**ครบทั้ง 3 ข้อ**นี้ → ข้อ 2 (TAM) ให้เป็น **⚠️ แทน ❌** (ไม่นับเป็นลบ แต่ต้องแสดงเหตุผลเสมอว่าเข้าเกณฑ์ exception):
-1. Layer 1 Wide Moat ✅ มาจาก **Cornered Resource, Process Power, หรือ Scale Economies** (ไม่ใช่ Branding/Switching Cost เพียงอย่างเดียว — เพราะ exception นี้เจาะจงบริษัทที่ผูกขาด supply-side ไม่ใช่แค่ lock-in ลูกค้า)
+1. Layer 1 Wide Moat ✅ มาจาก **Cornered Resource, Process Power, Scale Economies หรือ Switching Cost ที่มี FCF margin >40%** (ไม่ใช่ Branding เพียงอย่างเดียว — เพราะ exception นี้เจาะจงบริษัทที่ผูกขาด supply-side หรือมี pricing power สูงมากจริง ไม่ใช่แค่ lock-in ลูกค้าแบบอ่อนๆ) — **2026-08-04 ขยายจากเดิมที่จำกัดแค่ Cornered Resource/Process Power/Scale Economies:** เจอเคสจริง PLTR/AMZN ที่เป็น mega-cap คุณภาพสูง (net cash มหาศาล, FCF margin ~55-60%+) แต่ moat มาจาก Switching Cost ล้วนๆ ทำให้เข้าเกณฑ์เดิมไม่ได้ทั้งที่ปัญหาต้นตอเหมือนกันทุกประการ (TAM ≥5x เป็นไปไม่ได้เพราะ market cap ใหญ่มากแล้ว) — **เงื่อนไข FCF margin >40% เป็นตัวกรองแทนที่**: ถ้า Switching Cost ไม่ได้แปลงเป็น FCF margin สูงขนาดนี้จริง แสดงว่า pricing power ยังไม่แข็งพอจะเข้า exception (กันไม่ให้ Switching Cost อ่อนๆ ผ่านเกณฑ์ง่ายเกินไป)
 2. Market share ในตลาดหลัก ≥40-50% (มีตัวเลข/หลักฐานยืนยัน ไม่ใช่กะเอา)
 3. ROIC สูงต่อเนื่องหลายปี หรือ FCF margin >25% (หลักฐานว่า pricing power จริง ไม่ใช่แค่ market cap ใหญ่)
 
@@ -190,8 +190,12 @@ FCF ติดลบมี 2 สาเหตุที่ต่างกันม�
 🟢 Buy              — Cheap + ≥4/5 confirmed + thesis แข็ง
 🔵 Starter Position — Fair + ≥4/5 confirmed + catalyst ชัด
 🟠 Watch            — ดีแต่ราคา Expensive หรือรอ catalyst
-🔴 Avoid            — มีข้อ ❌ confirmed ใน Layer 1 หรือ <4/5 confirmed ใน Layer 2
+🔴 Avoid            — มีข้อ ❌ confirmed ใน Layer 1 หรือ (<4/5 confirmed ใน Layer 2 พร้อมมีอย่างน้อย 1 ข้อเป็น ❌ confirmed)
 ```
+
+**⚠️ Avoid vs Watch — แยกให้ชัด (2026-08-04):** กฎเดิม "<4/5 confirmed = Avoid" ไม่แยกระหว่าง "มี ❌ confirmed จริง" (พิสูจน์แล้วว่าไม่ผ่าน) กับ "แค่ ⚠️/⚪ borderline หลายข้อ" (ยังพิสูจน์ไม่ได้ทั้งสองทาง) — ทำให้หุ้นคุณภาพสูงที่มีแค่คำถามเปิดค้างอยู่ (ไม่มีข้อไหน confirmed fail เลย) โดน Avoid เหมือนหุ้นที่มี red flag จริง เจอเคสจริงกับ PLTR (Aug 2026): Layer 1 ผ่านครบ, Layer 2 ได้ 3/5 confirmed แต่อีก 2 ข้อเป็น ⚠️ (TAM data conflict, moat durability unclear) ไม่มีข้อไหนเป็น ❌ เลย — ผลที่ถูกต้องควรเป็น Watch (Provisional) ไม่ใช่ Avoid
+
+**กฎใหม่:** ถ้า Layer 2 ได้ <4/5 confirmed **และไม่มีข้อไหนเป็น ❌ confirmed เลย** (มีแต่ ✅/⚠️/⚪ ผสมกัน) → Action = **🟠 Watch (Provisional)** แทน Avoid เสมอ (ไม่ว่า valuation จะเป็นอะไร) — สงวน 🔴 Avoid ไว้เฉพาะกรณีที่มีอย่างน้อย 1 ข้อใน Layer 2 เป็น ❌ confirmed จริง (มีหลักฐาน/ตัวเลขยืนยันว่าไม่ผ่าน ไม่ใช่แค่ไม่ชัด) หรือ Layer 1 มี ❌ confirmed
 
 **ถ้ามี ⚠️/⚪ รวม ≥2 ข้อ** (จาก Layer 1+2 ทั้งหมด) → เติม "(Provisional)" ต่อท้าย Action เสมอ ไม่ว่าผลจะออกมาเป็นอะไร — สื่อว่ายังฟันธงได้ไม่เต็มที่เพราะข้อมูลไม่ครบ
 
@@ -397,6 +401,7 @@ git push origin main
 - **ห้ามใช้ ❌ แทน "หาข้อมูลไม่เจอ" เด็ดขาด** — ❌ ต้องมีหลักฐาน/ตัวเลขยืนยันเสมอว่าไม่ผ่านเกณฑ์จริง ถ้าแค่หาไม่เจอ → ⚪ Unknown ถ้าแหล่งขัดแย้งกัน → ⚠️ Data Conflict
 - Layer 1 หยุดทันทีเฉพาะเมื่อมี ❌ confirmed อย่างน้อย 1 ข้อ (ไม่ใช่ ⚠️/⚪)
 - Layer 2 นับคะแนนจาก ✅ เท่านั้น — ⚠️/⚪ ไม่นับทั้งขึ้นทั้งลง แต่ต้องแสดงในผลลัพธ์
+- **<4/5 confirmed ใน Layer 2 ที่ไม่มี ❌ confirmed เลย (มีแต่ ⚠️/⚪) → Watch (Provisional) ไม่ใช่ Avoid** (2026-08-04) — 🔴 Avoid สงวนไว้เฉพาะกรณีมี ❌ confirmed จริงใน Layer 1 หรือ Layer 2
 - ถ้า ⚠️/⚪ รวม ≥2 ข้อ → ติด "(Provisional)" ที่ Action เสมอ + บอกว่าต้องหาอะไรเพิ่ม
 - Thesis killer ต้องเป็น 1 ข้อเท่านั้น
 - Bull/Bear แต่ละข้อต้องเป็น observable fact ไม่ใช่ wish
