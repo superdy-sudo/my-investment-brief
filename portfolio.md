@@ -24,31 +24,27 @@
 
 ## Top Pick (วันนี้)
 
-> 🏆 **Aug 4, 2026 (ราคาอัปเดต pre-market, /brief ล่าสุดยังเป็น 26-07-30)** — **NVDA** $206.64 (Wide Moat — Cornered Resource+Process Power, CUDA switching cost) — Action **Starter Position (Provisional — valuation inconclusive)** — Conviction 8.0/10 — Layer 1 ผ่านครบ, Layer 2 4/5 (TAM ผ่าน Dominant Incumbent Exception, growth +85% YoY accelerating 3 ไตรมาสติด) แต่ ⚠️ Valuation Inconclusive (Morningstar FV $280 vs GuruFocus $354-370 ต่างกัน 32% + GuruFocus เองติดป้าย "Possible Value Trap") | ⚠️ Second Opinion: Bull ชนะแบบมีเงื่อนไข — bear เจอ custom ASIC กำลังแทนที่จริง + circular financing concern + China H200 reopening แย่กว่าที่คิด — แนะนำทยอยเข้าไม่ใช่เข้าเต็มไม้ — thesis ผิดถ้า growth หลุด <30% YoY 2 ไตรมาสติด หรือ AI accelerator market share ร่วงมีนัยสำคัญจาก custom ASIC — /brief 2026-07-30 — ดู `briefs/NVDA-2026-07-30.md`
+> 🏆 **Aug 5, 2026 (ราคาอัปเดต, /brief ล่าสุดยังเป็น 26-07-30)** — **NVDA** $219.60 (+3.6% วันนี้) (Wide Moat — Cornered Resource+Process Power, CUDA switching cost) — Action **Starter Position (Provisional — valuation inconclusive)** — Conviction 8.0/10 — Layer 1 ผ่านครบ, Layer 2 4/5 (TAM ผ่าน Dominant Incumbent Exception, growth +85% YoY accelerating 3 ไตรมาสติด) แต่ ⚠️ Valuation Inconclusive (Morningstar FV $280 vs GuruFocus $354-370 ต่างกัน 32% + GuruFocus เองติดป้าย "Possible Value Trap") | ⚠️ Second Opinion: Bull ชนะแบบมีเงื่อนไข — bear เจอ custom ASIC กำลังแทนที่จริง + circular financing concern + China H200 reopening แย่กว่าที่คิด — แนะนำทยอยเข้าไม่ใช่เข้าเต็มไม้ — thesis ผิดถ้า growth หลุด <30% YoY 2 ไตรมาสติด หรือ AI accelerator market share ร่วงมีนัยสำคัญจาก custom ASIC — /brief 2026-07-30 — ดู `briefs/NVDA-2026-07-30.md`
 >
 > **การเปลี่ยน Top Pick 2 รอบใน 2 วัน:** META (Starter) → Avoid หลัง Q2 earnings (30 ก.ค., growth ชะลอ+TAM ไม่ผ่าน) → **BX ขึ้นมาแทนชั่วคราว** → /brief BX refresh พบว่า valuation gap ถ่างขึ้น (Morningstar เองปรับ FV ลงจนเกือบเป็น Fair) + BXSL/BCRED co-CEO ลาออกกะทันหัน → **BX ลงเป็น Watch (Provisional)** ไม่ผ่านเกณฑ์ Top Pick อีก → **NVDA ขึ้นเป็น Top Pick แทน** (ยังไม่ได้ refresh ใหม่วันนี้ ใช้ข้อมูลจาก /brief 26 ก.ค.) — ดู `briefs/META-2026-07-30.md` และ `briefs/BX-2026-07-30.md`
 
 ---
 
-## 🔮 Today's Prediction (2026-08-04 อังคาร ตลาดเปิดแล้ว)
-- **ZETA earnings คืนนี้หลังตลาดปิด** — ต้องยืนยัน Palantir first joint client ตามที่ตลาดคาด (คาด Q3 แต่บริษัทอาจ preview ใน call)
-- **PLTR ควรทรงตัวหรือขึ้นต่อ** หลัง gap up เปิดตลาด (+24% จาก close ก่อนงบ) — จับตาว่าจะ hold gap ได้ไหมหรือมี profit-taking กลับมา
-- **Market ยังบวกต่อเนื่อง** ตาม PLTR halo effect ที่ยืนยันแล้วจริง (NASDAQ +1.55% ตอนเปิด)
+## 🔮 Today's Prediction (2026-08-05 พุธ)
+- **DASH earnings คืนนี้หลังตลาดปิด** (call 4:30pm ET / ~3:30am เวลาไทย) — Wall St คาด revenue $4.32B (+31.5% YoY), EPS $0.50 (ลดจาก $0.65) — ตัวชี้วัดสำคัญคือ Adjusted EBITDA/FCF margin จากการลงทุน Deliveroo/Wolt/Dot
+- **GWRE ใกล้ TP1 มากขึ้นอีก** ($159.61, ห่างแค่ -1.3% จาก TP1 $161.64) — ถ้าทะลุวันนี้/พรุ่งนี้ต้องพิจารณา trim 30%
+- **ZETA ยืนราคาสูงต่อได้ไหม** หลังพุ่ง +45% จาก $19 baseline สู่ $27.74 จาก earnings blowout + Palantir deal เริ่มออกผลจริง
 
-**Prediction Review (จาก 2026-08-04 pre-market):**
-- ✅ **"PLTR ควรเปิดกระโดดขึ้นแรงตาม after-hours"** ถูกต้องมาก — เปิดที่ $145.15 แล้วขึ้นต่อถึง $155.90 (+24.1% จาก close ก่อนงบ $125.65)
-- ✅ **"Market เปิดบวกต่อเนื่องจาก PLTR halo effect"** ถูกต้อง — S&P +1.00%, NASDAQ +1.55% ตอนเปิด
-- ⏳ **"ZETA earnings preview"** ยังไม่รู้ผล รอคืนนี้
-
-**Prediction Review (จาก 2026-08-03):**
-- ✅ **"ตลาดเปิดบวกวันนี้จาก futures"** ถูกต้อง — S&P ปิด +1.48%, NASDAQ +2.13% (เทียบ Jul 31 close)
-- ✅ **"PLTR earnings คืนนี้"** ออกผลแล้ว — blowout เกินคาดมาก (US Commercial +149% YoY เร่งจาก +133%, guidance ปรับขึ้น, after-hours +10-12%)
+**Prediction Review (จาก 2026-08-04):**
+- ✅ **"PLTR ควรทรงตัวหรือขึ้นต่อ"** ถูกต้อง — ขึ้นต่อจาก $155.90 เป็น $163.78 (+5.1% เพิ่มเติม)
+- ✅ **"Market ยังบวกต่อเนื่อง"** ถูกต้อง — S&P +0.47%, NASDAQ +0.31% วันนี้ (ต่อจากที่บวกแรงเมื่อวาน)
+- ✅ **"ZETA earnings คืนนี้ต้องยืนยัน Palantir progress"** ยืนยันแล้วจริง — revenue $443M (+44% YoY), Data Cloud integrate กับ Foundry เสร็จ 31 ก.ค., ปิดดีลแล้ว 2 ดีล hit rate 100%, ยังไม่รวมใน guidance เลย
 
 ---
 
 ## Holdings
 
-> อัปเดต Aug 4, 2026 (อังคาร ตลาดเปิดแล้ว) | Total holdings: **$487.50** | Unrealized P&L: **+$107.00 (+28.12%)** + Cash Reserve **$87**
+> อัปเดต Aug 5, 2026 (พุธ ตลาดเปิดแล้ว) | Total holdings: **$499.12** | Unrealized P&L: **+$118.63 (+31.18%)** + Cash Reserve **$87**
 > 💰 SPCX ขายแล้ว Jun 17 @ $191.38 | Realized gain: **+$20.94 (+12.29%)**
 > 💸 CME ขายแล้ว Jun 23 @ $246.22 | Realized loss: **-$5.29 (-15.14%)**
 > 💸 MDLZ ขายแล้ว Jun 28 @ $60.75 | Realized gain: **+$0.88 (+0.78%)**
@@ -62,10 +58,10 @@
 
 | Ticker | Shares | Buy Price | มูลค่า | P&L % | P&L USD | ราคาปัจจุบัน | Kill Buffer |
 |--------|--------|-----------|--------|--------|---------|--------------|------------|
-| GWRE | 1.0000000 | $107.76 | **$159.25** | **+47.78% ✅** | +$51.49 | $159.25 | Kill $86.21 (+84.7% ✅, -20%) 🟢 +1.22% Aug 4 open 🎯 ใกล้ TP1 $161.64 มาก (-1.5%) |
-| PLTR | 1.0000000 | $118.00 | **$155.90** | **+32.12% ✅** | +$37.90 | $155.90 | Kill $94.40 (+65.2% ✅, -20%) 🚀 เปิดกระโดด +24.1% จาก close ก่อนงบ (open $145.15, high $156.28) — Q2 blowout earnings ยืนยันแล้วในราคาจริง 🔧 TP Reset Confirmed |
-| AVGO | 0.2172321 | $372.21 (avg) | **$88.76** | **+9.78% ✅** | +$7.91 | $408.60 | Kill $297.77 (+37.2% ✅, -20%) 🟢 +4.17% Aug 4 open (market-wide rally) |
-| V | 0.2287306 | $323.00 | **$83.59** | **+13.13% ✅** | +$9.70 | $365.43 | Kill $274.55 (+33.1% ✅, -15% เดิม) 🟢 -0.07% Aug 4 open 🎯 TP1 $390 (-6.3% ห่าง) 🔴 /brief Jul 16 = Avoid — ยืนยันไม่เปลี่ยน |
+| GWRE | 1.0000000 | $107.76 | **$159.61** | **+48.11% ✅** | +$51.85 | $159.61 | Kill $86.21 (+85.2% ✅, -20%) 🟢 -0.44% วันนี้ 🎯🎯 ใกล้ TP1 $161.64 มากที่สุดเท่าที่เคยมี (-1.3%) — จับตาใกล้ชิด |
+| PLTR | 1.0000000 | $118.00 | **$163.78** | **+38.80% ✅** | +$45.78 | $163.78 | Kill $94.40 (+73.5% ✅, -20%) 🟢 +0.69% วันนี้ — ขึ้นต่อจาก gap up เมื่อวาน ยัง hold ได้ |
+| AVGO | 0.2172321 | $372.21 (avg) | **$91.38** | **+13.02% ✅** | +$10.53 | $420.64 | Kill $297.77 (+41.3% ✅, -20%) 🟢 +0.59% วันนี้ (rally ต่อเนื่อง) |
+| V | 0.2287306 | $323.00 | **$84.35** | **+14.17% ✅** | +$10.47 | $368.795 | Kill $274.55 (+34.3% ✅, -15% เดิม) 🟢 -0.21% วันนี้ 🎯 TP1 $390 (-5.4% ห่าง) 🔴 /brief Jul 16 = Avoid — ยืนยันไม่เปลี่ยน |
 | ~~SPGI~~ | ~~0.1816941~~ | ~~$391.47*~~ | ✅ **ขายแล้ว Jul 14** @ $435.934 | Realized +$8.08 (+11.35%) | — | — | — |
 
 > *SPGI cost per share adjusted post MBGL spin-off (original $412.79 → $391.47)
@@ -208,8 +204,8 @@
 | SYK | Wide Moat + GF discount ~22% — Watch (Q2 2026 earnings ออกแล้ว 30 ก.ค.: EPS $3.69 beat est. $3.52 แต่ revenue $6.589B พลาดคาด $6.646B เล็กน้อย, sales +9.4% YoY — ยืนยันภาพเดิมชัดเจน growth structural ~9-11% YoY ไม่ผ่าน ≥30% ไม่ใช่ weakness ชั่วคราว แต่เป็น nature ของ medical device, หุ้นร่วงแม้ beat EPS) — thesis ผิดถ้า J&J VELYS/competitor ใหม่ break Mako flywheel + hospital switching cost — /brief 2026-07-26 | รอ pullback < $295 | **$330.25** (Jul 26) | stale 2026-08-27 |
 | COST | Membership model + pricing power — Watch (growth structural ~11% YoY ไม่ผ่าน ≥30%, P/E 47x แพงเกินกับ growth rate จริง) — Quality world-class แต่ไม่ตรง growth style ปัจจุบัน — thesis ผิดถ้า membership renewal rate < 85% สองไตรมาสติด — /brief 2026-07-26 | รอ correction ลึก หรือรอ reevaluate growth style | **$935.03** (Jul 26) | stale 2026-08-23 |
 | LLY | Wide Moat (intangible assets GLP-1 pipeline) — Watch (🔴 Expensive — Morningstar FV $650 vs $1,196 = premium +84%; Compounder 5/5 แต่ราคาสะท้อน perfect execution ล่วงหน้าแล้ว) — thesis ผิดถ้า oral GLP-1 คู่แข่ง (Novo/Pfizer) + IRA กดราคา tirzepatide พร้อมกัน — /brief 2026-07-26 | รอ correction เข้า $900-1,000 (Morningstar FV zone) | **$1,196.03** (Jul 26) | stale 2026-08-23 |
-| NVDA | Wide Moat (Cornered Resource+Process Power — CUDA switching cost) — Starter Position (Provisional — valuation inconclusive) — Q1 FY27 revenue +85% YoY accelerating 3 ไตรมาสติด ✅, FCF margin ~60%, Layer 2 4/5 (TAM ผ่าน Dominant Incumbent Exception) — ⚠️ Morningstar FV $280 vs GuruFocus $354-370 ต่างกัน 32%, GuruFocus ติดป้าย "Possible Value Trap" — thesis ผิดถ้า growth หลุด <30% YoY 2 ไตรมาสติด หรือ custom ASIC กัดกิน market share มีนัยสำคัญ — /brief 2026-07-30 (Second Opinion: Bull ชนะมีเงื่อนไข แนะนำทยอยเข้า) | รอ valuation ชัดเจนขึ้น หรือ DCF conservative $182 = downside zone สำหรับ size up | **$209.74** (Aug 4 open) | stale 2026-08-27 |
-| **ZETA** | Narrow Moat Data Assets — Starter Position (Q1 2026 +49.9% YoY ✅, Palantir deal confirmed 7 ปี Jun 23 2026, first joint client คาด Q3) — ⚠️ Narrow Moat ไม่ผ่าน primary screener ควรจำกัด ≤2-3% พอร์ต — thesis ผิดถ้า Palantir ไม่ deliver $100M+ YoY + revenue growth ชะลอ <25% → market de-rate — /brief 2026-07-26 | $16–$18 (GF Value) — ราคาปัจจุบัน $19.13 ใกล้ FV พอดี | **$19.13** (Jul 26) — ลงจาก $22.41 (-15%) | earnings 2026-08-04 |
+| NVDA | Wide Moat (Cornered Resource+Process Power — CUDA switching cost) — Starter Position (Provisional — valuation inconclusive) — Q1 FY27 revenue +85% YoY accelerating 3 ไตรมาสติด ✅, FCF margin ~60%, Layer 2 4/5 (TAM ผ่าน Dominant Incumbent Exception) — ⚠️ Morningstar FV $280 vs GuruFocus $354-370 ต่างกัน 32%, GuruFocus ติดป้าย "Possible Value Trap" — thesis ผิดถ้า growth หลุด <30% YoY 2 ไตรมาสติด หรือ custom ASIC กัดกิน market share มีนัยสำคัญ — /brief 2026-07-30 (Second Opinion: Bull ชนะมีเงื่อนไข แนะนำทยอยเข้า) | รอ valuation ชัดเจนขึ้น หรือ DCF conservative $182 = downside zone สำหรับ size up | **$219.60** (Aug 5, +3.6%) | stale 2026-08-27 |
+| **ZETA** | Narrow Moat Data Assets — Starter Position (⚠️ ต้องรัน `/brief ZETA` ใหม่ — Q2 2026 earnings ออกแล้ว 4 ส.ค.: revenue $443M +44% YoY beat, guidance ปรับขึ้น, **Palantir deal เริ่มออกผลจริง** — Data Cloud integrate กับ Foundry เสร็จ 31 ก.ค., ปิดดีลแล้ว 2 ดีล hit rate 100%, ยังไม่รวมใน guidance เลย — ราคาพุ่ง +45% จาก $19.13 baseline) — thesis ผิดถ้า Palantir ไม่ deliver $100M+ YoY + revenue growth ชะลอ <25% → market de-rate — /brief เดิม 2026-07-26 (**stale — ราคา/ปัจจัยเปลี่ยนมากตั้งแต่งบนี้**) | เดิม $16–$18 (GF Value, **stale ก่อนงบ**) — ราคาปัจจุบันเกิน zone ไปมากแล้ว | **$27.74** (Aug 5, +45% จาก baseline) | ⚠️ ต้องรัน /brief ใหม่ด่วน |
 | **ADI** | Wide Moat Analog/Mixed-Signal — Valuation Inconclusive (MS $380 vs GF $278) — thesis ผิดถ้า AI capex ชะลอจน growth <15% YoY — /brief Jul 15 | รอราคาเข้าใกล้ GF Value $278 หรือรอ Q3 FY26 earnings ยืนยัน growth | **$390.96** (Jul 15 close) | earnings ~2026-08-20 |
 | **PANW** | Wide Moat Cybersecurity — Switching Cost (platformization) — แพงทั้ง MS FV $285 และ GF Value $211 — thesis ผิดถ้า Next-Gen ARR growth หลุด <40% YoY 2 ไตรมาสติด — /brief 2026-07-15 | รอเข้าใกล้ MS FV $285 หรือ GF Value $211 | **$354.02** (Jul 15 close) | earnings ~2026-08-21 |
 | **APH** | Wide Moat (Scale Economies+Process Power) — Watch (Provisional) — Q2 2026 beat แรง (+55% YoY) แต่ valuation เอนไปทาง overvalued (2 ใน 3 แหล่งอิสระ: GuruFocus $141.94, Simply Wall St DCF ~$116 vs Morningstar $190) + BofA/JPMorgan ถอดจาก conviction list — thesis ผิดถ้า organic growth ชะลอต่ำกว่า 20% ติด 2 ไตรมาส — /brief 2026-07-29 (⚠️ Second Opinion: Tie เอียง Bear) | รอราคาย่อ $116-142 หรือ Q3 earnings ยืนยัน organic growth+FCF margin ฟื้น | **$153.10** (Jul 29, +6.4%) | stale 2026-08-26 |
