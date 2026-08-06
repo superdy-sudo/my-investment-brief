@@ -24,27 +24,27 @@
 
 ## Top Pick (วันนี้)
 
-> 🏆 **Aug 5, 2026 (ราคาอัปเดต, /brief ล่าสุดยังเป็น 26-07-30)** — **NVDA** $219.60 (+3.6% วันนี้) (Wide Moat — Cornered Resource+Process Power, CUDA switching cost) — Action **Starter Position (Provisional — valuation inconclusive)** — Conviction 8.0/10 — Layer 1 ผ่านครบ, Layer 2 4/5 (TAM ผ่าน Dominant Incumbent Exception, growth +85% YoY accelerating 3 ไตรมาสติด) แต่ ⚠️ Valuation Inconclusive (Morningstar FV $280 vs GuruFocus $354-370 ต่างกัน 32% + GuruFocus เองติดป้าย "Possible Value Trap") | ⚠️ Second Opinion: Bull ชนะแบบมีเงื่อนไข — bear เจอ custom ASIC กำลังแทนที่จริง + circular financing concern + China H200 reopening แย่กว่าที่คิด — แนะนำทยอยเข้าไม่ใช่เข้าเต็มไม้ — thesis ผิดถ้า growth หลุด <30% YoY 2 ไตรมาสติด หรือ AI accelerator market share ร่วงมีนัยสำคัญจาก custom ASIC — /brief 2026-07-30 — ดู `briefs/NVDA-2026-07-30.md`
+> 🏆 **Aug 6, 2026 (ราคาอัปเดต, /brief ล่าสุดยังเป็น 26-07-30)** — **NVDA** $219.22 (-0.17% วันนี้) (Wide Moat — Cornered Resource+Process Power, CUDA switching cost) — Action **Starter Position (Provisional — valuation inconclusive)** — Conviction 8.0/10 — Layer 1 ผ่านครบ, Layer 2 4/5 (TAM ผ่าน Dominant Incumbent Exception, growth +85% YoY accelerating 3 ไตรมาสติด) แต่ ⚠️ Valuation Inconclusive (Morningstar FV $280 vs GuruFocus $354-370 ต่างกัน 32% + GuruFocus เองติดป้าย "Possible Value Trap") | ⚠️ Second Opinion: Bull ชนะแบบมีเงื่อนไข — bear เจอ custom ASIC กำลังแทนที่จริง + circular financing concern + China H200 reopening แย่กว่าที่คิด — แนะนำทยอยเข้าไม่ใช่เข้าเต็มไม้ — thesis ผิดถ้า growth หลุด <30% YoY 2 ไตรมาสติด หรือ AI accelerator market share ร่วงมีนัยสำคัญจาก custom ASIC — /brief 2026-07-30 — ดู `briefs/NVDA-2026-07-30.md`
 >
 > **การเปลี่ยน Top Pick 2 รอบใน 2 วัน:** META (Starter) → Avoid หลัง Q2 earnings (30 ก.ค., growth ชะลอ+TAM ไม่ผ่าน) → **BX ขึ้นมาแทนชั่วคราว** → /brief BX refresh พบว่า valuation gap ถ่างขึ้น (Morningstar เองปรับ FV ลงจนเกือบเป็น Fair) + BXSL/BCRED co-CEO ลาออกกะทันหัน → **BX ลงเป็น Watch (Provisional)** ไม่ผ่านเกณฑ์ Top Pick อีก → **NVDA ขึ้นเป็น Top Pick แทน** (ยังไม่ได้ refresh ใหม่วันนี้ ใช้ข้อมูลจาก /brief 26 ก.ค.) — ดู `briefs/META-2026-07-30.md` และ `briefs/BX-2026-07-30.md`
 
 ---
 
-## 🔮 Today's Prediction (2026-08-05 พุธ)
-- **DASH earnings คืนนี้หลังตลาดปิด** (call 4:30pm ET / ~3:30am เวลาไทย) — Wall St คาด revenue $4.32B (+31.5% YoY), EPS $0.50 (ลดจาก $0.65) — ตัวชี้วัดสำคัญคือ Adjusted EBITDA/FCF margin จากการลงทุน Deliveroo/Wolt/Dot
-- **GWRE ใกล้ TP1 มากขึ้นอีก** ($159.61, ห่างแค่ -1.3% จาก TP1 $161.64) — ถ้าทะลุวันนี้/พรุ่งนี้ต้องพิจารณา trim 30%
-- **ZETA ยืนราคาสูงต่อได้ไหม** หลังพุ่ง +45% จาก $19 baseline สู่ $27.74 จาก earnings blowout + Palantir deal เริ่มออกผลจริง
+## 🔮 Today's Prediction (2026-08-06 พฤหัส)
+- **GWRE ยังใกล้ TP1 มาก** ($160.33, ห่างแค่ -0.8% จาก TP1 $161.64) — น่าจะทะลุใน 1-2 วันทำการถ้า momentum ยังอยู่ ต้องพิจารณา trim 30% ทันทีที่ถึง
+- **PLTR pullback วันนี้ (-3.27%) เป็นแค่ profit-taking ปกติ ไม่ใช่สัญญาณลบ** — ไม่มีข่าวลบใหม่ แค่ valuation ยืด (forward P/E ~84x) หลัง gap up +29% เมื่อ 4 ส.ค. คาดว่าจะแกว่งแต่ยังอยู่เหนือ kill buffer มาก
+- **ตลาดโดยรวมยังแข็งแรง** (S&P +1.60%, NASDAQ +2.46% วันนี้) — ต้องดูว่าโมเมนตัมนี้ยืนได้กี่วันหรือแค่ relief rally
 
-**Prediction Review (จาก 2026-08-04):**
-- ✅ **"PLTR ควรทรงตัวหรือขึ้นต่อ"** ถูกต้อง — ขึ้นต่อจาก $155.90 เป็น $163.78 (+5.1% เพิ่มเติม)
-- ✅ **"Market ยังบวกต่อเนื่อง"** ถูกต้อง — S&P +0.47%, NASDAQ +0.31% วันนี้ (ต่อจากที่บวกแรงเมื่อวาน)
-- ✅ **"ZETA earnings คืนนี้ต้องยืนยัน Palantir progress"** ยืนยันแล้วจริง — revenue $443M (+44% YoY), Data Cloud integrate กับ Foundry เสร็จ 31 ก.ค., ปิดดีลแล้ว 2 ดีล hit rate 100%, ยังไม่รวมใน guidance เลย
+**Prediction Review (จาก 2026-08-05):**
+- ✅ **"DASH earnings คืนนี้"** ยืนยันแล้ว — revenue $4.45B (+36% YoY, beat), EPS $0.46 (miss เล็กน้อย) แต่ Adjusted EBITDA +40% YoY, FCF $742M (จาก $355M ปีก่อน) — margin trend ดีกว่าคาด หุ้นขึ้น +3.4% วันรุ่งขึ้น (ตรงตามที่คาดว่า margin คือตัวชี้วัดสำคัญ ไม่ใช่ EPS)
+- ✅ **"GWRE ใกล้ TP1 มากขึ้นอีก"** ถูกต้อง — ขยับจาก $159.61 เป็น $160.33 ใกล้ TP1 $161.64 มากขึ้นอีก (-0.8%)
+- ⚠️ **"ZETA ยืนราคาสูงต่อได้ไหม"** ยังไม่มีข้อมูลราคาวันนี้เช็คยืนยัน (ไม่ใช่ Holdings ไม่ fetch ราคาทุกวัน) — รอเช็คตอน next review
 
 ---
 
 ## Holdings
 
-> อัปเดต Aug 5, 2026 (พุธ ตลาดเปิดแล้ว) | Total holdings: **$499.12** | Unrealized P&L: **+$118.63 (+31.18%)** + Cash Reserve **$87**
+> อัปเดต Aug 6, 2026 (พฤหัส ตลาดเปิดแล้ว) | Total holdings: **$493.93** | Unrealized P&L: **+$113.29 (+29.76%)** + Cash Reserve **$87**
 > 💰 SPCX ขายแล้ว Jun 17 @ $191.38 | Realized gain: **+$20.94 (+12.29%)**
 > 💸 CME ขายแล้ว Jun 23 @ $246.22 | Realized loss: **-$5.29 (-15.14%)**
 > 💸 MDLZ ขายแล้ว Jun 28 @ $60.75 | Realized gain: **+$0.88 (+0.78%)**
@@ -58,10 +58,10 @@
 
 | Ticker | Shares | Buy Price | มูลค่า | P&L % | P&L USD | ราคาปัจจุบัน | Kill Buffer |
 |--------|--------|-----------|--------|--------|---------|--------------|------------|
-| GWRE | 1.0000000 | $107.76 | **$159.61** | **+48.11% ✅** | +$51.85 | $159.61 | Kill $86.21 (+85.2% ✅, -20%) 🟢 -0.44% วันนี้ 🎯🎯 ใกล้ TP1 $161.64 มากที่สุดเท่าที่เคยมี (-1.3%) — จับตาใกล้ชิด |
-| PLTR | 1.0000000 | $118.00 | **$163.78** | **+38.80% ✅** | +$45.78 | $163.78 | Kill $94.40 (+73.5% ✅, -20%) 🟢 +0.69% วันนี้ — ขึ้นต่อจาก gap up เมื่อวาน ยัง hold ได้ |
-| AVGO | 0.2172321 | $372.21 (avg) | **$91.38** | **+13.02% ✅** | +$10.53 | $420.64 | Kill $297.77 (+41.3% ✅, -20%) 🟢 +0.59% วันนี้ (rally ต่อเนื่อง) |
-| V | 0.2287306 | $323.00 | **$84.35** | **+14.17% ✅** | +$10.47 | $368.795 | Kill $274.55 (+34.3% ✅, -15% เดิม) 🟢 -0.21% วันนี้ 🎯 TP1 $390 (-5.4% ห่าง) 🔴 /brief Jul 16 = Avoid — ยืนยันไม่เปลี่ยน |
+| GWRE | 1.0000000 | $107.76 | **$160.33** | **+48.79% ✅** | +$52.57 | $160.33 | Kill $86.21 (+86.0% ✅, -20%) 🟢 +0.45% วันนี้ 🎯🎯 ใกล้ TP1 $161.64 มากที่สุดเท่าที่เคยมี (-0.8%) — จับตาใกล้ชิดมาก |
+| PLTR | 1.0000000 | $118.00 | **$158.43** | **+34.26% ✅** | +$40.43 | $158.43 | Kill $94.40 (+67.8% ✅, -20%) 🟡 -3.27% วันนี้ — profit-taking หลัง gap up +29% เมื่อ 4 ส.ค. ไม่มีข่าวลบใหม่ ยัง hold ได้สบายๆ |
+| AVGO | 0.2172321 | $372.21 (avg) | **$90.87** | **+12.36% ✅** | +$10.00 | $418.28 | Kill $297.77 (+40.5% ✅, -20%) 🟢 -0.56% วันนี้ |
+| V | 0.2287306 | $323.00 | **$84.30** | **+14.11% ✅** | +$10.42 | $368.54 | Kill $274.55 (+34.2% ✅, -15% เดิม) 🟢 -0.07% วันนี้ 🎯 TP1 $390 (-5.5% ห่าง) 🔴 /brief Jul 16 = Avoid — ยืนยันไม่เปลี่ยน |
 | ~~SPGI~~ | ~~0.1816941~~ | ~~$391.47*~~ | ✅ **ขายแล้ว Jul 14** @ $435.934 | Realized +$8.08 (+11.35%) | — | — | — |
 
 > *SPGI cost per share adjusted post MBGL spin-off (original $412.79 → $391.47)
