@@ -238,3 +238,7 @@ AI Agent ทดลอง "Nick" เลือกถือ AVGO เองแม้
 ### 2026-07-16 — AMZN, V: ลองให้ AI รีวิวพอร์ตผม (ดีกว่าที่คิดนะ)
 AI วิเคราะห์ผ่าน Framework 7 Powers: AMZN มี Moat จาก Scale + Network Economies, จัดเป็นหุ้น Core มั่นคงคู่กับ V (Visa) — พร้อมเตือน Concentration Risk ว่า Top 3 holdings รวมกัน >60% ของพอร์ตเสี่ยงถ้ากลุ่มเทคโนโลยี/การเงินชะลอตัว
 🔗 https://www.youtube.com/watch?v=TCjvGxuBsTc
+
+### 2026-08-12 — ZETA: ผมว่ามันดีขึ้นนะ - Uber / Zeta Q2'2026
+Triple Beat ต่อเนื่องตั้งแต่ IPO, repositioning จาก "Marketing Cloud" เป็น "The Intelligent AI Infrastructure Company" — ลูกค้า Super Scale (>$1M/ปี) ใช้ AI ขับเคลื่อนรายได้ 75% เจ้าของช่องว้าวกับ Palantir Foundry partnership (ย่นเวลาย้ายข้อมูลจากปีเหลือไม่กี่วัน) แต่กังวลเองว่า value หลักอาจไปอยู่ที่ Palantir มากกว่า Zeta ถ้าพาร์ทเนอร์ชิปมีปัญหา + ฐานลูกค้า Super Scale ยังน้อย (ร้อยกว่าราย) — สรุปยังถือต่อ ไม่ใช่ primary source แค่ข้อมูลประกอบ (เทียบกับ /brief 2026-08-12 ที่พบ securities fraud class action เข้า discovery phase ซึ่งคลิปนี้ไม่ได้พูดถึง)
+🔗 https://www.youtube.com/watch?v=4MK5_lf3nVk
