@@ -180,9 +180,14 @@ FCF ติดลบมี 2 สาเหตุที่ต่างกันม�
 
 **เรียก agent `conquest`** (`subagent_type: conquest`, synchronous — ต้อง save brief file ที่มี raw fundamentals ไปก่อนตาม step 6 format เหมือนที่ทำกับ `bear`/`vera`) ให้คำนวณ **2-stage DCF อิสระของตัวเอง** จาก raw fundamentals (ไม่ใช่ไปอ่าน fair value ของแหล่งอื่นมาสรุปทับ) — จะได้ fair value ตัวที่ 3 ที่เป็นอิสระจริง (ไม่ใช่ Analyst Consensus Target เพราะ sell-side ส่วนใหญ่ใช้ forward-DCF แบบเดียวกับ Morningstar อยู่แล้ว ถือว่าไม่อิสระพอ)
 
-**กฎ 2-ใน-3:**
-- ถ้า **2 ใน 3 แหล่ง** (Morningstar / GuruFocus / conquest) อยู่ในช่วงใกล้เคียงกัน (ห่างกันไม่เกิน ~15-20%) → ใช้ค่าเฉลี่ยของ 2 แหล่งที่ตรงกันตัดสิน Cheap/Fair/Expensive ได้ (ไม่ต้องเขียน Inconclusive) แต่ต้องเขียนกำกับเสมอว่า **"2/3 sources agree ($X-Y), [แหล่งที่ต่าง] เป็น outlier เพราะ [เหตุผลเชิงวิธีคิด — เช่น backward-looking regression ที่ยัง anchor กับ multiple ยุคก่อน growth เร่งตัว]"**
-- ถ้าทั้ง 3 แหล่งกระจายกันเอง (ไม่มีคู่ไหนห่างกันไม่เกิน 20%) → ยังคง
+**กฎ 2-ใน-3 (แก้ 2026-08-17 — ใช้ directional agreement แทน numeric closeness):**
+
+เดิมกำหนดว่า "2 ใน 3 แหล่งต้องห่างกันไม่เกิน ~15-20%" ถึงจะตัดสินได้ — แต่ทดสอบจริงกับ ASML/TSM แล้วพบว่ากฎนี้ใช้งานแทบไม่ได้เลย เพราะ `conquest` เป็น bottom-up DCF ที่คำนวณจาก WACC/growth-fade ของตัวเอง ตัวเลขจะไม่มีทางใกล้เคียงกับ GuruFocus (backward-looking historical-multiple regression) ในเชิงตัวเลขขนาดนั้น แม้ทั้งคู่จะ**เห็นตรงกันว่าแพงหรือถูก**ก็ตาม (เช่น ASML: GuruFocus $1,196 vs conquest $728 ห่างกันเอง 39% แต่ทั้งคู่บอกตรงกันว่า "Expensive")
+
+**ใช้เกณฑ์ "เห็นทิศทางเดียวกัน" (directional agreement) แทน:**
+- แต่ละแหล่งจัด bucket ตัวเอง: 🟢 Cheap (ต่ำกว่าราคาตลาด ≥20%) / 🟡 Fair (±20%) / 🔴 Expensive (สูงกว่าราคาตลาด >20%)
+- ถ้า **2 ใน 3 แหล่งอยู่ bucket เดียวกัน** (ไม่ว่าตัวเลขจะห่างกันแค่ไหน) → ใช้ bucket นั้นตัดสิน Cheap/Fair/Expensive ได้เลย (ไม่ต้องเขียน Inconclusive) แต่ต้องเขียนกำกับเสมอว่า **"2/3 sources agree direction ([bucket]), ตัวเลขจริง $X vs $Y ต่างกัน Z% แต่ [แหล่งที่ต่าง] เป็น outlier เพราะ [เหตุผลเชิงวิธีคิด — เช่น backward-looking regression ที่ยัง anchor กับ multiple ยุคก่อน growth เร่งตัว, หรือ forward-DCF ที่ยืด high-growth period ยาวกว่าที่ควร]"**
+- ถ้าทั้ง 3 แหล่งอยู่คนละ bucket กันหมด (เช่น หนึ่ง Cheap หนึ่ง Fair หนึ่ง Expensive) → ยังคง
 
 ```
 ⚠️ Valuation Inconclusive — 3 แหล่งขัดแย้งกัน ($X จาก [แหล่ง A] vs $Y จาก [แหล่ง B] vs $Z จาก conquest)
@@ -296,7 +301,7 @@ Debt         ✅/❌/⚠️/⚪ — Interest coverage [Xx หรือ "ไม�
 
 ━━ Layer 3: Valuation ━━
 Fair Value: $XXX (แหล่ง: Morningstar/GuruFocus[/conquest ถ้าเรียก])
-ส่วนต่าง: [−X% Cheap / +X% Expensive] [หรือ "2/3 sources agree" + ระบุ outlier ถ้าเรียก conquest มาตัดสิน]
+ส่วนต่าง: [−X% Cheap / +X% Expensive] [หรือ "2/3 sources agree direction" + ตัวเลขจริงของทั้ง 3 แหล่ง + ระบุ outlier ถ้าเรียก conquest มาตัดสิน]
 
 ━━ Layer 4: Action ━━
 [🟢 Buy / 🔵 Starter / 🟠 Watch / 🔴 Avoid] [+ "(Provisional — ข้อมูลไม่ครบ)" ถ้ามี ⚠️/⚪ ≥2 ข้อ] [+ "(⚠️ Second opinion flagged)" ถ้า agent อิสระไม่เห็นด้วย]
@@ -414,5 +419,5 @@ git push origin main
 - Thesis killer ต้องเป็น 1 ข้อเท่านั้น
 - Bull/Bear แต่ละข้อต้องเป็น observable fact ไม่ใช่ wish
 - Action ต้องชัด 1 คำ (+ Provisional tag ถ้าเข้าเงื่อนไข) — ห้ามกำกวม
-- ถ้า Morningstar/GuruFocus ขัดแย้งกันมาก (>30-40%) → เรียก agent `conquest` หา DCF อิสระตัวที่ 3 ก่อน — ถ้า 2 ใน 3 แหล่งตรงกัน (ห่างกันไม่เกิน ~15-20%) ใช้ค่านั้นตัดสินได้ (ระบุกำกับว่าแหล่งไหนเป็น outlier) ถ้ายังกระจายกันทั้ง 3 → เขียน "Valuation Inconclusive" ห้ามฟันธง % จากแหล่งเดียว
+- ถ้า Morningstar/GuruFocus ขัดแย้งกันมาก (>30-40%) → เรียก agent `conquest` หา DCF อิสระตัวที่ 3 ก่อน — ใช้เกณฑ์ **directional agreement** (2 ใน 3 แหล่งอยู่ bucket เดียวกัน Cheap/Fair/Expensive แม้ตัวเลขห่างกันมากก็ได้ — ไม่ใช้เกณฑ์ห่างกันไม่เกิน 15-20% แบบเดิม เพราะ conquest เป็น bottom-up DCF ตัวเลขจะไม่มีทางใกล้เคียง GuruFocus แม้ทิศทางตรงกัน) ระบุกำกับว่าแหล่งไหนเป็น outlier ถ้ายังกระจายกันคนละ bucket ทั้ง 3 → เขียน "Valuation Inconclusive" ห้ามฟันธง % จากแหล่งเดียว
 - Insider selling นับเป็น Bear Case ได้เฉพาะเมื่อผ่าน materiality filter ครบ 3 ข้อ (ผู้บริหารหลายคนขายพร้อมกัน + สัดส่วนมาก + ไม่มีคำอธิบายเป็น routine) — ถ้าไม่ครบให้ใส่แค่ factual note ใน Management ไม่ใช่ Bear Case
