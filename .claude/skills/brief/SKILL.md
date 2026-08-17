@@ -176,13 +176,21 @@ FCF ติดลบมี 2 สาเหตุที่ต่างกันม�
 🔴 Expensive — เกิน fair value >20%
 ```
 
-**⚠️ ถ้าแหล่ง Fair Value ขัดแย้งกันมาก (เช่น GuruFocus vs Simply Wall St vs analyst consensus ต่างกัน >30-40%)** — **ห้าม**เลือกตัวเลขจากแหล่งเดียวมาฟันธงเป็น Cheap/Fair/Expensive แบบมั่นใจ ให้สรุปเป็น:
+**⚠️ ถ้า Morningstar FV กับ GuruFocus GF Value ขัดแย้งกันมาก (>30-40%)** — ห้ามเลือกตัวเลขจากแหล่งเดียวมาฟันธงทันที ให้เรียก **แหล่งที่ 3** ก่อนสรุป (2026-08-17):
+
+**เรียก agent `conquest`** (`subagent_type: conquest`, synchronous — ต้อง save brief file ที่มี raw fundamentals ไปก่อนตาม step 6 format เหมือนที่ทำกับ `bear`/`vera`) ให้คำนวณ **2-stage DCF อิสระของตัวเอง** จาก raw fundamentals (ไม่ใช่ไปอ่าน fair value ของแหล่งอื่นมาสรุปทับ) — จะได้ fair value ตัวที่ 3 ที่เป็นอิสระจริง (ไม่ใช่ Analyst Consensus Target เพราะ sell-side ส่วนใหญ่ใช้ forward-DCF แบบเดียวกับ Morningstar อยู่แล้ว ถือว่าไม่อิสระพอ)
+
+**กฎ 2-ใน-3:**
+- ถ้า **2 ใน 3 แหล่ง** (Morningstar / GuruFocus / conquest) อยู่ในช่วงใกล้เคียงกัน (ห่างกันไม่เกิน ~15-20%) → ใช้ค่าเฉลี่ยของ 2 แหล่งที่ตรงกันตัดสิน Cheap/Fair/Expensive ได้ (ไม่ต้องเขียน Inconclusive) แต่ต้องเขียนกำกับเสมอว่า **"2/3 sources agree ($X-Y), [แหล่งที่ต่าง] เป็น outlier เพราะ [เหตุผลเชิงวิธีคิด — เช่น backward-looking regression ที่ยัง anchor กับ multiple ยุคก่อน growth เร่งตัว]"**
+- ถ้าทั้ง 3 แหล่งกระจายกันเอง (ไม่มีคู่ไหนห่างกันไม่เกิน 20%) → ยังคง
 
 ```
-⚠️ Valuation Inconclusive — แหล่งขัดแย้งกัน ($X จาก [แหล่ง A] vs $Y จาก [แหล่ง B])
+⚠️ Valuation Inconclusive — 3 แหล่งขัดแย้งกัน ($X จาก [แหล่ง A] vs $Y จาก [แหล่ง B] vs $Z จาก conquest)
 ```
 
 และให้ Layer 4 Action โน้มเอียงไปทาง Provisional/Watch แทนการฟันธง Buy หรือ Avoid ด้วยเหตุผลด้าน valuation เพียงอย่างเดียว (ยังใช้เหตุผลจาก Layer 1/2 ฟันธงได้ตามปกติ)
+
+**หมายเหตุ:** ขั้นนี้ใช้เฉพาะเมื่อ Morningstar/GuruFocus ขัดแย้งกันจริง (>30-40%) — ถ้าสองแหล่งแรกตรงกันอยู่แล้วไม่ต้องเรียก conquest เพิ่ม (ประหยัดเวลา/token)
 
 **Layer 4: Action**
 
@@ -287,8 +295,8 @@ Debt         ✅/❌/⚠️/⚪ — Interest coverage [Xx หรือ "ไม�
 5. เสียดายไม่ซื้อ?   ✅/❌/⚠️/⚪ — [เหตุผล]
 
 ━━ Layer 3: Valuation ━━
-Fair Value: $XXX (แหล่ง: Morningstar/GuruFocus)
-ส่วนต่าง: [−X% Cheap / +X% Expensive]
+Fair Value: $XXX (แหล่ง: Morningstar/GuruFocus[/conquest ถ้าเรียก])
+ส่วนต่าง: [−X% Cheap / +X% Expensive] [หรือ "2/3 sources agree" + ระบุ outlier ถ้าเรียก conquest มาตัดสิน]
 
 ━━ Layer 4: Action ━━
 [🟢 Buy / 🔵 Starter / 🟠 Watch / 🔴 Avoid] [+ "(Provisional — ข้อมูลไม่ครบ)" ถ้ามี ⚠️/⚪ ≥2 ข้อ] [+ "(⚠️ Second opinion flagged)" ถ้า agent อิสระไม่เห็นด้วย]
@@ -406,5 +414,5 @@ git push origin main
 - Thesis killer ต้องเป็น 1 ข้อเท่านั้น
 - Bull/Bear แต่ละข้อต้องเป็น observable fact ไม่ใช่ wish
 - Action ต้องชัด 1 คำ (+ Provisional tag ถ้าเข้าเงื่อนไข) — ห้ามกำกวม
-- ถ้า Fair Value จากหลายแหล่งขัดแย้งกันมาก (>30-40%) → Layer 3 ต้องเขียน "Valuation Inconclusive" ห้ามฟันธง % จากแหล่งเดียว
+- ถ้า Morningstar/GuruFocus ขัดแย้งกันมาก (>30-40%) → เรียก agent `conquest` หา DCF อิสระตัวที่ 3 ก่อน — ถ้า 2 ใน 3 แหล่งตรงกัน (ห่างกันไม่เกิน ~15-20%) ใช้ค่านั้นตัดสินได้ (ระบุกำกับว่าแหล่งไหนเป็น outlier) ถ้ายังกระจายกันทั้ง 3 → เขียน "Valuation Inconclusive" ห้ามฟันธง % จากแหล่งเดียว
 - Insider selling นับเป็น Bear Case ได้เฉพาะเมื่อผ่าน materiality filter ครบ 3 ข้อ (ผู้บริหารหลายคนขายพร้อมกัน + สัดส่วนมาก + ไม่มีคำอธิบายเป็น routine) — ถ้าไม่ครบให้ใส่แค่ factual note ใน Management ไม่ใช่ Bear Case
