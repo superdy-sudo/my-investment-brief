@@ -1,5 +1,7 @@
 # V — Visa Inc.
 
+> ✅ **ขายแล้ว 2026-08-17 @ $362.84** — Realized gain +$9.11 (+12.33%) | เหตุผล: ปิด position ตาม Avoid signal ที่ยืนยันต่อเนื่องตั้งแต่ /brief 2026-07-16 (growth ❌ low-teens ไม่ผ่านเกณฑ์ aggressive-growth, DOJ antitrust structural remedy risk, Berkshire ขายทิ้งทั้งหมด Q1 2026) — Q3 FY26 earnings beat เล็กน้อยแต่ growth ยังไม่ผ่าน ยืนยัน Avoid ไม่เปลี่ยนจนตัดสินใจขาย
+
 - **Sector:** Financials / Payments
 - **Moat:** Wide — Network effect 4.7B บัตร × 150M merchants ทั่วโลก switching cost สูงมาก
 - **Business:** Payment network ที่ใหญ่ที่สุดในโลก — เก็บ fee จาก transaction ทุกครั้ง ไม่รับ credit risk

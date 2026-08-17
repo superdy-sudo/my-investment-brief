@@ -8,8 +8,7 @@
 |--------|-------------|------|------------------------|------|
 | PLTR | [2026-08-04] 🔴 Full re-score เสร็จ: Action ยัง Avoid (Provisional) เท่า 8/2 แต่เหตุผลเปลี่ยน — growth ไม่ใช่ปัญหาแล้ว (US Commercial +149% YoY), ตัวที่ยังติดคือ TAM ratio แย่ลง (~4.02x, ราคาพุ่งเร็วกว่า TAM re-rate) + Morningstar ยืนยัน Narrow Moat (Dominant Incumbent Exception ใช้ไม่ได้) — Kill Condition ยังไม่ trigger (ห่างไกลกว่าเดิม) → HOLD คงเดิม, Dynamic TP Reset Provisional TP1 $217.88/TP2 $290.50 รอ confirm ราคาเปิดตลาด | Narrow (Switching Cost + Intangible Assets) | ✅ ผ่านชัดเจน (US Commercial +149% YoY) | [PLTR.md](PLTR.md) |
 | AVGO | [2026-07-27] 🟠 Action Buy→Watch (Valuation Inconclusive) — valuation แตก >100%: MS FV $650 Cheap vs GuruFocus $307-322 Overvalued | Bear: Macquarie downgrade ชี้ Google TPU rev share ของ AVGO ลด 95%→65% (2026-28) จาก MediaTek/in-house silicon เบียด | ไม่ใช่ sell signal, moat/Layer1-2 ยังอยู่ | Wide (XPU IP + VMware) | ✅ ผ่าน (AI rev +143%) | [AVGO.md](AVGO.md) |
-| GWRE | [2026-07-25] ⚠️ Improved — +5.21% (Jul 24) หลัง Germania Mutual deploy ProNavigator AI assistant ตอกย้ำ cloud+AI expansion narrative | Switching Cost | ⚠️ ต่ำกว่าเกณฑ์ใหม่ (ARR +19%) | [GWRE.md](GWRE.md) |
-| V | [2026-07-28] 🔴 Q3 FY2026 earnings beat (EPS/Rev) แต่ growth ยัง low-teens, DOJ ยังไม่คลี่คลาย, guidance มี data conflict ระหว่าง source — Avoid signal (จาก 07-16) คงเดิม | Wide (network effect) | ❌ ไม่ผ่านเกณฑ์ใหม่ (defensive/quality) | [V.md](V.md) |
+| GWRE | [2026-08-17] 🚨 หลุดใต้ TP1 $172.42 ครั้งแรกในรอบ 6 วัน จากแรงขายกลุ่ม software ("AI fears") ไม่ใช่ thesis เปลี่ยน — user ตัดสินใจ trim 30% ที่ราคา $175 (รอ execute) | Switching Cost | ⚠️ ต่ำกว่าเกณฑ์ใหม่ (ARR +19%) | [GWRE.md](GWRE.md) |
 
 ## Sold (archived — reference only)
 
@@ -20,6 +19,7 @@
 | MA | Realized gain +$0.42 (+1.69%) | [_sold/MA.md](_sold/MA.md) |
 | CME | Realized loss -$5.29 (-15.14%) — Kill triggered | [_sold/CME.md](_sold/CME.md) |
 | SPGI | Realized gain +$8.08 (+11.35%) — ขายเพื่อ fund GWRE/PLTR/AVGO (growth style ไม่ใช่ thesis พัง) | [_sold/SPGI.md](_sold/SPGI.md) |
+| V | Realized gain +$9.11 (+12.33%) — ปิด position ตาม Avoid signal ยืนยันต่อเนื่องตั้งแต่ 07-16 (growth ❌, DOJ risk, Berkshire ขายทิ้ง) | [_sold/V.md](_sold/V.md) |
 
 ## วิธีใช้ (สำหรับ daily-brief / brief / topup)
 

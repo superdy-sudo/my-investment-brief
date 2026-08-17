@@ -43,10 +43,10 @@
 
 ## Holdings
 
-> อัปเดต Aug 17, 2026 (จันทร์ — ตลาดเปิด, ราคา intraday จริง ~9:53am ET) | Total holdings: **$513.45** | Unrealized P&L: **+$132.94 (+34.94%)** + Cash Reserve **$87**
-> 🚨 **GWRE หลุดต่ำกว่า TP1 $172.42 เป็นครั้งแรกในรอบ 6 วันทำการ** — ราคา $170.99 (-0.83% ใต้ TP1) ร่วง -6.4% จากปิดศุกร์ ($182.62) — สาเหตุ: แรงขายกลุ่ม software จาก "AI fears" กวาดทั้งเซกเตอร์ (TipRanks/MarketBeat รายงานตรงกัน) ไม่ใช่ข่าวลบเฉพาะตัว GWRE, ไม่มี earnings/data เปลี่ยน — thesis ยังไม่พัง แต่การที่หลุด TP1 ลงมาแปลว่าคำถาม trim/ปรับ TP1 ที่ค้างมา 6 วันตอนนี้อาจไม่ทันแล้วถ้าไม่ตัดสินใจเร็ว
-> 🚨 **AVGO ยังคงอยู่ในโซนร่วงจากข่าว Friday** ($393.64, -5.79% จากปิดพฤหัส $417.82) — ส่วนใหญ่ของการร่วงเกิดวันศุกร์ (AI-financing debt concern $370B + VMware vCenter exploit จริง) วันนี้ premarket ranged "little changed" สะท้อนตลาดเริ่มย่อยข่าวแล้ว ไม่ trigger Kill (buffer +32.2%)
-> PLTR $174.245 (-2.66% จากปิดศุกร์) และ V $361.52 (-1.08%) ย่อลงตามตลาดโดยรวม ไม่มีข่าวเฉพาะตัว
+> อัปเดต Aug 17, 2026 (จันทร์ — ตลาดเปิด) | Total holdings (3 ตัว): **$430.75** | Unrealized P&L: **+$124.12 (+40.47%)** + Cash Reserve **$169.99**
+> 💰 **V ขายแล้ว @ $362.84** — Realized gain: **+$9.11 (+12.33%)** | เหตุผล: ยืนยัน Avoid signal ต่อเนื่องตั้งแต่ /brief Jul 16 (growth ❌ low-teens ไม่ผ่านเกณฑ์ aggressive-growth, DOJ antitrust risk, Berkshire ขายทิ้งทั้งหมด) — ปิด position ตามสัญญาณที่ค้างมานาน
+> 🚨 **GWRE หลุดต่ำกว่า TP1 $172.42 เป็นครั้งแรกในรอบ 6 วันทำการ** — ราคา $170.99 (-0.83% ใต้ TP1) ร่วง -6.4% จากปิดศุกร์ ($182.62) — สาเหตุ: แรงขายกลุ่ม software จาก "AI fears" กวาดทั้งเซกเตอร์ ไม่ใช่ข่าวลบเฉพาะตัว GWRE — thesis ยังไม่พัง — **user ตัดสินใจ trim 30% ที่ราคา $175** (ยังไม่ execute ณ ตอนนี้ รอราคาแตะ)
+> 🚨 **AVGO ยังคงอยู่ในโซนร่วงจากข่าว Friday** ($393.64, -5.79% จากปิดพฤหัส $417.82) — ไม่ trigger Kill (buffer +32.2%)
 > 💰 SPCX ขายแล้ว Jun 17 @ $191.38 | Realized gain: **+$20.94 (+12.29%)**
 > 💸 CME ขายแล้ว Jun 23 @ $246.22 | Realized loss: **-$5.29 (-15.14%)**
 > 💸 MDLZ ขายแล้ว Jun 28 @ $60.75 | Realized gain: **+$0.88 (+0.78%)**
@@ -55,15 +55,14 @@
 > 🛒 PLTR ซื้อแล้ว Jun 29 | 1 share @ $118.00
 > 💸 MBGL ขายแล้ว (ระหว่าง Jul 8–9) | cost basis $3.85 → Realized loss ประมาณ **-$0.19 (-5%)** | ตาม /brief Jul 7 (Avoid, Compounder 2/5)
 > 💰 SPGI ขายแล้ว Jul 14 @ $435.934 | Realized gain: **+$8.08 (+11.35%)** | เหตุผล: ต้องการ fund GWRE/PLTR/AVGO ตาม aggressive growth style — SPGI เป็น defensive/quality ที่ไม่ผ่าน growth bar ใหม่แล้ว
-> 🔴 **V: /brief Jul 16 ใหม่ → Avoid** (Growth ❌ low-teens + Moat ⚠️ จาก DOJ antitrust structural remedy risk + Berkshire ขายทิ้งทั้งหมด Q1 2026) — **Q3 FY26 earnings Jul 28 ออกแล้ว: EPS/Revenue beat เล็กน้อย แต่ growth ยัง low-teens ไม่ผ่านเกณฑ์ — Avoid signal ไม่เปลี่ยน** — **สัญญาณให้พิจารณาขาย position ปัจจุบัน** ดู `knowledge/V.md` และ `briefs/V-2026-07-16.md`
-> 🟢 **PLTR: /brief Aug 4 post-earnings refresh → Avoid (mechanical, ⚠️ ไม่ใช่สัญญาณขาย)** — Layer 1 ผ่านครบ (net cash $7.2B, zero debt, FCF margin ~55-58%) | Layer 2 ยัง 3/5 confirmed เหมือน /brief Aug 2 แต่**เหตุผลเปลี่ยนไปคนละเรื่อง** — Growth (+149% YoY US Commercial, accelerating) ผ่านแบบไม่มีข้อสงสัยแล้ว, ตัวที่ยังติดคือ TAM (Morningstar base case $1.4T/2033 ÷ market cap ~$348.6B ≈ 4.02x ยังไม่ถึง 5x — Dominant Incumbent Exception ใช้ไม่ได้เพราะ moat มาจาก Switching Cost ไม่ใช่ Cornered Resource/Process Power/Scale Economies) + Moat durability 10 ปี (Morningstar ยืนยัน Narrow ไม่ใช่ Wide) — **Kill Condition ยิ่งห่างไกลกว่าเดิมมาก** (+149% YoY vs เกณฑ์ kill <30%) → คง **HOLD** ไม่ใช่สัญญาณขาย | 🔧 **TP Reset (Confirmed ด้วย curl ตลาดเปิดจริง):** TP1 $233.85 / TP2 $311.80 (ราคาเปิดตลาดกระโดด +24.1% เป็น $155.90, เปิด $145.15, high $156.28) ดู `knowledge/PLTR.md` และ `briefs/PLTR-2026-08-04.md`
+> 🟢 **PLTR: /brief Aug 4 post-earnings refresh → Avoid (mechanical, ⚠️ ไม่ใช่สัญญาณขาย)** — Layer 1 ผ่านครบ (net cash $7.2B, zero debt, FCF margin ~55-58%) | Layer 2 ยัง 3/5 confirmed — Growth (+149% YoY US Commercial, accelerating) ผ่านแบบไม่มีข้อสงสัยแล้ว, ตัวที่ยังติดคือ TAM (~4.02x ยังไม่ถึง 5x) + Moat durability (Narrow ไม่ใช่ Wide) — **Kill Condition ยิ่งห่างไกลกว่าเดิมมาก** → คง **HOLD** | 🔧 TP Reset: TP1 $233.85 / TP2 $311.80 (Confirmed) ดู `knowledge/PLTR.md` และ `briefs/PLTR-2026-08-04.md`
 
 | Ticker | Shares | Buy Price | มูลค่า | P&L % | P&L USD | ราคาปัจจุบัน | Kill Buffer |
 |--------|--------|-----------|--------|--------|---------|--------------|------------|
-| GWRE | 1.0000000 | $107.76 | **$170.99** | **+58.67% ✅** | +$63.23 | $170.99 | Kill $86.21 (+98.3% ✅, -20%) 🚨 **หลุดใต้ TP1 $172.42 (-0.83%)** ครั้งแรกในรอบ 6 วัน — แรงขายกลุ่ม software ("AI fears"), ไม่ใช่ thesis เปลี่ยน |
+| GWRE | 1.0000000 | $107.76 | **$170.99** | **+58.67% ✅** | +$63.23 | $170.99 | Kill $86.21 (+98.3% ✅, -20%) 🚨 **หลุดใต้ TP1 $172.42 (-0.83%)** — user ตัดสินใจ trim 30% ที่ $175 (รอ execute) |
 | PLTR | 1.0000000 | $118.00 | **$174.25** | **+47.66% ✅** | +$56.25 | $174.25 | Kill $94.40 (+84.6% ✅, -20%) 🟡 ย่อลง -2.7% ตามตลาด ไม่มีข่าวลบเฉพาะตัว |
-| AVGO | 0.2172321 | $372.21 (avg) | **$85.51** | **+5.74% ✅** | +$4.64 | $393.64 | Kill $297.77 (+32.2% ✅, -20%) 🚨 ยังอยู่ในโซนร่วงจากข่าว Friday (AI-financing debt + VMware exploit) วันนี้ premarket ranged แล้ว |
-| V | 0.2287306 | $323.00 | **$82.71** | **+11.95% ✅** | +$8.83 | $361.52 | Kill $274.55 (+31.7% ✅, -15% เดิม) 🟡 🎯 TP1 $390 (-7.9% ห่าง) 🔴 /brief Jul 16 = Avoid — ยืนยันไม่เปลี่ยน |
+| AVGO | 0.2172321 | $372.21 (avg) | **$85.51** | **+5.74% ✅** | +$4.64 | $393.64 | Kill $297.77 (+32.2% ✅, -20%) 🚨 ยังอยู่ในโซนร่วงจากข่าว Friday (AI-financing debt + VMware exploit) |
+| ~~V~~ | ~~0.2287306~~ | ~~$323.00~~ | ✅ **ขายแล้ว Aug 17** @ $362.84 | Realized +$9.11 (+12.33%) | — | — | — |
 | ~~SPGI~~ | ~~0.1816941~~ | ~~$391.47*~~ | ✅ **ขายแล้ว Jul 14** @ $435.934 | Realized +$8.08 (+11.35%) | — | — | — |
 
 > *SPGI cost per share adjusted post MBGL spin-off (original $412.79 → $391.47)
@@ -72,7 +71,7 @@
 
 ## 💵 Cash Reserve
 
-> **$87** — dry powder จากขาย SPGI (Jul 14, 2026) | ถอนออกใช้ส่วนตัว $70 เมื่อ Aug 3, 2026 (จาก $157 → $87)
+> **$169.99** — dry powder จากขาย SPGI (Jul 14) + V (Aug 17, +$82.99) | ถอนออกใช้ส่วนตัว $70 เมื่อ Aug 3, 2026
 > **กฎ:** ห้ามเติม Holdings เดิมเพียงเพราะ "อยากเติมผู้ชนะ" — ใช้เงินก้อนนี้ได้เฉพาะเมื่อเข้าเงื่อนไขใดเงื่อนไขหนึ่งจริงๆ เท่านั้น:
 > 1. **Size Up** — Holding ตัวใดตัวหนึ่งราคาลง **≥8%** จากราคาซื้อ + thesis ✅ + kill buffer >10% (ตอนนี้ไม่มีตัวไหนเข้าเกณฑ์ — ทุกตัวยังบวกอยู่)
 > 2. **Entry Zone** — Watchlist ตัวใดตัวหนึ่งราคาลงเข้า entry zone จริง (ตอนนี้ไม่มีตัวไหนเข้าเกณฑ์ — ดู Watchlist table ด้านล่าง)
@@ -90,7 +89,7 @@
 | GWRE | 🔧 **$172.42** (+60%, ปรับขึ้นจาก +50% เดิม, manual 2026-08-07) | **$215.52** (+100%) | ถึง Q4 FY26 earnings | Q4 FY26 earnings Sep 2026 |
 | PLTR | ~~$177.00~~ → **🔧 $233.85 (Confirmed)** | ~~$236.00~~ → **🔧 $311.80 (Confirmed)** | 2–3 ปี | Q3 2026 earnings (~Nov 2026) |
 | AVGO | **$558.32** (+50%) | **$744.42** (+100%) | 3–5 ปี | Q3 FY2026 earnings Aug/Sep 2026 |
-| V | **$390** (+14%) | **$430** (+25%) | 2–3 ปี | Q3 earnings Jul 28 + UK Court |
+| ~~V~~ | ~~$390~~ | ~~$430~~ | ✅ **ขายแล้ว Aug 17, 2026** @ $362.84 | P&L +$9.11 (+12.33%) realized |
 | ~~SPGI~~ | ~~$520~~ | ~~$580~~ | ✅ **ขายแล้ว Jul 14, 2026** @ $435.934 | P&L +$8.08 (+11.35%) realized |
 | ~~MDLZ~~ | ~~$72~~ | ~~$80~~ | ✅ **ขายแล้ว Jun 28** @ $60.75 | P&L +$0.88 (+0.78%) realized |
 | ~~MA~~ | ~~$600~~ | ~~$670~~ | ✅ **ขายแล้ว Jun 28** @ $502.91 | P&L +$0.42 (+1.69%) realized |
@@ -139,10 +138,7 @@
 - TP2 $580: เกิน analyst consensus → ถือต่อถ้า thesis ยังดี แต่ trim หนัก
 - Milestone: MBGL distribution Jul 1 → ราคา SPGI มักขึ้นหลัง spin-off
 
-**V** — Wide Moat Core Hold
-- TP1 $390: ใกล้ GF Fair Value $396 → ไม่มี discount แล้ว
-- TP2 $430: overvalued territory → ขาย แล้วรอ pullback ซื้อใหม่
-- ⚠️ UK Court of Appeal fee cap ถ้าผ่าน → re-evaluate ก่อน TP
+**V** — ✅ ขายแล้ว Aug 17, 2026 @ $362.84 (Realized +$9.11, +12.33%) — ปิด position ตาม Avoid signal ที่ยืนยันมาตั้งแต่ /brief Jul 16
 
 ---
 
@@ -185,11 +181,7 @@
 > ✅ **ขายแล้ว Jun 28, 2026 @ $502.91** — Realized gain +$0.42 (+1.69%) | ปิด position แล้ว
 
 ### V Kill Conditions
-- 🚨 **หลัก:** UK Court of Appeal ตัดสินให้ fee cap ผ่าน (กระทบ revenue UK โดยตรง)
-- 🚨 **หลัก:** Stablecoin adoption ลด network share — ถ้า stablecoin bypass Visa network จริง
-- 🚨 **หลัก (เพิ่ม 2026-07-16 จาก Narrative Drift):** US DOJ debit-network monopolization lawsuit (ยื่นฟ้อง 24 ก.ย. 2024, motion to dismiss ถูกปฏิเสธ 23 มิ.ย. 2025) แพ้คดี/settlement หนัก — มี securities fraud class action ควบคู่กล่าวหาปกปิดข้อมูลด้วย ดู `knowledge/V.md` Narrative Drift Check
-- ⚠️ **เฝ้าระวัง:** Cross-border volume growth ต่ำกว่า 8% YoY (ปัจจุบัน ~14%)
-- ⚠️ **เฝ้าระวัง:** ราคาลง >15% จากราคาซื้อ $323.00 (= ต่ำกว่า $274.55) โดยไม่มีเหตุผล fundamental
+> ✅ **ขายแล้ว Aug 17, 2026 @ $362.84** — Realized gain +$9.11 (+12.33%) | ปิด position แล้ว | เหตุผล: Avoid signal ยืนยันต่อเนื่องตั้งแต่ /brief Jul 16 (growth ❌ low-teens, DOJ antitrust risk, Berkshire ขายทิ้งทั้งหมด) — ไม่ใช่ Kill trigger แต่เป็นการตัดสินใจปิด position ตาม thesis ที่อ่อนลงต่อเนื่อง ดู `knowledge/_sold/V.md`
 
 ---
 
