@@ -24,28 +24,29 @@
 
 ## Top Pick (วันนี้)
 
-> 🏆 **Aug 15, 2026 (เสาร์, ตลาดปิด, ราคาปิด ศ. 14 ส.ค., /brief ล่าสุดยังเป็น 26-07-30)** — **NVDA** $225.16 (~flat จากปิดพฤหัส $226.07, -0.4%) (Wide Moat — Cornered Resource+Process Power, CUDA switching cost) — Action **Starter Position (Provisional — valuation inconclusive)** — Conviction 8.0/10 — Layer 1 ผ่านครบ, Layer 2 4/5 (TAM ผ่าน Dominant Incumbent Exception, growth +85% YoY accelerating 3 ไตรมาสติด) แต่ ⚠️ Valuation Inconclusive (Morningstar FV $280 vs GuruFocus $354-370 ต่างกัน 32% + GuruFocus เองติดป้าย "Possible Value Trap") | ⚠️ Second Opinion: Bull ชนะแบบมีเงื่อนไข — bear เจอ custom ASIC กำลังแทนที่จริง + circular financing concern + China H200 reopening แย่กว่าที่คิด — แนะนำทยอยเข้าไม่ใช่เข้าเต็มไม้ — thesis ผิดถ้า growth หลุด <30% YoY 2 ไตรมาสติด หรือ AI accelerator market share ร่วงมีนัยสำคัญจาก custom ASIC — /brief 2026-07-30 — ดู `briefs/NVDA-2026-07-30.md`
+> ⚠️ **แก้ไขวันที่ (2026-08-17):** brief รอบก่อนหน้าเข้าใจวันที่ผิดว่าเป็นวันเสาร์ 15 ส.ค. — จริงๆ วันนั้นคือ **วันจันทร์ 17 ส.ค. ตลาดเปิดอยู่** ราคาที่บันทึกไว้เป็นราคา intraday จริงของวันจันทร์ ไม่ใช่ราคาปิดวันศุกร์ตามที่เข้าใจผิด — แก้ไขให้ตรงตั้งแต่รอบนี้เป็นต้นไป
+>
+> 🏆 **Aug 17, 2026 (จันทร์, ตลาดเปิด)** — **NVDA** $226.17 (+0.39% จากปิดศุกร์ $225.30) (Wide Moat — Cornered Resource+Process Power, CUDA switching cost) — Action **Starter Position (Provisional — valuation inconclusive)** — Conviction 8.0/10 — Layer 1 ผ่านครบ, Layer 2 4/5 (TAM ผ่าน Dominant Incumbent Exception, growth +85% YoY accelerating 3 ไตรมาสติด) แต่ ⚠️ Valuation Inconclusive (Morningstar FV $280 vs GuruFocus $354-370 ต่างกัน 32% + GuruFocus เองติดป้าย "Possible Value Trap") | ⚠️ Second Opinion: Bull ชนะแบบมีเงื่อนไข — bear เจอ custom ASIC กำลังแทนที่จริง + circular financing concern + China H200 reopening แย่กว่าที่คิด — แนะนำทยอยเข้าไม่ใช่เข้าเต็มไม้ — thesis ผิดถ้า growth หลุด <30% YoY 2 ไตรมาสติด หรือ AI accelerator market share ร่วงมีนัยสำคัญจาก custom ASIC — /brief 2026-07-30 — ดู `briefs/NVDA-2026-07-30.md`
 >
 > **การเปลี่ยน Top Pick 2 รอบใน 2 วัน:** META (Starter) → Avoid หลัง Q2 earnings (30 ก.ค., growth ชะลอ+TAM ไม่ผ่าน) → **BX ขึ้นมาแทนชั่วคราว** → /brief BX refresh พบว่า valuation gap ถ่างขึ้น (Morningstar เองปรับ FV ลงจนเกือบเป็น Fair) + BXSL/BCRED co-CEO ลาออกกะทันหัน → **BX ลงเป็น Watch (Provisional)** ไม่ผ่านเกณฑ์ Top Pick อีก → **NVDA ขึ้นเป็น Top Pick แทน** (ยังไม่ได้ refresh ใหม่วันนี้ ใช้ข้อมูลจาก /brief 26 ก.ค.) — ดู `briefs/META-2026-07-30.md` และ `briefs/BX-2026-07-30.md`
 
 ---
 
-## 🔮 Today's Prediction — เสาร์ 2026-08-15 ตลาดปิด ไม่มี prediction ใหม่ (รอเปิดตลาด Mon 2026-08-17)
+## 🔮 Today's Prediction (2026-08-17 จันทร์)
+- **GWRE จะแกว่งหาจุดยืนใหม่รอบ TP1 $172.42** — วันนี้หลุดต่ำกว่า TP1 เป็นครั้งแรกในรอบ 6 วันทำการ ($170.99, -0.83% ใต้ TP1) จากแรงขายกลุ่ม software ("AI fears" sweep) ไม่ใช่ข่าวเฉพาะตัว — คาดว่าจะแกว่งรอบเส้นนี้ต่อ ไม่ได้ทรุดหนักทันทีถ้าไม่มีข่าวลบใหม่
+- **AVGO จะทรงตัว/ฟื้นบางส่วน** — ส่วนใหญ่ของการร่วง -5.9% เกิดวันศุกร์ (AI-financing debt + VMware exploit) ข่าวช่วงเช้าวันนี้ชี้ว่า premarket "little changed" สะท้อนตลาดเริ่มย่อยข่าวไปแล้ว
+- **ตลาดรวมจะแกว่งแคบ mixed** — นักลงทุนรอผลประกอบการค้าปลีก (Walmart/Target/Lowe's/Home Depot สัปดาห์นี้) และ FOMC minutes วันพุธ — ไม่น่ามีการเคลื่อนไหวแรงจนกว่าจะมีข้อมูลใหม่
 
-**Prediction Review (จาก 2026-08-14):**
-- ❌ **"Retail Sales +0.1% MoM in-line"** ผิด — จริงออก **-0.6% MoM** (แย่สุดในรอบปี) ทำให้ตลาดสั่นแรงกว่าที่คาด แม้ปิดลบไม่มากก็ตาม
-- ✅ **"GWRE ยังอยู่เหนือ TP1 ต่อเนื่อง"** ถูกทิศทาง — ปิดที่ $175.59 ยังเหนือ TP1 $172.42 (+1.84%) แต่ margin แคบลงมากจากที่ +5.9% ตอนเช้า (intraday pullback ตามตลาด)
-- 🟡 **"ตลาดแกว่งแคบก่อนปิดสัปดาห์"** ถูกบางส่วน — S&P ปิดลบเล็กน้อย -0.2% ไม่ narrow แบบที่คาด เพราะ Retail Sales miss กระทบกว่าคิด แต่ยังไม่ panic (week ยังปิดบวก 3 สัปดาห์ติด)
-- **บทเรียน:** AVGO ร่วง -5.9% วันเดียว (ไม่ได้ทำนายไว้) จาก AI-financing debt concern + VMware exploit — เป็น idiosyncratic risk ที่ Market prediction ทั่วไปจับไม่ได้
+**หมายเหตุ:** ก่อนหน้านี้ brief วันที่ 15 ส.ค. เข้าใจผิดว่าเป็นวันเสาร์ (จริงคือจันทร์ 17 ส.ค. ตลาดเปิดอยู่) จึงไม่มี prediction review ที่ผ่านมาให้เทียบ — เริ่มนับ prediction ใหม่จากวันนี้
 
 ---
 
 ## Holdings
 
-> อัปเดต Aug 15, 2026 (เสาร์ — ตลาดปิด, ราคาปิด ศ. 14 ส.ค. จริง) | Total holdings: **$518.32** | Unrealized P&L: **+$137.81 (+36.22%)** + Cash Reserve **$87**
-> ⚠️ **แก้ไขราคา:** ตัวเลข Aug 14 เช้าที่บันทึกไว้ก่อนหน้า (pre-market) ต่างจากราคาปิดจริงมาก — ตลาดร่วงแรงช่วงบ่ายจาก Retail Sales miss (-0.6% MoM vs คาด +0.1%) + AVGO ร่วงหนักเป็นพิเศษจากข่าว AI-financing debt concern (ดูรายละเอียดด้านล่าง)
-> 🎯 **GWRE ยังปิดเหนือ TP1 $172.42 ต่อเนื่องเป็นวันที่ 5 (ปิด 2026-08-14)** — ราคาปิด $175.59 (+1.84% เหนือ TP1, ร่วงจาก intraday high กลับมาแคบลงมากจากเช้าที่ +5.9%) ไม่มีข่าวลบเฉพาะตัว เป็นแรงขายตามตลาดรวม — คำถาม trim 30%/ปรับ TP1 ขึ้นอีก/ถือรอ TP2 $215.52 ยังไม่มีการตัดสินใจ ค้างมา 5 วันแล้วนับตั้งแต่ 8/10
-> 🚨 **AVGO ร่วง -5.9% เป็นวันเดียว** ($417.82→$392.99) จาก 3 ปัจจัย: (1) BofA analyst ประเมิน AI chip-financing vehicle อาจแตะ $370B senior debt ภายในปี 2029 ที่ scale 20GW — ตลาดกังวลความเสี่ยง leverage, (2) VMware vCenter security flaw ถูก exploit จริง (พบ compromised systems 361 IP ใน 47 ประเทศ), (3) แรงขาย tech กว้างๆ ก่อนงบ Q3 FY26 (Aug/Sep) — **ไม่กระทบ Layer 1/2 thesis โดยตรง** (ไม่ใช่ moat/growth breaking) แต่เป็นความเสี่ยงใหม่ (leverage) ที่ควรติดตามต่อ ยังไม่ trigger Kill (buffer เหลือ +32.0%) — ดู Sources ด้านล่าง
+> อัปเดต Aug 17, 2026 (จันทร์ — ตลาดเปิด, ราคา intraday จริง ~9:53am ET) | Total holdings: **$513.45** | Unrealized P&L: **+$132.94 (+34.94%)** + Cash Reserve **$87**
+> 🚨 **GWRE หลุดต่ำกว่า TP1 $172.42 เป็นครั้งแรกในรอบ 6 วันทำการ** — ราคา $170.99 (-0.83% ใต้ TP1) ร่วง -6.4% จากปิดศุกร์ ($182.62) — สาเหตุ: แรงขายกลุ่ม software จาก "AI fears" กวาดทั้งเซกเตอร์ (TipRanks/MarketBeat รายงานตรงกัน) ไม่ใช่ข่าวลบเฉพาะตัว GWRE, ไม่มี earnings/data เปลี่ยน — thesis ยังไม่พัง แต่การที่หลุด TP1 ลงมาแปลว่าคำถาม trim/ปรับ TP1 ที่ค้างมา 6 วันตอนนี้อาจไม่ทันแล้วถ้าไม่ตัดสินใจเร็ว
+> 🚨 **AVGO ยังคงอยู่ในโซนร่วงจากข่าว Friday** ($393.64, -5.79% จากปิดพฤหัส $417.82) — ส่วนใหญ่ของการร่วงเกิดวันศุกร์ (AI-financing debt concern $370B + VMware vCenter exploit จริง) วันนี้ premarket ranged "little changed" สะท้อนตลาดเริ่มย่อยข่าวแล้ว ไม่ trigger Kill (buffer +32.2%)
+> PLTR $174.245 (-2.66% จากปิดศุกร์) และ V $361.52 (-1.08%) ย่อลงตามตลาดโดยรวม ไม่มีข่าวเฉพาะตัว
 > 💰 SPCX ขายแล้ว Jun 17 @ $191.38 | Realized gain: **+$20.94 (+12.29%)**
 > 💸 CME ขายแล้ว Jun 23 @ $246.22 | Realized loss: **-$5.29 (-15.14%)**
 > 💸 MDLZ ขายแล้ว Jun 28 @ $60.75 | Realized gain: **+$0.88 (+0.78%)**
@@ -59,10 +60,10 @@
 
 | Ticker | Shares | Buy Price | มูลค่า | P&L % | P&L USD | ราคาปัจจุบัน | Kill Buffer |
 |--------|--------|-----------|--------|--------|---------|--------------|------------|
-| GWRE | 1.0000000 | $107.76 | **$175.59** | **+62.94% ✅** | +$67.83 | $175.59 | Kill $86.21 (+103.7% ✅, -20%) 🎯 **ปิดเหนือ TP1 $172.42 ต่อเนื่องวันที่ 5 (+1.84%)** — ยังรอ user ตัดสินใจ trim/ปรับ TP1/ถือต่อ |
-| PLTR | 1.0000000 | $118.00 | **$174.04** | **+47.49% ✅** | +$56.04 | $174.04 | Kill $94.40 (+84.4% ✅, -20%) 🟡 ย่อลง -2.8% ตามตลาด ไม่มีข่าวลบเฉพาะตัว |
-| AVGO | 0.2172321 | $372.21 (avg) | **$85.37** | **+5.58% ✅** | +$4.50 | $392.99 | Kill $297.77 (+32.0% ✅, -20%) 🚨 **ร่วง -5.9% ในวันเดียว** — AI-financing debt concern + VMware exploit + tech pullback (ดูรายละเอียดด้านบน) |
-| V | 0.2287306 | $323.00 | **$83.32** | **+12.74% ✅** | +$9.44 | $364.15 | Kill $274.55 (+32.6% ✅, -15% เดิม) 🟡 🎯 TP1 $390 (-6.6% ห่าง) 🔴 /brief Jul 16 = Avoid — ยืนยันไม่เปลี่ยน |
+| GWRE | 1.0000000 | $107.76 | **$170.99** | **+58.67% ✅** | +$63.23 | $170.99 | Kill $86.21 (+98.3% ✅, -20%) 🚨 **หลุดใต้ TP1 $172.42 (-0.83%)** ครั้งแรกในรอบ 6 วัน — แรงขายกลุ่ม software ("AI fears"), ไม่ใช่ thesis เปลี่ยน |
+| PLTR | 1.0000000 | $118.00 | **$174.25** | **+47.66% ✅** | +$56.25 | $174.25 | Kill $94.40 (+84.6% ✅, -20%) 🟡 ย่อลง -2.7% ตามตลาด ไม่มีข่าวลบเฉพาะตัว |
+| AVGO | 0.2172321 | $372.21 (avg) | **$85.51** | **+5.74% ✅** | +$4.64 | $393.64 | Kill $297.77 (+32.2% ✅, -20%) 🚨 ยังอยู่ในโซนร่วงจากข่าว Friday (AI-financing debt + VMware exploit) วันนี้ premarket ranged แล้ว |
+| V | 0.2287306 | $323.00 | **$82.71** | **+11.95% ✅** | +$8.83 | $361.52 | Kill $274.55 (+31.7% ✅, -15% เดิม) 🟡 🎯 TP1 $390 (-7.9% ห่าง) 🔴 /brief Jul 16 = Avoid — ยืนยันไม่เปลี่ยน |
 | ~~SPGI~~ | ~~0.1816941~~ | ~~$391.47*~~ | ✅ **ขายแล้ว Jul 14** @ $435.934 | Realized +$8.08 (+11.35%) | — | — | — |
 
 > *SPGI cost per share adjusted post MBGL spin-off (original $412.79 → $391.47)
