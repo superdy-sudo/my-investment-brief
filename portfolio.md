@@ -26,27 +26,29 @@
 
 > ⚠️ **แก้ไขวันที่ (2026-08-17):** brief รอบก่อนหน้าเข้าใจวันที่ผิดว่าเป็นวันเสาร์ 15 ส.ค. — จริงๆ วันนั้นคือ **วันจันทร์ 17 ส.ค. ตลาดเปิดอยู่** ราคาที่บันทึกไว้เป็นราคา intraday จริงของวันจันทร์ ไม่ใช่ราคาปิดวันศุกร์ตามที่เข้าใจผิด — แก้ไขให้ตรงตั้งแต่รอบนี้เป็นต้นไป
 >
-> 🏆 **Aug 17, 2026 (จันทร์, ตลาดเปิด)** — **NVDA** $226.17 (+0.39% จากปิดศุกร์ $225.30) (Wide Moat — Cornered Resource+Process Power, CUDA switching cost) — Action **Starter Position (Provisional — valuation inconclusive)** — Conviction 8.0/10 — Layer 1 ผ่านครบ, Layer 2 4/5 (TAM ผ่าน Dominant Incumbent Exception, growth +85% YoY accelerating 3 ไตรมาสติด) แต่ ⚠️ Valuation Inconclusive (Morningstar FV $280 vs GuruFocus $354-370 ต่างกัน 32% + GuruFocus เองติดป้าย "Possible Value Trap") | ⚠️ Second Opinion: Bull ชนะแบบมีเงื่อนไข — bear เจอ custom ASIC กำลังแทนที่จริง + circular financing concern + China H200 reopening แย่กว่าที่คิด — แนะนำทยอยเข้าไม่ใช่เข้าเต็มไม้ — thesis ผิดถ้า growth หลุด <30% YoY 2 ไตรมาสติด หรือ AI accelerator market share ร่วงมีนัยสำคัญจาก custom ASIC — /brief 2026-07-30 — ดู `briefs/NVDA-2026-07-30.md`
+> 🏆 **Aug 18, 2026 (อังคาร, ตลาดเปิด)** — **NVDA** $225.01 (-0.51% จากปิดวาน $226.17) (Wide Moat — Cornered Resource+Process Power, CUDA switching cost) — Action **Starter Position (Provisional — valuation inconclusive)** — Conviction 8.0/10 — Layer 1 ผ่านครบ, Layer 2 4/5 (TAM ผ่าน Dominant Incumbent Exception, growth +85% YoY accelerating 3 ไตรมาสติด) แต่ ⚠️ Valuation Inconclusive (Morningstar FV $280 vs GuruFocus $354-370 ต่างกัน 32% + GuruFocus เองติดป้าย "Possible Value Trap") | ⚠️ Second Opinion: Bull ชนะแบบมีเงื่อนไข — bear เจอ custom ASIC กำลังแทนที่จริง + circular financing concern + China H200 reopening แย่กว่าที่คิด — แนะนำทยอยเข้าไม่ใช่เข้าเต็มไม้ — thesis ผิดถ้า growth หลุด <30% YoY 2 ไตรมาสติด หรือ AI accelerator market share ร่วงมีนัยสำคัญจาก custom ASIC — /brief 2026-07-30 — ดู `briefs/NVDA-2026-07-30.md`
 >
 > **การเปลี่ยน Top Pick 2 รอบใน 2 วัน:** META (Starter) → Avoid หลัง Q2 earnings (30 ก.ค., growth ชะลอ+TAM ไม่ผ่าน) → **BX ขึ้นมาแทนชั่วคราว** → /brief BX refresh พบว่า valuation gap ถ่างขึ้น (Morningstar เองปรับ FV ลงจนเกือบเป็น Fair) + BXSL/BCRED co-CEO ลาออกกะทันหัน → **BX ลงเป็น Watch (Provisional)** ไม่ผ่านเกณฑ์ Top Pick อีก → **NVDA ขึ้นเป็น Top Pick แทน** (ยังไม่ได้ refresh ใหม่วันนี้ ใช้ข้อมูลจาก /brief 26 ก.ค.) — ดู `briefs/META-2026-07-30.md` และ `briefs/BX-2026-07-30.md`
 
 ---
 
-## 🔮 Today's Prediction (2026-08-17 จันทร์)
-- **GWRE จะแกว่งหาจุดยืนใหม่รอบ TP1 $172.42** — วันนี้หลุดต่ำกว่า TP1 เป็นครั้งแรกในรอบ 6 วันทำการ ($170.99, -0.83% ใต้ TP1) จากแรงขายกลุ่ม software ("AI fears" sweep) ไม่ใช่ข่าวเฉพาะตัว — คาดว่าจะแกว่งรอบเส้นนี้ต่อ ไม่ได้ทรุดหนักทันทีถ้าไม่มีข่าวลบใหม่
-- **AVGO จะทรงตัว/ฟื้นบางส่วน** — ส่วนใหญ่ของการร่วง -5.9% เกิดวันศุกร์ (AI-financing debt + VMware exploit) ข่าวช่วงเช้าวันนี้ชี้ว่า premarket "little changed" สะท้อนตลาดเริ่มย่อยข่าวไปแล้ว
-- **ตลาดรวมจะแกว่งแคบ mixed** — นักลงทุนรอผลประกอบการค้าปลีก (Walmart/Target/Lowe's/Home Depot สัปดาห์นี้) และ FOMC minutes วันพุธ — ไม่น่ามีการเคลื่อนไหวแรงจนกว่าจะมีข้อมูลใหม่
+## 🔮 Today's Prediction (2026-08-18 อังคาร)
+- **GWRE จะแกว่งแคบใกล้ TP1 $172.42 ต่อ** — ปัจจุบัน $171.99 (เหนือปิดวาน +0.58%) ยังไม่มีข่าวเฉพาะตัวใหม่ คาดว่าจะแกว่งรอบเส้นนี้ต่อ ไม่หลุดแรงถ้าไม่มีข่าวลบใหม่
+- **AS ตอบสนองบวกแบบจำกัด แม้งบ Q2 จะ beat ชัดเจน** — revenue +32% reported (+30% ex-currency) เหนือ guidance 22-24% มาก, ยกเลิกความกลัว China boycott (ทุกภูมิภาคโตสองหลัก) แต่ราคาตอบสนองแค่เล็กน้อย (~+1% จากที่ดู) — คาดว่าตลาดยังรอดู detail call/guidance ใหม่มากกว่าตอบสนองทันที
+- **ตลาดรวมจะยังอ่อนตัวต่อ** — แรงกดดันจากความตึงเครียดตะวันออกกลาง+ราคาพลังงานขึ้น+VIX ขยับแรง (+4.9%) ก่อนงบค้าปลีกใหญ่สัปดาห์นี้และ FOMC minutes พรุ่งนี้
 
-**หมายเหตุ:** ก่อนหน้านี้ brief วันที่ 15 ส.ค. เข้าใจผิดว่าเป็นวันเสาร์ (จริงคือจันทร์ 17 ส.ค. ตลาดเปิดอยู่) จึงไม่มี prediction review ที่ผ่านมาให้เทียบ — เริ่มนับ prediction ใหม่จากวันนี้
+**Prediction Review (จาก 2026-08-17):**
+- 🟡 **"GWRE จะแกว่งหาจุดยืนใหม่รอบ TP1"** ถูกทิศทาง — วันนี้ยังคง hover ใกล้ TP1 ($171.99 vs TP1 $172.42) ไม่หลุดแรงเพิ่ม
+- ✅ **"AVGO จะทรงตัว/ฟื้นบางส่วน"** ถูกต้อง — แกว่งแคบ $393.64→$392.43 (-0.31%) ทรงตัวตามคาด
+- 🟡 **"ตลาดรวมจะแกว่งแคบ mixed"** ถูกบางส่วน — S&P/NASDAQ ลบเล็กน้อยสมเหตุสมผล แต่แรงขายมาจาก geopolitical/energy ที่ไม่ได้ทำนายไว้ ไม่ใช่แค่รอข้อมูล
 
 ---
 
 ## Holdings
 
-> อัปเดต Aug 17, 2026 (จันทร์ — ตลาดเปิด) | Total holdings (3 ตัว): **$430.75** | Unrealized P&L: **+$124.12 (+40.47%)** + Cash Reserve **$169.99**
-> 💰 **V ขายแล้ว @ $362.84** — Realized gain: **+$9.11 (+12.33%)** | เหตุผล: ยืนยัน Avoid signal ต่อเนื่องตั้งแต่ /brief Jul 16 (growth ❌ low-teens ไม่ผ่านเกณฑ์ aggressive-growth, DOJ antitrust risk, Berkshire ขายทิ้งทั้งหมด) — ปิด position ตามสัญญาณที่ค้างมานาน
-> 🚨 **GWRE หลุดต่ำกว่า TP1 $172.42 เป็นครั้งแรกในรอบ 6 วันทำการ** — ราคา $170.99 (-0.83% ใต้ TP1) ร่วง -6.4% จากปิดศุกร์ ($182.62) — สาเหตุ: แรงขายกลุ่ม software จาก "AI fears" กวาดทั้งเซกเตอร์ ไม่ใช่ข่าวลบเฉพาะตัว GWRE — thesis ยังไม่พัง — **user ตัดสินใจ trim 30% ที่ราคา $175** (ยังไม่ execute ณ ตอนนี้ รอราคาแตะ)
-> 🚨 **AVGO ยังคงอยู่ในโซนร่วงจากข่าว Friday** ($393.64, -5.79% จากปิดพฤหัส $417.82) — ไม่ trigger Kill (buffer +32.2%)
+> อัปเดต Aug 18, 2026 (อังคาร — ตลาดเปิด) | Total holdings (3 ตัว): **$429.79** | Unrealized P&L: **+$123.16 (+40.17%)** + Cash Reserve **$169.99**
+> 🎯 **GWRE ยังใกล้ TP1 $172.42 มาก** — ราคา $171.99 (+0.58% จากปิดวาน) ยังไม่ถึง $175 ที่ user ตัดสินใจ trim 30% ไว้ — รอ execute
+> AVGO ทรงตัว $392.43 (-0.31%), PLTR ย่อ $172.55 (-0.98%) — ไม่มีข่าวเฉพาะตัวทั้งคู่
 > 💰 SPCX ขายแล้ว Jun 17 @ $191.38 | Realized gain: **+$20.94 (+12.29%)**
 > 💸 CME ขายแล้ว Jun 23 @ $246.22 | Realized loss: **-$5.29 (-15.14%)**
 > 💸 MDLZ ขายแล้ว Jun 28 @ $60.75 | Realized gain: **+$0.88 (+0.78%)**
@@ -59,9 +61,9 @@
 
 | Ticker | Shares | Buy Price | มูลค่า | P&L % | P&L USD | ราคาปัจจุบัน | Kill Buffer |
 |--------|--------|-----------|--------|--------|---------|--------------|------------|
-| GWRE | 1.0000000 | $107.76 | **$170.99** | **+58.67% ✅** | +$63.23 | $170.99 | Kill $86.21 (+98.3% ✅, -20%) 🚨 **หลุดใต้ TP1 $172.42 (-0.83%)** — user ตัดสินใจ trim 30% ที่ $175 (รอ execute) |
-| PLTR | 1.0000000 | $118.00 | **$174.25** | **+47.66% ✅** | +$56.25 | $174.25 | Kill $94.40 (+84.6% ✅, -20%) 🟡 ย่อลง -2.7% ตามตลาด ไม่มีข่าวลบเฉพาะตัว |
-| AVGO | 0.2172321 | $372.21 (avg) | **$85.51** | **+5.74% ✅** | +$4.64 | $393.64 | Kill $297.77 (+32.2% ✅, -20%) 🚨 ยังอยู่ในโซนร่วงจากข่าว Friday (AI-financing debt + VMware exploit) |
+| GWRE | 1.0000000 | $107.76 | **$171.99** | **+59.60% ✅** | +$64.23 | $171.99 | Kill $86.21 (+99.5% ✅, -20%) 🎯 ใกล้ TP1 $172.42 (-0.25% ใต้) — user ตัดสินใจ trim 30% ที่ $175 (รอ execute) |
+| PLTR | 1.0000000 | $118.00 | **$172.55** | **+46.23% ✅** | +$54.55 | $172.55 | Kill $94.40 (+82.8% ✅, -20%) 🟡 ย่อลง -0.98% ตามตลาด ไม่มีข่าวลบเฉพาะตัว |
+| AVGO | 0.2172321 | $372.21 (avg) | **$85.25** | **+5.42% ✅** | +$4.38 | $392.43 | Kill $297.77 (+31.8% ✅, -20%) 🟢 ทรงตัว (-0.31%) หลังข่าว Friday |
 | ~~V~~ | ~~0.2287306~~ | ~~$323.00~~ | ✅ **ขายแล้ว Aug 17** @ $362.84 | Realized +$9.11 (+12.33%) | — | — | — |
 | ~~SPGI~~ | ~~0.1816941~~ | ~~$391.47*~~ | ✅ **ขายแล้ว Jul 14** @ $435.934 | Realized +$8.08 (+11.35%) | — | — | — |
 
@@ -213,7 +215,7 @@
 | **DASH** | Narrow Moat (Network+Scale Economies+Switching Costs) — /brief 2026-08-06 refresh post-Q2 earnings → **Watch (ลงจาก Starter Position เดิม)** — Layer 1 ผ่านครบ, Layer 2 4/5 confirmed (revenue +36% YoY, Adj EBITDA +40%, FCF +109%) แต่ราคาวิ่ง +22.6% ใน 2 สัปดาห์จนแทบเท่า GF Value พอดี ($215.61) — ไม่เหลือ margin of safety, P/E ขยับเป็น 93.5x — thesis ผิดถ้า GAAP EPS หดตัวต่อเนื่องจน FCF quality กระทบจริง หรือ grocery/retail ไม่ถึง gross-profit positive H2 2026 — /brief 2026-07-21 (เดิม) → 2026-08-06 (ล่าสุด) | 🔴 Expensive (GF Value $215.61 แทบเท่าราคา) | **$216.26** (Aug 7) | stale 2026-09-03 |
 | **KEYS** | Wide Moat (Switching Costs+Process Power) — Watch, Valuation Inconclusive (Morningstar $323-383 vs GuruFocus $183-201 ต่างกัน >40%) — thesis ผิดถ้า AI-datacenter test order surge (+56% YoY) ชะลอตัวลงแรงกลับสู่ระดับปกติ (<15%) — /brief 2026-07-23 | รอราคาย่อ/valuation ชัดเจนขึ้น | **$330.94** (2026-07-23) | stale 2026-08-20 |
 | **BX** | Wide Moat (Scale Economies+Switching Costs) — Watch (Provisional, ลงจาก Buy เดิม) — Morningstar ปรับ FV ลง $145→$140 ทำให้เกือบเป็น Fair แล้ว (-7.6%) ขณะที่ GuruFocus ยังมองว่า Cheap ($196-204, -34% ถึง -37%) — gap ระหว่าง 2 แหล่งถ่างเป็น 45.7% + BXSL/BCRED co-CEO ลาออกกะทันหัน (20 ก.ค.) — thesis ผิดถ้า BCRED redemption กลับไปแตะเพดาน 5% cap อีกครั้ง — /brief 2026-07-30 | รอราคาเข้าใกล้ Morningstar FV $140 หรือต่ำกว่า หรือรอ valuation 2 แหล่งบรรจบกัน | **$129.40** (Jul 30) | stale 2026-08-27 |
-| **AS** | Narrow Moat Branding (Arc'teryx/Salomon) — Watch (Provisional, refresh 2026-08-17) — Q1 2026 จริง: ex-FX growth +26%, China +45% YoY หักล้างความกลัว boycott เดิม แต่ประเด็นลามเป็น**การสอบสวนสิ่งแวดล้อมจากรัฐบาลจีนอย่างเป็นทางการ** + insider ขายเพิ่มต่อเนื่องรวม ~$29.2M ใน 90 วัน (Arc'teryx CEO stake เป็นศูนย์แล้ว) ก่อนงบ Q2 ออกพรุ่งนี้ (18 ส.ค.) — thesis ผิดถ้า Q2 earnings ยืนยัน China impact ชัดเจนหรือการสอบสวนบานปลาย — /brief 2026-08-17 | 🟢 Cheap (MS FV $46, analyst consensus $49.90 ตรงกันครั้งแรก) | **$32.23** (Aug 17, -10.4%) | earnings 2026-08-18 |
+| **AS** | Narrow Moat Branding (Arc'teryx/Salomon) — Watch (Provisional) — **Q2 2026 earnings ออกแล้ว 18 ส.ค. เช้า: Beat ชัดเจน** revenue $1,633M +32% reported (+30% ex-currency) เหนือ guidance เดิม 22-24% มาก, Arc'teryx +32%, Salomon/Outdoor Performance +37%, ทุกภูมิภาคโตสองหลักรวม Greater China — หักล้างความกลัว China boycott ต่อเนื่องจาก Q1 — FY guidance ปรับขึ้นอีกรอบ — ราคาตอบสนองแค่เล็กน้อย (+~1%) ยังไม่ full re-score เต็มรูปแบบ (แนะนำรัน `/brief AS`) — thesis ผิดถ้า Q3 ยืนยัน slowdown หรือ margin ไม่ตามที่ guide — /brief 2026-08-17 (ก่อนงบ) | 🟢 Cheap (MS FV $46, analyst consensus $49.90) — ต้อง refresh valuation หลังงบ | **~$32.57** (Aug 18, ก่อนงบ +1.05%) | stale 2026-09-15 (รอ /brief refresh เต็มรูปแบบ) |
 | **RDDT** | Narrow Moat (Network Economies + Cornered Resource — first-party human data สำหรับเทรน AI) — Watch (Provisional) — Layer 1 ผ่านครบ (net cash $2.77B, FCF margin ~32%), Layer 2 4/5 confirmed (revenue +61% YoY, TAM >5x, ไม่มี ❌) — แต่ Valuation Inconclusive (Morningstar $120 stale vs Simply Wall St $224.92 ต่างกัน 87%) — thesis ผิดถ้า Google search-referral dependency เสื่อมลงต่อเนื่องจนกระทบ DAU/WAU growth มีนัยสำคัญ — /brief 2026-08-05 (Market Scan) | รอ Fair Value ชัดเจนขึ้น หรือราคาย่อ | **$161.70** (Aug 7) | stale 2026-09-02 |
 | **P** | Everpure (เดิม Pure Storage) — Switching Cost (Evergreen//One STaaS) + Process Power — Watch (Provisional — ข้อมูลไม่ครบมาก) — Layer 1 ไม่มี ❌ (net cash $1.38B) แต่ Layer 2 แค่ 1/5 confirmed (TAM/market share/moat durability ⚠️/⚪ ทั้งหมด) — Growth +35% YoY เร่งตัวจาก 15.6% แต่ FCF ขัดแย้งกันระหว่างแหล่ง — thesis ผิดถ้า growth หลุดกลับต่ำกว่า 20% YoY พร้อม FCF ยังหดตัว — /brief 2026-08-05 (Market Scan) | รอข้อมูล TAM/market share ชัดเจนขึ้น หรือ FCF ยืนยันฟื้นตัว | **$90.05** (Aug 7) | stale 2026-09-02 |
 | **AFRM** | Narrow Moat (Switching Cost — merchant network) — Watch (Provisional) — GAAP profitable แล้ว (Q3 FY26 net income $102.9M), FCF บวก ~20% margin, Layer 2 3/5 confirmed ไม่มี ❌ — แต่ growth guidance ชะลอจาก 33%→29%→24-25% (FY27) ต่ำกว่าเกณฑ์ 30%, valuation แพงกว่าทั้ง Morningstar FV $53 และ GuruFocus $67-73 — thesis ผิดถ้า FY27 guidance 24-25% กลายเป็นจริง (ไม่ใช่แค่ conservative guide) — /brief 2026-08-06 (Market Scan) | รอ FY27 guidance ยืนยัน หรือราคาย่อเข้า FV zone | **$75.25** (Aug 7) | stale 2026-09-03 |
