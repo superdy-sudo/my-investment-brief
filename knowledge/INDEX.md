@@ -7,7 +7,7 @@
 | Ticker | สถานะล่าสุด | Moat | Growth bar (≥30% YoY) | ไฟล์ |
 |--------|-------------|------|------------------------|------|
 | PLTR | [2026-08-04] 🔴 Full re-score เสร็จ: Action ยัง Avoid (Provisional) เท่า 8/2 แต่เหตุผลเปลี่ยน — growth ไม่ใช่ปัญหาแล้ว (US Commercial +149% YoY), ตัวที่ยังติดคือ TAM ratio แย่ลง (~4.02x, ราคาพุ่งเร็วกว่า TAM re-rate) + Morningstar ยืนยัน Narrow Moat (Dominant Incumbent Exception ใช้ไม่ได้) — Kill Condition ยังไม่ trigger (ห่างไกลกว่าเดิม) → HOLD คงเดิม, Dynamic TP Reset Provisional TP1 $217.88/TP2 $290.50 รอ confirm ราคาเปิดตลาด | Narrow (Switching Cost + Intangible Assets) | ✅ ผ่านชัดเจน (US Commercial +149% YoY) | [PLTR.md](PLTR.md) |
-| AVGO | [2026-08-18] ⚠️ ความเสี่ยงใหม่จับตา (ไม่ใช่ Kill trigger) — VMware vCenter CVE-2026-59310 (CVSS 9.8, RCE) ถูกโจมตีจริง 47 ประเทศโดย China-nexus APT, patch ออกแล้ว แต่ reputational risk ต่อ retention/renewal ยังไม่เคยบันทึก | Action ยังคง Buy→Watch เดิมจาก 7/27 (Valuation Inconclusive) | Wide (XPU IP + VMware) | ✅ ผ่าน (AI rev +143%) | [AVGO.md](AVGO.md) |
+| AVGO | [2026-08-19] ⚠️ ความเสี่ยงใหม่จับตา (ไม่ใช่ Kill trigger) — VMware vCenter CVE-2026-59310 (CVSS 9.8, RCE) ถูกโจมตีจริง 47 ประเทศโดย China-nexus APT, patch ออกแล้ว แต่ reputational risk ต่อ retention/renewal ยังไม่เคยบันทึก | Action ยังคง Buy→Watch เดิมจาก 7/27 (Valuation Inconclusive) | Wide (XPU IP + VMware) | ✅ ผ่าน (AI rev +143%) | [AVGO.md](AVGO.md) |
 | GWRE | [2026-08-17] 🚨 หลุดใต้ TP1 $172.42 ครั้งแรกในรอบ 6 วัน จากแรงขายกลุ่ม software ("AI fears") ไม่ใช่ thesis เปลี่ยน — user ตัดสินใจ trim 30% ที่ราคา $175 (รอ execute) | Switching Cost | ⚠️ ต่ำกว่าเกณฑ์ใหม่ (ARR +19%) | [GWRE.md](GWRE.md) |
 
 ## Sold (archived — reference only)

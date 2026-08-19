@@ -32,12 +32,12 @@
 
 ---
 
-## 🔮 Today's Prediction (2026-08-18 อังคาร, intraday update)
+## 🔮 Today's Prediction (2026-08-19 พุธ, intraday update)
 - **GWRE จะยืนเหนือ $175 ต่อเนื่อง** — ทะลุ TP1 $172.42 ไปแล้ว +3.3% แตะ $178.17 ไม่มีข่าวลบ มี analyst upgrade ต่อเนื่อง (Piper OW, Stifel Buy)
 - **AVGO จะแกว่งลบต่อในกรอบแคบจาก VMware CVE headline risk** แต่ไม่หลุด kill buffer (ยังห่าง +27%)
 - **ตลาดรวมจะยังอ่อนตัวต่อ** ถ้า oil/yields ไม่ผ่อนคลาย ก่อน retail earnings ใหญ่สัปดาห์นี้
 
-**Prediction Review (จาก เช้า 2026-08-18):**
+**Prediction Review (จาก เช้า 2026-08-19):**
 - ❌ **"GWRE จะแกว่งแคบใกล้ TP1"** ผิด — ราคาวิ่งทะลุ TP1 ไปไกลกว่าคาดมาก (+3.3% เหนือ TP1, แตะ $178.17) แรงกว่า momentum ปกติ
 - ❌ **"AS ตอบสนองบวกแบบจำกัด"** ไม่ตรงประเด็นวันนี้ (ไม่มีข้อมูลอัปเดตราคา AS ระหว่างวัน)
 - 🟡 **"ตลาดรวมจะยังอ่อนตัวต่อ"** ถูกทิศทาง — S&P -0.44%, NASDAQ -1.02%, VIX +3.55% ตามคาด จาก yields+geopolitics+oil
@@ -46,7 +46,7 @@
 
 ## Holdings
 
-> อัปเดต Aug 18, 2026 (อังคาร — ช่วงบ่าย, intraday) | Total holdings (3 ตัว): **$379.34** | Unrealized P&L: **+$104.55 (+38.05%)** + Realized (GWRE trim): **+$19.07** + Cash Reserve **$220.89**
+> อัปเดต Aug 19, 2026 (พุธ — ช่วงบ่าย, intraday) | Total holdings (3 ตัว): **$379.34** | Unrealized P&L: **+$104.55 (+38.05%)** + Realized (GWRE trim): **+$19.07** + Cash Reserve **$220.89**
 > ✅ **GWRE trim 30% executed** — ขาย $50.90 (0.2953978 shares) @ $172.31 — Realized gain +$19.07 (+59.90%) เหลือถือ 0.7046022 shares — trim ตามแผนที่ user ตัดสินใจไว้ล่วงหน้า (ตั้งจุด $175 ราคาทะลุไปแล้วก่อน execute)
 > AVGO ร่วง $379.46 (-3.31%) จาก market-wide selloff + VMware vCenter CVE-2026-59310 ถูกโจมตีจริง 47 ประเทศ (⚠️ ไม่ใช่ Kill trigger), PLTR ขยับขึ้นเล็กน้อย $174.28 (+1.00%) ไม่มีข่าวเฉพาะตัว
 > 💰 SPCX ขายแล้ว Jun 17 @ $191.38 | Realized gain: **+$20.94 (+12.29%)**
@@ -61,7 +61,7 @@
 
 | Ticker | Shares | Buy Price | มูลค่า | P&L % | P&L USD | ราคาปัจจุบัน | Kill Buffer |
 |--------|--------|-----------|--------|--------|---------|--------------|------------|
-| GWRE | 0.7046022 (trim 30% executed) | $107.76 | **$125.25** | **+64.96% ✅** | +$49.32 | $177.76 | Kill $86.21 (+106.2% ✅, -20%) ✅ Trim 30% ($50.90 @ $172.31) executed 2026-08-18 — เหลือถือ 70% ของ position เดิม |
+| GWRE | 0.7046022 (trim 30% executed) | $107.76 | **$125.25** | **+64.96% ✅** | +$49.32 | $177.76 | Kill $86.21 (+106.2% ✅, -20%) ✅ Trim 30% ($50.90 @ $172.31) executed 2026-08-19 — เหลือถือ 70% ของ position เดิม |
 | PLTR | 1.0000000 | $118.00 | **$171.54** | **+45.37% ✅** | +$53.54 | $171.54 | Kill $94.40 (+81.7% ✅, -20%) 🟢 -0.59% แกว่งตามตลาด ไม่มีข่าวลบเฉพาะตัว |
 | AVGO | 0.2172321 | $372.21 (avg) | **$82.55** | **+2.09% ✅** | +$1.69 | $380.00 | Kill $297.77 (+27.6% ✅, -20%) ⚠️ ยังลบ -3.17% จาก selloff + VMware CVE-2026-59310 (ไม่ใช่ Kill trigger, ไม่มีพัฒนาการใหม่) |
 | ~~V~~ | ~~0.2287306~~ | ~~$323.00~~ | ✅ **ขายแล้ว Aug 17** @ $362.84 | Realized +$9.11 (+12.33%) | — | — | — |
@@ -73,7 +73,7 @@
 
 ## 💵 Cash Reserve
 
-> **$220.89** — dry powder จากขาย SPGI (Jul 14) + V (Aug 17, +$82.99) + GWRE trim 30% (Aug 18, +$50.90) | ถอนออกใช้ส่วนตัว $70 เมื่อ Aug 3, 2026
+> **$220.89** — dry powder จากขาย SPGI (Jul 14) + V (Aug 17, +$82.99) + GWRE trim 30% (Aug 19, +$50.90) | ถอนออกใช้ส่วนตัว $70 เมื่อ Aug 3, 2026
 > **กฎ:** ห้ามเติม Holdings เดิมเพียงเพราะ "อยากเติมผู้ชนะ" — ใช้เงินก้อนนี้ได้เฉพาะเมื่อเข้าเงื่อนไขใดเงื่อนไขหนึ่งจริงๆ เท่านั้น:
 > 1. **Size Up** — Holding ตัวใดตัวหนึ่งราคาลง **≥8%** จากราคาซื้อ + thesis ✅ + kill buffer >10% (ตอนนี้ไม่มีตัวไหนเข้าเกณฑ์ — ทุกตัวยังบวกอยู่)
 > 2. **Entry Zone** — Watchlist ตัวใดตัวหนึ่งราคาลงเข้า entry zone จริง (ตอนนี้ไม่มีตัวไหนเข้าเกณฑ์ — ดู Watchlist table ด้านล่าง)
@@ -113,7 +113,7 @@
 ### รายละเอียดต่อตัว
 
 **GWRE** — Growth / SaaS Transition Play
-- ✅ **2026-08-18: Trim 30% executed** — ขาย $50.90 (0.2953978 shares) @ $172.31, Realized gain +$19.07 (+59.90%) — ตามแผนที่ user ตัดสินใจไว้ล่วงหน้าที่จุด $175 (ราคาทะลุไปถึง $178.17 ก่อน execute จริงที่ $172.31) — เหลือถือ 0.7046022 shares (70% ของ position เดิม) — thesis ไม่เปลี่ยน ยังถือต่อรอ TP2
+- ✅ **2026-08-19: Trim 30% executed** — ขาย $50.90 (0.2953978 shares) @ $172.31, Realized gain +$19.07 (+59.90%) — ตามแผนที่ user ตัดสินใจไว้ล่วงหน้าที่จุด $175 (ราคาทะลุไปถึง $178.17 ก่อน execute จริงที่ $172.31) — เหลือถือ 0.7046022 shares (70% ของ position เดิม) — thesis ไม่เปลี่ยน ยังถือต่อรอ TP2
 - 🔧 **TP1 ปรับขึ้นเป็น $172.42 (+60%, manual โดย user 2026-08-07)** — เดิม $161.64 (+50%) แต่ราคาทะลุไปแตะ $167.64 แล้วก่อนจะปรับ (thesis ยังแข็งแรง kill buffer +94.5%, มี catalyst ใหม่ "Qusar" AI framework) — ยกเลิกสัญญาณ trim เดิม ให้หุ้นมีที่วิ่งต่อ
 - 🎯 **2026-08-10: ราคาทะลุ TP1 ใหม่อีกครั้ง** ($173.09 vs TP1 $172.42, +0.4%) — thesis ยังไม่เปลี่ยน (ไม่มีข่าว/earnings ใหม่) แค่ momentum ต่อเนื่อง — รอ user ตัดสินใจว่าจะ trim 30% ตามกฎเดิม/ปรับ TP1 ขึ้นอีกรอบ/ถือเฉยๆ
 - 📉 **2026-08-12 ค่ำ: ราคาหลุดกลับต่ำกว่า TP1 เล็กน้อย** ($172.27, -0.09% ใต้ TP1) หลังยืนเหนือมา 2 วัน — ไม่มีข่าวลบ (Piper Sandler เพิ่ง initiate Overweight $210 PT เมื่อต้นเดือน) เป็น noise รอบเส้นราคา ไม่ใช่สัญญาณ thesis พัง
@@ -202,7 +202,7 @@
 
 | Ticker | เหตุผลที่สนใจ | ราคาที่จะซื้อ | ราคาล่าสุด | Next Review |
 |--------|--------------|--------------|-----------|-------------|
-| **CVX** | Narrow Moat (Scale Economies + Cornered Resource — Permian/Stabroek Block Guyana ผ่านดีล Hess) — Watch (Provisional) — Layer 1 ผ่านครบ, Layer 2 แค่ 2/5 confirmed ไม่มี ❌ confirmed (growth +51% YoY ส่วนใหญ่มาจาก M&A+ราคาน้ำมัน ไม่ใช่ organic, moat แค่ Narrow) — Berkshire (Buffett) ถือ 4.2% แต่ลดสถานะ ~35% ใน Q1 2026 — thesis ผิดถ้า Brent ร่วงต่ำกว่า $60/bbl ต่อเนื่องหลายไตรมาส — /brief 2026-08-18 (Market Scan) | รอ valuation บรรจบ (MS $192 Fair vs GF ~$162 Expensive) หรือ growth พิสูจน์ organic | **$204.57** (Aug 18) | stale 2026-09-15 |
+| **CVX** | Narrow Moat (Scale Economies + Cornered Resource — Permian/Stabroek Block Guyana ผ่านดีล Hess) — Watch (Provisional) — Layer 1 ผ่านครบ, Layer 2 แค่ 2/5 confirmed ไม่มี ❌ confirmed (growth +51% YoY ส่วนใหญ่มาจาก M&A+ราคาน้ำมัน ไม่ใช่ organic, moat แค่ Narrow) — Berkshire (Buffett) ถือ 4.2% แต่ลดสถานะ ~35% ใน Q1 2026 — thesis ผิดถ้า Brent ร่วงต่ำกว่า $60/bbl ต่อเนื่องหลายไตรมาส — /brief 2026-08-19 (Market Scan) | รอ valuation บรรจบ (MS $192 Fair vs GF ~$162 Expensive) หรือ growth พิสูจน์ organic | **$204.57** (Aug 19) | stale 2026-09-16 |
 | SYK | Wide Moat + GF discount ~22% — Watch (Q2 2026 earnings ออกแล้ว 30 ก.ค.: EPS $3.69 beat est. $3.52 แต่ revenue $6.589B พลาดคาด $6.646B เล็กน้อย, sales +9.4% YoY — ยืนยันภาพเดิมชัดเจน growth structural ~9-11% YoY ไม่ผ่าน ≥30% ไม่ใช่ weakness ชั่วคราว แต่เป็น nature ของ medical device, หุ้นร่วงแม้ beat EPS) — thesis ผิดถ้า J&J VELYS/competitor ใหม่ break Mako flywheel + hospital switching cost — /brief 2026-07-26 | รอ pullback < $295 | **$330.25** (Jul 26) | stale 2026-08-27 |
 | COST | Membership model + pricing power — Watch (growth structural ~11% YoY ไม่ผ่าน ≥30%, P/E 47x แพงเกินกับ growth rate จริง) — Quality world-class แต่ไม่ตรง growth style ปัจจุบัน — thesis ผิดถ้า membership renewal rate < 85% สองไตรมาสติด — /brief 2026-07-26 | รอ correction ลึก หรือรอ reevaluate growth style | **$935.03** (Jul 26) | stale 2026-08-23 |
 | LLY | Wide Moat (intangible assets GLP-1 pipeline) — Watch (🔴 Expensive — Morningstar FV $650 vs $1,196 = premium +84%; Compounder 5/5 แต่ราคาสะท้อน perfect execution ล่วงหน้าแล้ว) — thesis ผิดถ้า oral GLP-1 คู่แข่ง (Novo/Pfizer) + IRA กดราคา tirzepatide พร้อมกัน — /brief 2026-07-26 | รอ correction เข้า $900-1,000 (Morningstar FV zone) | **$1,196.03** (Jul 26) | stale 2026-08-23 |
