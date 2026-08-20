@@ -32,25 +32,23 @@
 
 ---
 
-## 🔮 Today's Prediction (2026-08-19 พุธ, evening update)
-- **GWRE จะยืนเหนือ momentum earnings ต่อ** — Q3 FY26 beat + ยกเป้า guidance ($1.448B) analyst จะปรับ price target ขึ้นตาม
-- **AVGO จะแกว่งลบต่อในกรอบแคบจนกว่า AI-financing/VMware concern จะคลี่คลาย** แต่ไม่หลุด kill buffer (ยังห่าง +21.5%)
-- **ตลาดรวมจะยังบวกต่อ** ถ้า Treasury buyback + tariff pause ยังหนุน sentiment
+## 🔮 Today's Prediction (2026-08-20 พฤหัสฯ)
+- **AVGO จะยังกดดันต่อจากข่าว Marvell-Google** จนกว่าจะมีข้อมูลชัดว่ากระทบ AVGO's Google business จริงแค่ไหน
+- **ADI จะได้ analyst upgrade ตามหลัง earnings beat** (Q3 FY26 revenue $4.02B +40% YoY, first $4B quarter)
+- **ตลาดรวมจะแกว่งแคบต่อ** ยields เริ่มนิ่งจาก Treasury buyback
 
-**Prediction Review (จาก บ่าย 2026-08-19):**
-- ✅ **"ตลาดรวมจะยังอ่อนตัวต่อ"** ผิดทิศทาง — พลิกบวกแทนจาก Treasury buyback ประกาศ + Trump พัก tariff แคนาดา ไม่ได้ทำนายไว้
-- ✅ **"AVGO จะแกว่งลบต่อในกรอบแคบ"** ถูกทิศทางแต่แรงกว่าคาด (-4.74% ไม่ใช่แค่แกว่งแคบ) จาก BofA financing concern ใหม่ที่ไม่ได้ทำนายไว้
-- ❌ **"GWRE จะยืนเหนือ $175 ต่อเนื่อง"** ถูกทิศทางแต่เหตุผลเปลี่ยน — ไม่ใช่แค่ momentum แต่มี Q3 FY26 earnings beat จริงมาหนุน
+**Prediction Review (จาก เย็น 2026-08-19):**
+- ✅ **"ตลาดรวมจะยังบวกต่อ"** ถูกทิศทาง — S&P +0.21%, NASDAQ +0.16% ต่อเนื่องจาก Treasury buyback sentiment
+- ❌ **"AVGO จะแกว่งลบต่อในกรอบแคบ"** ผิด — ร่วงแรงกว่าคาดมาก (-4.61%) จากข่าว Marvell-Google deal ที่ไม่ได้ทำนายไว้ ไม่ใช่แค่แกว่งแคบ
+- ✅ **"GWRE จะยืนเหนือ momentum earnings ต่อ"** ถูกต้อง — ยังบวกต่อ +1.92% แม้ไม่มีข่าวใหม่
 
 ---
 
 ## Holdings
 
-> อัปเดต Aug 19, 2026 (พุธ — ช่วงเย็น, intraday) | Total holdings (3 ตัว): **$382.19** | Unrealized P&L: **+$107.41 (+39.09%)** + Realized (GWRE trim): **+$19.07** + Cash Reserve **$220.89**
-> 🎉 **GWRE Q3 FY26 earnings ออกวันนี้** — ARR +19% YoY, ยกเป้า full-year revenue เป็น $1.448B — ราคา +4.20% แตะ $185.23
-> ⚠️ **AVGO ร่วงต่อเนื่องวันที่ 3** — วันนี้ -4.74% จาก BofA เตือน AI-financing backstop liability concern ($370B model) ซ้อน VMware CVE เดิม — P&L พลิกลบครั้งแรก (-2.78%)
-> ✅ **GWRE trim 30% executed** — ขาย $50.90 (0.2953978 shares) @ $172.31 — Realized gain +$19.07 (+59.90%) เหลือถือ 0.7046022 shares — trim ตามแผนที่ user ตัดสินใจไว้ล่วงหน้า (ตั้งจุด $175 ราคาทะลุไปแล้วก่อน execute)
-> AVGO ร่วง $379.46 (-3.31%) จาก market-wide selloff + VMware vCenter CVE-2026-59310 ถูกโจมตีจริง 47 ประเทศ (⚠️ ไม่ใช่ Kill trigger), PLTR ขยับขึ้นเล็กน้อย $174.28 (+1.00%) ไม่มีข่าวเฉพาะตัว
+> อัปเดต Aug 20, 2026 (พฤหัสฯ, intraday) | Total holdings (3 ตัว): **$381.59** | Unrealized P&L: **+$106.81 (+38.87%)** + Realized (GWRE trim): **+$19.07** + Cash Reserve **$220.89**
+> 🚨 **AVGO ร่วงต่อเนื่องวันที่ 4** — วันนี้ -4.61% จากข่าว Marvell-Google ขยายดีล custom chip ($12.2B warrant ผูก procurement ถึง FY2033) — ตรงกับความเสี่ยง Google TPU diversification ที่เคย flag ไว้ (Macquarie 7/27) — thesis อ่อนลง (⚠️ Weakened) ยังไม่ Kill (buffer +21.7%)
+> GWRE/PLTR ยังบวกต่อเนื่อง (+1.92%/+2.13%) ไม่มีข่าวเฉพาะตัวใหม่ | GWRE trim 30% executed Aug 19 @ $172.31, Realized +$19.07
 > 💰 SPCX ขายแล้ว Jun 17 @ $191.38 | Realized gain: **+$20.94 (+12.29%)**
 > 💸 CME ขายแล้ว Jun 23 @ $246.22 | Realized loss: **-$5.29 (-15.14%)**
 > 💸 MDLZ ขายแล้ว Jun 28 @ $60.75 | Realized gain: **+$0.88 (+0.78%)**
@@ -63,9 +61,9 @@
 
 | Ticker | Shares | Buy Price | มูลค่า | P&L % | P&L USD | ราคาปัจจุบัน | Kill Buffer |
 |--------|--------|-----------|--------|--------|---------|--------------|------------|
-| GWRE | 0.7046022 (trim 30% executed) | $107.76 | **$130.51** | **+71.89% ✅** | +$54.58 | $185.23 | Kill $86.21 (+114.9% ✅, -20%) 🎉 Q3 FY26 earnings beat วันนี้ (ARR +19%, ยกเป้า guidance) +4.20% |
-| PLTR | 1.0000000 | $118.00 | **$173.08** | **+46.68% ✅** | +$55.08 | $173.08 | Kill $94.40 (+83.3% ✅, -20%) 🟢 +0.90% แกว่งตามตลาด ไม่มีข่าวลบเฉพาะตัว |
-| AVGO | 0.2172321 | $372.21 (avg) | **$78.60** | **-2.78% ⚠️** | -$2.25 | $361.85 | Kill $297.77 (+21.5% ✅, -20%) 🚨 ร่วงต่อเนื่องวันที่ 3 (-4.74% วันนี้) จาก BofA AI-financing concern + VMware CVE — P&L พลิกลบครั้งแรก |
+| GWRE | 0.7046022 (trim 30% executed) | $107.76 | **$127.66** | **+68.13% ✅** | +$51.73 | $181.18 | Kill $86.21 (+110.2% ✅, -20%) ✅ +1.92% ยืนเหนือ momentum จาก Q3 FY26 earnings |
+| PLTR | 1.0000000 | $118.00 | **$175.19** | **+48.47% ✅** | +$57.19 | $175.19 | Kill $94.40 (+85.6% ✅, -20%) 🟢 +2.13% แกว่งตามตลาด ไม่มีข่าวลบเฉพาะตัว |
+| AVGO | 0.2172321 | $372.21 (avg) | **$78.74** | **-2.61% ⚠️** | -$2.11 | $362.48 | Kill $297.77 (+21.7% ✅, -20%) 🚨 ร่วงวันที่ 4 ติด (-4.61%) จากดีล Marvell-Google — thesis ⚠️ Weakened, ไม่ Kill |
 | ~~V~~ | ~~0.2287306~~ | ~~$323.00~~ | ✅ **ขายแล้ว Aug 17** @ $362.84 | Realized +$9.11 (+12.33%) | — | — | — |
 | ~~SPGI~~ | ~~0.1816941~~ | ~~$391.47*~~ | ✅ **ขายแล้ว Jul 14** @ $435.934 | Realized +$8.08 (+11.35%) | — | — | — |
 
