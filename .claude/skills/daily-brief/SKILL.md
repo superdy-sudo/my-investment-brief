@@ -54,7 +54,7 @@ WebSearch ใช้ได้เฉพาะ: ค้นข่าว/catalyst เ�
 |----------|------|
 | (ไม่มี) | Full Brief |
 | `close` | Close Brief — สรุปปลายวัน |
-| `topup [จำนวน]` | Top-up — แนะนำซื้อตัวไหน |
+| `topup [จำนวน]` | Top-up — แนะนำซื้อตัวไหน (breakdown เต็ม) — **หมายเหตุ (2026-08-21): Full Brief รัน check นี้อัตโนมัติแล้วด้วย Cash Reserve เต็มก้อนทุกครั้ง (ดูข้อ 3d) โหมดนี้ยังมีไว้ใช้เวลาอยากดู breakdown เต็มหรือจะทดลองจำนวนอื่น** |
 | `TICKER,...` | Spot Brief — วิเคราะห์ตัวที่ระบุ |
 
 ---
@@ -217,6 +217,18 @@ Section ถาวรทุก Full Brief — สรุป 1 บรรทัด/t
 
 **Save:** อัปเดต `showcase/briefs.html` ด้วย — มี section ถาวร `<!-- WATCHLIST_STATUS_START -->`/`<!-- WATCHLIST_STATUS_END -->` อยู่บนสุดของหน้า (เหนือ day-log ที่เรียงตามวันที่) เป็นตารางเดียวที่ **แทนที่ทั้งหมด** ทุกครั้งที่รัน Full Brief (ไม่ใช่ log สะสมแบบ day-section ด้านล่าง — table นี้คือ current status เท่านั้น ไม่ต้องเก็บประวัติ)
 
+### 3d. Top-up Check (auto, 2026-08-21) — รันทุกครั้งที่มี Cash Reserve >0
+
+**เหตุผล:** เดิม Top-up Mode ต้องพิมพ์ `/daily-brief topup [จำนวน]` แยกต่างหากเท่านั้น ทำให้ user ต้องจำไปเช็คเงินสดเองว่าควรเอาไปทำอะไร — ย้าย logic เดิมของ Top-up Mode มารันอัตโนมัติทุกครั้งที่ทำ Full Brief แทน (ไม่ต้องรอ user สั่ง)
+
+**เงื่อนไข:** ถ้า Cash Reserve ใน portfolio.md > $0 → รัน logic เดียวกับ [Top-up Mode](#top-up-mode-daily-brief-topup-จำนวน) ทั้งหมด (ข้อ 1-4) โดยใช้ **จำนวนเงิน = Cash Reserve ปัจจุบันเต็มก้อน** เป็น input (ไม่ต้อง fetch ราคาซ้ำ — ใช้ราคาที่ fetch ไปแล้วตอน Top Pick/Watchlist Next Review Check ในขั้นตอน 1) — ถ้า Cash Reserve = $0 ข้ามขั้นนี้ทั้งหมด ไม่ต้องเขียนอะไร
+
+**ผลลัพธ์ที่ได้ใส่ในสรุป Chat** (ดูตำแหน่งในขั้นตอน 4) เป็นบรรทัดเดียวสั้นๆ ไม่ใช่ block เต็มแบบ Top-up Mode แยก:
+```
+💰 Top-up Check ($[Cash Reserve]): [TICKER — เหตุผล 1 ประโยค + Action %] หรือ "ไม่มีตัวเข้าเกณฑ์วันนี้ — ถือเงินสดรอ"
+```
+ถ้า user อยากดู breakdown เต็มแบบ Top-up Mode (หลาย ticker พร้อมเหตุผลยาว) ให้แนะนำให้พิมพ์ `/daily-brief topup [จำนวน]` เพิ่มเพื่อดูรายละเอียด — ไม่ต้อง expand เต็มในนี้ (กัน chat ยาวเกิน token target)
+
 ### 4. สรุปใน Chat
 
 ```
@@ -234,6 +246,8 @@ Section ถาวรทุก Full Brief — สรุป 1 บรรทัด/t
    ❓ ผิดได้ถ้า: [เหตุผลอันดับ 1]
 
 💰 Funding Source: [TICKER — เงื่อนไขที่ผ่าน/ยังขาด] หรือ "ไม่มี"
+
+💰 Top-up Check ($[Cash Reserve]): [TICKER — เหตุผล 1 ประโยค + Action %] หรือ "ไม่มีตัวเข้าเกณฑ์วันนี้ — ถือเงินสดรอ" (ข้ามบรรทัดนี้ถ้า Cash Reserve = $0)
 
 📋 Watchlist รออะไรบ้าง (X ตัว):
    TICKER   $XXX | รอ: [catalyst 1 บรรทัด] | Next: [earnings/stale date]
