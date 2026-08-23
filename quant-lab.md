@@ -29,7 +29,28 @@
 
 ## 📝 Log การทดลอง
 
-*(ยังไม่มี entry — เพิ่มทีละรายการเมื่อทดสอบจริง ตาม template ด้านล่าง)*
+### [2026-08-23] — EPD vs ET (2 ปีย้อนหลัง, daily adjusted close, N=501)
+
+- **Price level correlation:** 0.9121 (สูงมาก)
+- **Daily return correlation:** 0.6549 (ปานกลาง — ต่ำกว่า price correlation ตามคาด เพราะ level correlation มักถูก inflate จาก trend ร่วมของทั้ง sector)
+- **Cointegration (Engle-Granger test):** test statistic -1.95, **p-value 0.5522** ❌ — ไม่ผ่าน (ต้อง p<0.05 ถึงจะสรุปว่า cointegrated) critical values ที่ 1%/5%/10% คือ -3.92/-3.35/-3.05 ห่างจาก test statistic มาก
+- **Hedge ratio (OLS, EPD = a + b·ET):** b=2.0456, a=-3.2122, R²=0.8319
+- **Spread stationarity (ADF test บน spread):** ADF stat -1.95, **p-value 0.3088** ❌ — residual spread ไม่ stationary ยืนยันผล cointegration ข้างต้น
+- **Spread ปัจจุบัน:** -5.3364 (เทียบ full-sample mean -3.2122, std 1.5893) → Z-score เต็มช่วง = -1.34
+- **Rolling window (ดูว่า spread หลุด mean ระยะสั้นแค่ไหน):**
+  | Window | Mean | Std | Current Z |
+  |---|---|---|---|
+  | 6mo | -2.05 | 1.12 | **-2.94** |
+  | 3mo | -2.77 | 1.04 | **-2.48** |
+  | 1mo | -3.79 | 0.99 | -1.56 |
+
+**สรุป: ⚪ ไม่ผ่านเกณฑ์ cointegration — ยังไม่ควรเทรดเป็น pair แม้ correlation จะดูสูง**
+
+เหตุผล: นี่คือเคสคลาสสิกที่ ดร.พศิน เตือนไว้พอดี — correlation 0.91 (price level) ดูสวยมาก แต่พอทดสอบ cointegration จริงด้วย Engle-Granger กลับไม่ผ่าน (p=0.55, ควรน้อยกว่า 0.05) ADF บน spread residual ก็ยืนยันว่า spread**ไม่ใช่ stationary process** — แปลว่าไม่มีหลักฐานทางสถิติว่า spread ระหว่าง EPD-ET จะ "กลับเข้าหา mean" จริง มันอาจแค่ trend ไปเรื่อยๆ ตาม sector fundamentals ที่ต่างกันทีละนิด (leverage, capital allocation quality ที่ /brief เจอว่าต่างกันจริง — ET มี "Poor" capital allocation rating จาก Morningstar ส่วน EPD ไม่มีปัญหานี้)
+
+แม้ Z-score ระยะสั้น (6mo: -2.94, 3mo: -2.48) จะดูเหมือน "หลุด mean ไปไกลมาก น่าจะกลับ" — **ถ้าไม่มี cointegration รองรับ การเทรดตาม Z-score แบบนี้คือการเดิมพันว่ามันจะกลับ ไม่ใช่มี anchor ทางสถิติจริง** ตรงกับกฎที่ตั้งไว้ในไฟล์นี้พอดี (cointegration แตก/ไม่ผ่าน = ไม่เทรด ไม่ใช่แค่ตอน position เปิดอยู่แล้วเท่านั้น)
+
+**ถ้าอยากลองต่อ:** อาจต้องหา pair ที่ business model เหมือนกันกว่านี้ (เช่น pure-play pipeline ที่ leverage/quality ใกล้กันจริงๆ ไม่ใช่แค่ sector เดียวกัน) หรือลอง window สั้นลง (1 ปี) เผื่อ regime เปลี่ยนในช่วงกลางของ 2-year sample ทำให้ full-period test ไม่ผ่านทั้งที่ sub-period อาจ cointegrated — ยังไม่ได้ทดสอบ
 
 ### Template
 ```
