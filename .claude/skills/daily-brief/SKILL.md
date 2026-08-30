@@ -133,6 +133,40 @@ Filter ที่ใช้: `cap_midover` (mkt cap ≥$2B กันหุ้น�
 
 **ข้อควรระวัง:** query แบบนี้กว้างกว่า Finviz มาก มีโอกาสได้ผลลัพธ์ที่ noise สูง (ข่าว PR เกินจริง, หุ้นเล็กที่ปั่นราคา) — ถ้าหาไม่เจอชื่อที่น่าเชื่อถือจริงๆ (mkt cap ≥$2B, มีแหล่งข่าวมากกว่า 1 แหล่งยืนยัน) ให้เขียนว่า "ไม่พบ catalyst candidate ที่น่าเชื่อถือวันนี้" ไม่ต้องฝืนหา
 
+---
+
+### 🧪 Catalyst Scan v2 — "Pre-Consensus Signal Scan" (2026-08-30, ทดลอง — รันคู่กับ Catalyst Scan เดิมข้างบน ไม่ใช่แทนที่)
+
+**เหตุผลที่เพิ่ม:** ย้อนดู win ใหญ่สุด 2 ตัวของพอร์ต (GWRE +91%, PLTR +58%) พบว่าทั้งคู่ซื้อ**ก่อน**ตลาดรู้ตัวเต็มที่ ไม่ใช่หลังงบยืนยันแล้วค่อยไล่ซื้อ — Catalyst Scan เดิม (ข้างบน) ยัง surface แต่ mega-cap ที่ราคาสะท้อนข่าวไปแล้ว (เช่น Boeing/Lockheed/IBM ที่เจอวัน 2026-08-30) เพราะ query กว้างเกินไปและไม่กรอง market cap ใหญ่ออก — v2 นี้เจาะจงหา "สัญญาณก่อน consensus" แบบที่ Chris Camillo เรียกว่า Social Arbitrage (ดู [[youtube-digests/longtoon-diary.md]] คลิป "ส่องมุมมองคนดังวงการลงทุน")
+
+**รันหลัง Catalyst Scan เดิมเสมอ เป็น 3 sub-scan:**
+
+**A) Insider Buying Scan** (สัญญาณแรงสุด — เงินจริงของคนใน ไม่ใช่แค่คำพูด):
+```
+"insider buying" OR "insider purchase" "open market" stock [เดือน ปีปัจจุบัน]
+```
+ต่างจาก insider **selling** (ที่มี materiality filter กรองอยู่แล้วในกฎ `/brief` เพราะส่วนใหญ่เป็น routine 10b5-1) — insider **buying** แบบ open-market (ไม่ใช่ option exercise) หายากกว่ามากและเป็นสัญญาณบวกที่จริงใจกว่า เกณฑ์กรอง: ผู้บริหาร ≥2 คนซื้อในช่วงใกล้กัน + มูลค่าซื้อมีนัยสำคัญเทียบราคาหุ้น (ไม่ใช่ token buy สัญลักษณ์)
+
+**B) Product/Launch Momentum Scan** (แนว Social Arbitrage — จับ product-market-fit ก่อน revenue สะท้อน):
+```
+"sold out" OR "waitlist" OR "record demand" new product [เดือน ปีปัจจุบัน]
+"going viral" OR "trending" app OR product stock [เดือน ปีปัจจุบัน]
+```
+
+**C) Early Partnership Scan** (ใช้ query เดิมจาก Catalyst Scan ข้างบน แต่เพิ่ม filter):
+ใช้ผลลัพธ์เดิมจากขั้นตอนก่อนหน้า แต่**ตัด ticker ที่ market cap >$50B ออก** (เช่น Boeing/Lockheed/IBM) เพราะชื่อใหญ่ขนาดนี้ราคาสะท้อนข่าวเร็วมากอยู่แล้ว ไม่มี edge เหลือให้เรา — เก็บเฉพาะ sub-$20B ที่ตลาดยังตามไม่ทัน
+
+**หลังได้ candidates จากทั้ง 3 sub-scan:** ตัด Holdings/Watchlist/เคย Avoid ออกเหมือนเดิม ที่เหลือคือ **Pre-Consensus Candidates** — แสดงแยก section จาก Market Scan/Catalyst Scan เดิมเสมอ (ระบุกำกับว่ามาจาก sub-scan ไหน A/B/C) โชว์สูงสุด 3 ตัว
+
+**🔑 กฎเชื่อมกับการตัดสินใจจริง (ต่างจาก Catalyst Scan เดิมตรงนี้):** ถ้า ticker มาจาก sub-scan A หรือ B (ไม่ใช่ C) แล้วรัน `/brief` พบว่า Layer 2 ข้อ growth ยังไม่ผ่าน 4/5 **เพราะตัวเลขยังไม่ทันสะท้อน catalyst** (ไม่ใช่เพราะธุรกิจแย่จริง — ต้องมีเหตุผลชัดเจนรองรับ) → **อนุญาตให้เป็น Starter Position (Provisional) ได้แม้ Layer 2 แค่ 3/5** (ผ่อนจากกฎเดิมที่ต้อง ≥4/5) — เพราะ pattern นี้คือสิ่งที่ scan ใหม่ตั้งใจจะจับตั้งแต่ก่อนตัวเลขยืนยัน ไม่ใช่หลัง
+
+**⚠️ Trade-off ที่ต้องรู้ (บันทึกไว้ตั้งแต่ช่วงทดลอง):**
+- Insider buying + product momentum หาผ่าน WebSearch ธรรมดา **noise สูงกว่า Finviz screener เดิมมาก** (ไม่มี structured data feed ฟรีที่เชื่อถือได้ 100%)
+- เป็นสาย **speculative สูงกว่า** Market Scan เดิมชัดเจน — Starter Position ที่เข้าทางกฎนี้ควรพิจารณา size เล็กกว่าปกติ (แนวคิด barbell sleeve — ส่วนใหญ่ของพอร์ตยังอยู่ใน discipline เดิม กันเงินก้อนเล็กไว้สำหรับ high-conviction bet แบบนี้)
+- **ช่วงทดลอง:** ยังไม่ตัด Catalyst Scan เดิมออก รันคู่กันไปก่อนจนกว่าจะเห็นผลจริงว่า v2 หา candidate ที่มีคุณภาพกว่าไหม
+
+---
+
 ### 2. ตอบ 4 คำถามต่อ Holding ทุกตัว
 
 ```
@@ -274,6 +308,7 @@ Fact Check: [อะไร confirmed แล้ว / อะไรยัง unconfi
 Comment ระบบ: [thesis ตัวไหนเปลี่ยนหรือไม่ + ระบบควรทำอะไร] | Confidence XX% | Action: Do Nothing / [action เดียว]
 🆕 Market Scan: [TICKER1, TICKER2, ...] (ยังไม่ผ่าน /brief — รัน `/brief TICKER` ถ้าสนใจ) หรือ "ไม่มีตัวใหม่วันนี้"
 🆕 Catalyst Scan: [TICKER1 — catalyst สั้นๆ 1 บรรทัด, ...] (จากข่าว ไม่ใช่ growth screener — ยังไม่ผ่าน /brief) หรือ "ไม่พบ catalyst candidate ที่น่าเชื่อถือวันนี้"
+🧪 Pre-Consensus Scan (v2, ทดลอง): [TICKER1 — sub-scan A/B/C + สัญญาณสั้นๆ 1 บรรทัด, ...] (speculative สูงกว่า Catalyst Scan ปกติ — ยังไม่ผ่าน /brief) หรือ "ไม่พบสัญญาณ pre-consensus ที่น่าเชื่อถือวันนี้"
 
 🎯 สิ่งที่จะทำให้เปลี่ยนใจ
    • [trigger 1 — เช่น earnings/event ที่รอผล]
