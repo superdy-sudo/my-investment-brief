@@ -2,6 +2,18 @@
 
 > Digest log สำหรับช่อง YouTube "The Dam Investor" (Tier 5b ใน augustus.md) — ข้อมูลประกอบเท่านั้น ไม่ใช่ fact source ดูกฎการใช้ที่ `.claude/agents/augustus.md`
 
+## ~2026-08-26 — EP.33 DoorDash vs. Toast and Ghost Kitchen 2.0
+
+*(เกี่ยวกับ DASH ที่อยู่ใน Watchlist ของพอร์ตเรา — ข้อมูลประกอบเท่านั้น)*
+
+1. **บริบท:** เจ้าของช่อง revisit หุ้น DoorDash หลังราคาวิ่งขึ้นต่อเนื่อง เปรียบเทียบโมเดลธุรกิจกับ Toast (POS/ERP สำหรับร้านอาหาร) เพื่อชี้ว่าทั้งคู่มี moat คนละแบบแต่เสริมกันในระบบนิเวศร้านอาหาร
+2. **DoorDash = ฝั่ง Demand + Logistics:** เก่งเรื่อง consumer behavior analysis, โฆษณา, delivery routing — ครองตลาด delivery สหรัฐฯ ~60-70% จุดแข็งคือ **Network Effect** (ตรงกับที่เราวิเคราะห์ไว้ใน /brief DASH 2026-09-03)
+3. **Toast = ฝั่ง Supply (Operating System):** ทำหน้าที่เหมือน ERP ให้ร้านอาหาร (POS, inventory, labor, kitchen workflow) — จุดแข็งคือ **Switching Cost สูงมาก** เพราะฝังลึกใน operation รายวันของร้าน
+4. **Growth pattern ต่างกัน:** DoorDash โต GOV + DoorDash Pass subscription ต่อเนื่อง (sticky consumer habit) ส่วน Toast โตแบบ snowball จากจำนวนร้านที่เพิ่มเข้าระบบ (recurring revenue ผูกกับ seasonal cycle ของธุรกิจร้านอาหาร)
+5. **Ghost Kitchen 2.0 — 3 โมเดลใหม่ที่ร้านอาหารใช้ capacity เดิมสร้างรายได้เพิ่ม:** (1) It's Just Wings (Chili's virtual brand ช่วง pandemic — ภายหลังเจอปัญหาความซับซ้อน) (2) Denny's Burger Den/The Melt Down (ใช้ครัว/staff เดิมช่วง off-peak ทำ delivery-only brand ต้นทุนต่ำ) (3) Wow Bao (partnership model — Wow Bao ให้สูตร/มาร์เก็ตติ้ง ร้านเดิมทำอาหารเอง)
+6. **สรุปเจ้าของช่อง:** ทั้งสองบริษัทมีจุดแข็งต่างกันแต่จำเป็นต่อวงการอาหารยุคใหม่ทั้งคู่ มอง long-term viability ดี — ไม่ได้ฟันธง valuation หรือราคาเข้าซื้อเฉพาะเจาะจง
+🔗 https://www.youtube.com/watch?v=QV_9xIp07Dg
+
 ## 2026-08-06 — EP.32 PLTR Deepdive - Inside Palantir's Black box
 
 *(ดึงจาก yt-dlp auto-caption แทน YouTube Ask-Gemini เนื่องจากคลิปนี้มี ad-pod ยาวผิดปกติที่บล็อกปุ่ม Ask ไม่ให้ตอบสนอง — ความแม่นยำรองลงมาจาก Ask-Gemini เพราะเป็น auto-caption)*
