@@ -457,7 +457,7 @@ Comment ระบบ: [thesis ตัวไหนเปลี่ยนหรื�
 1. อ่าน portfolio.md (ไม่ต้อง search)
 2. Fetch ราคา Holdings + Top Pick ทั้งหมด
 3. คัดกรอง:
-   - Size Up: Holdings ลง ≥8% + thesis ✅ + kill buffer >10%
+   - Size Up (แก้ 2026-09-04 — fair-value-based แทน cost-basis): ราคาปัจจุบันอยู่ในหรือต่ำกว่า Entry Zone ตาม fair value ล่าสุด (MS/GuruFocus จาก /brief ล่าสุด) + thesis ✅ หรือ Improved + kill buffer >10% — ดูเหตุผลเต็มใน portfolio.md Cash Reserve section
    - เข้าใหม่: Watchlist ที่ราคาอยู่ใน entry zone **และ Layer 4 Action ล่าสุดจาก `/brief` ต้องเป็น 🟢 Buy เต็มรูปแบบเท่านั้น (2026-08-04)** — Starter Position/Watch/Provisional/มี Second Opinion flag ค้าง **ไม่นับเป็นตัวเลือก "เข้าใหม่" อีกต่อไป** ต่อให้ราคาจะอยู่ใน entry zone ก็ตาม — **เช็ค Holdings Cap ≤5 ตัวก่อนเสมอ** นับจำนวน ticker ใน Holdings table ปัจจุบัน ถ้าเต็ม 5 แล้ว → ห้ามแนะนำ "เข้าใหม่" เว้นแต่ตัวใหม่เป็น Buy เต็มรูปแบบและ conviction สูงกว่าตัวที่แย่สุดใน 5 ตัวเดิมชัดเจน (ถ้าเข้าเงื่อนไขนี้ ให้ระบุด้วยว่าแนะนำสลับตัวไหนออก) — ถ้าไม่มีตัวไหนเป็น Buy เต็มรูปแบบเลย → เอนไปทาง Size Up ตัวเดิม (ที่ยัง Buy/Starter thesis ✅) หรือถือเงินสดรอ ไม่ต้องฝืนหาตัวเข้าใหม่
 4. **Concentration Risk Check** (เฉพาะ Size Up ของ ticker ที่ถืออยู่แล้ว) — คำนวณ % ของพอร์ตรวมที่ ticker นั้นจะกลายเป็นหลัง top-up นี้ ถ้าเกิน 40% ให้เติม "⚠️ Concentration สูง — จะเป็น ~X% ของพอร์ต" ต่อท้ายคำแนะนำ (ไม่ใช่ Avoid อัตโนมัติ แค่เตือน เพราะ style นี้ยอมรับ concentration สูง)
 5. ตอบ:
