@@ -68,8 +68,9 @@
 
 ## Holdings
 
-> อัปเดต Sep 4, 2026 (ศุกร์) | Total holdings (3 ตัว): **$403.05** | Unrealized P&L: **+$128.27 (+46.68%)** + Realized (GWRE trim): **+$19.07** + Cash Reserve **$220.89**
-> **ฟื้นตัวแรงจาก SaaSpocalypse เมื่อวาน:** GWRE +5.24% (Goldman Sachs initiate Buy $210 PT + S&P MidCap 400 inclusion เพิ่ม demand จาก index fund), PLTR +7.71% (ขยาย PwC partnership ช่วยหักล้างความกังวล Google เข้าตลาด AI defense ที่กดราคาวันก่อน) | 🎉 **AVGO รายงาน Q3 FY2026 earnings — record revenue $29.6B +86% YoY, AI semi +221% YoY** แต่ราคาลง -2.75% (sell-the-news, Q4 guide ต่ำกว่าคาดเล็กน้อยแม้ +93% YoY) — **Dynamic TP Reset trigger** (ดูรายละเอียดด้านล่าง) — **สำคัญ: earnings call เปิดเผยชื่อลูกค้า XPU ใหม่ชัดเจน (Anthropic จะเป็นลูกค้าใหญ่สุดปี 2027, OpenAI, Meta MTIA) ยืนยัน customer diversification ที่เคยกังวลเรื่อง Google concentration risk** — thesis Improved | Kill buffer ทุกตัวยังห่างไกล (GWRE +135.3%, PLTR +93.4%, AVGO +19.9%) | **NVDA (Top Pick) $228.45 (+1.80%)** ยืนเหนือ $210-215 ต่อเนื่องวันที่ 5
+> อัปเดต Sep 4, 2026 (ศุกร์ ค่ำ, หลังตลาดปิด) | Total holdings (3 ตัว): **$380.73** | Unrealized P&L: **+$105.95 (+38.56%)** + Realized (GWRE trim): **+$19.07** + Cash Reserve **$220.89**
+> ⚠️ **แก้ไข: GWRE ประกาศงบ Q4 FY2026 หลังตลาดปิดวันนี้ — ราคาจริงคือ $171.18 (-15.58% after-hours) ไม่ใช่ $202.86 ที่รายงานตอนเช้า** — Q4 beat ทุกตัวชี้วัด (EPS/revenue/ARR) แต่ FY2027 guidance ทำให้ตลาดผิดหวัง (ARR guide ~18% cc, revenue guide ~16% YoY — ชะลอจาก FY26 ที่ +19%/+23%) — **รัน /brief GWRE เต็มรูปแบบแล้ว: ผล Avoid (mechanical, style mismatch)** — Layer 2 TAM + Growth ทั้งคู่ ❌ confirmed (mkt cap ~$14.2B ใกล้ TAM $15-30B แล้ว, growth guide ต่ำกว่า 30% bar มาก) — **Kill Condition (ARR <15% YoY) ยังไม่ trigger** (buffer +98.6%) ไม่ใช่สถานการณ์ฉุกเฉิน แต่เป็นสัญญาณ funding-source candidate ระยะถัดไป ดู `briefs/GWRE-2026-09-04.md`
+> **ฟื้นตัวแรงจาก SaaSpocalypse เมื่อวาน (ก่อนงบ GWRE):** GWRE +5.24% ระหว่างวัน (Goldman Sachs initiate Buy $210 PT + S&P MidCap 400 inclusion), PLTR +7.71% (ขยาย PwC partnership ช่วยหักล้างความกังวล Google เข้าตลาด AI defense) | 🎉 **AVGO รายงาน Q3 FY2026 earnings — record revenue $29.6B +86% YoY, AI semi +221% YoY** ราคาลง -2.75% (sell-the-news) — **earnings call เปิดเผยชื่อลูกค้า XPU ใหม่ชัดเจน (Anthropic จะเป็นลูกค้าใหญ่สุดปี 2027, OpenAI, Meta MTIA) ยืนยัน customer diversification** — thesis Improved | Kill buffer ยังห่างไกลทุกตัว (GWRE +98.6%, PLTR +93.4%, AVGO +19.9%) | **NVDA (Top Pick) $228.45 (+1.80%)** ยืนเหนือ $210-215 ต่อเนื่องวันที่ 5
 > 💰 SPCX ขายแล้ว Jun 17 @ $191.38 | Realized gain: **+$20.94 (+12.29%)**
 > 💸 CME ขายแล้ว Jun 23 @ $246.22 | Realized loss: **-$5.29 (-15.14%)**
 > 💸 MDLZ ขายแล้ว Jun 28 @ $60.75 | Realized gain: **+$0.88 (+0.78%)**
@@ -82,7 +83,7 @@
 
 | Ticker | Shares | Buy Price | มูลค่า | P&L % | P&L USD | ราคาปัจจุบัน | Kill Buffer |
 |--------|--------|-----------|--------|--------|---------|--------------|------------|
-| GWRE | 0.7046022 (trim 30% executed) | $107.76 | **$142.94** | **+88.25% ✅** | +$67.01 | $202.86 | Kill $86.21 (+135.3% ✅, -20%) ✅ +5.24% ฟื้นตัวแรง (Goldman Sachs Buy $210 PT + S&P MidCap 400) — ห่าง TP2 $215.52 (+6.2%) |
+| GWRE | 0.7046022 (trim 30% executed) | $107.76 | **$120.61** | **+58.85% ✅** | +$44.69 | $171.18 | Kill $86.21 (+98.6% ✅, -20%) ⚠️ -15.58% after-hours หลังงบ Q4 (beat) + FY27 guide อ่อน (ARR ~18%, revenue ~16%) — ห่าง TP2 $215.52 (+25.9%) — /brief 2026-09-04 = 🔴 Avoid (mechanical, style mismatch ไม่ใช่ Kill) |
 | PLTR | 1.0000000 | $118.00 | **$182.53** | **+54.69% ✅** | +$64.53 | $182.53 | Kill $94.40 (+93.4% ✅, -20%) ✅ +7.71% (ขยาย PwC partnership หักล้างความกังวล Google AI defense) |
 | AVGO | 0.2172321 | $372.21 (avg) | **$77.59** | **-4.04% ⚠️** | -$3.27 | $357.16 | Kill $297.77 (+19.9% ✅, -20%) ⚠️ -2.75% sell-the-news หลังงบ Q3 beat — thesis ✅ Improved (customer diversification confirmed), ไม่ Kill |
 | ~~V~~ | ~~0.2287306~~ | ~~$323.00~~ | ✅ **ขายแล้ว Aug 17** @ $362.84 | Realized +$9.11 (+12.33%) | — | — | — |
@@ -143,6 +144,7 @@
 - TP2 $215.52 (+100%): เป้าหลัก — ขายส่วนใหญ่เมื่อถึง (ไม่ได้ปรับ)
 - ⚠️ ถ้า Q4 FY26 ARR growth < 15% หรือ churn เพิ่ม → ขายทันทีไม่รอ TP
 - 🚨 size เล็ก (1 share) — รอ confirm record quarter ก่อน size up
+- 🔴 **2026-09-04: Q4 FY26 earnings ออกแล้ว (checkpoint นี้) — beat แต่ FY27 guide อ่อน, /brief เต็มรูปแบบ = Avoid (mechanical)** — ราคาร่วง -15.58% after-hours เป็น $171.18 หลังงบ Q4 beat ทุกตัวชี้วัด (EPS $0.99/rev $411M/ARR +19%) แต่ FY2027 guidance ชะลอชัดเจน (ARR ~18% cc, revenue ~16% YoY) — Layer 2 TAM (mkt cap ~$14.2B ใกล้ TAM $15-30B แล้ว, แค่ 1-2x ไม่ถึง 5x) และ Growth (guide ต่ำกว่า 30% bar มาก) ทั้งคู่ ❌ confirmed — **Kill Condition (ARR <15%) ยังไม่ trigger** (buffer +98.6%) ธุรกิจยังคุณภาพสูง (Wide Moat, net cash, FCF บวก) แค่ไม่เข้ากับ growth-style ของพอร์ตนี้ — เก็บไว้พิจารณาเป็น funding source รอบถัดไป ดู `briefs/GWRE-2026-09-04.md`
 
 **PLTR** — Switching Cost / AI OS Play
 - 🔧 **TP Reset 2026-08-04 (Confirmed):** Growth accelerating ชัดเจน (US Commercial +149% YoY เร่งจาก +133%) ผ่านเกณฑ์ Dynamic TP Reset ข้อ 1 → Reset จากราคาเปิดตลาดจริง $155.90 (curl-confirmed, regular session, volume 50.77M) = **TP1 $233.85 (+50%) / TP2 $311.80 (+100%)** — Vera quality-checked แล้ว ✅
