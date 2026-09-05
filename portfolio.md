@@ -49,18 +49,25 @@
 > **✅ 2026-08-31 (จันทร์) — ยืนเหนือ $210-215 ได้ตามคาด:** ราคา $218.42 (+0.40%) แม้ตลาดรวม risk-off จากข่าวสหรัฐฯ โจมตี Iranian rocket launcher (Strait of Hormuz) ซ้อนกับ Fed Warsh hawkish ต่อเนื่อง (S&P -0.4%, VIX +6.8% เป็น 15.41) — ยืนยันว่าการร่วงศุกร์เป็น sector-specific profit-taking ไม่ใช่ sentiment เปลี่ยนถาวร — Action คงเดิม Starter Position (Provisional)
 >
 > **🚀 2026-09-04 (ศุกร์) — ยืนเหนือ $210-215 ต่อเนื่องวันที่ 5:** ราคา $228.45 (+1.80%) ตลาดรวมฟื้นตัวแรง (S&P +1.06%, NASDAQ +1.40%) — Action คงเดิม Starter Position (Provisional)
+>
+> **🚀 2026-09-04 ค่ำ (หลัง jobs report) — ยืนเหนือ $220 ต่อเนื่องวันที่ 6:** ราคาปิด $230.36 (+0.84%) แม้ S&P รวมกลับมาติดลบ -0.4% (10Y yield พุ่ง 4.77% จาก jobs report แข็งแกร่งเกินคาด +162K vs ~50K expected เพิ่มโอกาส Fed hike) — NVDA แข็งกว่าตลาดรวมเยอะ ไม่มี catalyst เฉพาะตัวใหม่ Action คงเดิม Starter Position (Provisional)
 
 ---
 
-## 🔮 Today's Prediction (2026-09-04 ศุกร์)
-- **AVGO จะรักษาโมเมนตัม AI XPU ต่อได้ไหมหลังตลาด sell-the-news ระยะสั้น** — trigger: ราคาปิดพรุ่งนี้ + analyst reaction ต่อ Q4 guidance
-- **GWRE/PLTR rally วันนี้จะต่อเนื่องไหม หรือเป็นแค่ dead-cat bounce หลัง SaaSpocalypse** — trigger: ราคาวันทำการถัดไป
-- **NVDA จะยืนเหนือ $220+ ต่อเนื่องได้ไหม** — trigger: ราคาปิดวันทำการถัดไป
+## 🔮 Today's Prediction (2026-09-08 อังคาร — วันทำการถัดไป หลังหยุดเสาร์-อาทิตย์-Labor Day จันทร์ 9/7)
+- **GWRE จะทรงตัวหรือร่วงต่อจาก Avoid signal** — trigger: ราคาเปิดวันอังคาร (ไม่มี catalyst ลบใหม่ ณ วันนี้ นอกจาก guidance disappointment เดิม)
+- **PLTR จะฟื้นจาก rate-driven selloff วันนี้ไหม หรือ AI-bubble concern (Burry) จะกดต่อ** — trigger: ราคาเปิดวันอังคาร + ข่าว Fed rate-hike odds
+- **NVDA จะยืนเหนือ $220+ ต่อเนื่องเป็นวันที่ 7 ได้ไหม** — trigger: ราคาปิดวันอังคาร
 
 **Prediction Review (จาก 2026-09-03 พฤหัส — เทียบผลจริงวันศุกร์):**
-- ✅ **"PLTR/GWRE จะฟื้นตัวจาก SaaSpocalypse หรือลามต่อ"** — ฟื้นตัวแรงเกินคาด: GWRE +5.24% (Goldman Sachs initiate Buy $210 PT + S&P MidCap 400 inclusion), PLTR +7.71% (ขยาย PwC partnership หักล้างความกังวล Google AI defense competition)
-- ✅ **"NVDA จะยืนเหนือ $224 ต่อได้ไหม"** — ยืนได้ต่อเนื่อง +1.80% เป็น $228.45
-- ⚠️ **"10Y yield จะทรงตัวสูงหรือเริ่มย่อ"** — เริ่มย่อจริง (-0.71% เป็น 4.76%) สอดคล้องกับตลาดรวมที่ฟื้นตัวแรง
+- ✅ **"PLTR/GWRE จะฟื้นตัวจาก SaaSpocalypse หรือลามต่อ"** — ฟื้นตัวแรงเกินคาดตอนเช้า: GWRE +5.24% (Goldman Sachs initiate Buy $210 PT + S&P MidCap 400 inclusion), PLTR +7.71% (ขยาย PwC partnership หักล้างความกังวล Google AI defense competition)
+- ✅ **"NVDA จะยืนเหนือ $224 ต่อได้ไหม"** — ยืนได้ต่อเนื่อง +1.80% เป็น $228.45 ตอนเช้า, ปิดจริง +0.84% เป็น $230.36
+- ⚠️ **"10Y yield จะทรงตัวสูงหรือเริ่มย่อ"** — เริ่มย่อจริงตอนเช้า (-0.71% เป็น 4.76%) แต่ **กลับพุ่งขึ้นปิด 4.77%** ตอนบ่ายจาก jobs report ที่แข็งแกร่งเกินคาด (+162K vs ~50K expected) — เป็น whipsaw ไม่ใช่เทรนด์นิ่ง
+
+**Prediction Review (จาก 2026-09-04 เช้า — เทียบผลจริงตอนปิดตลาดวันเดียวกัน):**
+- ❌ **"GWRE/PLTR rally เช้าจะต่อเนื่องไหม"** — ผิด: ทั้งคู่กลับตัวแรงตอนบ่าย — GWRE ร่วงเพิ่มเป็น -19.9% (settling หลัง after-hours move + valuation reset จากที่วิ่งมาก่อนงบ, ไม่มี catalyst ลบใหม่), PLTR ร่วง -4.49% จาก jobs-report/rate-hike selloff ทั่วตลาด + Michael Burry เตือน "AI FOMO bubble" (ไม่ใช่ contract loss/downgrade เฉพาะตัว) — **บทเรียน:** momentum เช้าจากข่าวเฉพาะตัวไม่ควรถือเป็นเทรนด์ทั้งวันจนกว่าตลาดจะปิด โดยเฉพาะวันที่มี macro data (jobs report) รอประกาศ
+- ✅ **"AVGO จะรักษาโมเมนตัมได้ไหม"** — ฟื้นจาก -2.75%/-4.04% กลับมาเกือบแบน (+0.21%) ปิด $357.90 — ยืนยันว่า sell-the-news เป็นแค่ระยะสั้นจริงตามคาด
+- ✅ **"NVDA จะยืนเหนือ $220+ ต่อได้ไหม"** — ยืนได้ ปิด $230.36 (+0.84%) แข็งกว่าตลาดรวมที่ติดลบ
 
 **🎉 AVGO Q3 FY2026 earnings ออกแล้ว — Dynamic TP Reset checkpoint:** Revenue $29.6B +86% YoY (record), AI semi revenue $16.7B +221% YoY, Q4 guidance +93% YoY accelerating (AI semi guide +236% YoY) — Growth ยัง ≥30% YoY และ accelerating ชัดเจน ผ่านเกณฑ์ reset แต่**ไม่ reset TP ใหม่** เพราะราคาปัจจุบัน ($357.16) ยังห่างไกลจาก TP1 เดิม ($558.32) มาก — reset ตอนนี้จะทำให้ TP ต่ำลงกว่าเดิม ขัดกับเจตนาเดิมของกฎ (ให้ winner ที่วิ่งเกินเป้าแล้ววิ่งต่อได้ ไม่ใช่ลดเป้าตอนราคาย่อ) → **คง TP1/TP2 เดิม** ($558.32/$744.42) — ดูรายละเอียดในส่วน AVGO ด้านล่าง
 
@@ -68,9 +75,10 @@
 
 ## Holdings
 
-> อัปเดต Sep 4, 2026 (ศุกร์ ค่ำ, หลังตลาดปิด) | Total holdings (3 ตัว): **$380.73** | Unrealized P&L: **+$105.95 (+38.56%)** + Realized (GWRE trim): **+$19.07** + Cash Reserve **$220.89**
+> อัปเดต Sep 4, 2026 (ศุกร์ ปิดตลาด) | Total holdings (3 ตัว): **$366.52** | Unrealized P&L: **+$91.71 (+33.4%)** + Realized (GWRE trim): **+$19.07** + Cash Reserve **$220.89** | ตลาดปิด เสาร์-อาทิตย์-Labor Day (จันทร์ 9/7) — วันทำการถัดไปคือ **อังคาร 8 ก.ย.**
 > ⚠️ **แก้ไข: GWRE ประกาศงบ Q4 FY2026 หลังตลาดปิดวันนี้ — ราคาจริงคือ $171.18 (-15.58% after-hours) ไม่ใช่ $202.86 ที่รายงานตอนเช้า** — Q4 beat ทุกตัวชี้วัด (EPS/revenue/ARR) แต่ FY2027 guidance ทำให้ตลาดผิดหวัง (ARR guide ~18% cc, revenue guide ~16% YoY — ชะลอจาก FY26 ที่ +19%/+23%) — **รัน /brief GWRE เต็มรูปแบบแล้ว: ผล Avoid (mechanical, style mismatch)** — Layer 2 TAM + Growth ทั้งคู่ ❌ confirmed (mkt cap ~$14.2B ใกล้ TAM $15-30B แล้ว, growth guide ต่ำกว่า 30% bar มาก) — **Kill Condition (ARR <15% YoY) ยังไม่ trigger** (buffer +98.6%) ไม่ใช่สถานการณ์ฉุกเฉิน แต่เป็นสัญญาณ funding-source candidate ระยะถัดไป ดู `briefs/GWRE-2026-09-04.md`
-> **ฟื้นตัวแรงจาก SaaSpocalypse เมื่อวาน (ก่อนงบ GWRE):** GWRE +5.24% ระหว่างวัน (Goldman Sachs initiate Buy $210 PT + S&P MidCap 400 inclusion), PLTR +7.71% (ขยาย PwC partnership ช่วยหักล้างความกังวล Google เข้าตลาด AI defense) | 🎉 **AVGO รายงาน Q3 FY2026 earnings — record revenue $29.6B +86% YoY, AI semi +221% YoY** ราคาลง -2.75% (sell-the-news) — **earnings call เปิดเผยชื่อลูกค้า XPU ใหม่ชัดเจน (Anthropic จะเป็นลูกค้าใหญ่สุดปี 2027, OpenAI, Meta MTIA) ยืนยัน customer diversification** — thesis Improved | Kill buffer ยังห่างไกลทุกตัว (GWRE +98.6%, PLTR +93.4%, AVGO +19.9%) | **NVDA (Top Pick) $228.45 (+1.80%)** ยืนเหนือ $210-215 ต่อเนื่องวันที่ 5
+> **ฟื้นตัวแรงจาก SaaSpocalypse เมื่อวาน (ก่อนงบ GWRE):** GWRE +5.24% ระหว่างวัน (Goldman Sachs initiate Buy $210 PT + S&P MidCap 400 inclusion), PLTR +7.71% (ขยาย PwC partnership ช่วยหักล้างความกังวล Google เข้าตลาด AI defense) | 🎉 **AVGO รายงาน Q3 FY2026 earnings — record revenue $29.6B +86% YoY, AI semi +221% YoY** ราคาลง -2.75% (sell-the-news) — **earnings call เปิดเผยชื่อลูกค้า XPU ใหม่ชัดเจน (Anthropic จะเป็นลูกค้าใหญ่สุดปี 2027, OpenAI, Meta MTIA) ยืนยัน customer diversification** — thesis Improved
+> **ปิดตลาดจริง (ต่างจากตอนเช้ามาก):** GWRE ร่วงเพิ่มเป็น **-19.94%** (settling หลัง after-hours + valuation reset, ไม่มี catalyst ลบใหม่ — analyst ยังปรับเป้าขึ้นต่อเนื่อง BTIG $175→$230, Citizens JMP $250→$281) | PLTR ร่วง **-4.49%** จาก jobs-report/rate-hike selloff ทั่วตลาด + Michael Burry เตือน "AI FOMO bubble" (ไม่ใช่ thesis-specific) | AVGO ฟื้นกลับมาเกือบแบน **+0.21%** ยืนยัน sell-the-news เป็นแค่ระยะสั้น | Kill buffer ยังห่างไกลทุกตัว (GWRE +88.4%, PLTR +84.7%, AVGO +20.2%) | **NVDA (Top Pick) $230.36 (+0.84%)** แข็งกว่าตลาดรวม ยืนเหนือ $220 ต่อเนื่องวันที่ 6 | **🆕 IOT upgrade เป็น 🟢 Buy วันนี้** (ดู Watchlist) — user กำลังพิจารณา Starter Position ~$110 จาก Cash Reserve
 > 💰 SPCX ขายแล้ว Jun 17 @ $191.38 | Realized gain: **+$20.94 (+12.29%)**
 > 💸 CME ขายแล้ว Jun 23 @ $246.22 | Realized loss: **-$5.29 (-15.14%)**
 > 💸 MDLZ ขายแล้ว Jun 28 @ $60.75 | Realized gain: **+$0.88 (+0.78%)**
@@ -83,9 +91,9 @@
 
 | Ticker | Shares | Buy Price | มูลค่า | P&L % | P&L USD | ราคาปัจจุบัน | Kill Buffer |
 |--------|--------|-----------|--------|--------|---------|--------------|------------|
-| GWRE | 0.7046022 (trim 30% executed) | $107.76 | **$120.61** | **+58.85% ✅** | +$44.69 | $171.18 | Kill $86.21 (+98.6% ✅, -20%) ⚠️ -15.58% after-hours หลังงบ Q4 (beat) + FY27 guide อ่อน (ARR ~18%, revenue ~16%) — ห่าง TP2 $215.52 (+25.9%) — /brief 2026-09-04 = 🔴 Avoid (mechanical, style mismatch ไม่ใช่ Kill) |
-| PLTR | 1.0000000 | $118.00 | **$182.53** | **+54.69% ✅** | +$64.53 | $182.53 | Kill $94.40 (+93.4% ✅, -20%) ✅ +7.71% (ขยาย PwC partnership หักล้างความกังวล Google AI defense) |
-| AVGO | 0.2172321 | $372.21 (avg) | **$77.59** | **-4.04% ⚠️** | -$3.27 | $357.16 | Kill $297.77 (+19.9% ✅, -20%) ⚠️ -2.75% sell-the-news หลังงบ Q3 beat — thesis ✅ Improved (customer diversification confirmed), ไม่ Kill |
+| GWRE | 0.7046022 (trim 30% executed) | $107.76 | **$114.44** | **+50.68% ✅** | +$38.50 | $162.42 | Kill $86.21 (+88.4% ✅, -20%) ⚠️ ปิด -19.94% (settling, ไม่มี catalyst ลบใหม่) — ห่าง TP2 $215.52 (+32.7%) — /brief 2026-09-04 = 🔴 Avoid (mechanical, style mismatch ไม่ใช่ Kill) |
+| PLTR | 1.0000000 | $118.00 | **$174.33** | **+47.74% ✅** | +$56.33 | $174.33 | Kill $94.40 (+84.7% ✅, -20%) ⚠️ -4.49% วันนี้ (jobs-report/rate-hike selloff ทั่วตลาด + Burry "AI bubble" commentary — ไม่ใช่ thesis-specific, no contract loss/downgrade) |
+| AVGO | 0.2172321 | $372.21 (avg) | **$77.75** | **-3.86% ⚠️** | -$3.12 | $357.90 | Kill $297.77 (+20.2% ✅, -20%) ✅ ฟื้นกลับมา +0.21% จาก -2.75%/-4.04% เมื่อวาน — thesis ✅ Improved (customer diversification confirmed), ไม่ Kill |
 | ~~V~~ | ~~0.2287306~~ | ~~$323.00~~ | ✅ **ขายแล้ว Aug 17** @ $362.84 | Realized +$9.11 (+12.33%) | — | — | — |
 | ~~SPGI~~ | ~~0.1816941~~ | ~~$391.47*~~ | ✅ **ขายแล้ว Jul 14** @ $435.934 | Realized +$8.08 (+11.35%) | — | — | — |
 
