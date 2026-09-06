@@ -11,14 +11,14 @@ description: ตรวจสอบทั้งระบบ daily-brief/showcase 
 
 ## ขั้นตอนตรวจสอบ
 
-### 1. Data Consistency — เทียบ 3 ไฟล์
-อ่าน `portfolio.md`, `showcase/index.html`, `showcase/close.html`
-- เช็คว่าราคา/P&L ของทุก ticker ใน Holdings ตรงกันทั้ง 3 ไฟล์ไหม
+### 1. Data Consistency — เทียบ 2 ไฟล์
+อ่าน `portfolio.md`, `showcase/index.html` (**2026-09-06: `showcase/close.html` ถูกลบแล้ว** — รวมเข้ากับ index.html เป็นหน้าเดียว เพราะ pre-market/close timing ไม่มีความหมายอีกต่อไปตั้งแต่เปลี่ยนเป็น manual ทั้งหมด — อย่า flag ว่ามันหายไปเป็นปัญหา)
+- เช็คว่าราคา/P&L ของทุก ticker ใน Holdings ตรงกันทั้ง 2 ไฟล์ไหม
 - **ถ้าไม่ตรง** → ใช้ `portfolio.md` เป็น source of truth เสมอ แก้ showcase ให้ตรง แล้ว commit
 - เช็ควันที่ "Updated:" ในแต่ละไฟล์ว่าใกล้เคียงกันไหม (ห่างกันเกิน 3 วัน = ผิดปกติ)
 
 ### 2. Orphan Ticker Check
-สแกน `showcase/index.html` และ `showcase/close.html` หา ticker ที่:
+สแกน `showcase/index.html` หา ticker ที่:
 - ปรากฏเป็น "Holdings" หรือ "Top Pick" ที่ active แต่ **ไม่อยู่ใน portfolio.md Holdings ปัจจุบันแล้ว** (แปลว่าขายไปแล้วแต่ card ยังค้าง)
 - **ถ้าเจอ** → ลบ/แก้ card นั้นออกทันที (เหมือนเคส CME/MA/MDLZ ที่เจอมาก่อน) แล้ว commit
 
@@ -27,7 +27,7 @@ description: ตรวจสอบทั้งระบบ daily-brief/showcase 
 - เช็ค `mcp__scheduled-tasks__list_scheduled_tasks` ว่าทุก task ยัง `enabled: false` ตามที่ตั้งใจไว้หรือมีตัวไหนถูกเปิดกลับมาโดยไม่ได้ตั้งใจ
 
 ### 4. Scheduled Task Registry Check
-เรียก `mcp__scheduled-tasks__list_scheduled_tasks` เช็คสถานะทุก task (`daily-brief-premarket`, `daily-brief-close`, `system-audit` เดิม, `brief-as-weekly`) — **ทั้งหมดควร `enabled: false` แล้ว** (เปลี่ยนเป็น manual 2026-09-06) ถ้าเจอตัวไหน `enabled: true` โดยไม่มีเหตุผล → flag ในรายงาน (ไม่ต้อง auto-disable เอง เผื่อผู้ใช้ตั้งใจเปิดกลับมาเอง)
+เรียก `mcp__scheduled-tasks__list_scheduled_tasks` เช็คสถานะทุก task (`daily-brief-premarket`, `brief-as-weekly` — **`daily-brief-close` ถูกลบทิ้งแล้ว 2026-09-06 พร้อม `showcase/close.html`, อย่า flag ว่ามันหายไป**) — ที่เหลือทั้งหมดควร `enabled: false` แล้ว (เปลี่ยนเป็น manual 2026-09-06) ถ้าเจอตัวไหน `enabled: true` โดยไม่มีเหตุผล → flag ในรายงาน (ไม่ต้อง auto-disable เอง เผื่อผู้ใช้ตั้งใจเปิดกลับมาเอง)
 
 ### 5. Skill File Regression Check
 อ่าน `.claude/skills/brief/SKILL.md`, `.claude/skills/daily-brief/SKILL.md`
