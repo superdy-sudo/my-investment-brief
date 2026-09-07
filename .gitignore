@@ -7,3 +7,10 @@ node_modules/
 
 # Logs
 *.log
+
+# Secrets
+.env
+
+# Obsidian (local workspace state, not shared)
+.obsidian/
+Untitled.canvas
