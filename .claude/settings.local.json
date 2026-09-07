@@ -23,7 +23,18 @@
       "WebFetch(domain:www.cnbc.com)",
       "WebFetch(domain:sacra.com)",
       "Bash(env)",
-      "Bash(curl *)"
+      "Bash(curl *)",
+      "WebFetch(domain:stockanalysis.com)",
+      "Bash(git push *)",
+      "Bash(python3 -c \"import json,sys; d=json.load\\(sys.stdin\\); m=d['chart']['result'][0]['meta']; print\\('price:', m.get\\('regularMarketPrice'\\)\\); print\\('prev_close:', m.get\\('previousClose'\\)\\); print\\('52w_high:', m.get\\('fiftyTwoWeekHigh'\\)\\); print\\('52w_low:', m.get\\('fiftyTwoWeekLow'\\)\\); print\\('market_cap:', m.get\\('marketCap'\\)\\)\")",
+      "Bash(python3 -c \"import sys,json; d=json.load\\(sys.stdin\\); print\\(d['chart']['result'][0]['meta']['regularMarketPrice']\\)\")",
+      "WebFetch(domain:www.gurufocus.com)",
+      "WebFetch(domain:www.morningstar.com)",
+      "Bash(git pull *)",
+      "Bash(grep -oP \"\\\\| [^|]+ \\\\|$\" C:/Users/Admin/Desktop/my-first-project/portfolio.md)",
+      "Bash(grep -v \"^$\")",
+      "Bash(python3 -c \"import datetime; print\\(datetime.date\\(2026,7,27\\).strftime\\('%A'\\)\\); print\\(datetime.date\\(2026,7,26\\).strftime\\('%A'\\)\\); print\\(datetime.date\\(2026,7,25\\).strftime\\('%A'\\)\\)\")",
+      "Bash(python3 -c ' *)"
     ]
   }
 }

@@ -9,7 +9,7 @@
 - 🚨 **หลัก:** US Commercial revenue growth <30% YoY ติด 2 ไตรมาส — AIP adoption ชะลอ
 - 🚨 **หลัก:** NATO/Government contract ขาดต่อหรือลดงบประมาณ AI Defense
 - ⚠️ **เฝ้าระวัง:** Insider selling เพิ่มจาก CEO Alex Karp (ปัจจุบัน rule 10b5-1 routine)
-- ⚠️ **เฝ้าระวัง (เพิ่ม 2026-07-16 จาก Narrative Drift):** US federal budget/government shutdown risk ต่อ government revenue — ภาษาที่เคยการันตีว่า "resilient" หายไปจาก 10-K ตั้งแต่ FY2024 ดู `knowledge/PLTR.md` Narrative Drift Check
+- ⚠️ **เฝ้าระวัง (เพิ่ม 2026-07-16 จาก Narrative Drift):** US federal budget/government shutdown risk ต่อ government revenue — ภาษาที่เคยการันตีว่า "resilient" หายไปจาก 10-K ตั้งแต่ FY2024 ดู [[PLTR]] Narrative Drift Check
 - ⚠️ **เฝ้าระวัง:** ราคาลง >20% จากราคาซื้อ $118.00 (= ต่ำกว่า $94.40) — widen จาก -15% เดิม 2026-07-15
 
 ## Target & Exit
@@ -53,3 +53,8 @@
 - [2026-07-14] 🟢 ปิด $130.04 (+2.56%) — ตรง prediction เป๊ะ (คาดฟื้นใกล้ $130 ภายในไม่กี่วัน) ตลาดรวมลบ (S&P -0.79%) แต่ PLTR แข็งกว่าตลาด
 - [2026-07-02] 🟢 ราคา $115.70 → $131.50 (+13.7% ใน 2 วัน) | P&L -1.95% → +11.44% | catalyst ยังไม่ทราบ — เช็ค news ก่อน TP1 $150
 - [2026-06-29] 🟢 ซื้อเข้า Holdings 1 share @ $118.00 | entry zone $110–$120 ✅ | Watchlist → Holdings | Q2 earnings Aug 3 watch
+
+## YouTube Update (2026-09-05)
+🎥 **The Investor's Podcast (We Study Billionaires, episode TIP841, ปลาย ส.ค. 2026)** — Preston Pysh ร่วมกับ Daniel Mahncke และ Shawn O'Malley รัน PLTR ผ่าน "growth stress test" (สมมติ growth ไตรมาสหน้าลดลงครึ่งหนึ่ง แล้วถามว่าอธิบายสาเหตุการชะลอตัวได้ไหม) — Pysh มองว่า **PLTR ถูกกว่าที่คาดไว้จริง** (revenue growth 90%+, NDR 157%, adj operating margin >60%, Rule of 40 score 155% — สูงเกือบสองเท่าของซอฟต์แวร์ชั้นนำ) แต่ยัง valuation แพงมาก (~60x sales) — **ระบุราคาเข้าซื้อที่ต้องการ: ต่ำกว่า $100** ("ถ้าเห็นราคาต่ำกว่า $100 โดยไม่มีอะไรเปลี่ยน จะเข้าซื้อ") ขณะราคาจริงตอนนั้น $185.93
+⚠️ หมายเหตุ: อ่านจากบทความรายงาน podcast (Yahoo Finance/24/7 Wall St/AOL) ไม่ได้ดูคลิปเต็มโดยตรง — เป็นมุมมองส่วนตัวของ Preston Pysh (value investor framework) ไม่ใช่ fact เชิงบริษัท ไม่กระทบ Kill Condition/TP ของพอร์ตนี้ (ราคาเป้า $100 ของ Pysh ต่ำกว่า kill zone ปัจจุบันของพอร์ต $94.40 เกือบพอดี — เป็นข้อมูลอ้างอิงเชิง valuation เท่านั้น)
+🔗 https://www.theinvestorspodcast.com (episode TIP841)

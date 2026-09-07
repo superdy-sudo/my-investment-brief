@@ -1,5 +1,13 @@
 # ลงทุน Diary — Digest Log
 
+## 2026-09-02 — หุ้นใหม่เข้าพอร์ต DCA Diary EP15
+EP15 ของซีรีส์ DCA Diary รายเดือน — ข่าวตลาด: CrowdStrike งบดี (โมเดล Falcon Flex), ข่าวลือ Netflix อาจกลายเป็น streaming aggregator hub | **หุ้นใหม่เข้าพอร์ต: PLTR** — เจ้าของช่องเพิ่ม Palantir เข้าพอร์ต DCA ตัวเอง เน้น growth potential + long-term conviction, เงินลงทุนรายเดือนรวมเพิ่มเป็น 510 | หุ้น "หวย": ซื้อ **NVDA** ผ่าน DR (Depository Receipt) เพื่อลดปัญหา Estate Tax สำหรับนักลงทุนต่างชาติ | เริ่มใช้เครื่องมือ Portseido ติดตามพอร์ต/allocation/dividend แทน Google Sheets
+🔗 https://www.youtube.com/watch?v=U7irXjEMBdw
+
+## 2026-09-05 — AI ที่ผมใช้ตอนนี้
+เนื้อหาสาย AI/automation ล้วน ไม่เกี่ยวกับหุ้น — เปลี่ยนจากใช้แอปหลายตัวมาเป็นระบบ AI แบบยืดหยุ่น: Claude (content), Gemini Notebooks (research), Hermes/OpenCode (harness รวมโมเดล) รัน 24/7 ผ่าน VPS (Hostinger) หรือ Mac Mini+Tailscale เก็บข้อมูลเป็น Markdown ใน Obsidian ใช้ AI ช่วยหาข้อมูล/สรุปข่าว/แปลง transcript เป็นบทความ/สร้าง outline วิดีโอ
+🔗 https://www.youtube.com/watch?v=NKB4-2R0wsc
+
 ## [Playlist: HOW I USE AI] — ผมใช้ Ai ยังไงบ้าง (Ver ลงทุน)
 1. **กลยุทธ์ Multi-Model เพื่อเลี่ยงขีดจำกัด:** ใช้ ChatGPT/Gemini/NotebookLM สลับกันตามความถนัด — ChatGPT สรุปบทความ, Gemini สรุปคลิป YouTube + Deep Research, NotebookLM รีเสิร์ชที่ต้องอ้างอิง source แน่นอน
 2. **รีเสิร์ชหุ้นเชิงลึก:** ใช้ Deep Research วิเคราะห์ Toast (TOST), PDD Holdings (PDD) และ Warren AI ของ InvestingPro ติดตามการคัด MSFT/AAPL เข้า-ออก AI Strategy

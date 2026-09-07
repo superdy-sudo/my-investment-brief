@@ -3,7 +3,7 @@
 - **Sector:** Automotive Data & Analytics — CARFAX, automotiveMastermind, Polk Automotive Solutions, Market Scan
 - **Moat:** ⚠️ Narrow (Morningstar) — CARFAX vehicle history data network effect + dealer switching cost
 - **Business:** Spin-off from SPGI Jul 1, 2026 — global leader ด้าน automotive data & analytics
-- **🔴 Brief Jul 7, 2026 — Action: Avoid** — Layer 1 ผ่านหมด (FCF margin 25.7% ✅ Net Debt/EBITDA 2.6x ✅) แต่ **Compounder 2/5** (growth guide เพียง 7.5-10%, ไม่ผ่านเกณฑ์ ≥4/5) → ไม่ใช่สาย compounder ถึงราคาจะถูก (MS FV $32, -40% cheap) | brief เต็ม: `briefs/MBGL-2026-07-07.md`
+- **🔴 Brief Jul 7, 2026 — Action: Avoid** — Layer 1 ผ่านหมด (FCF margin 25.7% ✅ Net Debt/EBITDA 2.6x ✅) แต่ **Compounder 2/5** (growth guide เพียง 7.5-10%, ไม่ผ่านเกณฑ์ ≥4/5) → ไม่ใช่สาย compounder ถึงราคาจะถูก (MS FV $32, -40% cheap) | brief เต็ม: [[MBGL-2026-07-07]]
 
 ## Thesis Change Log
 - [2026-07-09] 🔴 ขายแล้ว — Realized loss ประมาณ -$0.19 (-5%) | ปิด position ตาม /brief Jul 7 (Avoid, Compounder 2/5) | ถูกต้องตามระบบ — ไม่ผ่าน compounder filter
