@@ -102,22 +102,30 @@ WebSearch ใช้ได้เฉพาะ: ค้นข่าว/catalyst เ�
 
 **Market Scan (หาหุ้นใหม่ทั้งตลาด US ตรง growth style) — รันทุกเช้าคู่กับ Top Pick:**
 
-ใช้ Finviz screener ผ่าน Bash curl (ทดสอบแล้วว่าใช้ได้โดยไม่ต้อง login/paywall — ต้องใส่ User-Agent) — **ดึง 5 หน้า (~100 ตัว) เรียงตาม market cap มากไปน้อย** ห้ามปล่อย default sort (ตัวอักษร A-Z) เพราะจะได้ list ที่ bias ไปทางชื่อขึ้นต้นด้วย A-C ไม่สะท้อนหุ้นที่น่าสนใจจริง — **ขยายจาก 2 หน้าเดิม (2026-08-03)** เพราะ pool ของหุ้นที่ผ่านเกณฑ์เริ่มหมดจากการ briefed ไปแล้วต่อเนื่องหลายสัปดาห์ ทำให้บางวันเจอ New Candidate แค่ 0-2 ตัว การดึงเพิ่มเป็น 5 หน้าช่วยให้มีโอกาสเจอ ≥3 ตัวใหม่ต่อวันสม่ำเสมอขึ้น:
+ใช้ Finviz screener ผ่าน Bash curl (ทดสอบแล้วว่าใช้ได้โดยไม่ต้อง login/paywall — ต้องใส่ User-Agent) — **ดึง 10 หน้า (~200 ตัว) เรียงตาม market cap มากไปน้อย** ห้ามปล่อย default sort (ตัวอักษร A-Z) เพราะจะได้ list ที่ bias ไปทางชื่อขึ้นต้นด้วย A-C ไม่สะท้อนหุ้นที่น่าสนใจจริง — **ขยายจาก 5 หน้าเดิมเป็น 10 หน้า (2026-09-08)** เพราะ pool ของหุ้นที่ผ่านเกณฑ์หมดต่อเนื่องหลายวันติดกัน (ทุก ticker ใน 5 หน้าเดิมถูก briefed ไปแล้วทั้งหมด) — ก้าวลึกลงไปหา mkt cap เล็กลงที่ยังไม่เคย briefed (⚠️ หุ้นในหน้าท้ายๆ mkt cap เล็กลง ผันผวนสูงขึ้น เป็น trade-off ที่ยอมรับได้):
 ```bash
-for r in "" "&r=21" "&r=41" "&r=61" "&r=81"; do
+for r in "" "&r=21" "&r=41" "&r=61" "&r=81" "&r=101" "&r=121" "&r=141" "&r=161" "&r=181"; do
   curl -sL -A "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0 Safari/537.36" "https://finviz.com/screener.ashx?v=111&f=cap_midover,fa_salesqoq_o30,geo_usa,sh_avgvol_o500,sh_price_o5&o=-marketcap${r}&ft=4"
 done | grep -oE 'class="company-ticker" href="stock\?t=[A-Z.\-]+' | sed 's/.*t=//' | awk '!seen[$0]++'
 ```
 **ห้ามใช้ `sort -u`** — จะทำให้ list กลับไปเรียงตัวอักษรทิ้ง market cap order ที่ตั้งใจไว้ ใช้ `awk '!seen[$0]++'` แทน (dedupe แต่รักษาลำดับเดิม)
-Filter ที่ใช้: `cap_midover` (mkt cap ≥$2B กันหุ้นเล็ก/ผันผวนเกิน) + `fa_salesqoq_o30` (sales growth QoQ >30% — proxy ของ growth bar ≥30% YoY ใน portfolio.md) + `geo_usa` + `sh_avgvol_o500` (สภาพคล่องพอ) + `sh_price_o5` (กัน penny stock) + `o=-marketcap` (เรียง market cap มากไปน้อย — ได้หุ้นตัวใหญ่/รู้จักก่อน) — 20 ตัว/หน้า ดึง 5 หน้า (`r=21/41/61/81` = หน้า 2-5) รวม ~100 ตัว
+Filter ที่ใช้: `cap_midover` (mkt cap ≥$2B กันหุ้นเล็ก/ผันผวนเกิน) + `fa_salesqoq_o30` (sales growth QoQ >30% — proxy ของ growth bar ≥30% YoY ใน portfolio.md) + `geo_usa` + `sh_avgvol_o500` (สภาพคล่องพอ) + `sh_price_o5` (กัน penny stock) + `o=-marketcap` (เรียง market cap มากไปน้อย — ได้หุ้นตัวใหญ่/รู้จักก่อน) — 20 ตัว/หน้า ดึง 10 หน้า (`r=21/41/.../181` = หน้า 2-10) รวม ~200 ตัว
 
 **หลังได้ list ตัวเลือก:**
 1. ตัดตัวที่อยู่ใน Holdings หรือ Watchlist (portfolio.md) ออก — ไม่ต้องเอามาเทียบซ้ำ
-2. ตัดตัวที่เคย Avoid มาแล้วออกด้วย (เช็คจากชื่อไฟล์ `briefs/[TICKER]-*.md` ที่มีคำว่า "Avoid" ใน Layer 4 Action)
+2. ตัดตัวที่เคย Avoid มาแล้วออกด้วย — **ยกเว้นเข้าเงื่อนไข Avoid Recheck ด้านล่าง** (2026-09-08)
 3. ตัวที่เหลือ = **New Candidates** — **ห้ามฟันธง Buy/Avoid ทันที** เพราะยังไม่ผ่าน 4-Layer analysis (Moat, Valuation, ฯลฯ) ของ `/brief` แค่ผ่านตัวกรอง growth เชิงปริมาณเท่านั้น
 4. โชว์ New Candidates สูงสุด 5 ตัวใน output (**เรียงตาม market cap ที่ได้จาก screener แล้ว — เอาตัวแรกสุดของ list ที่เหลือหลังตัด**) พร้อมข้อความแนะนำให้รัน `/brief TICKER` ถ้าสนใจตัวไหน
 
 **หมายเหตุ:** ขั้นนี้แค่ "ค้นพบ" ตัวใหม่ที่ผ่าน growth filter เชิงปริมาณ ไม่ได้แทนที่ 4-Layer analysis — Top Pick ยังคงเลือกจาก Watchlist ที่ผ่าน `/brief` แล้วเท่านั้น (ดู step 3) ตัวจาก Market Scan ต้องผ่าน `/brief` ก่อนถึงจะเข้า Watchlist และมีสิทธิ์เป็น Top Pick ได้
+
+**🔁 Avoid Recheck (2026-09-08)** — ตัดปัญหา "หุ้นเดิม Avoid ตลอดกาลแม้ fundamentals เปลี่ยนแล้ว" (ค้างคุยไว้ตั้งแต่ [[project-pending-market-scan-avoid-recheck]]) — ticker ที่เคย Avoid มีสิทธิ์กลับมาเป็น candidate ได้อีกครั้ง **เฉพาะเมื่อเข้าเงื่อนไขครบทั้ง 3 ข้อ:**
+
+1. **Avoid เดิมมาจาก Layer 2 (growth) เท่านั้น ไม่ใช่ Layer 1 (quality)** — เช็คจาก Layer 4 Action reason ในไฟล์ brief ล่าสุดของ ticker นั้น: ถ้า Layer 1 มี ❌ confirmed (No Moat, balance sheet แย่, FCF ติดลบไม่เข้า exception ฯลฯ) → **ไม่เข้าเกณฑ์ recheck ตลอดไป** (ปัญหาเชิงโครงสร้างไม่หายเองตามเวลา) เฉพาะ Avoid ที่มาจาก growth ไม่ผ่าน 30% bar เพียงอย่างเดียว (Layer 1 สะอาด) ถึงจะเข้าเกณฑ์นี้ได้
+2. **ผ่านมาแล้ว ≥90 วัน (1 ไตรมาส) นับจากวันที่ brief ล่าสุด** — กันการเช็คซ้ำถี่เกินไปโดยไม่มีข้อมูลใหม่จริง (1 ไตรมาสคือรอบเวลาขั้นต่ำที่ growth rate จะเปลี่ยนแปลงมีนัยสำคัญ)
+3. **ปรากฏใน Finviz Market Scan ของวันนี้อีกครั้ง** (ผ่านเกณฑ์ `fa_salesqoq_o30` จริง) — นี่คือหลักฐานเชิงตัวเลขที่แข็งแรงอยู่แล้วว่า growth QoQ กลับมา >30% จริง ไม่ใช่แค่คาดเดา
+
+ถ้าเข้าเกณฑ์ครบ 3 ข้อ → ใส่ใน section แยกต่างหาก **"🔁 Avoid Recheck Candidates"** (ไม่ปนกับ New Candidates ปกติ เพื่อให้เห็นชัดว่าเป็นตัวที่เคย Avoid มาก่อน) พร้อมระบุวันที่ Avoid เดิมและเหตุผลเดิมสั้นๆ กำกับไว้เสมอ — แนะนำรัน `/brief TICKER` ซ้ำถ้าสนใจ เหมือน New Candidates ทุกประการ (ไม่ auto-upgrade เป็น Buy ทันที)
 
 **Catalyst Scan (เสริม Market Scan) — 2026-08-03:** Finviz screener ข้างบนเป็น backward-looking (จับได้แค่หุ้นที่ revenue โตแรง**ไปแล้ว**ในงบที่ผ่านมา) จะพลาดหุ้นที่กำลังจะโตเพราะเพิ่งได้ catalyst ใหม่ (ชนะสัญญาใหญ่, ยกระดับ guidance, partnership ใหม่) ที่ยังไม่ทันสะท้อนใน revenue ตัวเลขจริง — เหมือนที่ PLTR เจอ NGC2/NATO/Nvidia partnership ก่อนตัวเลข revenue จะขยับตาม
 
@@ -307,6 +315,7 @@ Section ถาวรทุก Full Brief — สรุป 1 บรรทัด/t
 Fact Check: [อะไร confirmed แล้ว / อะไรยัง unconfirmed — 1 ประโยค]
 Comment ระบบ: [thesis ตัวไหนเปลี่ยนหรือไม่ + ระบบควรทำอะไร] | Confidence XX% | Action: Do Nothing / [action เดียว]
 🆕 Market Scan: [TICKER1, TICKER2, ...] (ยังไม่ผ่าน /brief — รัน `/brief TICKER` ถ้าสนใจ) หรือ "ไม่มีตัวใหม่วันนี้"
+🔁 Avoid Recheck: [TICKER1 — เคย Avoid วันที่/เหตุผลเดิมสั้นๆ, ...] (เข้าเกณฑ์ recheck ครบ 3 ข้อ — ยังไม่ผ่าน /brief) หรือข้ามบรรทัดนี้ถ้าไม่มีตัวเข้าเกณฑ์
 🆕 Catalyst Scan: [TICKER1 — catalyst สั้นๆ 1 บรรทัด, ...] (จากข่าว ไม่ใช่ growth screener — ยังไม่ผ่าน /brief) หรือ "ไม่พบ catalyst candidate ที่น่าเชื่อถือวันนี้"
 🧪 Pre-Consensus Scan (v2, ทดลอง): [TICKER1 — sub-scan A/B/C + สัญญาณสั้นๆ 1 บรรทัด, ...] (speculative สูงกว่า Catalyst Scan ปกติ — ยังไม่ผ่าน /brief) หรือ "ไม่พบสัญญาณ pre-consensus ที่น่าเชื่อถือวันนี้"
 
