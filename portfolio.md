@@ -53,13 +53,20 @@
 > **🚀 2026-09-04 ค่ำ (หลัง jobs report) — ยืนเหนือ $220 ต่อเนื่องวันที่ 6:** ราคาปิด $230.36 (+0.84%) แม้ S&P รวมกลับมาติดลบ -0.4% (10Y yield พุ่ง 4.77% จาก jobs report แข็งแกร่งเกินคาด +162K vs ~50K expected เพิ่มโอกาส Fed hike) — NVDA แข็งกว่าตลาดรวมเยอะ ไม่มี catalyst เฉพาะตัวใหม่ Action คงเดิม Starter Position (Provisional)
 >
 > **🔄 2026-09-04 — Top Pick สลับจาก NVDA → IOT (Samsara):** IOT เพิ่งรัน /brief วันนี้ได้ผล 🟢 **Buy เต็มรูปแบบ** (Layer 2 5/5 confirmed ไม่มี ⚠️/⚪ เหลือเลย, Second Opinion Bull-leaning ไม่ใช่ Tie) — ตามกฎ Top Pick (ต้องเป็น Buy หรือ Starter, เลือกตัวที่ conviction สูงสุดจาก Watchlist) IOT แข็งแกร่งกว่า NVDA ในทุกมิติที่วัดได้ตอนนี้: Action (Buy เต็ม vs Starter Provisional), Layer 2 (5/5 ไม่มีข้อค้าง vs 4/5 มี TAM+moat durability ⚠️), Second Opinion (Bull-leaning vs Tie เอนไปทาง Bear) — **NVDA ยังอยู่ใน Watchlist เป็น Starter Position ตามเดิม ไม่ได้ Avoid** แค่ไม่ใช่ Top Pick แล้ว — Conviction: IOT 9.0/10 vs NVDA 8.0/10
+>
+> **📉 2026-09-10 (พฤหัส) — IOT ร่วง -3.74% ตามตลาดรวม risk-off (ไม่ใช่ IOT-specific):** ราคา $38.65 จาก $40.15 — S&P -0.48%, NASDAQ -0.64%, VIX +4.58% เป็น 16.44, 10Y yield พุ่งแตะ 4.857% (สูงสุดตั้งแต่ พ.ย. 2023) หลัง Treasury ประกาศ triple buyback operation — หาข่าว IOT-specific แล้วไม่พบ catalyst ลบใหม่ เป็น broad growth-stock selloff (GWRE -4.99%, PLTR -0.45%, AVGO -1.13% ก็ลบเช่นกัน) — thesis/Action ไม่เปลี่ยน ยังคง 🟢 Buy, Conviction 8.0/10
 
 ---
 
-## 🔮 Today's Prediction (2026-09-09 พุธ — pre-market, รอตลาดเปิด ~21:30 ICT)
-- **GWRE จะทรงตัวหรือย่อต่อเล็กน้อยตามตลาดรวม risk-off** — trigger: ราคาเปิดวันพุธ (ไม่มี catalyst ลบใหม่เฉพาะตัว นอกจาก macro-wide risk-off จาก Iran tension)
-- **PLTR จะย่อตามตลาดรวมจาก yield ที่พุ่งกลับ 4.80% (oil surge จาก Iran tension เพิ่มความกังวล inflation/rate)** — trigger: ราคาเปิดวันพุธ + ทิศทาง 10Y yield
-- **NVDA จะยืนเหนือ $220 ต่อเนื่องเป็นวันที่ 8 ได้ไหม ท่ามกลาง broad risk-off** — trigger: ราคาปิดวันพุธ
+## 🔮 Today's Prediction (2026-09-10 พฤหัส)
+- **IOT จะฟื้นตัวหรือย่อต่อตาม 10Y yield ที่พุ่งแตะ 4.857% (สูงสุดตั้งแต่ พ.ย. 2023)** — trigger: ราคาปิดวันพฤหัส + ทิศทาง yield
+- **GWRE จะทรงตัวใกล้ $140 หลัง settling ต่อเนื่อง 4 วันติด (ไม่มี catalyst ลบใหม่)** — trigger: ราคาปิดวันพฤหัส
+- **10Y yield จะทรงตัวสูง >4.80% ต่อ (Treasury triple buyback operation concern) กดดัน growth stock ต่อเนื่อง** — trigger: yield ปิดวันพฤหัส
+
+**Prediction Review (จาก 2026-09-09 พุธ pre-market — เทียบผลจริงปิดตลาดวันพุธ):**
+- ⚠️ **"GWRE จะทรงตัวหรือย่อต่อเล็กน้อยตามตลาดรวม risk-off"** — ครึ่งถูก: ทิศทางถูก (ย่อต่อ) แต่ขนาดแรงกว่าที่คาดมาก (-4.99% ไม่ใช่ "เล็กน้อย") — settling ต่อเนื่องจากงบ Q4 ไม่ใช่ catalyst ใหม่
+- ✅ **"PLTR จะย่อตามตลาดรวมจาก yield ที่พุ่งกลับ"** — ถูก: ปิด -0.45% ย่อเบาๆ ตามคาด
+- ✅ **"NVDA จะยืนเหนือ $220 ต่อเนื่องเป็นวันที่ 8"** — ถูก: ปิด $223.67 ยังเหนือ $220 (-0.91%)
 
 **Prediction Review (จาก 2026-09-08 อังคาร — เทียบผลจริงปิดตลาดวันอังคาร):**
 - ✅ **"GWRE จะทรงตัวหรือร่วงต่อจาก Avoid signal"** — ถูก: ปิด -7.83% ($149.71) settling ต่อเนื่องจากงบ Q4 ไม่มี catalyst ใหม่
@@ -82,7 +89,8 @@
 
 ## Holdings
 
-> อัปเดต Sep 9, 2026 (พุธ, pre-market — ตลาดยังไม่เปิด ราคาคือปิดจริงวันอังคาร) | Total holdings (3 ตัว): **$355.85** | Unrealized P&L: **+$81.04 (+29.5%)** + Realized (GWRE trim): **+$19.07** + Cash Reserve **$220.89**
+> อัปเดต Sep 10, 2026 (พฤหัส, ราคาคือปิดจริงวันพุธ Sep 9) | Total holdings (3 ตัว): **$348.91** | Unrealized P&L: **+$74.13 (+27.0%)** + Realized (GWRE trim): **+$19.07** + Cash Reserve **$220.89**
+> **📊 Sep 9 (พุธ) ปิดจริง — broad risk-off ทั้งกระดาน:** GWRE ปิด **-4.99%** ($142.24) settling ต่อเนื่องจากงบ Q4 (วันที่ 4 ติดต่อกัน, ไม่มี catalyst ใหม่) | PLTR ปิด **-0.45%** ($169.53) | AVGO ปิด **-1.13%** ($364.38) | IOT (Top Pick) ปิด **-3.74%** ($38.65) หาข่าวเฉพาะตัวแล้วไม่พบ — เป็น broad growth-stock selloff | ตลาดรวม: S&P -0.48% (7,636.36), NASDAQ -0.64% (26,253.34), VIX +4.58% เป็น 16.44, 10Y yield พุ่งแตะ **4.857%** (สูงสุดตั้งแต่ พ.ย. 2023) หลัง Treasury ประกาศ triple buyback operation | NVDA (Watchlist Starter) ปิด -0.91% ($223.67) ยังยืนเหนือ $220
 > **📊 Sep 8 (อังคาร) ปิดจริง — แก้จากตัวเลขกลางวันเมื่อวาน:** ตัวเลขที่บันทึกไว้เมื่อวาน (17:18 น. Thai time, ตลาดเพิ่งเปิด ~45 นาที) เป็นแค่ราคา intraday ต้นวัน ราคาปิดจริงลบแรงกว่ามาก — GWRE ปิด **-7.83%** ($149.71 จาก $162.42) settling ต่อเนื่องจากงบ Q4 ยังไม่มี catalyst ใหม่เฉพาะตัว | PLTR ปิด **-2.31%** ($170.30) | AVGO ปิด **+2.98%** ($368.56) แข็งกว่าตลาดรวมมาก | **IOT (Top Pick) ฟื้นกลับมาเกือบแบน -0.12%** ($40.15, จาก -3.04% ตอนกลางวัน) | ตลาดรวม: S&P -0.58%, NASDAQ -0.32%, VIX 16.14, 10Y 4.81% | Market Scan (10 หน้า): เจอ 85 ตัวใหม่ที่ยังไม่เคย brief (STX, AUR, JEF, AGNC, CORT เป็น 5 อันดับแรกตาม mkt cap)
 > **🌙 Sep 9 (พุธ) 19:56 น. — pre-market re-check (ตลาดยังไม่เปิด, ราคา Holdings/IOT ไม่เปลี่ยนจาก Sep 8 close):** US futures ติดลบ (Dow -0.50%, S&P -0.32%, Nasdaq -0.47%) จาก US-Iran tension ที่ยกระดับ (oil surge) + 10Y yield กลับขึ้นไปแตะ ~4.80% — ยังไม่มีข่าวเฉพาะตัวใหม่สำหรับ GWRE/PLTR/AVGO/IOT ระหว่างวัน — Market Scan Day 2 (STX/AUR/JEF/AGNC/CORT) เสร็จแล้ว Avoid ทั้งหมด 0/5 | ZETA refresh: Watch → Confirmed Expensive (GF Value หายจาก stale แล้ว)
 > ⚠️ **แก้ไข: GWRE ประกาศงบ Q4 FY2026 หลังตลาดปิดวันนี้ — ราคาจริงคือ $171.18 (-15.58% after-hours) ไม่ใช่ $202.86 ที่รายงานตอนเช้า** — Q4 beat ทุกตัวชี้วัด (EPS/revenue/ARR) แต่ FY2027 guidance ทำให้ตลาดผิดหวัง (ARR guide ~18% cc, revenue guide ~16% YoY — ชะลอจาก FY26 ที่ +19%/+23%) — **รัน /brief GWRE เต็มรูปแบบแล้ว: ผล Avoid (mechanical, style mismatch)** — Layer 2 TAM + Growth ทั้งคู่ ❌ confirmed (mkt cap ~$14.2B ใกล้ TAM $15-30B แล้ว, growth guide ต่ำกว่า 30% bar มาก) — **Kill Condition (ARR <15% YoY) ยังไม่ trigger** (buffer +98.6%) ไม่ใช่สถานการณ์ฉุกเฉิน แต่เป็นสัญญาณ funding-source candidate ระยะถัดไป ดู [[GWRE-2026-09-04]]
@@ -100,9 +108,9 @@
 
 | Ticker | Shares | Buy Price | มูลค่า | P&L % | P&L USD | ราคาปัจจุบัน | Kill Buffer |
 |--------|--------|-----------|--------|--------|---------|--------------|------------|
-| GWRE | 0.7046022 (trim 30% executed) | $107.76 | **$105.49** | **+38.94% ✅** | +$29.55 | $149.71 | Kill $86.21 (+73.7% ✅, -20%) ⚠️ ปิด -7.83% อังคาร (settling ต่อเนื่องจากงบ Q4, ไม่มี catalyst ใหม่) — /brief 2026-09-04 = 🔴 Avoid (mechanical, style mismatch ไม่ใช่ Kill) |
-| PLTR | 1.0000000 | $118.00 | **$170.30** | **+44.32% ✅** | +$52.30 | $170.30 | Kill $94.40 (+80.4% ✅, -20%) ✅ ปิด -2.31% อังคาร ไม่มีข่าวเฉพาะตัว |
-| AVGO | 0.2172321 | $372.21 (avg) | **$80.06** | **-0.98% ⚠️** | -$0.81 | $368.56 | Kill $297.77 (+23.8% ✅, -20%) ✅ ปิด +2.98% อังคาร แข็งกว่าตลาดรวมมาก — thesis ✅ Improved, ไม่ Kill |
+| GWRE | 0.7046022 (trim 30% executed) | $107.76 | **$100.22** | **+32.02% ✅** | +$24.29 | $142.24 | Kill $86.21 (+65.0% ✅, -20%) ⚠️ ปิด -4.99% พุธ (settling ต่อเนื่องวันที่ 4, ไม่มี catalyst ใหม่) — /brief 2026-09-04 = 🔴 Avoid (mechanical, style mismatch ไม่ใช่ Kill) |
+| PLTR | 1.0000000 | $118.00 | **$169.53** | **+43.67% ✅** | +$51.53 | $169.53 | Kill $94.40 (+79.6% ✅, -20%) ✅ ปิด -0.45% พุธ ไม่มีข่าวเฉพาะตัว |
+| AVGO | 0.2172321 | $372.21 (avg) | **$79.16** | **-2.10% ⚠️** | -$1.70 | $364.38 | Kill $297.77 (+22.4% ✅, -20%) ✅ ปิด -1.13% พุธ ตามตลาดรวม risk-off — thesis ✅ Improved, ไม่ Kill |
 | ~~V~~ | ~~0.2287306~~ | ~~$323.00~~ | ✅ **ขายแล้ว Aug 17** @ $362.84 | Realized +$9.11 (+12.33%) | — | — | — |
 | ~~SPGI~~ | ~~0.1816941~~ | ~~$391.47*~~ | ✅ **ขายแล้ว Jul 14** @ $435.934 | Realized +$8.08 (+11.35%) | — | — | — |
 
@@ -254,6 +262,10 @@
 
 **🔍 2026-09-09: Market Scan วันที่ 2 — brief 5 ตัว (STX, AUR, JEF, AGNC, CORT) — Avoid ทั้ง 5 ตัว (0/5 ผ่าน)** — STX (TAM ทั้งอุตสาหกรรม storage แค่ ~2.4x ไม่ถึง 5x แม้ Layer 1 จะสะอาดครบไม่มี ⚠️/⚪ เลยก็ตาม), AUR (FCF ❌ confirmed — ไม่เข้า Growth Capex Exception เพราะไม่เคยพิสูจน์ ROI จาก capex cycle มาก่อนเลย เหมือนเคส WeWork, ต้องระดมทุนเพิ่มอีก $650-850M), JEF (No Moat ❌ confirmed จาก Morningstar เอง — investment banking เป็น commodity business, growth จริงแต่เป็น cyclical ไม่ใช่ structural), AGNC (No Moat ❌ confirmed — mortgage REIT ไม่เข้ากับ framework 7 Powers เลยตั้งแต่ต้น, growth ที่เห็นเป็น mark-to-market artifact ไม่ใช่ operating growth จริง), CORT (TAM ❌ confirmed แย่กว่า NBIX อีก — แค่ ~0.4-0.7x เท่านั้น + valuation Expensive ด้วย) — ⚠️ ไม่ผ่าน Second Opinion/Quality Gate ตัวจริงเหมือนเดิม (แต่ไม่กระทบผลเพราะทุกตัว Avoid อยู่แล้ว ขั้นนี้ไม่จำเป็นสำหรับ Avoid)
 
+**🔍 2026-09-10: Market Scan (10 หน้า) — พบ 5 ตัวใหม่ที่ยังไม่เคย brief (mkt cap มากไปน้อย):** HALO, FIG, ARWR, HUT, AEIS — ยังไม่ผ่าน 4-Layer analysis เลย แค่ผ่านตัวกรอง growth เชิงปริมาณ (sales QoQ >30%) เท่านั้น รัน `/brief TICKER` ถ้าสนใจ | Avoid Recheck: ไม่มีตัวเข้าเกณฑ์ครบ 3 ข้อ (STX/AUR/JEF/AGNC/CORT/NBIX/PNFP/BMNR/QXO ทั้งหมด briefed ไม่ถึง 90 วัน) | Catalyst Scan + Pre-Consensus Scan v2: ไม่พบ candidate ที่น่าเชื่อถือวันนี้ (query กว้างได้แค่ mega-cap defense contracts/guidance raises ที่ mkt cap ใหญ่เกิน หรือ insider buys มูลค่าเล็กเกินเกณฑ์)
+
+**⏰ 2026-09-10: Watchlist Due — TPG + RGLD ถึง stale date แล้ว (RGLD เป็น FINAL check)** — รัน `/brief TPG` / `/brief RGLD` ถ้าสนใจ (ยังไม่ได้รันรอบนี้)
+
 **✅ 2026-09-07: EOG ผ่าน Final Check แล้ว → ลบออกจาก Watchlist** — FY2026 guidance ยืนยันชัดเจนว่า oil production +5% YoY, total production +13-14% YoY (รวม Encino M&A แล้ว) — revenue +57% YoY เกือบทั้งหมดมาจากราคาน้ำมัน (+46% YoY) ไม่ใช่ volume แม้ WTI จะยืนสูงกว่าเดิมก็ตาม (~$92/bbl) — เปลี่ยนจาก ⚠️/⚪ เป็น ❌ confirmed ครั้งแรก (pattern เดียวกับ COST) — ธุรกิจคุณภาพสูงจริง (Layer 1 สะอาด, FCF margin ~32.5%) แค่ไม่ match growth style ของพอร์ตนี้ ดู [[EOG-2026-09-07]]
 
 | Ticker | เหตุผลที่สนใจ | ราคาที่จะซื้อ | ราคาล่าสุด | Next Review |
@@ -296,6 +308,10 @@
 | **MDB** | MongoDB — ⚠️ Moat data conflict (Morningstar "No Moat" vs Switching Cost evidence จริงจาก 7 Powers) — Watch (Provisional) — Layer 1 ผ่านครบไม่มี ❌ (net cash $2.4B, FCF margin 17.8%), Layer 2 แค่ **2/5 confirmed** (TAM/moat durability/industry leadership ทั้งหมด ⚠️ data conflict) — Q2 FY27 revenue +30% YoY ผ่านเกณฑ์พอดี แต่ **Q3 guidance บ่งชี้ชะลอเหลือ ~21%** (สาเหตุหุ้นร่วง -13.44% after-hours หลังงบ 1 ก.ย.) — แพงทั้ง MS FV $312 (+39%) และ GF Value $382-386 (+13.5-22.4%) — thesis ผิดถ้า growth ไม่เร่งกลับเกิน 30% ต่อเนื่องหลายไตรมาส — /brief 2026-09-02 (Market Scan) | รอราคาย่อใกล้ $370-390 (GF zone) หรือรอ Q3 actual ยืนยันทิศทาง growth | **$434.21** (Sep 2, -4.23%) | stale 2026-09-30 |
 
 ## 📺 YouTube Digest — ลงทุน Diary
+
+### 2026-09-09 — NVDA: Nvidia vs Hyperscaler เกมการแข่งขันของ AI
+วิเคราะห์การเปลี่ยนเกม AI ระหว่าง Nvidia กับ Hyperscalers (Google/Amazon/Microsoft) — เสริมน้ำหนัก bear case เดิมของ NVDA ที่มีอยู่แล้ว (inference-ASIC erosion): เจ้าของช่องชี้ว่า Training ยัง Nvidia ครอง ~90% แต่เกมกำลังย้ายไปที่ Inference ที่ ASIC ชิปเฉพาะทางเริ่มคุ้มกว่า, Amazon กดราคา margin ชิป Trainium ตัวเอง, Google เริ่มขาย TPU ให้ลูกค้านอกกลุ่ม, Microsoft พัฒนาชิป Maia เอง — ไม่ใช่ fact ใหม่เชิงตัวเลข เป็นมุมมองเสริมที่ตรงกับความกังวลที่ /brief NVDA เคยพูดถึงแล้ว (custom ASIC erosion) — Nvidia เองก็โต้กลับด้วย Neo-Cloud investment (GPU lease guarantee ให้ cloud รายเล็ก) ไม่กระทบ Action/thesis ปัจจุบัน (ยังคง Starter Position Provisional)
+🔗 https://www.youtube.com/watch?v=e7VrI2lPKfQ
 
 ### 2026-09-02 — PLTR, NVDA: หุ้นใหม่เข้าพอร์ต DCA Diary EP15
 เจ้าของช่องเพิ่ม **PLTR** เข้าพอร์ต DCA ส่วนตัว (เน้น growth potential + long-term conviction) และซื้อ **NVDA** เป็นหุ้น "หวย" (lottery stock) ผ่าน DR (Depository Receipt) เพื่อลดปัญหา Estate Tax สำหรับนักลงทุนต่างชาติ — เป็นมุมมองส่วนตัว ไม่ใช่ fact เชิงบริษัท ไม่กระทบ thesis ของ PLTR/NVDA ในพอร์ตนี้

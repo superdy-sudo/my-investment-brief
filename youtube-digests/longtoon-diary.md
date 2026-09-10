@@ -1,5 +1,14 @@
 # ลงทุน Diary — Digest Log
 
+## 2026-09-09 — Nvidia vs Hyperscaler เกมการแข่งขันของ AI
+วิเคราะห์การเปลี่ยนแปลงสมรภูมิ AI ระหว่าง Nvidia กับ Hyperscalers — เกี่ยวข้องโดยตรงกับ **NVDA** (Watchlist, Starter Position):
+1. **Nvidia เคลื่อนไหวเชิงรุก** — จับมือสถาบันการเงิน 6 แห่ง (Apollo, Blackstone, Goldman Sachs ฯลฯ) ตั้งแพลตฟอร์มการเงินเป้าหมายระดมทุน >$500B สร้าง AI infrastructure demand ให้ตัวเอง
+2. **เกมเปลี่ยนจาก seller-buyer เป็นคู่แข่งกันเอง** — ยุคที่ Nvidia ขายอย่างเดียว Hyperscaler ซื้ออย่างเดียวจบแล้ว ทั้งสองฝ่ายพยายามลดการพึ่งพากันเพื่อไม่ให้ตัวเองกลายเป็น commodity
+3. **Training → Inference shift** — Nvidia ครอง Training ~90% แต่เกมกำลังเปลี่ยนไปที่ Inference ซึ่ง ASIC ชิปเฉพาะทางเริ่มเป็นทางเลือกที่คุ้มกว่า (ตรงกับ bear case เดิมของพอร์ตเรื่อง inference-ASIC erosion)
+4. **กลยุทธ์ Hyperscaler แต่ละราย** — Google เริ่มขาย TPU ให้ data center อื่น, Amazon กดราคา margin ชิป Trainium เพื่อแย่งส่วนแบ่ง (มอง capex เป็นทางเลือกไม่ใช่ภาระผูกพัน), Microsoft พัฒนาชิป Maia เพื่อใช้เองมากขึ้น
+5. **Nvidia โต้กลับด้วย Neo-Cloud investment** — ลงทุนใน cloud รายเล็กพร้อม GPU lease guarantee ช่วยให้เข้าถึงเงินกู้ง่ายขึ้น สร้างลูกค้าทางอ้อมที่ไม่ใช่ Hyperscaler
+🔗 https://www.youtube.com/watch?v=e7VrI2lPKfQ
+
 ## 2026-09-02 — หุ้นใหม่เข้าพอร์ต DCA Diary EP15
 EP15 ของซีรีส์ DCA Diary รายเดือน — ข่าวตลาด: CrowdStrike งบดี (โมเดล Falcon Flex), ข่าวลือ Netflix อาจกลายเป็น streaming aggregator hub | **หุ้นใหม่เข้าพอร์ต: PLTR** — เจ้าของช่องเพิ่ม Palantir เข้าพอร์ต DCA ตัวเอง เน้น growth potential + long-term conviction, เงินลงทุนรายเดือนรวมเพิ่มเป็น 510 | หุ้น "หวย": ซื้อ **NVDA** ผ่าน DR (Depository Receipt) เพื่อลดปัญหา Estate Tax สำหรับนักลงทุนต่างชาติ | เริ่มใช้เครื่องมือ Portseido ติดตามพอร์ต/allocation/dividend แทน Google Sheets
 🔗 https://www.youtube.com/watch?v=U7irXjEMBdw
