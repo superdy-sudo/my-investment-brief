@@ -1,12 +1,12 @@
 ---
 name: youtube-check
-description: เช็คคลิปใหม่จากทุกช่อง YouTube ที่ track อยู่ (Tier 5b) รวดเดียว — ลงทุน Diary + The Dam Investor + The Investor's Podcast ผ่าน YouTube "Ask" panel ทั้งหมด (ไม่ใช้ NotebookLM แล้ว)
+description: เช็คคลิปใหม่จากทุกช่อง YouTube ที่ track อยู่ (Tier 5b) รวดเดียว — ลงทุน Diary + The Diary Of A CEO + The Dam Investor + The Investor's Podcast ผ่าน YouTube "Ask" panel ทั้งหมด (ไม่ใช้ NotebookLM แล้ว)
 ---
 
 # /youtube-check — Manual All-Channel YouTube Check
 
-เช็คทั้ง 3 ช่องด้วยวิธีเดียวกันหมด — YouTube "Ask" (Gemini) panel ผ่าน Browser pane (login Google ครั้งเดียว ใช้ได้ทุกช่อง ไม่ต้องพึ่ง NotebookLM แล้ว — **2026-09-05 ตัด NotebookLM ออก** เพราะ auth คนละที่เก็บกับ Browser pane ทำให้ต้อง login แยก 2 จุดโดยไม่จำเป็น):
-1. **ลงทุน Diary** — เช็ค**ทุกคลิปใหม่ไม่กรอง** (ผู้ใช้ติดตามทั้งสาย AI/automation ด้วย ไม่ใช่แค่การลงทุน)
+เช็คทั้ง 4 ช่องด้วยวิธีเดียวกันหมด — YouTube "Ask" (Gemini) panel ผ่าน Browser pane (login Google ครั้งเดียว ใช้ได้ทุกช่อง ไม่ต้องพึ่ง NotebookLM แล้ว — **2026-09-05 ตัด NotebookLM ออก** เพราะ auth คนละที่เก็บกับ Browser pane ทำให้ต้อง login แยก 2 จุดโดยไม่จำเป็น):
+1. **ลงทุน Diary + The Diary Of A CEO** — เช็ค**ทุกคลิปใหม่ไม่กรอง** (ผู้ใช้ติดตามทั้งสาย AI/automation/general ด้วย ไม่ใช่แค่การลงทุน)
 2. **The Dam Investor + The Investor's Podcast** — ค้นหาเฉพาะคลิปที่เกี่ยวกับ ticker ใน Holdings/Watchlist ปัจจุบัน
 
 ทั้งหมดเป็น **ข้อมูลประกอบ/มุมมองเสริม ไม่ใช่ fact source** — ห้ามใช้แทน `/brief` หรือ 10-K/earnings/IR data ([[project-youtube-source-hierarchy]])
@@ -25,6 +25,22 @@ description: เช็คคลิปใหม่จากทุกช่อง 
    🔗 https://www.youtube.com/watch?v=[VIDEO_ID]
    ```
 5. ถ้าคลิปไหนเกี่ยวกับ Ticker ใน Holdings/Watchlist ปัจจุบัน (เช็คจาก `portfolio.md`) → เพิ่ม note สั้นๆ ใน `portfolio.md` section `## 📺 YouTube Digest — ลงทุน Diary` ด้วย (เก็บแค่ 10 entry ล่าสุด)
+6. อัปเดต state file ทับด้วย videoId ล่าสุด
+
+ถ้าไม่มีคลิปใหม่ → ข้ามไปข้อ 1b เลย ไม่ต้อง commit ส่วนนี้
+
+### 1b. The Diary Of A CEO — เช็คคลิปใหม่ทุกคลิป
+
+1. ดึง RSS feed: `curl -sL -A "Mozilla/5.0" "https://www.youtube.com/feeds/videos.xml?channel_id=UCGq-a57w-aPwyi3pW7XLiHw"` — parse videoId + title + published date
+2. เทียบกับ state file `.claude/state/diary-of-a-ceo-last-seen.txt` (videoId ล่าสุดที่ process แล้ว) — เอาทุกคลิปที่ใหม่กว่านั้น ไม่กรองว่าเกี่ยวหุ้นหรือไม่ (ถ้าไม่มีไฟล์ state → ใช้แค่ 5 คลิปล่าสุด กันย้อนหลังท่วม)
+3. สำหรับคลิปใหม่แต่ละคลิป — เปิดผ่าน Browser pane แล้วใช้ปุ่ม "Ask" (ดูขั้นตอนละเอียดในหัวข้อ "วิธีดึงเนื้อหาคลิป" ด้านล่าง) ถามสรุปประเด็นสำคัญเป็นภาษาไทย
+4. บันทึกทุกคลิปลง `youtube-digests/diary-of-a-ceo.md` (เพิ่มบนสุด ไม่ลบของเก่า):
+   ```
+   ## [วันที่ publish] — [ชื่อคลิป]
+   [สรุป 3-4 ข้อจาก Ask panel]
+   🔗 https://www.youtube.com/watch?v=[VIDEO_ID]
+   ```
+5. ถ้าคลิปไหนเกี่ยวกับ Ticker ใน Holdings/Watchlist ปัจจุบัน (เช็คจาก `portfolio.md`) → เพิ่ม note สั้นๆ ใน `portfolio.md` section `## 📺 YouTube Digest — The Diary Of A CEO` ด้วย (เก็บแค่ 10 entry ล่าสุด)
 6. อัปเดต state file ทับด้วย videoId ล่าสุด
 
 ถ้าไม่มีคลิปใหม่ → ข้ามไปข้อ 2 เลย ไม่ต้อง commit ส่วนนี้
@@ -75,6 +91,9 @@ description: เช็คคลิปใหม่จากทุกช่อง 
 📺 YouTube Check — [วันที่]
 
 ลงทุน Diary: [N คลิปใหม่ / ไม่มีคลิปใหม่]
+  - [ชื่อคลิป] (ถ้าเกี่ยวหุ้นในพอร์ต ระบุ ticker)
+
+The Diary Of A CEO: [N คลิปใหม่ / ไม่มีคลิปใหม่]
   - [ชื่อคลิป] (ถ้าเกี่ยวหุ้นในพอร์ต ระบุ ticker)
 
 The Dam Investor: [ticker ที่เจอคลิปใหม่ / ไม่เจอคลิปที่เกี่ยวข้อง]

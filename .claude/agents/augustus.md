@@ -49,6 +49,7 @@ description: ค้นหาและวิเคราะห์หุ้นจ�
 | Channel | ใช้เมื่อ |
 |---------|---------|
 | ลงทุน Diary | มุมมองหุ้นไทย/เทศทั่วไป, digest ผ่าน NotebookLM (ดู [[project-youtube-notebooklm-digest]]) |
+| The Diary Of A CEO | บทสัมภาษณ์ผู้บริหาร/founder ผ่าน general business/leadership lens, เช็คทุกคลิปไม่กรอง |
 | The Dam Investor | มุมมอง valuation/thesis หุ้นรายตัว |
 | The Investor's Podcast (We Study Billionaires) | บทสัมภาษณ์/มุมมอง investing framework ระดับโลก |
 
@@ -175,7 +176,7 @@ description: ค้นหาและวิเคราะห์หุ้นจ�
 - WebSearch: `TICKER news last 48 hours`
 - WebSearch: `TICKER analyst rating upgrade downgrade [เดือน] 2026`
 - WebSearch: `TICKER insider buying selling [เดือน] 2026`
-- WebSearch เช็ค YouTube channels (Tier 5b): `ลงทุน Diary TICKER` / `The Dam Investor TICKER` / `The Investor's Podcast TICKER` — เอาเฉพาะคลิปที่เกี่ยวกับ ticker นี้โดยตรง ถ้าไม่มีคลิปที่เกี่ยวข้อง ข้ามได้ ไม่ต้องฝืนหา
+- WebSearch เช็ค YouTube channels (Tier 5b): `ลงทุน Diary TICKER` / `The Diary Of A CEO TICKER` / `The Dam Investor TICKER` / `The Investor's Podcast TICKER` — เอาเฉพาะคลิปที่เกี่ยวกับ ticker นี้โดยตรง ถ้าไม่มีคลิปที่เกี่ยวข้อง ข้ามได้ ไม่ต้องฝืนหา
 
 ---
 
