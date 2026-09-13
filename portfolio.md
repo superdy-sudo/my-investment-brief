@@ -59,10 +59,15 @@
 
 ---
 
-## 🔮 Today's Prediction (2026-09-11 ศุกร์)
-- **ตลาดรวมจะฟื้นตัวต่อเนื่องหรือย่อกลับหลัง CPI ออกตามคาด (headline 3.4%, core 2.4%)** — trigger: ราคาปิดวันศุกร์ + ทิศทาง 10Y yield
-- **IOT จะยืนเหนือ $38-39 ต่อเนื่องจาก sentiment ฟื้น (VIX -9.9% เหลือ 16.07)** — trigger: ราคาปิดวันศุกร์
-- **Oil price จะทรงตัวต่ำกว่า $100/bbl ต่อ กด 10Y yield ให้ย่อจาก 4.94%** — trigger: ราคาน้ำมันปิด + yield ปิดวันศุกร์
+## 🔮 Today's Prediction (2026-09-14 จันทร์ — เปิดตลาดครั้งถัดไป, วันนี้ 09-13 ตลาดปิด)
+- **S&P/NASDAQ จะเปิดต่อเนื่องจากแรงบวกปิดวันศุกร์ (+0.86%/+0.96%) หรือย่อตาม 10Y yield ที่ยังขึ้นต่อ (4.975%)** — trigger: ราคาปิดวันจันทร์
+- **IOT จะยืนเหนือ $38 ต่อ (ปิดศุกร์ $38.38 ใกล้ขอบล่างโซน $38-39)** — trigger: ราคาปิดวันจันทร์
+- **10Y yield จะย่อกลับลงมาบ้างหลังขึ้นต่อเนื่อง 5 วันติด (4.784%→4.975%) หรือจะทะลุ 5.0% เป็นครั้งแรก** — trigger: yield ปิดวันจันทร์
+
+**Prediction Review (จาก 2026-09-11 ศุกร์ เช้า — เทียบผลจริงปิดตลาดศุกร์ที่ยืนยันแล้ววันนี้):**
+- ✅ **"ตลาดรวมจะฟื้นตัวต่อเนื่องหรือย่อกลับหลัง CPI ออกตามคาด"** — ฟื้นตัวต่อเนื่องจริงจนปิดตลาด: S&P ปิด +0.86% (7,656.98), NASDAQ ปิด +0.96% (26,333.04) ไม่ได้ย่อกลับ
+- ✅ **"IOT จะยืนเหนือ $38-39 ต่อเนื่อง"** — ยืนได้จริงแต่ใกล้ขอบล่างมาก: ปิด $38.38 (-0.16% จาก Thu) อยู่ในโซนพอดี
+- ❌ **"Oil จะทรงตัว <$100/bbl กด 10Y yield ให้ย่อจาก 4.94%"** — ผิด: 10Y yield ปิดขึ้นต่อเป็น 4.975% (ไม่ย่อ) แม้ oil จะย่อจากจุดสูงสุดแล้ว — yield ไม่ตาม oil ลงมาในวันเดียว เป็น lag pattern ต่อเนื่องจากที่เคยผิดคาดมาก่อน (ดู 09-04 lesson)
 
 **Prediction Review (จาก 2026-09-10 พฤหัส — เทียบผลจริงปิดตลาดวันพฤหัส/เช้าวันศุกร์):**
 - ✅ **"IOT จะฟื้นตัวหรือย่อต่อตาม 10Y yield"** — ฟื้นตัวจริง: จาก $38.65 (พฤหัส) → $38.90 (+1.20% เช้าศุกร์) ตาม sentiment ตลาดรวมที่ดีขึ้น
@@ -95,7 +100,8 @@
 
 ## Holdings
 
-> อัปเดต Sep 11, 2026 (ศุกร์ ตลาดเปิด, ราคา intraday) | Total holdings (3 ตัว): **$342.44** | Unrealized P&L: **+$67.63 (+24.6%)** + Realized (GWRE trim): **+$19.07** + Cash Reserve **$220.89**
+> อัปเดต Sep 13, 2026 (อาทิตย์ ตลาดปิด — ราคา T-1 = ปิดจริงวันศุกร์ Sep 11) | Total holdings (3 ตัว): **$345.16** | Unrealized P&L: **+$70.38 (+25.6%)** + Realized (GWRE trim): **+$19.07** + Cash Reserve **$220.89**
+> **📅 Sep 13 (อาทิตย์) — Full Brief สุดสัปดาห์ ใช้ราคาปิดจริงวันศุกร์ (curl confirmed จาก timestamp 2026-09-11):** GWRE $140.92 (+0.59% จาก Thu close $140.09), PLTR $167.23 (+0.83% จาก $165.86), AVGO $361.99 (+0.32% จาก $360.83), IOT (Top Pick) $38.38 (-0.16% จาก $38.44), NVDA (Watchlist Starter) $218.29 (-0.03% จาก $218.36) — ตลาดปิดจริงยืนยัน risk-on reversal ต่อเนื่องจากที่บันทึก intraday ไว้: S&P ปิด +0.86% (7,656.98), NASDAQ ปิด +0.96% (26,333.04), VIX ร่วงปิด **-11.21% เหลือ 15.84** (แรงกว่าที่บันทึก intraday -9.92%), 10Y yield ปิดขึ้นต่อเป็น **4.975%** (ไม่ย่อตาม oil ตามที่คาด) — ไม่มีข่าว stock-specific ใหม่ระหว่างวันหยุดสุดสัปดาห์ thesis/Action ทุกตัวไม่เปลี่ยน, Kill buffer: GWRE +63.5%, PLTR +77.2%, AVGO +21.6% (ยังห่างไกลทุกตัว)
 > **🟢 Sep 11 (ศุกร์) — ตลาดรวมฟื้นตัวแรง: oil ย่อจากจุดสูงสุด + CPI ตามคาด คลาย sentiment risk-off:** WTI -3% เหลือ $99.28, Brent -3.1% เหลือ $104.32 (ย่อจากที่ทะลุ $100+ เมื่อวาน) + August CPI headline +3.4% YoY, core +2.4% YoY (ลดจาก 2.5%) ตรงตาม consensus พอดี ไม่มี surprise — **S&P +0.85% (7,656.10), NASDAQ +1.02% (26,348.11), VIX -9.92% เหลือ 16.07** (จาก 17.84), 10Y yield ทรงตัว 4.942% (แทบไม่เปลี่ยนจาก 4.944 เมื่อวาน แม้ oil ย่อแล้ว) | Holdings: GWRE $138.825 (-0.90%), PLTR $165.59 (-0.16%), AVGO $363.71 (+0.80%), **IOT (Top Pick) $38.90 (+1.20%)**, NVDA (Watchlist Starter) $219.77 (+0.64%) — ไม่มีตัวไหนขยับ >3% เฉพาะตัว เป็น macro-driven (risk-on reversal) ล้วนๆ — thesis/Action ทุกตัวไม่เปลี่ยน, Kill buffer ยังห่างไกลทุกตัว (GWRE +61.1%, PLTR +75.4%, AVGO +22.2%)
 > **📊 Sep 9 (พุธ) ปิดจริง — broad risk-off ทั้งกระดาน:** GWRE ปิด **-4.99%** ($142.24) settling ต่อเนื่องจากงบ Q4 (วันที่ 4 ติดต่อกัน, ไม่มี catalyst ใหม่) | PLTR ปิด **-0.45%** ($169.53) | AVGO ปิด **-1.13%** ($364.38) | IOT (Top Pick) ปิด **-3.74%** ($38.65) หาข่าวเฉพาะตัวแล้วไม่พบ — เป็น broad growth-stock selloff | ตลาดรวม: S&P -0.48% (7,636.36), NASDAQ -0.64% (26,253.34), VIX +4.58% เป็น 16.44, 10Y yield พุ่งแตะ **4.857%** (สูงสุดตั้งแต่ พ.ย. 2023) หลัง Treasury ประกาศ triple buyback operation | NVDA (Watchlist Starter) ปิด -0.91% ($223.67) ยังยืนเหนือ $220
 > **📊 Sep 8 (อังคาร) ปิดจริง — แก้จากตัวเลขกลางวันเมื่อวาน:** ตัวเลขที่บันทึกไว้เมื่อวาน (17:18 น. Thai time, ตลาดเพิ่งเปิด ~45 นาที) เป็นแค่ราคา intraday ต้นวัน ราคาปิดจริงลบแรงกว่ามาก — GWRE ปิด **-7.83%** ($149.71 จาก $162.42) settling ต่อเนื่องจากงบ Q4 ยังไม่มี catalyst ใหม่เฉพาะตัว | PLTR ปิด **-2.31%** ($170.30) | AVGO ปิด **+2.98%** ($368.56) แข็งกว่าตลาดรวมมาก | **IOT (Top Pick) ฟื้นกลับมาเกือบแบน -0.12%** ($40.15, จาก -3.04% ตอนกลางวัน) | ตลาดรวม: S&P -0.58%, NASDAQ -0.32%, VIX 16.14, 10Y 4.81% | Market Scan (10 หน้า): เจอ 85 ตัวใหม่ที่ยังไม่เคย brief (STX, AUR, JEF, AGNC, CORT เป็น 5 อันดับแรกตาม mkt cap)
@@ -115,9 +121,9 @@
 
 | Ticker | Shares | Buy Price | มูลค่า | P&L % | P&L USD | ราคาปัจจุบัน | Kill Buffer |
 |--------|--------|-----------|--------|--------|---------|--------------|------------|
-| GWRE | 0.7046022 (trim 30% executed) | $107.76 | **$97.83** | **+28.83% ✅** | +$21.89 | $138.825 | Kill $86.21 (+61.1% ✅, -20%) ✅ ฟื้น +intraday ศุกร์ ตามตลาดรวม risk-on — /brief 2026-09-04 = 🔴 Avoid (mechanical, style mismatch ไม่ใช่ Kill) |
-| PLTR | 1.0000000 | $118.00 | **$165.59** | **+40.33% ✅** | +$47.59 | $165.59 | Kill $94.40 (+75.4% ✅, -20%) ✅ แบน -0.16% วันนี้ ไม่มีข่าวเฉพาะตัว |
-| AVGO | 0.2172321 | $372.21 (avg) | **$79.02** | **-2.28% ⚠️** | -$1.85 | $363.71 | Kill $297.77 (+22.2% ✅, -20%) ✅ +0.80% วันนี้ ตามตลาดรวม risk-on — thesis ✅ Improved, ไม่ Kill |
+| GWRE | 0.7046022 (trim 30% executed) | $107.76 | **$99.29** | **+30.77% ✅** | +$23.37 | $140.92 | Kill $86.21 (+63.5% ✅, -20%) ✅ ปิดจริงศุกร์ +0.59% จาก Thu — /brief 2026-09-04 = 🔴 Avoid (mechanical, style mismatch ไม่ใช่ Kill) |
+| PLTR | 1.0000000 | $118.00 | **$167.23** | **+41.72% ✅** | +$49.23 | $167.23 | Kill $94.40 (+77.2% ✅, -20%) ✅ ปิดจริงศุกร์ +0.83% จาก Thu ไม่มีข่าวเฉพาะตัว |
+| AVGO | 0.2172321 | $372.21 (avg) | **$78.64** | **-2.74% ⚠️** | -$2.22 | $361.99 | Kill $297.77 (+21.6% ✅, -20%) ✅ ปิดจริงศุกร์ +0.32% จาก Thu — thesis ✅ Improved, ไม่ Kill |
 | ~~V~~ | ~~0.2287306~~ | ~~$323.00~~ | ✅ **ขายแล้ว Aug 17** @ $362.84 | Realized +$9.11 (+12.33%) | — | — | — |
 | ~~SPGI~~ | ~~0.1816941~~ | ~~$391.47*~~ | ✅ **ขายแล้ว Jul 14** @ $435.934 | Realized +$8.08 (+11.35%) | — | — | — |
 
@@ -134,6 +140,7 @@
 > 3. GWRE size-up ต้องรอ **Q4 FY26 earnings (Sep 2026) ยืนยัน record quarter ก่อน** เท่านั้น ห้าม size up ก่อนหน้านั้น
 > - **2026-07-14:** ประเมิน SKHY (SK hynix, เพิ่ง IPO) เป็นตัวเลือกใช้เงินก้อนนี้ → ผลคือ 🔴 Avoid (Compounder 1/5 — ดู briefs/SKHY-2026-07-14.md) ไม่ผ่านเกณฑ์ → ตัดสินใจถือเงินสดรอแทน
 > - **2026-09-11 Top-up Check (auto, Cash Reserve $220.89 เต็มก้อน):** IOT เป็น Watchlist ตัวเดียวที่ Action = 🟢 Buy เต็มรูปแบบ (Layer 2 5/5 confirmed, Bull-leaning Second Opinion) และ Holdings Cap ยังไม่เต็ม (3/5 ตัว) — แต่ bear agent เคยแนะนำเข้าเป็น **Starter Position ก่อน ไม่ full size** (valuation ยัง Inconclusive สุดขั้ว GF Cheap vs conquest Expensive + SBC/supplier concentration risk) → แนะนำ **50% ของ Cash Reserve (~$110)** เข้า IOT เป็น Starter สอดคล้องกับที่ user เคยพิจารณาไว้ตั้งแต่ 2026-09-08 — อีก 50% เก็บเป็น dry powder รอ Q3 FY27 actual ยืนยัน
+> - **2026-09-13 (อาทิตย์) Top-up Check:** ไม่มีการเปลี่ยนแปลงจากรอบ 09-11 (ไม่มี /brief ใหม่, ไม่มีราคาขยับมีนัยสำคัญระหว่างวันหยุด) — คำแนะนำเดิมยังยืนตามหลักการ: **50% ของ Cash Reserve (~$110) เข้า IOT เป็น Starter**, อีก 50% ถือรอ — GWRE ถูกประเมินเป็น funding-candidate ทางเลือก (3/4 checklist ผ่าน: Top Pick ซ้ำ≥3 brief ✅, Bull ชนะ Bear ✅, Fact Check ✅, แต่ Entry Zone ของ IOT เอง ❌ ยังไม่ชัด) — ยังไม่จำเป็นต้องขาย GWRE เพราะ Cash Reserve ที่มีอยู่พอสำหรับ Starter อยู่แล้ว
 
 ---
 
@@ -273,6 +280,8 @@
 **🔍 2026-09-10: Market Scan (10 หน้า) — พบ 5 ตัวใหม่ที่ยังไม่เคย brief (mkt cap มากไปน้อย):** HALO, FIG, ARWR, HUT, AEIS — ยังไม่ผ่าน 4-Layer analysis เลย แค่ผ่านตัวกรอง growth เชิงปริมาณ (sales QoQ >30%) เท่านั้น รัน `/brief TICKER` ถ้าสนใจ | Avoid Recheck: ไม่มีตัวเข้าเกณฑ์ครบ 3 ข้อ (STX/AUR/JEF/AGNC/CORT/NBIX/PNFP/BMNR/QXO ทั้งหมด briefed ไม่ถึง 90 วัน) | Catalyst Scan + Pre-Consensus Scan v2: ไม่พบ candidate ที่น่าเชื่อถือวันนี้ (query กว้างได้แค่ mega-cap defense contracts/guidance raises ที่ mkt cap ใหญ่เกิน หรือ insider buys มูลค่าเล็กเกินเกณฑ์)
 
 **🔍 2026-09-11: Market Scan (10 หน้า) — ผลลัพธ์เปลี่ยนมากจากเมื่อวาน พบตัวใหม่ mkt cap ใหญ่ 5 อันดับแรกที่ยังไม่เคย brief:** MU, AMD, XOM, DELL, ANET — ยังไม่ผ่าน 4-Layer analysis เลย แค่ผ่านตัวกรอง growth เชิงปริมาณ (sales QoQ >30%) เท่านั้น (screener ผลเปลี่ยนเพราะข้อมูล quarterly ใหม่จาก earnings season ที่ทยอยออก — เช่น MU มีแนวโน้ม memory/HBM supercycle) รัน `/brief TICKER` ถ้าสนใจ | Avoid Recheck: ไม่มีตัวเข้าเกณฑ์ครบ 3 ข้อ (ทุกตัวที่เคย Avoid briefed ไม่ถึง 90 วัน หรือ Avoid มาจาก Layer 1 ไม่ใช่ growth อย่างเดียว) | Catalyst Scan: ไม่พบ candidate ที่น่าเชื่อถือวันนี้ (ข่าว contract ส่วนใหญ่เป็น defense sub-contract มูลค่าเล็ก, guidance raises ที่เจอเป็น mega-cap/mkt cap เล็กเกินไป) | Pre-Consensus Scan v2: ไม่พบสัญญาณที่น่าเชื่อถือ (insider buys ที่เจอเป็นบริษัทนอก growth style, product momentum เป็นแค่ Apple foldable ที่รู้กันอยู่แล้ว + consumer gadget เล็กเกินไป)
+
+**🔍 2026-09-13 (อาทิตย์, ตลาดปิด): Market Scan (10 หน้า) — พบตัวใหม่ mkt cap ใหญ่ 5 อันดับแรกที่ยังไม่เคย brief:** SNDK, MRVL, ADI, SCCO, WDC — ยังไม่ผ่าน 4-Layer analysis เลย แค่ผ่านตัวกรอง growth เชิงปริมาณ (sales QoQ >30%) เท่านั้น รัน `/brief TICKER` ถ้าสนใจ | Avoid Recheck: ไม่มีตัวเข้าเกณฑ์ครบ 3 ข้อ (ทุกตัวที่เคย Avoid briefed ไม่ถึง 90 วัน) | Catalyst Scan: พบ 2 ตัว — **HNGE** (Hinge Health) ยก FY2026 revenue guidance เป็น $818-824M (+40% YoY) ยืนยันจาก SEC 8-K (7 ส.ค. 2026), **CR** (Crane Co.) ยก FY adjusted EPS guidance เป็น $6.85-7.05 (จาก $6.65-6.85) ยืนยันจาก SEC 8-K — ทั้งคู่ยังไม่ผ่าน /brief | Pre-Consensus Scan v2: ไม่พบสัญญาณที่น่าเชื่อถือ (insider buys เป็น single-insider token buy ไม่ถึงเกณฑ์ ≥2 คน, product momentum เป็นสินค้าบริษัทต่างประเทศไม่เข้าเกณฑ์ US-listed, early partnership sub-$50B ไม่เจอ)
 
 **✅ 2026-09-11: รัน `/brief MU AMD XOM DELL ANET TPG RGLD AS` (8 ตัว) — Market Scan candidates + Watchlist refresh:**
 - **New Candidates จาก Market Scan (5 ตัว) — Avoid ทั้งหมด (0/5 ผ่าน):** MU (No Moat confirmed by Morningstar — FY2023 loss $5.8B พิสูจน์ cyclical, TAM<5x, 2/3 sources Expensive), AMD (Narrow Moat ไม่ใช่ Wide — AI accelerator share แค่ ~5-7% vs Nvidia ~75-81%, TAM 2.4-3.6x, Expensive แม้ปรับสมมติฐาน bull สุดโต่ง), XOM (Narrow Moat, growth +42% YoY ส่วนใหญ่มาจากราคาน้ำมันพุ่งจากสงคราม Iran ไม่ใช่ organic volume — pattern เดียวกับ CVX/COP/EOG, 2/3 sources Expensive), DELL (No Moat — AI server เป็น commodity hardware assembly margin ~7-8%, TAM 2.7x, Expensive แต่ conquest/Morningstar ใกล้กันมาก ~2.8% แทบไม่เหลือ margin of safety), ANET (TAM fail — Nvidia แซงเป็นอันดับ 1 data center Ethernet switch แล้ว Q1 2026 ที่ 21.5% vs Arista 20.7%, 2/3 sources Expensive) — ดู briefs/[TICKER]-2026-09-11.md แต่ละตัว
