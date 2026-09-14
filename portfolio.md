@@ -59,10 +59,16 @@
 
 ---
 
-## 🔮 Today's Prediction (2026-09-14 จันทร์ — เปิดตลาดครั้งถัดไป, วันนี้ 09-13 ตลาดปิด)
-- **S&P/NASDAQ จะเปิดต่อเนื่องจากแรงบวกปิดวันศุกร์ (+0.86%/+0.96%) หรือย่อตาม 10Y yield ที่ยังขึ้นต่อ (4.975%)** — trigger: ราคาปิดวันจันทร์
-- **IOT จะยืนเหนือ $38 ต่อ (ปิดศุกร์ $38.38 ใกล้ขอบล่างโซน $38-39)** — trigger: ราคาปิดวันจันทร์
-- **10Y yield จะย่อกลับลงมาบ้างหลังขึ้นต่อเนื่อง 5 วันติด (4.784%→4.975%) หรือจะทะลุ 5.0% เป็นครั้งแรก** — trigger: yield ปิดวันจันทร์
+## 🔮 Today's Prediction (2026-09-14 จันทร์)
+
+> ⚠️ **Pre-market update (16:30 น. ไทย, ตลาด NYSE ยังไม่เปิด — เปิด ~20:30 น. ไทย):** พบข่าวใหม่ที่เปลี่ยน setup จากที่ทำนายไว้ตอนเช้า (Sunday brief) มาก — **ยกเลิก prediction เดิม 3 ข้อด้านล่าง (เขียนไว้ก่อนเห็นข่าวนี้) แทนด้วยชุดใหม่**: (1) **AI safety concern** — Sam Altman (OpenAI) เรียก IPO ปี 2026 ว่า "ill-advised" เพราะกังวล AI safety, Dario Amodei (Anthropic) เรียกร้องให้ชะลอการพัฒนา AI — กระทบ sentiment หุ้นกลุ่ม AI ทั้งกระดาน (2) **Oil surge ต่อเนื่อง** — Saudi Arabia ปิด pipeline สำคัญ + US-Iran ยังยิงกันต่อ (Strait of Hormuz, Houthis ยึด port เยเมน) ทำให้ Brent ทะลุ $107, WTI >$102 (Brent +9% ในสัปดาห์เดียว) — **Futures ล่วงหน้า: S&P -0.5/-0.7%, Nasdaq-100 -1.1/-1.65%, Dow -0.24%** (CNBC, IC Trading, Time News, หลายแหล่งตรงกัน)
+>
+> **Prediction ใหม่ (แทนที่ชุดเดิม):**
+> - **Nasdaq จะเปิดลบตาม futures (-1.1% ถึง -1.65%) เพราะ AI-safety sentiment กระทบกลุ่ม AI โดยตรง** — trigger: ราคาเปิด/ปิดจริงคืนนี้
+> - **PLTR/NVDA (pure AI plays) จะโดนแรงกว่าตลาดรวม เพราะข่าวเจาะจงกลุ่ม AI ไม่ใช่แค่ risk-off ทั่วไป** — trigger: % change เทียบ S&P
+> - **10Y yield จะขึ้นต่อทดสอบ 5.0% เป็นครั้งแรก จาก oil surge ต่อเนื่อง** — trigger: yield ปิดคืนนี้
+>
+> **Prediction เดิม (เขียนไว้ก่อนเห็นข่าว AI-safety/oil — เก็บไว้อ้างอิง ไม่ใช้ grade แล้ว):** ~~S&P/NASDAQ จะเปิดต่อเนื่องจากแรงบวกปิดวันศุกร์~~ / ~~IOT จะยืนเหนือ $38 ต่อ~~ / ~~10Y yield จะย่อกลับหรือทะลุ 5.0%~~
 
 **Prediction Review (จาก 2026-09-11 ศุกร์ เช้า — เทียบผลจริงปิดตลาดศุกร์ที่ยืนยันแล้ววันนี้):**
 - ✅ **"ตลาดรวมจะฟื้นตัวต่อเนื่องหรือย่อกลับหลัง CPI ออกตามคาด"** — ฟื้นตัวต่อเนื่องจริงจนปิดตลาด: S&P ปิด +0.86% (7,656.98), NASDAQ ปิด +0.96% (26,333.04) ไม่ได้ย่อกลับ
@@ -100,6 +106,7 @@
 
 ## Holdings
 
+> **📅 Sep 14 (จันทร์) ก่อนตลาดเปิด — ราคายังเท่าปิดจริงศุกร์ (ตลาด NYSE ยังไม่เปิด, เปิด ~20:30 น. ไทย):** GWRE $140.92, PLTR $167.23, AVGO $361.99, IOT (Top Pick) $38.38, NVDA (Watchlist Starter) $218.29 — ไม่มีตัวไหนขยับเพราะยังไม่เข้า session — **แต่ VIX quote ล่าสุดกระโดดเป็น 18.01 (+13.7% จาก close 15.84)** สะท้อน pre-market risk-off จากข่าว AI-safety concern (Altman/Amodei) + oil surge (Brent >$107, Saudi ปิด pipeline) — Nasdaq futures -1.1/-1.65% บ่งชี้กลุ่ม Growth/AI (PLTR, NVDA, IOT) มีโอกาสโดนแรงกว่าตลาดรวมเมื่อเปิดจริง — thesis/Action ทุกตัวยังไม่เปลี่ยน (ยังไม่มีข้อมูลพื้นฐานใหม่ แค่ sentiment risk-off) รอราคาปิดจริงคืนนี้ก่อนประเมินต่อ
 > อัปเดต Sep 13, 2026 (อาทิตย์ ตลาดปิด — ราคา T-1 = ปิดจริงวันศุกร์ Sep 11) | Total holdings (3 ตัว): **$345.16** | Unrealized P&L: **+$70.38 (+25.6%)** + Realized (GWRE trim): **+$19.07** + Cash Reserve **$220.89**
 > **📅 Sep 13 (อาทิตย์) — Full Brief สุดสัปดาห์ ใช้ราคาปิดจริงวันศุกร์ (curl confirmed จาก timestamp 2026-09-11):** GWRE $140.92 (+0.59% จาก Thu close $140.09), PLTR $167.23 (+0.83% จาก $165.86), AVGO $361.99 (+0.32% จาก $360.83), IOT (Top Pick) $38.38 (-0.16% จาก $38.44), NVDA (Watchlist Starter) $218.29 (-0.03% จาก $218.36) — ตลาดปิดจริงยืนยัน risk-on reversal ต่อเนื่องจากที่บันทึก intraday ไว้: S&P ปิด +0.86% (7,656.98), NASDAQ ปิด +0.96% (26,333.04), VIX ร่วงปิด **-11.21% เหลือ 15.84** (แรงกว่าที่บันทึก intraday -9.92%), 10Y yield ปิดขึ้นต่อเป็น **4.975%** (ไม่ย่อตาม oil ตามที่คาด) — ไม่มีข่าว stock-specific ใหม่ระหว่างวันหยุดสุดสัปดาห์ thesis/Action ทุกตัวไม่เปลี่ยน, Kill buffer: GWRE +63.5%, PLTR +77.2%, AVGO +21.6% (ยังห่างไกลทุกตัว)
 > **🟢 Sep 11 (ศุกร์) — ตลาดรวมฟื้นตัวแรง: oil ย่อจากจุดสูงสุด + CPI ตามคาด คลาย sentiment risk-off:** WTI -3% เหลือ $99.28, Brent -3.1% เหลือ $104.32 (ย่อจากที่ทะลุ $100+ เมื่อวาน) + August CPI headline +3.4% YoY, core +2.4% YoY (ลดจาก 2.5%) ตรงตาม consensus พอดี ไม่มี surprise — **S&P +0.85% (7,656.10), NASDAQ +1.02% (26,348.11), VIX -9.92% เหลือ 16.07** (จาก 17.84), 10Y yield ทรงตัว 4.942% (แทบไม่เปลี่ยนจาก 4.944 เมื่อวาน แม้ oil ย่อแล้ว) | Holdings: GWRE $138.825 (-0.90%), PLTR $165.59 (-0.16%), AVGO $363.71 (+0.80%), **IOT (Top Pick) $38.90 (+1.20%)**, NVDA (Watchlist Starter) $219.77 (+0.64%) — ไม่มีตัวไหนขยับ >3% เฉพาะตัว เป็น macro-driven (risk-on reversal) ล้วนๆ — thesis/Action ทุกตัวไม่เปลี่ยน, Kill buffer ยังห่างไกลทุกตัว (GWRE +61.1%, PLTR +75.4%, AVGO +22.2%)
@@ -141,6 +148,7 @@
 > - **2026-07-14:** ประเมิน SKHY (SK hynix, เพิ่ง IPO) เป็นตัวเลือกใช้เงินก้อนนี้ → ผลคือ 🔴 Avoid (Compounder 1/5 — ดู briefs/SKHY-2026-07-14.md) ไม่ผ่านเกณฑ์ → ตัดสินใจถือเงินสดรอแทน
 > - **2026-09-11 Top-up Check (auto, Cash Reserve $220.89 เต็มก้อน):** IOT เป็น Watchlist ตัวเดียวที่ Action = 🟢 Buy เต็มรูปแบบ (Layer 2 5/5 confirmed, Bull-leaning Second Opinion) และ Holdings Cap ยังไม่เต็ม (3/5 ตัว) — แต่ bear agent เคยแนะนำเข้าเป็น **Starter Position ก่อน ไม่ full size** (valuation ยัง Inconclusive สุดขั้ว GF Cheap vs conquest Expensive + SBC/supplier concentration risk) → แนะนำ **50% ของ Cash Reserve (~$110)** เข้า IOT เป็น Starter สอดคล้องกับที่ user เคยพิจารณาไว้ตั้งแต่ 2026-09-08 — อีก 50% เก็บเป็น dry powder รอ Q3 FY27 actual ยืนยัน
 > - **2026-09-13 (อาทิตย์) Top-up Check:** ไม่มีการเปลี่ยนแปลงจากรอบ 09-11 (ไม่มี /brief ใหม่, ไม่มีราคาขยับมีนัยสำคัญระหว่างวันหยุด) — คำแนะนำเดิมยังยืนตามหลักการ: **50% ของ Cash Reserve (~$110) เข้า IOT เป็น Starter**, อีก 50% ถือรอ — GWRE ถูกประเมินเป็น funding-candidate ทางเลือก (3/4 checklist ผ่าน: Top Pick ซ้ำ≥3 brief ✅, Bull ชนะ Bear ✅, Fact Check ✅, แต่ Entry Zone ของ IOT เอง ❌ ยังไม่ชัด) — ยังไม่จำเป็นต้องขาย GWRE เพราะ Cash Reserve ที่มีอยู่พอสำหรับ Starter อยู่แล้ว
+> - **2026-09-14 (จันทร์ ก่อนตลาดเปิด) Top-up Check:** ไม่เปลี่ยนจาก 09-13 — ราคายังไม่ขยับ (ตลาดยังไม่เปิด) คำแนะนำเดิมยืน: 50% ของ Cash Reserve (~$110) เข้า IOT Starter — ⚠️ ควรรอดูราคาเปิดตลาดคืนนี้ก่อน (Nasdaq futures -1.1/-1.65% จาก AI-safety/oil news) เพราะถ้า IOT ร่วงแรงตาม sector อาจได้ entry ที่ดีกว่าถ้ารอ
 
 ---
 
@@ -292,6 +300,8 @@
 - **AS refresh:** ยังคง 🟠 Watch (Provisional) ไม่เปลี่ยน — Q3 earnings ยังไม่ประกาศ (คำถามหลักเรื่อง growth <20% trigger ยังไม่มีคำตอบ) แต่ valuation ถูกลงอีก (ราคาแตะ 52-week low $27.31)
 
 **✅ 2026-09-07: EOG ผ่าน Final Check แล้ว → ลบออกจาก Watchlist** — FY2026 guidance ยืนยันชัดเจนว่า oil production +5% YoY, total production +13-14% YoY (รวม Encino M&A แล้ว) — revenue +57% YoY เกือบทั้งหมดมาจากราคาน้ำมัน (+46% YoY) ไม่ใช่ volume แม้ WTI จะยืนสูงกว่าเดิมก็ตาม (~$92/bbl) — เปลี่ยนจาก ⚠️/⚪ เป็น ❌ confirmed ครั้งแรก (pattern เดียวกับ COST) — ธุรกิจคุณภาพสูงจริง (Layer 1 สะอาด, FCF margin ~32.5%) แค่ไม่ match growth style ของพอร์ตนี้ ดู [[EOG-2026-09-07]]
+
+**🔍 2026-09-14 (จันทร์, ก่อนตลาดเปิด): Market Scan (10 หน้า) — พบตัวใหม่ mkt cap ใหญ่ 5 อันดับแรกที่ยังไม่เคย brief:** COF (Capital One), SNOW (Snowflake), MPC (Marathon Petroleum), VLO (Valero Energy), NET (Cloudflare) — ยังไม่ผ่าน 4-Layer analysis เลย แค่ผ่านตัวกรอง growth เชิงปริมาณ (sales QoQ >30%) เท่านั้น รัน `/brief TICKER` ถ้าสนใจ | Avoid Recheck: ไม่มีตัวเข้าเกณฑ์ครบ 3 ข้อ (ทุกตัวที่เคย Avoid briefed ไม่ถึง 90 วัน) | Catalyst Scan: ตรวจ Okta (raised FY27 guidance) แล้วแต่ growth จริงแค่ ~11% YoY ต่ำกว่าเกณฑ์ 30% มาก ไม่นับเป็น candidate | Pre-Consensus Scan v2: ไม่พบสัญญาณที่น่าเชื่อถือ (insider buys ที่เจอเป็น single-insider มูลค่าเล็ก ไม่ถึงเกณฑ์ ≥2 คน, ไม่พบ product-momentum signal ที่ชัดเจน) | 📋 **Watchlist Due วันนี้:** ASML, TSM (stale 2026-09-14), STRL (stale 2026-09-12, overdue) — รัน `/brief` ถ้าสนใจ
 
 | Ticker | เหตุผลที่สนใจ | ราคาที่จะซื้อ | ราคาล่าสุด | Next Review |
 |--------|--------------|--------------|-----------|-------------|
