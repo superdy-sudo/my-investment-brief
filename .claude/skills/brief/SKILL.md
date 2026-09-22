@@ -83,11 +83,27 @@ curl -s -A "Mozilla/5.0 (Windows NT 10.0; Win64; x64)" "https://query1.finance.y
 ```
 Parse `meta.regularMarketPrice` — ถ้า curl fail ค่อย fallback ไป WebSearch (ราคาอาจ lag)
 
+**Webull cross-check data (2026-09-22, ทดสอบแล้ว) — ใช้ Bash curl เช่นกัน ไม่ต้อง login:**
+
+⚠️ Endpoint ส่วนใหญ่ของ Webull (`analysis/target`, `analysis/rating`, `institutional/holding`, `shortinterest/query`, `news/list` ฯลฯ) โดนบล็อกด้วย `API_DISABLED` ทั้งหมด — **ห้ามเสียเวลาลองซ้ำ** มีแค่ 3 endpoint นี้เท่านั้นที่ใช้งานได้จริง:
+
+```bash
+# 1. หา tickerId ก่อนเสมอ (จำเป็นสำหรับ 2 ข้อถัดไป) — เลือกแถวที่ symbol ตรงกับ TICKER เป๊ะ ระวังชื่อคล้ายกัน (เช่น TICKER vs TICKERP/TICKERR/ETF ที่ใช้ชื่อพ้อง)
+curl -s -A "Mozilla/5.0 (Windows NT 10.0; Win64; x64)" "https://quotes-gw.webullfintech.com/api/search/pc/tickers?keyword=[TICKER]&pageIndex=1&pageSize=5"
+
+# 2. Real-time quote — forward P/E, PB, PS, EPS, 52wk range, dividend yield, ช่วงวันที่คาด earnings ครั้งถัดไป
+curl -s -A "Mozilla/5.0 (Windows NT 10.0; Win64; x64)" "https://quotes-gw.webullfintech.com/api/stock/tickerRealTime/getQuote?tickerId=[ID]"
+
+# 3. Capital flow (วันล่าสุด, snapshot วันเดียว) — เงินไหลเข้า/ออกแยกขนาด transaction
+curl -s -A "Mozilla/5.0 (Windows NT 10.0; Win64; x64)" "https://quotes-gw.webullfintech.com/api/stock/capitalflow/ticker?tickerId=[ID]"
+```
+
 ```
 ☐ ราคาปัจจุบัน + % change
 ☐ Revenue, EPS, FCF margin (2 ปีล่าสุด)
 ☐ Net Debt/EBITDA + Interest coverage
 ☐ Morningstar Fair Value + Moat Rating หรือ GuruFocus GF Value — ค้นซ้ำด้วย query เจาะจงถ้ารอบแรกไม่เจอ (ดูกฎด้านบน)
+☐ Webull forward P/E + estimateEarningsDate (จาก getQuote) — ใช้เป็น cross-check เสริม ไม่ใช่แหล่งตัดสิน (ดูกฎด้านล่าง)
 ☐ ข่าว/catalyst สำคัญ 30 วันล่าสุด
 ☐ Short interest + insider activity (ถ้ามี) — ดูกฎ materiality filter ด้านล่างก่อนนำไปใช้ใน Bear Case
 ☐ Guru Holdings — เช็คว่ามีกองทุน quality-investing ชื่อดังถืออยู่ไหม (Fundsmith, Berkshire/Buffett, Terry Smith, Nomad, Baillie Gifford ฯลฯ) + สัดส่วนในพอร์ตเขา + เพิ่ม/ลดสถานะล่าสุด — ใช้ query เช่น `"[TICKER] Fundsmith holding"`, `"[TICKER] 13F Berkshire"`, `"[TICKER] guru stock picks"`
@@ -97,6 +113,11 @@ Parse `meta.regularMarketPrice` — ถ้า curl fail ค่อย fallback �
 **กฎการใช้ YouTube Digest:** เป็น**ข้อมูลประกอบเท่านั้น** ห้ามใช้เป็นหลักฐานเดี่ยวเพื่อให้ ✅/❌ ใน Layer 1/2 หรือเป็นเหตุผลหลักใน Layer 4 Action — ใช้ได้แค่เสริมน้ำหนัก Bull/Bear case ที่มีเหตุผลเชิงธุรกิจ/ตัวเลขรองรับอยู่แล้ว
 
 **วิธีใช้ Guru Holdings ใน Layer 2:** ถ้าพบว่ากองทุน quality-investing ชื่อดังถือ/เพิ่มสถานะ → เป็นหลักฐานสนับสนุนข้อ 4 (Competitive advantage ยั่งยืน) หรือข้อ 1 (โตได้ 5-10 ปี) ได้ — แต่ **ไม่ใช่เหตุผลเดี่ยวพอจะให้ ✅** ต้องมีเหตุผลเชิงธุรกิจประกอบด้วยเสมอ ถ้าหาไม่เจอเลย → ⚪ Unknown (ไม่ใช่ ❌)
+
+**วิธีใช้ Webull data (2026-09-22):**
+- **Forward P/E:** ใส่เป็นบรรทัดเสริมใน Layer 3 (Valuation) เท่านั้น เขียนกำกับว่า "Webull forward P/E [X.Xx]" — **ไม่นับเป็นแหล่งที่ 3 ในกฎ 2-ใน-3** (ไม่ใช่ fair-value/DCF แบบ Morningstar/GuruFocus/conquest เป็นแค่ multiple เฉยๆ) ใช้เป็นข้อมูลประกอบให้ user เห็นภาพเพิ่มเท่านั้น
+- **estimateEarningsDate:** ใช้แทน/เสริมการหาวันที่ earnings ถัดไปแทน WebSearch (เชื่อถือได้กว่าเพราะเป็นตัวเลขจาก exchange โดยตรง) — ถ้าตรงกับวันที่รัน `/brief` หรือ `/daily-brief` ให้ trigger Dynamic TP Reset check ตามปกติ
+- **Capital flow:** เป็น **snapshot วันเดียว ผันผวนสูง ห้ามใช้ฟันธง Layer ใดๆ** ใส่เป็นข้อมูลประกอบใน Bull/Bear ได้เฉพาะเมื่อเข้าเงื่อนไข: major flow (large+superLarge net) กับ retail flow สวนทางกันชัดเจน (เช่น สถาบันซื้อสุทธิขณะราคาลง หรือสถาบันขายสุทธิขณะราคาขึ้น) — ถ้าทิศทางเดียวกับราคาปกติ ไม่ต้องพูดถึง (เป็น noise ไม่ใช่สัญญาณ)
 
 ### ⚠️ Insider Selling — ต้องผ่าน materiality filter ก่อนนับเป็น Bear Case
 
@@ -302,6 +323,7 @@ Debt         ✅/❌/⚠️/⚪ — Interest coverage [Xx หรือ "ไม�
 ━━ Layer 3: Valuation ━━
 Fair Value: $XXX (แหล่ง: Morningstar/GuruFocus[/conquest ถ้าเรียก])
 ส่วนต่าง: [−X% Cheap / +X% Expensive] [หรือ "2/3 sources agree direction" + ตัวเลขจริงของทั้ง 3 แหล่ง + ระบุ outlier ถ้าเรียก conquest มาตัดสิน]
+Webull cross-check: forward P/E [X.Xx] (เสริมเฉยๆ ไม่นับในกฎ 2-ใน-3) | Next earnings est. (Webull): [date range หรือ "ไม่พบ"] | Money flow วันนี้: [factual note เฉพาะถ้า major flow สวนทาง retail ชัดเจน หรือ "ไม่มีสัญญาณเด่น"]
 
 ━━ Layer 4: Action ━━
 [🟢 Buy / 🔵 Starter / 🟠 Watch / 🔴 Avoid] [+ "(Provisional — ข้อมูลไม่ครบ)" ถ้ามี ⚠️/⚪ ≥2 ข้อ] [+ "(⚠️ Second opinion flagged)" ถ้า agent อิสระไม่เห็นด้วย]
@@ -421,3 +443,4 @@ git push origin main
 - Action ต้องชัด 1 คำ (+ Provisional tag ถ้าเข้าเงื่อนไข) — ห้ามกำกวม
 - ถ้า Morningstar/GuruFocus ขัดแย้งกันมาก (>30-40%) → เรียก agent `conquest` หา DCF อิสระตัวที่ 3 ก่อน — ใช้เกณฑ์ **directional agreement** (2 ใน 3 แหล่งอยู่ bucket เดียวกัน Cheap/Fair/Expensive แม้ตัวเลขห่างกันมากก็ได้ — ไม่ใช้เกณฑ์ห่างกันไม่เกิน 15-20% แบบเดิม เพราะ conquest เป็น bottom-up DCF ตัวเลขจะไม่มีทางใกล้เคียง GuruFocus แม้ทิศทางตรงกัน) ระบุกำกับว่าแหล่งไหนเป็น outlier ถ้ายังกระจายกันคนละ bucket ทั้ง 3 → เขียน "Valuation Inconclusive" ห้ามฟันธง % จากแหล่งเดียว
 - Insider selling นับเป็น Bear Case ได้เฉพาะเมื่อผ่าน materiality filter ครบ 3 ข้อ (ผู้บริหารหลายคนขายพร้อมกัน + สัดส่วนมาก + ไม่มีคำอธิบายเป็น routine) — ถ้าไม่ครบให้ใส่แค่ factual note ใน Management ไม่ใช่ Bear Case
+- **Webull data (2026-09-22):** ใช้ได้แค่ 3 endpoint (`search/pc/tickers`, `stock/tickerRealTime/getQuote`, `stock/capitalflow/ticker`) — endpoint อื่นโดน `API_DISABLED` หมด ห้ามลองซ้ำ | forward P/E เป็นข้อมูลเสริมเท่านั้น **ไม่นับเป็นแหล่งที่ 3 ในกฎ 2-ใน-3** | Capital flow เป็น snapshot วันเดียวผันผวนสูง ห้ามใช้ฟันธง Layer ใดๆ ใส่ได้แค่เป็น factual note เมื่อ major flow สวนทาง retail ชัดเจนเท่านั้น
