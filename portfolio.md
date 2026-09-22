@@ -208,7 +208,7 @@
 
 ## Holdings
 
-> อัปเดต Sep 22, 2026 (อังคาร ก่อนตลาดเปิด — ราคา T-1 = ปิดจริงจันทร์ Sep 21) | Total holdings (4 ตัว): **$473.08** | Unrealized P&L: **+$88.30 (+22.96%)** + Cash Reserve **$110.89**
+> อัปเดต Sep 22, 2026 (อังคาร ก่อนตลาดเปิด — ราคา T-1 = ปิดจริงจันทร์ Sep 21) | Total holdings (4 ตัว): **$473.08** | Unrealized P&L: **+$88.30 (+22.96%)** + Cash Reserve **$411.55** (หลังเติมเงินใหม่ 10,000 บาท = $300.66 วันนี้)
 >
 > **🌙 Sep 21 (จันทร์) ปิดตลาดจริง (curl-confirmed 2026-09-22 ก่อนตลาดเปิดวันอังคาร) — รี่แรงกว่า intraday มาก ทุกตัว Holdings บวก ยกเว้น IOT:** GWRE $149.38 (+3.53%, จาก Sep 18 close $144.29), PLTR $183.09 (+3.07%, จาก $177.64), AVGO $362.66 (+1.60%, จาก $356.96, kill buffer ฟื้นเป็น +21.8% จาก +19.9% ศุกร์), **IOT (Top Pick) $38.05 (-3.79%, จาก $39.55) — underperform ตลาดรวมหนักมาก**, NVDA (Watchlist Starter) $227.38 (+2.30%, จาก $222.27) — ตลาดรวมปิดจริงบวกแรงกว่าที่ intraday บันทึกไว้มาก: **S&P +1.49% (7,764.70), NASDAQ +2.26% (27,122.09, ปิดสูงสุดใหม่ตั้งแต่ มิ.ย.)**, VIX 14.87 (+0.40%), 10Y yield 4.963% (-3.5bp จาก 4.998%) — สาเหตุ: **AI/semiconductor rally แรงมาก** (Intel +12%, AMD +10% ทะลุ market cap $1T) ดันตลาดรวม, Fed hike ต้นสัปดาห์ถูก price-in ไปแล้ว, oil/yield ย่อลง — GWRE/PLTR ได้อานิสงส์ในฐานะ growth stock ทั่วไป แต่ **IOT ไม่ใช่ AI-infra/semi play เลยพลาด rally รอบนี้** หาข่าวลบเฉพาะตัวแล้วไม่พบ (Piper Sandler downgrade เป็นข่าวเก่าตั้งแต่ 10 ส.ค.) เป็น underperformance ต่อเนื่องจากหลายวันก่อนมากกว่า — **Prediction เสาร์ (09-19) สำหรับวันจันทร์: ถูก 3/3 เต็ม** (ดู 🔮 Prediction Review ด้านล่าง) | thesis ทุกตัวไม่เปลี่ยน (sector rotation ไม่ใช่ fundamental พัง)
 >
@@ -257,7 +257,8 @@
 
 ## 💵 Cash Reserve
 
-> **$110.89** (หลังซื้อ IOT $110.00) — dry powder จากขาย SPGI (Jul 14) + V (Aug 17, +$82.99) + GWRE trim 30% (Aug 19, +$50.90) | ถอนออกใช้ส่วนตัว $70 เมื่อ Aug 3, 2026
+> **$411.55** (หลังเติมเงินใหม่ 10,000 บาท = $300.66 @ 33.26 THB/USD, 2026-09-22) — เดิม $110.89 (หลังซื้อ IOT $110.00) จาก dry powder ขาย SPGI (Jul 14) + V (Aug 17, +$82.99) + GWRE trim 30% (Aug 19, +$50.90) | ถอนออกใช้ส่วนตัว $70 เมื่อ Aug 3, 2026
+> 💵 **เติมเงินใหม่ 2026-09-22: 10,000 บาท ($300.66)** — Top-up Check ด้วยยอดใหม่รวม $411.55: ไม่มี Watchlist ticker เป็น 🟢 Buy เต็มรูปแบบ (HALO/NVDA/APH/CVNA/KKR ล้วน Watch/Starter Provisional) และ Holdings ทั้ง 4 ตัวไม่เข้าเกณฑ์ Size-Up ตาม fair-value entry zone (GWRE/PLTR เป็น Avoid mechanical, AVGO/IOT valuation ยังไม่ยืนยัน Cheap) → **ถือเงินสดทั้งก้อนรอต่อ** ตามกฎเดิม รอ IOT Q3 FY27 actual (~ธ.ค. 2026) หรือ Watchlist ตัวใดตัวหนึ่งขึ้นเป็น Buy เต็มรูปแบบก่อน
 > 🛒 **IOT ซื้อแล้ว Sep 14, 2026 @ $39.51 | 2.7834188 shares | ลงทุน $110.00 (Starter Position)** — ตาม Top-up Check ที่แนะนำมาตั้งแต่ 09-11 (50% ของ Cash Reserve เข้า IOT เป็น Starter ไม่ full size ตาม bear recommendation — valuation ยัง Inconclusive สุดขั้ว GF Cheap vs conquest Expensive + SBC/Quectel concentration risk) — อีก $110.89 เก็บเป็น dry powder รอ Q3 FY27 actual (~ธ.ค. 2026) ยืนยัน growth ก่อนพิจารณา size up เต็ม
 > **กฎ:** ห้ามเติม Holdings เดิมเพียงเพราะ "อยากเติมผู้ชนะ" — ใช้เงินก้อนนี้ได้เฉพาะเมื่อเข้าเงื่อนไขใดเงื่อนไขหนึ่งจริงๆ เท่านั้น:
 > 1. **Size Up (แก้ 2026-09-04 — เปลี่ยนจาก cost-basis เป็น fair-value-based):** เดิมกฎใช้ "ราคาลง ≥8% จากราคาซื้อ" แต่พบปัญหาเชิงตรรกะ (user ชี้ให้เห็น 2026-09-04): ราคาซื้อของเราเป็นแค่ anchor ส่วนตัว ไม่เกี่ยวกับว่าหุ้นตอนนี้ถูก/แพงจริง — ทำให้ตัวที่ fundamentals ดีขึ้นจริงแต่ต้นทุนเราต่ำ (เช่น AVGO หลัง Q3 beat) ไม่มีทางเข้าเกณฑ์ได้เลย ในขณะที่ตัวที่ลงเพราะ fundamentals แย่ลงจริง (deserved the drop) กลับเข้าเกณฑ์ได้ — **เกณฑ์ใหม่:** Holding ตัวใดตัวหนึ่งราคาปัจจุบันอยู่ **ในหรือต่ำกว่า Entry Zone ตาม fair value ล่าสุด** (Morningstar/GuruFocus จาก /brief ล่าสุดของ ticker นั้น) + thesis ✅ หรือ Improved + kill buffer >10% (ตอนนี้ไม่มีตัวไหนเข้าเกณฑ์เต็มรูปแบบ — AVGO เช็คแล้ว 2026-09-04 ด้วย conquest DCF: 2/3 sources บอกไม่ถูก [GuruFocus Fair + conquest $181 Expensive] มีแค่ Morningstar บอกถูกมาก จึงยังไม่เข้า Entry Zone ที่ยืนยันได้)
@@ -343,7 +344,7 @@
 - TP1 $59.27 (+50%): trim 30% — return-target anchored ตาม aggressive growth style
 - TP2 $79.02 (+100%): เป้าหลัก
 - 🚨 ขายถ้า Q3 FY27 actual (~ธ.ค. 2026) ชะลอต่ำกว่า 25% YoY ต่อเนื่องเชิงโครงสร้าง (thesis-break trigger)
-- 🚨 size เล็ก (Starter, $110) — รอ Q3 FY27 actual ยืนยัน growth ก่อน size up เต็มด้วย dry powder ที่เหลือ ($110.89)
+- 🚨 size เล็ก (Starter, $110) — รอ Q3 FY27 actual ยืนยัน growth ก่อน size up เต็มด้วย dry powder ที่เหลือ ($411.55)
 
 **SPGI** — Long-term Compounder
 - TP1 $520: ใกล้ analyst target ต่ำสุด ($535), valuation ยังสมเหตุสมผล
