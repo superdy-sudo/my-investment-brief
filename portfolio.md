@@ -60,10 +60,26 @@
 > **🚀 2026-09-14 ปิดตลาดจริง (curl-confirmed, เช็ค 2026-09-15 ก่อนตลาดเปิด) — รี่ต่อแรงกว่าที่คิดมาก:** ปิด **$42.91 (+11.80% จากปิดจริงศุกร์ $38.38)** — สื่อรายงาน "surge 8% intraday เพิ่ม market cap ~$1.2B" แต่ปิดจริงแรงกว่านั้นอีก โมเมนตัมต่อเนื่องจาก Q2 FY27 earnings ที่บีทมาก (revenue $508.4M +29.9% YoY) ผสมกับ rotation หนีกลุ่ม AI-chip ที่โดน AI-safety selloff ไปหา non-AI-infra growth software — thesis ไม่เปลี่ยน ยังคง 🟢 Buy, Conviction 9.0/10 (ไม่เปลี่ยนจาก /brief ล่าสุด) — **⚠️ valuation ยิ่งแพงขึ้นจาก rally นี้** (เดิม Inconclusive อยู่แล้ว ยิ่งเอนไปทาง conquest Expensive มากขึ้น ยังไม่มี /brief refresh ใหม่วันนี้)
 > **📉 2026-09-15 (อังคาร) — profit-taking ตามตลาดรวม pre-FOMC caution:** ปิด $41.65 (-2.94% จาก $42.91) — ไม่มีข่าว IOT-specific ใหม่ เป็น broad pullback หลังรี่แรงจันทร์ (ทุก Holdings ย่อพร้อมกัน) thesis/Action ไม่เปลี่ยน ยังคง 🟢 Buy, Conviction 9.0/10
 > **📉 2026-09-21 (จันทร์) ปิดจริง — underperform ตลาดรวมหนักมากขณะ AI-semi rally พาดัชนีบวกแรง:** ปิด $38.05 (-3.79% จาก Sep 18 close $39.55) ขณะ S&P +1.49%, NASDAQ +2.26% (Intel +12%, AMD +10%) — หาข่าวลบเฉพาะตัวใหม่แล้วไม่พบ (Piper Sandler downgrade เป็นข่าวเก่า 10 ส.ค.) เป็น rotation หนีไปหา semis/AI-infra ต่อเนื่อง เพราะ IOT ไม่ใช่ pure-play กลุ่มนั้น — thesis/Action ไม่เปลี่ยน ยังคง 🟢 Buy, Conviction 9.0/10 (ยังไม่ได้ /brief refresh ใหม่ — valuation ยัง Inconclusive เหมือนเดิม)
+> **📉 2026-09-24 (พฤหัส) ตลาดเปิด — ย่อตาม broad risk-off:** ราคา $38.775 (-0.78% จาก Sep 23 close $39.08) ขณะตลาดรวมย่อแรงจาก 10Y yield ทะลุ 5.11% (S&P -0.52%, NASDAQ -0.81%) — ไม่พบข่าวลบเฉพาะตัวใหม่ thesis/Action ไม่เปลี่ยน ยังคง 🟢 Buy, Conviction 9.0/10 (ยังไม่ได้ /brief refresh ใหม่)
 
 ---
 
-## 🔮 Today's Prediction (2026-09-23 พุธ ตลาดเปิด — ราคา T-1 = ปิดจริงอังคาร Sep 22)
+## 🔮 Today's Prediction (2026-09-24 พฤหัส ตลาดเปิด — ราคา T-1 = ปิดจริงพุธ Sep 23)
+
+> **📅 สรุปสถานะระหว่าง session (curl-confirmed):** 10Y yield ทะลุ 5.11% ต่อเนื่อง (สูงสุดตั้งแต่ ก.ค. 2007) จาก inflation fear + geopolitical worries → ตลาดรวมย่อแรงกว่าเมื่อวาน (S&P -0.52%, NASDAQ -0.81%, VIX +6.91% เป็น 16.23) — วันนี้ **software-growth และ semis ย่อพร้อมกันหมด** (GWRE -0.63%, PLTR -0.35%, IOT -0.78%, AVGO -1.94%, NVDA -1.65%) ต่างจากเมื่อวานที่แยกทิศทางชัดเจน — AVGO kill buffer แคบลงต่อเนื่องเป็นวันที่ 2 เหลือ +16.9%
+>
+> **Prediction สำหรับช่วงที่เหลือของวันนี้/พรุ่งนี้:**
+> - **10Y yield จะยืนเหนือ 5.10% ต่อจนปิดตลาดคืนนี้** (ทำสถิติสูงสุดใหม่ตั้งแต่ 2007 ต่อเนื่อง) เพราะ inflation fear เป็นข้อมูลเชิงโครงสร้างต่อเนื่องจากเมื่อวาน — trigger: yield ปิดจริงคืนนี้เทียบ 5.11%
+> - **Growth stocks ทั้งกลุ่ม (software-growth+semis) จะย่อพร้อมกันต่อ ไม่แยกทิศทางแบบเมื่อวาน** เพราะวันนี้เป็น broad risk-off จาก yield/inflation fear ไม่ใช่ sector rotation — trigger: GWRE/PLTR/IOT vs AVGO/NVDA ปิดจริง ไปทิศทางเดียวกันหรือไม่
+> - **VIX จะขยับขึ้นต่อถ้า yield ยังไม่หยุด** อาจทะลุ 17 — trigger: VIX ปิดจริงเทียบ 16.23
+>
+> **Prediction Review (จาก 2026-09-23 พุธ ก่อนตลาดเปิด — เทียบกับปิดจริงพุธที่ยืนยันแล้ว curl-confirmed 2026-09-24):**
+> - ✅ **"10Y yield จะยืนเหนือ 5.0% ต่อจนปิดตลาดคืนนี้"** — ถูก: yield ยืนเหนือ 5.0% ต่อเนื่องจนถึงวันนี้ทะลุ 5.11% ไปอีก
+> - ✅ **"Software-growth (GWRE/PLTR/IOT) จะยืนบวกได้ต่อจนปิดตลาด สวนทาง semis (AVGO/NVDA)"** — ถูกชัดเจน: ปิดจริงพุธ GWRE +1.61% ($152.89), PLTR +3.67% ($191.79), IOT +2.14% ($39.08) ทั้งหมดบวก ขณะ AVGO -2.62% ($354.99), NVDA -1.47% ($225.51) ทั้งคู่ลบ
+> - ✅ **"VIX จะขยับขึ้นต่อเนื่องถ้า yield ยืนเหนือ 5%"** — ถูก: VIX ขยับขึ้นต่อเป็น 16.23 วันนี้ (+6.91%)
+> - **Accuracy: 3/3 เต็ม** — บทเรียน: เมื่อ yield spike เป็นตัวขับเคลื่อนหลัก sector ที่ high-multiple/pure-AI-capex (semis) โดนกดหนักกว่า software-growth ทั่วไปได้ต่อเนื่องหลายวัน แต่พอ risk-off ลามกว้างขึ้น (วันนี้) ทุกกลุ่ม growth ก็ย่อพร้อมกันได้เหมือนกัน
+
+## 🔮 Prediction เดิม (2026-09-23 พุธ ตลาดเปิด — ราคา T-1 = ปิดจริงอังคาร Sep 22)
 
 > **📅 สรุปสถานะระหว่าง session (curl-confirmed):** 10Y yield ทะลุ 5.0% ครั้งแรกตั้งแต่ ก.ค. 2007 (5.066%) จาก PMI ร้อนกว่าคาด → ตลาดรวมย่อแรง (S&P -0.48%, NASDAQ -0.83%, VIX +3.00% เป็น 14.63) แต่ Holdings สาย software-growth กลับสวนตลาดขึ้น (GWRE +1.93%, PLTR +4.16%, IOT +1.38%) ขณะ semis/AI-infra (AVGO -2.17%, NVDA -1.22%) โดนกด — ตรงข้ามกับ pattern รอบก่อนที่ semis นำตลาด — AVGO kill buffer แคบลงเป็น +19.8% (ต่ำกว่า 20% ครั้งแรกในรอบหลายวัน)
 >
@@ -223,9 +239,13 @@
 
 ## Holdings
 
+> **📅 Sep 24 (พฤหัส ตลาดเปิด, curl-confirmed) — broad risk-off ต่อเนื่องเป็นวันที่ 2 จาก 10Y yield ทะลุ 5.11% (สูงสุดตั้งแต่ ก.ค. 2007) — วันนี้ software-growth และ semis ย่อพร้อมกันหมด (ต่างจากเมื่อวานที่แยกทิศทาง):** GWRE $151.92 (-0.63% จาก Sep 23 close $152.89), PLTR $191.12 (-0.35% จาก $191.79), AVGO $348.11 (-1.94% จาก $354.99, **kill buffer แคบลงต่อเนื่องเป็นวันที่ 2 เหลือ +16.9%** จาก +19.8%), IOT (Top Pick) $38.775 (-0.78% จาก $39.08), NVDA (Watchlist Starter) $221.79 (-1.65% จาก $225.51) — ตลาดรวม: S&P 7,666.24 (-0.52%), NASDAQ 26,717.65 (-0.81%), VIX 16.23 (+6.91%), **10Y yield 5.11%** (สูงสุดตั้งแต่ ก.ค. 2007 ต่อเนื่อง) จาก inflation fear + geopolitical worries — ไม่มีตัวไหนขยับ >3% หรือมี earnings วันนี้ thesis ทุกตัวไม่เปลี่ยน (macro ไม่ใช่ fundamental พัง) | 📋 Watchlist Due วันนี้ (ค้างจากเมื่อวาน): **APH, ABNB** (stale 2026-09-23, overdue) — ยังไม่ได้รัน /brief refresh | Market Scan (10 หน้า): พบ VICR, ARW, AEIS, AXSM, FORM เป็นตัวใหม่ที่ยังไม่เคย brief | Catalyst Scan + Pre-Consensus Scan v2: ไม่พบ candidate ที่น่าเชื่อถือวันนี้ (guidance raise ที่เจอเป็น NN Inc mkt cap เล็กเกินไป/Crane-Trane-PMI-DocuSign briefed แล้วหรือ growth ต่ำกว่าเกณฑ์, insider buying เป็น single-insider ทั้งหมด Fox Corp/Liberty)
+>
 > **📅 Sep 23 (พุธ ตลาดเปิด, curl-confirmed ~2.5 ชม.หลังเปิด) — ตลาดรวมย่อแรง จาก 10Y yield ทะลุ 5.0% ครั้งแรกตั้งแต่ ก.ค. 2007 (PMI ร้อนกว่าคาด) แต่ software-growth (GWRE/PLTR/IOT) กลับสวนตลาดขึ้นแรง ขณะ AVGO/NVDA (semis) โดนกด:** GWRE $153.37 (+1.93% จาก Sep 22 close $150.46), PLTR $192.69 (+4.16% จาก $184.99 — ไม่พบข่าวเฉพาะตัวใหม่ นอกจาก analyst optimism สะสม (UBS PT $250) + PwC partnership/guidance raise เดิมจากต้นเดือน), AVGO $356.64 (-2.17% จาก $364.54, kill buffer แคบลงเป็น **+19.8%** ต่ำกว่า 20% ครั้งแรกในรอบหลายวัน), IOT (Top Pick) $38.787 (+1.38% จาก $38.26), NVDA (Watchlist Starter) $226.07 (-1.22% จาก $228.87) — ตลาดรวม: S&P 7,727.14 (-0.48%), NASDAQ 27,017.63 (-0.83%), VIX 14.63 (+3.00%), **10Y yield 5.066% (สูงสุดตั้งแต่ ก.ค. 2007, ทะลุ 5.0% ครั้งแรก)** จาก PMI ร้อนกว่าคาดเพิ่มโอกาส Fed hawkish — thesis ทุกตัวไม่เปลี่ยน (macro/rotation ไม่ใช่ fundamental พัง) | 📋 Watchlist Due วันนี้: **APH, ABNB** (stale 2026-09-23) — ยังไม่ได้รัน /brief refresh | Market Scan (10 หน้า): พบ NET, SNOW, MPC, VLO, PSX เป็นตัวใหม่ mkt cap ใหญ่สุดที่ยังไม่เคย brief | Catalyst Scan + Pre-Consensus Scan v2: ไม่พบ candidate ที่น่าเชื่อถือวันนี้ (ข่าว contract/guidance ที่เจอเป็นบริษัทเล็กเกินไปหรือเก่าแล้ว, insider buy ที่เจอเป็น single-insider หรือบริษัทนอก growth style)
 >
 > **📅 Sep 22 (อังคาร ตลาดเปิด, curl-confirmed ~40 นาทีหลังเปิด) — วันเงียบ ต่อเนื่องจาก rally เมื่อวาน แต่ consolidate ไม่ได้รี่ต่อ:** GWRE $148.92 (-0.31% จาก Sep 21 close $149.38), PLTR $182.96 (-0.06% จาก $183.07), AVGO $362.46 (-0.06% จาก $362.66, kill buffer +21.7% แทบไม่เปลี่ยน), IOT (Top Pick) $38.05 (0.00% เท่าปิดจริงจันทร์เป๊ะ), NVDA (Watchlist Starter) $227.47 (+0.04%) — ตลาดรวม: S&P 7,770.23 (+0.07%), NASDAQ 27,224.69 (+0.38%), VIX 14.62 (-1.68%), 10Y yield 4.951% (ย่อต่อจาก 4.963%) — ไม่มีตัวไหนขยับ >3% หรือมี earnings วันนี้ thesis ทุกตัวไม่เปลี่ยน | Prediction เช้านี้ (AI rally แผ่วลง/consolidate, IOT underperform ต่อ, yield ต่ำกว่า 5%) ยังตรงตามแนวโน้มที่เห็น intraday — รอปิดจริงยืนยันใน Close Brief
+>
+> อัปเดต Sep 24, 2026 (พฤหัส ตลาดเปิด, curl-confirmed) | Total holdings (4 ตัว): **$481.71** | Unrealized P&L: **+$96.95 (+25.20%)** + Cash Reserve **$110.89** | Total portfolio: **$592.60**
 >
 > อัปเดต Sep 23, 2026 (พุธ ตลาดเปิด, curl-confirmed) | Total holdings (4 ตัว): **$486.20** | Unrealized P&L: **+$101.45 (+26.37%)** + Cash Reserve **$110.89** | Total portfolio: **$597.09**
 >
@@ -265,10 +285,10 @@
 
 | Ticker | Shares | Buy Price | มูลค่า | P&L % | P&L USD | ราคาปัจจุบัน | Kill Buffer |
 |--------|--------|-----------|--------|--------|---------|--------------|------------|
-| GWRE | 0.7046022 (trim 30% executed) | $107.76 | **$108.07** | **+42.34% ✅** | +$32.14 | $153.37 | Kill $86.21 (+77.9% ✅, -20%) Sep 23 ตลาดเปิด +1.93% (จาก Sep 22 close $150.46) — สวนตลาดรวมที่ย่อแรงจาก yield spike, rotation เข้า software-growth — /brief 2026-09-04 = 🔴 Avoid (mechanical, style mismatch ไม่ใช่ Kill) |
-| PLTR | 1.0000000 | $118.00 | **$192.69** | **+63.30% ✅** | +$74.69 | $192.69 | Kill $94.40 (+104.1% ✅, -20%) Sep 23 ตลาดเปิด +4.16% (จาก $184.99) — ไม่พบข่าวเฉพาะตัวใหม่ (analyst optimism สะสม + rotation เข้า software-growth) |
-| AVGO | 0.2172321 | $372.21 (avg) | **$77.48** | **-4.17% ⚠️** | -$3.37 | $356.64 | Kill $297.77 (**+19.8% ✅, -20%**) Sep 23 ตลาดเปิด -2.17% (จาก $364.54) — โดนกดจาก 10Y yield ทะลุ 5.0%, kill buffer แคบลงต่ำกว่า 20% ครั้งแรกในรอบหลายวัน |
-| IOT 🆕 | 2.7834188 (Starter) | $39.51 | **$107.96** | **-1.83% ⚠️** | -$2.01 | $38.787 | Kill $31.61 (+22.7% ✅, -20%) Sep 23 ตลาดเปิด +1.38% (จาก $38.26) — สวนตลาดรวม ยังไม่พบข่าวลบเฉพาะตัวใหม่ — เหลือ dry powder $110.89 รอ Q3 FY27 ยืนยัน growth ก่อน size up |
+| GWRE | 0.7046022 (trim 30% executed) | $107.76 | **$107.04** | **+40.97% ✅** | +$31.11 | $151.92 | Kill $86.21 (+76.2% ✅, -20%) Sep 24 ตลาดเปิด -0.63% (จาก Sep 23 close $152.89) — broad risk-off จาก 10Y yield ทะลุ 5.11% ไม่ใช่ catalyst เฉพาะตัว — /brief 2026-09-04 = 🔴 Avoid (mechanical, style mismatch ไม่ใช่ Kill) |
+| PLTR | 1.0000000 | $118.00 | **$191.12** | **+61.97% ✅** | +$73.12 | $191.12 | Kill $94.40 (+102.5% ✅, -20%) Sep 24 ตลาดเปิด -0.35% (จาก $191.79) — broad risk-off ไม่พบข่าวเฉพาะตัวใหม่ |
+| AVGO | 0.2172321 | $372.21 (avg) | **$75.62** | **-6.48% ⚠️** | -$5.24 | $348.11 | Kill $297.77 (**+16.9% ⚠️, -20%**) Sep 24 ตลาดเปิด -1.94% (จาก $354.99) — kill buffer แคบลงต่อเนื่องเป็นวันที่ 2 ต่ำกว่า 20% (จาก +19.8%) โดนกดจาก 10Y yield spike ต่อเนื่อง |
+| IOT 🆕 | 2.7834188 (Starter) | $39.51 | **$107.93** | **-1.86% ⚠️** | -$2.04 | $38.775 | Kill $31.61 (+22.7% ✅, -20%) Sep 24 ตลาดเปิด -0.78% (จาก $39.08) — broad risk-off ไม่พบข่าวลบเฉพาะตัวใหม่ — เหลือ dry powder $110.89 รอ Q3 FY27 ยืนยัน growth ก่อน size up |
 | ~~V~~ | ~~0.2287306~~ | ~~$323.00~~ | ✅ **ขายแล้ว Aug 17** @ $362.84 | Realized +$9.11 (+12.33%) | — | — | — |
 | ~~SPGI~~ | ~~0.1816941~~ | ~~$391.47*~~ | ✅ **ขายแล้ว Jul 14** @ $435.934 | Realized +$8.08 (+11.35%) | — | — | — |
 
@@ -467,6 +487,8 @@
 - **RGLD refresh (FINAL check):** พบ **data error** ในbrief 2026-08-13 (GEO growth ที่แท้จริงคือ +56.5% YoY ไม่ใช่ +8%) — ex-M&A growth +79.8% YoY ผ่านเกณฑ์ 30% จริง → **ไม่ลบออกจาก Watchlist** ปลด FINAL flag เป็น Watch ปกติ — ดู Watchlist table
 - **AS refresh:** ยังคง 🟠 Watch (Provisional) ไม่เปลี่ยน — Q3 earnings ยังไม่ประกาศ (คำถามหลักเรื่อง growth <20% trigger ยังไม่มีคำตอบ) แต่ valuation ถูกลงอีก (ราคาแตะ 52-week low $27.31)
 
+**🔍 2026-09-24 (พฤหัส): Market Scan (10 หน้า) — พบตัวใหม่ 5 อันดับแรกที่ยังไม่เคย brief (mkt cap มากไปน้อย, หลังตัด Holdings/Watchlist/เคย Avoid ออก):** VICR (Vicor), ARW (Arrow Electronics), AEIS (Advanced Energy Industries), AXSM (Axsome Therapeutics), FORM (FormFactor) — ยังไม่ผ่าน 4-Layer analysis เลย แค่ผ่านตัวกรอง growth เชิงปริมาณ (sales QoQ >30%) เท่านั้น รัน `/brief TICKER` ถ้าสนใจ | Avoid Recheck: ไม่มีตัวเข้าเกณฑ์ครบ 3 ข้อ (ยังไม่มี Avoid ตัวไหนครบ 90 วันนับจาก brief ล่าสุด — เร็วสุดคือ SKHY 2026-07-14 ~72 วัน) | Catalyst Scan: ไม่พบ candidate ที่น่าเชื่อถือวันนี้ (guidance raises ที่เจอเป็น NN Inc mkt cap เล็กเกินไป, Crane/Trane/PMI/DocuSign เคย briefed แล้วหรือ growth ต่ำกว่าเกณฑ์ 30%, ข่าวสัญญาที่เหลือเป็น defense sub-contract มูลค่าเล็ก) | Pre-Consensus Scan v2: ไม่พบสัญญาณที่น่าเชื่อถือ (insider buying เป็น single-insider ทั้งหมด — Fox Corp/Liberty entities นอก growth style เดิมๆ) | 📋 Watchlist Due วันนี้ (ค้างจากเมื่อวาน): APH, ABNB (stale 2026-09-23, overdue)
+
 **🔍 2026-09-23 (พุธ): Market Scan (10 หน้า) — พบตัวใหม่ mkt cap ใหญ่ 5 อันดับแรกที่ยังไม่เคย brief:** NET, SNOW, MPC, VLO, PSX — ยังไม่ผ่าน 4-Layer analysis เลย แค่ผ่านตัวกรอง growth เชิงปริมาณ (sales QoQ >30%) เท่านั้น รัน `/brief TICKER` ถ้าสนใจ | Avoid Recheck: ไม่มีตัวเข้าเกณฑ์ครบ 3 ข้อ (ยังไม่มี Avoid ตัวไหนครบ 90 วันนับจาก brief ล่าสุด — เร็วสุดคือ SKHY 2026-07-14 ~71 วัน) | Catalyst Scan: ไม่พบ candidate ที่น่าเชื่อถือวันนี้ (พบแค่ PLTR partnership/guidance เดิมจากต้นเดือน ไม่ใช่ข่าวใหม่) | Pre-Consensus Scan v2: ไม่พบสัญญาณที่น่าเชื่อถือ (insider buy ที่เจอเป็น single-insider หรือบริษัทนอก US-domiciled growth style เช่น Grab Holdings)
 
 **✅ 2026-09-07: EOG ผ่าน Final Check แล้ว → ลบออกจาก Watchlist** — FY2026 guidance ยืนยันชัดเจนว่า oil production +5% YoY, total production +13-14% YoY (รวม Encino M&A แล้ว) — revenue +57% YoY เกือบทั้งหมดมาจากราคาน้ำมัน (+46% YoY) ไม่ใช่ volume แม้ WTI จะยืนสูงกว่าเดิมก็ตาม (~$92/bbl) — เปลี่ยนจาก ⚠️/⚪ เป็น ❌ confirmed ครั้งแรก (pattern เดียวกับ COST) — ธุรกิจคุณภาพสูงจริง (Layer 1 สะอาด, FCF margin ~32.5%) แค่ไม่ match growth style ของพอร์ตนี้ ดู [[EOG-2026-09-07]]
@@ -589,3 +611,7 @@ Deep-dive วิเคราะห์ธุรกิจ **PLTR** (Holding) แ�
 ### 2026-08-26 — DASH: EP.33 Doordash Vs. Toast and ghost kitchen 2.0
 วิเคราะห์เปรียบเทียบ **DASH** (Watchlist) กับ Toast: DoorDash ครอง demand-side (marketplace เชื่อมลูกค้า-ร้านอาหาร, market share 60-70%) ส่วน Toast ครอง supply-side (POS/kitchen operations) — ทั้งคู่ขยายเข้าหากันตรงกลาง (DoorDash เข้า POS, Toast เข้า customer demand) — เสริม case studies Ghost Kitchen 2.0 (It's Just Wings, Denny's, Wow Bao) เป็นมุมมองเชิงคุณภาพเสริม ไม่กระทบ thesis/Action ปัจจุบันของ DASH (ยังเป็น 🟡 Watch รอย่อเข้า MS FV $205)
 🔗 https://www.youtube.com/watch?v=QV_9xIp07Dg
+
+### 2026-09-22 — ABNB: EP.35 - Airbnb : New Runway or New ดอย
+Deep-dive ทบทวน **ABNB** (Watchlist) หลัง 3 ปีจาก pitch เดิม: เน้น 'Trust' เป็นหัวใจธุรกิจตัวกลาง, valuation ต้องหัก SBC ออกจาก FCF เพื่อดูกระแสเงินสดจริง + ระวัง dilution, คู่แข่ง Booking/Agoda แข็งแกร่งขึ้นแต่ regulation (เช่น นิวยอร์ก) กลับไม่แย่อย่างที่กลัว เป็นผลบวกระยะยาว, โฮสต์เริ่มบ่นระบบเอนเอียงเข้าข้างผู้เข้าพัก, AI/CTO ใหม่จาก Meta อาจช่วย recommendation แต่การจองยังต้องพึ่งมนุษย์ — สรุปภาพรวม: ธุรกิจยังน่าสนใจแต่โมเมนตัมช้าลงกว่าที่คาด ปัจจัยชี้ขาดคือ cost discipline + รักษาฐาน host/guest — เป็นมุมมองเชิงคุณภาพเสริม ไม่กระทบ thesis/Action ปัจจุบันของ ABNB (ยังเป็น 🟡 Watch, growth ❌ confirmed <30% bar, รอราคาย่อเข้า MS FV $157)
+🔗 https://www.youtube.com/watch?v=TlU-ez6Q6rc
