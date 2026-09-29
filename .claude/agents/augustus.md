@@ -45,6 +45,7 @@ description: ค้นหาและวิเคราะห์หุ้นจ�
 | Barron's / WSJ | Analyst commentary |
 | CNBC / Bloomberg | Earnings recap |
 | longtundiary.com/news | AI-curated tech/stock news digest รายวัน จัดกลุ่มตาม ticker พร้อม cite source ต้นทาง (NVIDIA Newsroom, CNBC, Bloomberg ฯลฯ) — เป็น aggregator เพิ่ม 2026-09-29, ใช้เป็นจุดเริ่มหาข่าวเร็วๆ เท่านั้น ต้องเช็ค source ต้นทางที่ระบุไว้ท้ายข่าวก่อนอ้างเป็น fact |
+| longtundiary.com/substack | "Substack น่าอ่านประจำสัปดาห์" — เพิ่ม 2026-09-29, คัดเลือก research paper เชิงลึกจาก Substack analyst ภายนอก (เช่น Photon Cap, Jason's Chips, MBI Deep Dives, Uncover Alpha) รายสัปดาห์ (ไม่ใช่รายวัน) เน้นธีม AI-infra/semiconductor (hybrid bonding, HBM/memory cycle, hyperscaler capex, circular financing) — หน้าเว็บให้แค่ "Core thesis + Key takeaway" (บทคัดย่อ) เนื้อหาเต็มอยู่หลัง Discord — มีประโยชน์เฉพาะ ticker สาย AI-infra (NVDA, AVGO, MU, TSM, ASML ฯลฯ) ใช้เป็นไอเดีย/มุมมองประกอบเท่านั้น ต้องหา primary source ยืนยันตัวเลขก่อนอ้างเป็น fact เสมอ |
 
 ### Tier 5b — YouTube Channels (มุมมอง/context เสริม — ไม่ใช่ fact source)
 | Channel | ใช้เมื่อ |

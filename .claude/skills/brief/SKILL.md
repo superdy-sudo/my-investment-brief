@@ -106,12 +106,15 @@ curl -s -A "Mozilla/5.0 (Windows NT 10.0; Win64; x64)" "https://quotes-gw.webull
 ☐ Webull forward P/E + estimateEarningsDate (จาก getQuote) — ใช้เป็น cross-check เสริม ไม่ใช่แหล่งตัดสิน (ดูกฎด้านล่าง)
 ☐ ข่าว/catalyst สำคัญ 30 วันล่าสุด
 ☐ longtundiary.com/news (Tier 5 aggregator, เพิ่ม 2026-09-29) — เช็คหน้านี้ว่ามี TICKER/ชื่อบริษัทติดข่าวช่วงนี้ไหม (จัดกลุ่มตาม ticker รายวัน พร้อม cite source ต้นทาง) — ถ้าเจอ ให้ตามไปดู source ต้นทางที่ระบุท้ายข่าวก่อนอ้างเป็น fact เสมอ (ห้ามอ้างจากหน้านี้ตรงๆ) ถ้าไม่เจอข่าวที่เกี่ยวข้อง ข้ามเงียบๆ ไม่ต้องเขียนว่า "ไม่พบ" — เน้นข่าว mega-cap/tech เป็นหลัก ถ้า TICKER อยู่นอกกลุ่มนี้ (เช่น energy/medtech/biotech เล็ก) มีโอกาสไม่เจออะไรเลยเป็นปกติ
+☐ longtundiary.com/substack (Tier 5 aggregator, เพิ่ม 2026-09-29) — "Substack น่าอ่านประจำสัปดาห์" อัปเดต**รายสัปดาห์ไม่ใช่รายวัน** เช็คว่ามี research digest ที่เกี่ยวกับ TICKER/sector นี้ไหม (เน้นธีม AI-infra/semiconductor — hybrid bonding, HBM/memory cycle, hyperscaler capex, circular financing) — หน้าเว็บให้แค่บทคัดย่อ (Core thesis + Key takeaway) เนื้อหาเต็มอยู่หลัง Discord ใช้ได้แค่เป็นไอเดีย/มุมมองประกอบ ไม่ใช่ fact — มีประโยชน์เฉพาะ ticker สาย AI-infra เป็นหลัก ถ้า TICKER อยู่นอกธีมนี้ข้ามได้เลยไม่ต้องฝืนหา
 ☐ Short interest + insider activity (ถ้ามี) — ดูกฎ materiality filter ด้านล่างก่อนนำไปใช้ใน Bear Case
 ☐ Guru Holdings — เช็คว่ามีกองทุน quality-investing ชื่อดังถืออยู่ไหม (Fundsmith, Berkshire/Buffett, Terry Smith, Nomad, Baillie Gifford ฯลฯ) + สัดส่วนในพอร์ตเขา + เพิ่ม/ลดสถานะล่าสุด — ใช้ query เช่น `"[TICKER] Fundsmith holding"`, `"[TICKER] 13F Berkshire"`, `"[TICKER] guru stock picks"`
 ☐ YouTube Digest (ลงทุน Diary) — grep `youtube-digests/longtoon-diary.md` หา TICKER/ชื่อบริษัท ถ้าเจอ entry ที่เกี่ยวข้อง ใส่เป็นข้อมูลประกอบใน Bull/Bear (ระบุว่ามาจาก YouTube digest ไม่ใช่ primary source) ถ้าไม่เจอ ข้ามเงียบๆ ไม่ต้องเขียนว่า "ไม่พบ"
 ```
 
 **กฎการใช้ longtundiary.com/news:** เป็น AI-curated aggregator (Tier 5 — ใช้เสริม ไม่ใช่ primary) — ใช้ได้แค่เป็นจุดเริ่มหาข่าวเร็วๆ ห้ามอ้างตัวเลข/ข้อเท็จจริงจากหน้านี้ตรงๆ โดยไม่ตามไปยืนยัน source ต้นทางที่ระบุไว้ท้ายข่าวก่อนเสมอ (เช่น CNBC, Bloomberg, NVIDIA Newsroom ฯลฯ) — ห้ามใช้เป็นหลักฐานเดี่ยวเพื่อให้ ✅/❌ ใน Layer 1/2
+
+**กฎการใช้ longtundiary.com/substack:** เป็นบทคัดย่อของ research จาก analyst ภายนอกอีกที (เพิ่งเห็นแค่หัวข้อ+สรุป ไม่ใช่ตัวรายงานเต็ม) — ใช้ได้แค่เป็นไอเดีย/มุมมองเสริมใน Bull/Bear case เท่านั้น ห้ามใช้เป็นหลักฐานเดี่ยวเพื่อให้ ✅/❌ ใน Layer 1/2 หรืออ้างตัวเลขจากบทคัดย่อเป็น fact — ถ้าธีมตรงกับ TICKER ที่กำลัง brief ให้ระบุกำกับว่า "อ้างอิงจาก Substack digest ([ชื่อผู้เขียน])" เสมอ แยกจาก fact ที่มาจาก Tier 1-4
 
 **กฎการใช้ YouTube Digest:** เป็น**ข้อมูลประกอบเท่านั้น** ห้ามใช้เป็นหลักฐานเดี่ยวเพื่อให้ ✅/❌ ใน Layer 1/2 หรือเป็นเหตุผลหลักใน Layer 4 Action — ใช้ได้แค่เสริมน้ำหนัก Bull/Bear case ที่มีเหตุผลเชิงธุรกิจ/ตัวเลขรองรับอยู่แล้ว
 
