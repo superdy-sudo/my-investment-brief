@@ -44,6 +44,7 @@ description: ค้นหาและวิเคราะห์หุ้นจ�
 | Reuters / AP | Breaking news, verified facts |
 | Barron's / WSJ | Analyst commentary |
 | CNBC / Bloomberg | Earnings recap |
+| longtundiary.com/news | AI-curated tech/stock news digest รายวัน จัดกลุ่มตาม ticker พร้อม cite source ต้นทาง (NVIDIA Newsroom, CNBC, Bloomberg ฯลฯ) — เป็น aggregator เพิ่ม 2026-09-29, ใช้เป็นจุดเริ่มหาข่าวเร็วๆ เท่านั้น ต้องเช็ค source ต้นทางที่ระบุไว้ท้ายข่าวก่อนอ้างเป็น fact |
 
 ### Tier 5b — YouTube Channels (มุมมอง/context เสริม — ไม่ใช่ fact source)
 | Channel | ใช้เมื่อ |
@@ -173,6 +174,7 @@ description: ค้นหาและวิเคราะห์หุ้นจ�
 - P&L USD = (Current Price - Buy Price) × Shares
 
 ### News + Analyst Update
+- เช็ค `https://www.longtundiary.com/news` ก่อน (Tier 5, aggregator) — ดูว่ามี ticker ใน Holdings/Watchlist ติดข่าววันนี้/เมื่อวานไหม ถ้ามี ให้ตาม source ต้นทางที่ระบุท้ายข่าวไปยืนยันก่อนอ้างเป็น fact
 - WebSearch: `TICKER news last 48 hours`
 - WebSearch: `TICKER analyst rating upgrade downgrade [เดือน] 2026`
 - WebSearch: `TICKER insider buying selling [เดือน] 2026`
