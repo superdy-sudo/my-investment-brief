@@ -64,7 +64,18 @@
 
 ---
 
-## 🔮 Today's Prediction (2026-09-30 พุธ ตลาดเปิด — ราคาระหว่าง session)
+## 🔮 Today's Prediction (2026-10-01 พฤหัส ก่อนตลาด US เปิด — ราคา T-1 = ปิดจริงพุธ Sep 30)
+
+> **Prediction Review (จาก 2026-09-30 — เทียบกับปิดจริง Sep 30, curl-confirmed):** ✅ yield ปิด >5.25% (5.293%) | ✅ GWRE/PLTR/IOT ปิดบวก (+0.04%/+0.04%/+0.42%) | ❌ VIX <16 (ปิด 16.34) — **Accuracy 2/3 (~67%)**
+>
+> **วันนี้มี ISM Manufacturing (พฤหัส 1 ต.ค.); ศุกร์ 2 ต.ค. Jobs Report**
+>
+> **Prediction สำหรับวันนี้ (grade ตอนปิด/Close Brief):**
+> - **10Y yield จะยืนเหนือ 5.25%** — trigger: ^TNX ปิดจริงเทียบ 5.293%
+> - **AVGO kill buffer จะยังต่ำกว่า 20% (ราคาปิด < $357.3)** — trigger: AVGO ปิดจริงเทียบ $351.19
+> - **VIX จะปิดเหนือ 16** — trigger: ปิดจริงเทียบ 16.34
+
+## 🔮 Prediction เดิม (2026-09-30 พุธ ตลาดเปิด — ราคาระหว่าง session)
 
 > **Prediction Review (จาก 2026-09-29 — เทียบกับปิดจริงอังคาร Sep 29, curl-confirmed):**
 > - ✅ **"10Y yield จะยืนเหนือ 5.20% ต่อเนื่อง"** — ถูก: ปิด 5.255% (Sep 30 intraday 5.285% สถิติใหม่ต่อ)
@@ -301,6 +312,10 @@
 
 ## Holdings
 
+> **🌥️ Oct 1 (พฤหัส ก่อนตลาด US เปิด, curl-confirmed — ราคา = ปิดจริงพุธ Sep 30) — ตลาดปิดผสม PCE ต่ำกว่าคาดแต่ 10Y yield ปิดสถิติใหม่ 5.293%, ราคาปิดจริงอ่อนกว่า intraday บ่ายวาน:** GWRE ปิด **$142.58 (+0.04%** จาก Sep 29 close $142.52), PLTR ปิด **$187.05 (+0.04%** จาก $186.97), AVGO ปิด **$351.19 (-1.10%** จาก $355.10, **kill buffer +17.9%** ต่ำกว่า 20% ต่อเนื่อง), IOT (Top Pick) ปิด **$38.13 (+0.42%** จาก $37.97, **kill buffer +20.6%** เฉียดเส้น 20%), NVDA (Watchlist Starter) ปิด $228.38 (+0.51% จาก $227.21) — ตลาดรวมปิดจริง: **S&P 7,651.54 (-0.25%), NASDAQ 26,861.06 (+0.24%), Dow 50,906.05 (-0.86%), VIX 16.34 (+1.87%), 10Y yield 5.293%** (แหล่ง: Yahoo Finance/ABC News; S&P เดือน ก.ย. -0.7%) — ไม่มี Holdings ขยับ >3% / ไม่มี earnings วันนี้ / ไม่มี Kill trigger / ไม่มี Dynamic TP Reset | **Prediction Review (Sep 30): 2/3 (~67%)** — ✅ yield ปิด >5.25% (5.293%), ✅ GWRE/PLTR/IOT ปิดบวก (+0.04%/+0.04%/+0.42% เฉียดฉิว), ❌ VIX <16 (ปิด 16.34) — บทเรียน: rally intraday หมดแรงตอนปิดเพราะ yield สถิติใหม่ | 📋 **Watchlist Due วันนี้:** DASH (stale 10-01, ราคา $183.55 -1.90% อยู่ใต้ $190 entry zone เดิม), P (stale 10-01, $130.78), NTAP (stale 10-01, $210.08) — ยังไม่ได้รัน /brief refresh | **Market Scan (Finviz 10 หน้า ~200 ตัว):** New Candidates ที่ยังไม่เคย brief: **AAOI, MP, AVT, MXL, KNTK** | Avoid Recheck: ไม่มีตัวเข้าเกณฑ์ | Catalyst Scan: ไม่พบ candidate น่าเชื่อถือ (Boeing $20B Navy = mega-cap, MU งบดีแต่เป็น Avoid, PRGS/NN/PM growth ต่ำหรือ mkt cap เล็ก, Comstock-SOCAR เป็น commodity gas) | Pre-Consensus v2: ไม่พบ (Uber CEO ซื้อ $10M / Truist CEO ซื้อ = single-insider ไม่ผ่านเกณฑ์ ≥2 คน + นอก growth style) | 💰 Top-up Check ($110.89): ไม่มีตัวเข้าเกณฑ์ — ถือเงินสดรอ (IOT รอ Q3 FY27 ~ธ.ค. 2026, AVGO 2/3 sources ยังไม่ยืนยัน Cheap, Watchlist ไม่มี 🟢 Buy เต็มรูปแบบ)
+>
+> อัปเดต Oct 1, 2026 (พฤหัส ก่อนตลาดเปิด, ราคา T-1 = ปิดจริง Sep 30, curl-confirmed) | Total holdings (4 ตัว): **$469.93** | Unrealized P&L: **+$85.18 (+22.14%)** + Cash Reserve **$110.89** | Total portfolio: **$580.82**
+>
 > **🌤️ Sep 30 (พุธ ตลาดเปิด ~12:30 ET, curl-confirmed intraday) — PCE ออกต่ำกว่าคาด (headline 12 เดือน +3.4%, +0.3% MoM — ตาม TheStreet/Yahoo Finance) ตลาดฟื้น แต่ 10Y yield ยังทำสถิติใหม่ ~5.285%:** GWRE **$144.545 (+1.42%** จาก Sep 29 close $142.52), PLTR **$189.94 (+1.59%** จาก $186.97), AVGO **$353.24 (-0.52%** จาก $355.10, **kill buffer +18.6%** ยังต่ำกว่า 20%), IOT (Top Pick) **$38.64 (+1.76%** จาก $37.97, kill buffer +22.2% กลับมาเหนือ 20%), NVDA (Watchlist Starter) $230.42 (+1.42% จาก $227.21) — S&P 7,710.98 (+0.52%), NASDAQ 27,068.37 (+1.01%), VIX 15.88 (-0.99%) — ไม่มี Holdings ขยับ >3% / ไม่มี earnings วันนี้ / ไม่มี Kill trigger / ไม่มี Dynamic TP Reset
 >
 > **📋 Sep 30 Market Scan (Finviz 10 หน้า ~200 ตัว):** New Candidates (ยังไม่ผ่าน /brief): PBF, ESI, JXN, CTRE, TGTX | Avoid Recheck: ไม่มีตัวเข้าเกณฑ์ | Catalyst Scan: ไม่พบ candidate ที่น่าเชื่อถือ (Boeing $20B Navy contract = mega-cap ตัดออก) | Pre-Consensus v2: ไม่พบสัญญาณน่าเชื่อถือ | Watchlist Due: TTMI (stale 09-27 overdue 3 วัน), SNPS (Investor Day วันนี้)
@@ -381,10 +396,10 @@
 
 | Ticker | Shares | Buy Price | มูลค่า | P&L % | P&L USD | ราคาปัจจุบัน | Kill Buffer |
 |--------|--------|-----------|--------|--------|---------|--------------|------------|
-| GWRE | 0.7046022 (trim 30% executed) | $107.76 | **$101.85** | **+34.14% ✅** | +$25.92 | $144.545 | Kill $86.21 (**+67.7% ✅**, -20%) Sep 30 intraday +1.42% (จาก Sep 29 close $142.52) — ไม่พบข่าวเฉพาะตัว — /brief 2026-09-04 = 🔴 Avoid (mechanical, style mismatch ไม่ใช่ Kill) |
-| PLTR | 1.0000000 | $118.00 | **$189.94** | **+60.97% ✅** | +$71.94 | $189.940 | Kill $94.40 (**+101.2% ✅**, -20%) Sep 30 intraday +1.59% (จาก Sep 29 close $186.97) |
-| AVGO | 0.2172321 | $372.21 (avg) | **$76.74** | **-5.10% ⚠️** | -$4.12 | $353.240 | Kill $297.77 (**+18.6% ⚠️**, -20%) Sep 30 intraday -0.52% (จาก Sep 29 close $355.10) — kill buffer ยังต่ำกว่า 20% ต่อเนื่อง ต้องจับตา |
-| IOT 🆕 | 2.7834188 (Starter) | $39.51 | **$107.55** | **-2.20% ⚠️** | -$2.42 | $38.640 | Kill $31.61 (**+22.2% ✅**, -20%) Sep 30 intraday +1.76% (จาก Sep 29 close $37.97) — kill buffer กลับมาเหนือ 20% แล้ว, เหลือ dry powder $110.89 รอ Q3 FY27 ยืนยัน growth ก่อน size up |
+| GWRE | 0.7046022 (trim 30% executed) | $107.76 | **$100.46** | **+32.31% ✅** | +$24.53 | $142.580 | Kill $86.21 (**+65.4% ✅**, -20%) Sep 30 ปิดจริง +0.04% (จาก Sep 29 close $142.52) — ไม่พบข่าวเฉพาะตัว — /brief 2026-09-04 = 🔴 Avoid (mechanical, style mismatch ไม่ใช่ Kill) |
+| PLTR | 1.0000000 | $118.00 | **$187.05** | **+58.52% ✅** | +$69.05 | $187.050 | Kill $94.40 (**+98.1% ✅**, -20%) Sep 30 ปิดจริง +0.04% (จาก Sep 29 close $186.97) |
+| AVGO | 0.2172321 | $372.21 (avg) | **$76.29** | **-5.65% ⚠️** | -$4.57 | $351.190 | Kill $297.77 (**+17.9% ⚠️**, -20%) Sep 30 ปิดจริง -1.10% (จาก Sep 29 close $355.10) — kill buffer ยังต่ำกว่า 20% ต่อเนื่อง ต้องจับตา |
+| IOT 🆕 | 2.7834188 (Starter) | $39.51 | **$106.13** | **-3.49% ⚠️** | -$3.84 | $38.130 | Kill $31.61 (**+20.6% ✅**, -20%) Sep 30 ปิดจริง +0.42% (จาก Sep 29 close $37.97) — kill buffer เฉียดเส้น 20%, เหลือ dry powder $110.89 รอ Q3 FY27 ยืนยัน growth ก่อน size up |
 | ~~V~~ | ~~0.2287306~~ | ~~$323.00~~ | ✅ **ขายแล้ว Aug 17** @ $362.84 | Realized +$9.11 (+12.33%) | — | — | — |
 | ~~SPGI~~ | ~~0.1816941~~ | ~~$391.47*~~ | ✅ **ขายแล้ว Jul 14** @ $435.934 | Realized +$8.08 (+11.35%) | — | — | — |
 
@@ -420,6 +435,7 @@
 > - **2026-09-25 (ศุกร์ ตลาดเปิด) Top-up Check ($110.89 dry powder เหลือ):** IOT ย่อเล็กน้อยเป็น $38.985 (-0.85%) ยังไม่เข้า entry ที่ดีขึ้นมีนัยสำคัญ (รอ Q3 FY27 actual ~ธ.ค. 2026 เหมือนเดิม) — AVGO ขึ้นเป็น $352.59 (+0.64%) ยังไม่เข้าเกณฑ์ Size-Up ยืนยันได้ (2/3 sources ยังไม่ยืนยัน Cheap, ยังไม่มี /brief refresh ใหม่) — AEIS เพิ่งเข้า Watchlist วันนี้เป็น Watch (Provisional) เท่านั้น ยังไม่ใช่ Buy เต็มรูปแบบ — ไม่มี Watchlist ticker ไหนเป็น Buy เต็มรูปแบบให้พิจารณา "เข้าใหม่" — **ไม่มีตัวเข้าเกณฑ์วันนี้ → ถือเงินสด $110.89 รอต่อ**
 > - **2026-09-26 (เสาร์ ตลาดปิด, ราคา T-1 = ปิดจริงศุกร์) Top-up Check ($110.89 dry powder เหลือ):** IOT ปิดจริงร่วงต่อเป็น $37.96 (-3.46%, ต่ำกว่าราคาซื้อ $39.51 มากขึ้น) แต่ valuation ยัง Inconclusive สุดขั้วเหมือนเดิม (GF Cheap vs conquest Expensive) ไม่นับเป็น Entry Zone ที่ยืนยันได้ตามกฎ fair-value-based — ยังยึดแผนรอ Q3 FY27 actual (~ธ.ค. 2026) — AVGO ปิด $352.81 (+0.70%) ยังไม่เข้าเกณฑ์ Size-Up ยืนยันได้ (2/3 sources ยังไม่ยืนยัน Cheap) — ไม่มี Watchlist ticker ไหนเป็น Buy เต็มรูปแบบให้พิจารณา "เข้าใหม่" — **ไม่มีตัวเข้าเกณฑ์วันนี้ → ถือเงินสด $110.89 รอต่อ**
 > - **2026-09-28 (จันทร์ ก่อนตลาดเปิด, ราคา T-1 = ปิดจริงศุกร์ Sep 25) Top-up Check ($110.89 dry powder เหลือ):** ราคายังไม่ขยับ (ตลาดยังไม่เปิด) IOT $37.96 ยังไม่เข้า Entry Zone ที่ยืนยันได้ (รอ Q3 FY27 actual เหมือนเดิม) — AVGO $352.81 ยังไม่เข้าเกณฑ์ Size-Up ยืนยันได้ (2/3 sources ยังไม่ยืนยัน Cheap, ยังไม่มี /brief refresh ใหม่ตั้งแต่ 09-04) — GWRE/PLTR Action เป็น Avoid/Avoid-Provisional ไม่เข้าเกณฑ์ thesis ✅/Improved — ไม่มี Watchlist ticker ไหนเป็น Buy เต็มรูปแบบให้พิจารณา "เข้าใหม่" — **ไม่มีตัวเข้าเกณฑ์วันนี้ → ถือเงินสด $110.89 รอต่อ**
+> - **2026-10-01 (พฤหัส ก่อนตลาดเปิด, ราคา T-1 = ปิดจริง Sep 30) Top-up Check ($110.89 dry powder เหลือ):** IOT $38.13 (+0.42%) ยังไม่เข้า Entry Zone ที่ยืนยันได้ (valuation Inconclusive, รอ Q3 FY27 actual ~ธ.ค. 2026) — AVGO $351.19 (-1.10%) ยังไม่เข้าเกณฑ์ Size-Up (2/3 sources ยังไม่ยืนยัน Cheap) — ไม่มี Watchlist ticker เป็น 🟢 Buy เต็มรูปแบบ → **ไม่มีตัวเข้าเกณฑ์วันนี้ ถือเงินสด $110.89 รอต่อ**
 > - **2026-09-30 (พุธ ตลาดเปิด) Top-up Check ($110.89 dry powder เหลือ):** IOT $38.64 (+1.76%) ยังไม่เข้า Entry Zone ที่ยืนยันได้ (valuation Inconclusive, รอ Q3 FY27 actual ~ธ.ค. 2026) — AVGO $353.24 ยังไม่เข้าเกณฑ์ Size-Up (2/3 sources ยังไม่ยืนยัน Cheap) — ไม่มี Watchlist ticker เป็น 🟢 Buy เต็มรูปแบบ → **ไม่มีตัวเข้าเกณฑ์วันนี้ ถือเงินสด $110.89 รอต่อ**
 
 ---
