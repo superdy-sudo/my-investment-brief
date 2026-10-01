@@ -18,6 +18,7 @@
 - `briefs/` — brief ทุกไฟล์เรียงตามวัน
 - `sources/` — SEC filings, earnings data
 - `showcase/index.html` — หน้าเว็บแสดงผล
+- `archive/` — log เก่าที่ย้ายออกจาก portfolio.md (Top Pick notes, Prediction เดิม, Holdings log, Cash top-up log, Watchlist scan log) — portfolio.md เก็บเฉพาะสถานะปัจจุบัน + log ล่าสุด (กฎ rotation ดู daily-brief SKILL)
 
 ## How I work
 - ตอบเป็นภาษาไทยเสมอ

@@ -345,6 +345,8 @@ git commit -m "brief [วันที่]: [Top Pick] | [market 1 ประโ�
 git push origin main
 ```
 
+**📦 Log Rotation (2026-10-01) — กัน portfolio.md บวมจน Read ไม่ได้ (เคยโต 323KB):** portfolio.md เก็บเฉพาะ "สถานะปัจจุบัน" + log ล่าสุดเท่านั้น — ก่อน prepend log ของวันนี้ ให้ย้าย log ของวันก่อนหน้า**ทั้งหมด**ที่เกินวันล่าสุด 1 วันไปต่อท้ายไฟล์ `archive/portfolio-[หมวด]-YYYY-MM.md` (ย้ายทั้งบรรทัดแบบไม่แก้เนื้อหา แล้วเหลือบรรทัดชี้ `> 📦 ... ย้ายไป [archive/...]` ไว้ที่เดิม) ครอบคลุม 4 หมวด: (1) Top Pick daily notes (2) Prediction เดิม (เก็บแค่ "Today's Prediction" ล่าสุด) (3) Holdings daily log (ห้ามย้ายบรรทัดประวัติซื้อ/ขาย 💰💸🛒 และตาราง Holdings) (4) Cash Reserve Top-up Check log (เก็บแค่รอบล่าสุด) — และ Watchlist scan/brief log รายวัน/บันทึกลบหุ้นหลัง Final Check ย้ายไป `archive/portfolio-watchlist-scan-log-YYYY-MM.md` เมื่อมีเกิน ~10 รายการ (ตารางและกฎ Final Check ห้ามย้าย) — ถ้าไฟล์ archive เดือนใหม่ยังไม่มีให้สร้างใหม่ ตั้งชื่อตามเดือน
+
 อัปเดต showcase/index.html ด้วย comment markers เดิม (แทนที่เฉพาะ content ระหว่าง markers) — รวมถึง `<!-- SUMMARY_START -->`/`<!-- SUMMARY_END -->` ที่ต้อง sync กับ "สรุป (Data vs Decision)" 3 บรรทัดในแชททุกครั้ง ห้ามลืม
 
 **showcase/index.html scope (2026-07-17):** หน้านี้จบที่ Holdings section เท่านั้น (Header → What's Changed → Market → Zones → Analysis → Summary → Holdings) — ห้ามเพิ่ม Thesis Change Log, Company Briefs card, หรือ Watchlist/scout log กลับเข้ามา ข้อมูลพวกนี้อยู่ที่ portfolio.md / knowledge/[TICKER].md / briefs/[TICKER]-[DATE].md / showcase/briefs.html อยู่แล้ว
