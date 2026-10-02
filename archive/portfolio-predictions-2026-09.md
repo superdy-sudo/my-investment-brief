@@ -234,3 +234,15 @@
 - ✅ **"NVDA จะยืนเหนือ $220+ ต่อได้ไหม"** — ยืนได้ ปิด $230.36 (+0.84%) แข็งกว่าตลาดรวมที่ติดลบ
 
 **🎉 AVGO Q3 FY2026 earnings ออกแล้ว — Dynamic TP Reset checkpoint:** Revenue $29.6B +86% YoY (record), AI semi revenue $16.7B +221% YoY, Q4 guidance +93% YoY accelerating (AI semi guide +236% YoY) — Growth ยัง ≥30% YoY และ accelerating ชัดเจน ผ่านเกณฑ์ reset แต่**ไม่ reset TP ใหม่** เพราะราคาปัจจุบัน ($357.16) ยังห่างไกลจาก TP1 เดิม ($558.32) มาก — reset ตอนนี้จะทำให้ TP ต่ำลงกว่าเดิม ขัดกับเจตนาเดิมของกฎ (ให้ winner ที่วิ่งเกินเป้าแล้ววิ่งต่อได้ ไม่ใช่ลดเป้าตอนราคาย่อ) → **คง TP1/TP2 เดิม** ($558.32/$744.42) — ดูรายละเอียดในส่วน AVGO ด้านล่าง
+
+## 2026-10-01 prediction (archived 2026-10-02)
+## 🔮 Today's Prediction (2026-10-01 พฤหัส ก่อนตลาด US เปิด — ราคา T-1 = ปิดจริงพุธ Sep 30)
+
+> **Prediction Review (จาก 2026-09-30 — เทียบกับปิดจริง Sep 30, curl-confirmed):** ✅ yield ปิด >5.25% (5.293%) | ✅ GWRE/PLTR/IOT ปิดบวก (+0.04%/+0.04%/+0.42%) | ❌ VIX <16 (ปิด 16.34) — **Accuracy 2/3 (~67%)**
+>
+> **วันนี้มี ISM Manufacturing (พฤหัส 1 ต.ค.); ศุกร์ 2 ต.ค. Jobs Report**
+>
+> **Prediction สำหรับวันนี้ (grade ตอนปิด/Close Brief):**
+> - **10Y yield จะยืนเหนือ 5.25%** — trigger: ^TNX ปิดจริงเทียบ 5.293%
+> - **AVGO kill buffer จะยังต่ำกว่า 20% (ราคาปิด < $357.3)** — trigger: AVGO ปิดจริงเทียบ $351.19
+> - **VIX จะปิดเหนือ 16** — trigger: ปิดจริงเทียบ 16.34
