@@ -44,3 +44,5 @@
 > **📉 2026-09-24 (พฤหัส) ตลาดเปิด — ย่อตาม broad risk-off:** ราคา $38.775 (-0.78% จาก Sep 23 close $39.08) ขณะตลาดรวมย่อแรงจาก 10Y yield ทะลุ 5.11% (S&P -0.52%, NASDAQ -0.81%) — ไม่พบข่าวลบเฉพาะตัวใหม่ thesis/Action ไม่เปลี่ยน ยังคง 🟢 Buy, Conviction 9.0/10 (ยังไม่ได้ /brief refresh ใหม่)
 
 > **🌤️ 2026-10-03 (เสาร์ ตลาดปิด, ราคา T-1 = ปิดจริงศุกร์ Oct 2, curl-confirmed):** IOT (Top Pick) ปิด $41.12 (+2.70%, buffer +30.1%) — ไม่ถึง 3% ไม่ search — thesis/Action ไม่เปลี่ยน ยังคง 🟢 Buy (Starter ถืออยู่), Conviction 8.0/10 (สูตรเดียวกับ 10-02: Thesis +3, Valuation Inconclusive +2, Zone +2, Growth +1)
+
+> **📈 2026-10-08 (พฤหัส ตลาดเปิด intraday ~11:30 ET, curl-confirmed — ราคา live ไม่ใช่ปิดจริง):** IOT (Top Pick) $40.29 (-0.54% จาก Oct 7 ปิด $40.51, buffer +27.5%) — ไม่ถึง 3% ไม่ search — thesis/Action ไม่เปลี่ยน ยังคง 🟢 Buy (Starter ถืออยู่), Conviction 8.0/10 (Thesis +3, Valuation Inconclusive +2, Zone +2, Growth +1)
