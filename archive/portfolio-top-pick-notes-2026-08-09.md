@@ -48,3 +48,5 @@
 > **📈 2026-10-08 (พฤหัส ตลาดเปิด intraday ~11:30 ET, curl-confirmed — ราคา live ไม่ใช่ปิดจริง):** IOT (Top Pick) $40.29 (-0.54% จาก Oct 7 ปิด $40.51, buffer +27.5%) — ไม่ถึง 3% ไม่ search — thesis/Action ไม่เปลี่ยน ยังคง 🟢 Buy (Starter ถืออยู่), Conviction 8.0/10 (Thesis +3, Valuation Inconclusive +2, Zone +2, Growth +1)
 
 > **📈 2026-10-09 (ศุกร์ ก่อนตลาดเปิด ~07:40 ET, ราคา T-1 = ปิดจริงพฤหัส Oct 8, curl-confirmed):** IOT (Top Pick) ปิด $41.22 (+1.75% จาก Oct 7 ปิด $40.51, buffer +30.4%) — ไม่ถึง 3% ไม่ search — thesis/Action ไม่เปลี่ยน ยังคง 🟢 Buy (Starter ถืออยู่), Conviction 8.0/10 (Thesis +3, Valuation Inconclusive +2, Zone +2, Growth +1)
+
+> **📈 2026-10-13 (อังคาร ตลาดเปิด intraday ~12:10 ET, curl-confirmed — ราคา live ไม่ใช่ปิดจริง; ⚠️ ไม่มี brief วันจันทร์ Oct 12):** IOT (Top Pick) $41.78 (+0.38% จาก Oct 12 ปิด $41.62, buffer +32.2%) — ไม่ถึง 3% ไม่ search — thesis/Action ไม่เปลี่ยน ยังคง 🟢 Buy (Starter ถืออยู่), Conviction 8.0/10 (Thesis +3, Valuation Inconclusive +2, Zone +2, Growth +1)
