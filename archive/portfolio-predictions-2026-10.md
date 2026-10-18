@@ -31,3 +31,12 @@
 > - **10Y yield จะปิดต่ำกว่า 5.35%** — trigger: ^TNX ปิดจริงเทียบ 5.225% (live)
 > - **AVGO จะปิดเหนือ $342** (kill buffer ยังเหนือ ~15%, ห่าง ~3.7% จาก live $355.19) — trigger: AVGO ปิดจริง
 > - **VIX จะปิดต่ำกว่า 18** — trigger: ปิดจริงเทียบ 15.45 (live)
+
+## 🔮 Today's Prediction (2026-10-14 พุธ — Prediction สำหรับปิดวันนี้ Oct 14 ET)
+
+> **Prediction Review (จาก 2026-10-13 — เทียบปิดจริง Oct 13, curl-confirmed):** ✅ 10Y yield ปิด <5.35% (^TNX ปิด 5.217%) | ✅ AVGO ปิด >$342 (ปิด $357.31) | ✅ VIX ปิด <18 (15.27) — **Accuracy 3/3 (100%)**
+>
+> **Prediction สำหรับปิดวันพุธ Oct 14 ET (grade ตอน Close Brief):**
+> - **10Y yield จะปิดต่ำกว่า 5.35%** — trigger: ^TNX ปิดจริงเทียบ 5.217% (ปิด Oct 13)
+> - **AVGO จะปิดเหนือ $342** (ห่าง ~4.3% จาก $357.31; kill $297.77) — trigger: AVGO ปิดจริง
+> - **VIX จะปิดต่ำกว่า 18** — trigger: ปิดจริงเทียบ 15.27

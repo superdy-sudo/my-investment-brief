@@ -26,19 +26,19 @@
 
 > 📦 Top Pick daily notes ก่อนหน้า (2026-08-17 → 2026-10-13) ย้ายไป [archive/portfolio-top-pick-notes-2026-08-09.md](archive/portfolio-top-pick-notes-2026-08-09.md) — เก็บเฉพาะโน้ตล่าสุดไว้ที่นี่
 >
-> **📈 2026-10-14 (พุธ — Bangkok เช้า, ราคา = ปิดจริง Oct 13 ET, curl-confirmed):** IOT (Top Pick) $41.27 (-0.84% จาก Oct 12 $41.62, buffer +30.6%) — ไม่ถึง 3% ไม่ search — thesis/Action ไม่เปลี่ยน ยังคง 🟢 Buy (Starter ถืออยู่), Conviction 8.0/10 (Thesis +3, Valuation Inconclusive +2, Zone +2, Growth +1) | ไม่มี Watchlist ticker อื่นเป็น Buy เต็มรูปแบบ
+> **📈 2026-10-18 (อาทิตย์ — ตลาดปิด, ราคา = ปิดจริงศุกร์ Oct 16 ET, curl-confirmed):** IOT (Top Pick) $39.57 (-7.09% จาก Oct 15 $42.59, buffer +25.2%) — ร่วงเกิน 3% ตามตลาดรวม (NASDAQ -2.15%, chip rout) + CAO ขายตามแผน 10b5-1 2,165 หุ้น @ ~$40.40 (MarketBeat 10-16, ไม่ผ่าน materiality filter) — thesis/Action ไม่เปลี่ยน ยังคง 🟢 Buy (Starter ถืออยู่), Conviction 8.0/10 (Thesis +3, Valuation Inconclusive +2, Zone +2, Growth +1) | ไม่มี Watchlist ticker อื่นเป็น Buy เต็มรูปแบบ
 >
 
 ---
 
-## 🔮 Today's Prediction (2026-10-14 พุธ — Prediction สำหรับปิดวันนี้ Oct 14 ET)
+## 🔮 Today's Prediction (2026-10-18 อาทิตย์ — Prediction สำหรับปิดวันจันทร์ Oct 19 ET)
 
-> **Prediction Review (จาก 2026-10-13 — เทียบปิดจริง Oct 13, curl-confirmed):** ✅ 10Y yield ปิด <5.35% (^TNX ปิด 5.217%) | ✅ AVGO ปิด >$342 (ปิด $357.31) | ✅ VIX ปิด <18 (15.27) — **Accuracy 3/3 (100%)**
+> **Prediction Review (จาก 2026-10-14 — เทียบปิดจริง Oct 14, curl-confirmed):** ✅ 10Y yield ปิด <5.35% (^TNX ปิด 5.190%) | ✅ AVGO ปิด >$342 (ปิด $346.25) | ✅ VIX ปิด <18 (16.87) — **Accuracy 3/3 (100%)**
 >
-> **Prediction สำหรับปิดวันพุธ Oct 14 ET (grade ตอน Close Brief):**
-> - **10Y yield จะปิดต่ำกว่า 5.35%** — trigger: ^TNX ปิดจริงเทียบ 5.217% (ปิด Oct 13)
-> - **AVGO จะปิดเหนือ $342** (ห่าง ~4.3% จาก $357.31; kill $297.77) — trigger: AVGO ปิดจริง
-> - **VIX จะปิดต่ำกว่า 18** — trigger: ปิดจริงเทียบ 15.27
+> **Prediction สำหรับปิดวันจันทร์ Oct 19 ET (grade ตอน Close Brief):**
+> - **10Y yield จะปิดต่ำกว่า 5.35%** — trigger: ^TNX ปิดจริงเทียบ 5.098% (ปิด Oct 16)
+> - **AVGO จะปิดเหนือ $310** (ห่าง ~5.7% จาก $328.75; kill $297.77) — trigger: AVGO ปิดจริง
+> - **VIX จะปิดเหนือ 17** (risk-off ยังไม่คลาย; Fri 19.99) — trigger: ปิดจริงเทียบ 19.99
 
 > 📦 Prediction เดิม (2026-09-16 → 2026-10-13) ย้ายไป [archive/portfolio-predictions-2026-09.md](archive/portfolio-predictions-2026-09.md) และ [archive/portfolio-predictions-2026-10.md](archive/portfolio-predictions-2026-10.md) — เก็บเฉพาะ "Today's Prediction" ล่าสุดไว้ที่นี่
 
@@ -46,10 +46,10 @@
 
 ## Holdings
 
-> **📈 Oct 14 (พุธ — ราคา = ปิดจริง Oct 13 ET curl-confirmed; % เทียบปิด Oct 12):** GWRE **$165.78 (+0.63%**, kill buffer **+92.3%**, ห่าง TP2 $215.52 +30.0%, TP1 trim แล้ว) | PLTR **$208.67 (-0.16%**, buffer +121.0%, ห่าง TP1 $233.85 +12.1%) | AVGO **$357.31 (+0.73%**, kill buffer **+20.0%** กลับมาแตะเส้น 20% พอดี, Kill ที่ $297.77) | IOT **$41.27 (-0.84%**, buffer +30.6% ✅) | NVDA $228.52 (+0.97%) | Market (ปิด Oct 13): **S&P 7,805.45 (-0.02%), NASDAQ 27,204.38 (-0.15%), VIX 15.27, ^TNX 5.217%** | ไม่มี earnings / ไม่มี Kill trigger / ไม่มี Dynamic TP Reset | **Prediction Review (Oct 13): 3/3 (100%)** | 📋 **Watchlist Due:** ASML ($1,717.76, -1.86%), TSM ($445.12, +0.17%), STRL ($498.61, -0.51%), CVNA ($60.39, +1.48%) (stale 10-13 เลยกำหนด ยังไม่ได้รัน /brief); TPG ($42.89, -4.94%) stale 10-09 เลยกำหนด; SMTC ($172.78, +2.67%) event: Data Center Teach-in 10-15 (พรุ่งนี้); ใกล้ถึง: PWR ($688.88)/MPWR ($1,319.55) stale 10-15, BE 10-16, KEYS 10-17 | **Market Scan (10 หน้า ~200 ตัว):** ตัวใหม่ MGY, RYN, MUR, MWH, MIRM (ยังไม่ผ่าน /brief — ชุดเดิมกับ 10-13) | Avoid Recheck: ไม่มี (RKLB โผล่ใน scan แต่ Layer 1 ❌ ถาวร) | Catalyst Scan: ไม่พบ candidate น่าเชื่อถือ (ผลค้นหาไม่มีข่าว Oct 2026 ที่ยืนยันได้ — Anduril $2.9B Navy เป็นบริษัทไม่จดทะเบียน/ข้อมูลไม่ยืนยัน) | Pre-Consensus v2: ไม่พบ (A: Quiver มีแต่ยอดรวม/สถาบัน เช่น Berkshire–Lennar ไม่ใช่ผู้บริหาร ≥2 คน; B/C: ไม่มีผลที่ใช้ได้) | 💰 Top-up Check ($110.89): ไม่มีตัวเข้าเกณฑ์ — ถือเงินสดรอ
+> **📈 Oct 18 (อาทิตย์ — ตลาดปิด; ราคา = ปิดจริงศุกร์ Oct 16 ET curl-confirmed; % เทียบปิด Oct 15):** GWRE **$168.86 (-3.92%**, kill buffer **+95.9%**, ห่าง TP2 $215.52 +27.6%) | PLTR **$186.03 (-7.21%**, buffer +97.1%, ห่าง TP1 $233.85 +25.7%) | AVGO **$328.75 (-4.52%**, kill buffer **+10.4% ⚠️** จาก +20.0% เมื่อ Oct 13, Kill $297.77) | IOT **$39.57 (-7.09%**, buffer +25.2% ✅) | NVDA $214.13 (-1.43%) | Market (ปิด Oct 16): **S&P 7,659.44 (-1.09%), NASDAQ 26,140.03 (-2.15%; สัปดาห์ -4.48%), VIX 19.99, ^TNX 5.098%** | ไม่มี earnings / ไม่มี Kill trigger / ไม่มี Dynamic TP Reset | **Prediction Review (Oct 14): 3/3 (100%)** | 📋 **Watchlist Due:** ASML ($1,641.52, -0.96%) & TSM ($412.61, -2.28%) งบ Q3 ออกแล้ว (10-14/10-15) ยังไม่รัน /brief ซ้ำ + conquest; SMTC ($136.73, -5.19%) Analyst Day 10-15 ผ่านแล้ว ยังไม่พบตัวเลข long-term targets; STRL ($424.36, -4.90%)/BE ($221.31, -6.34%)/KEYS ($331.21, -3.18%)/MPWR ($1,210.86, -3.07%) ลง >3% ตามกลุ่ม chip/AI infra; ใกล้ถึง: HALO stale 10-20, ABNB 10-23, AEIS 10-25, BE earnings ~10-26~30 | **Market Scan (10 หน้า ~200 ตัว):** ตัวใหม่ CRGY, CLMT, WHD, PTCT, CRC (ยังไม่ผ่าน /brief) | Avoid Recheck: ไม่ได้ประเมินรอบนี้ | Catalyst Scan: ไม่พบ candidate น่าเชื่อถือ (ผลค้นหาไม่มีข่าว Oct 2026) | Pre-Consensus v2: ไม่พบ (A: Quiver มีแต่ micro-cap/ต่างประเทศ เช่น API, TDIC, VCIG, GPUS, BORR — ไม่ผ่านเกณฑ์ ≥$2B) | 💰 Top-up Check ($110.89): ไม่มีตัวเข้าเกณฑ์ — ถือเงินสดรอ
 >
 >
-> อัปเดต Oct 14, 2026 (พุธ, ปิดจริง Oct 13) | Total holdings (4 ตัว): **$517.97** | Unrealized P&L: **+$133.21 (+34.62%)** + Cash Reserve **$110.89** | Total portfolio: **$628.86**
+> อัปเดต Oct 18, 2026 (อาทิตย์, ปิดจริงศุกร์ Oct 16) | Total holdings (4 ตัว): **$486.57** | Unrealized P&L: **+$101.81 (+26.46%)** (ต้นทุนรวม $384.76) + Cash Reserve **$110.89** | Total portfolio: **$597.46** (ลดจาก $628.86 เมื่อ Oct 13 = -$31.40 / -4.99%)
 >
 > 📦 Holdings daily log ก่อนหน้า (ถึง 2026-10-13) ย้ายไป [archive/portfolio-holdings-log-2026-09.md](archive/portfolio-holdings-log-2026-09.md) (ถึง 09-30) และ [archive/portfolio-holdings-log-2026-10.md](archive/portfolio-holdings-log-2026-10.md) (Oct 1-3) — เก็บเฉพาะวันล่าสุดไว้ที่นี่
 >
@@ -65,10 +65,10 @@
 
 | Ticker | Shares | Buy Price | มูลค่า | P&L % | P&L USD | ราคาปัจจุบัน | Kill Buffer |
 |--------|--------|-----------|--------|--------|---------|--------------|------------|
-| GWRE | 0.7046022 (trim 30% executed) | $107.76 | **$116.81** | **+53.84% ✅** | +$40.88 | $165.780 | Kill $86.21 (**+92.3% ✅**, -20%) [Oct 13 ปิด +0.63% (จาก $164.74) ไม่ถึง 3% ห่าง TP2 $215.52 +30.0% (TP1 trim แล้ว)] — /brief 2026-09-04 = 🔴 Avoid (mechanical, style mismatch ไม่ใช่ Kill) |
-| PLTR | 1.0000000 | $118.00 | **$208.67** | **+76.84% ✅** | +$90.67 | $208.670 | Kill $94.40 (**+121.0% ✅**, -20%) [Oct 13 ปิด -0.16% (จาก $209.00) ไม่ถึง 3% ห่าง TP1 $233.85 +12.1%] |
-| AVGO | 0.2172321 | $372.21 (avg) | **$77.62** | **-4.00% ⚠️** | -$3.24 | $357.310 | Kill $297.77 (**+20.0% ที่เส้น 20% พอดี**, -20%) [Oct 13 ปิด +0.73% (จาก $354.73) — ไม่มีข่าว fundamental ใหม่; WSJ OpenAI financing (Oct 8) ยังเป็นความเสี่ยงค้าง] |
-| IOT 🆕 | 2.7834188 (Starter) | $39.51 | **$114.87** | **+4.45% ✅** | +$4.90 | $41.270 | Kill $31.61 (**+30.6% ✅**, -20%) [Oct 13 ปิด -0.84% (จาก $41.62) ไม่ถึง 3%] — เหลือ dry powder $110.89 รอ Q3 FY27 ยืนยัน growth ก่อน size up |
+| GWRE | 0.7046022 (trim 30% executed) | $107.76 | **$118.98** | **+56.70% ✅** | +$43.05 | $168.860 | Kill $86.21 (**+95.9% ✅**, -20%) [Oct 16 ปิด -3.92% (จาก $175.77; Oct 15 +6.58%) — ไม่พบข่าวเฉพาะตัว ตามตลาดรวม risk-off; ห่าง TP2 $215.52 +27.6% (TP1 trim แล้ว)] — /brief 2026-09-04 = 🔴 Avoid (mechanical, style mismatch ไม่ใช่ Kill) |
+| PLTR | 1.0000000 | $118.00 | **$186.03** | **+57.65% ✅** | +$68.03 | $186.030 | Kill $94.40 (**+97.1% ✅**, -20%) [Oct 16 ปิด -7.21% (จาก $200.50) — ไม่พบข่าวเฉพาะตัว (WebSearch ไม่เจอ) ตาม AI/chip selloff; ห่าง TP1 $233.85 +25.7%] |
+| AVGO | 0.2172321 | $372.21 (avg) | **$71.42** | **-11.68% ⚠️** | -$9.44 | $328.750 | Kill $297.77 (**+10.4% ⚠️ ลดจาก +20.0% ใน 3 วัน**, -20%) [Oct 16 ปิด -4.52% (จาก $344.33); Oct 14 -3.10% — แหล่งเดียว (heygotrade) อ้าง Hock Tan เตือน financing cost ของ AI spend; chip rout (SOXX -4.14% Fri); WSJ OpenAI financing (Oct 8) ยังเป็นความเสี่ยงค้าง — ยังไม่ trigger Kill] |
+| IOT 🆕 | 2.7834188 (Starter) | $39.51 | **$110.14** | **+0.15% ✅** | +$0.17 | $39.570 | Kill $31.61 (**+25.2% ✅**, -20%) [Oct 16 ปิด -7.09% (จาก $42.59; Oct 15 +4.4%) — ตลาดรวม + CAO ขาย 2,165 หุ้น @ ~$40.40 ตามแผน 10b5-1 (MarketBeat 10-16, ไม่ผ่าน materiality filter)] — เหลือ dry powder $110.89 รอ Q3 FY27 ยืนยัน growth ก่อน size up |
 | ~~V~~ | ~~0.2287306~~ | ~~$323.00~~ | ✅ **ขายแล้ว Aug 17** @ $362.84 | Realized +$9.11 (+12.33%) | — | — | — |
 | ~~SPGI~~ | ~~0.1816941~~ | ~~$391.47*~~ | ✅ **ขายแล้ว Jul 14** @ $435.934 | Realized +$8.08 (+11.35%) | — | — | — |
 
@@ -87,7 +87,7 @@
 > 3. GWRE size-up ต้องรอ **Q4 FY26 earnings (Sep 2026) ยืนยัน record quarter ก่อน** เท่านั้น ห้าม size up ก่อนหน้านั้น
 > - **2026-07-14:** ประเมิน SKHY (SK hynix, เพิ่ง IPO) เป็นตัวเลือกใช้เงินก้อนนี้ → ผลคือ 🔴 Avoid (Compounder 1/5 — ดู briefs/SKHY-2026-07-14.md) ไม่ผ่านเกณฑ์ → ตัดสินใจถือเงินสดรอแทน
 > 📦 Top-up Check log ก่อนหน้า (2026-09-11 → 2026-10-02) ย้ายไป [archive/portfolio-cash-topup-log-2026-09.md](archive/portfolio-cash-topup-log-2026-09.md) (รวม 2026-10-02) — เก็บเฉพาะรอบล่าสุดไว้ที่นี่ (กฎ rotation ดู daily-brief SKILL)
-> - **2026-10-14 (พุธ, ราคาปิดจริง Oct 13) Top-up Check ($110.89 dry powder เหลือ):** IOT $41.27 (-0.84%) ยังไม่เข้า Entry Zone ที่ยืนยันได้ (valuation Inconclusive, รอ Q3 FY27 actual ~ธ.ค. 2026) — AVGO $357.31 (+0.73%, kill buffer +20.0%) ยังไม่เข้าเกณฑ์ Size-Up (2/3 sources: GuruFocus/conquest ยังไม่ยืนยัน Cheap; มีเพียง Morningstar บอก Cheap) — ไม่มี Watchlist ticker เป็น 🟢 Buy เต็มรูปแบบ → **ไม่มีตัวเข้าเกณฑ์วันนี้ ถือเงินสด $110.89 รอต่อ** (log รอบ 2026-10-13 ย้ายไป [archive/portfolio-cash-topup-log-2026-10.md](archive/portfolio-cash-topup-log-2026-10.md))
+> - **2026-10-18 (อาทิตย์, ตลาดปิด — ราคาปิดจริงศุกร์ Oct 16) Top-up Check ($110.89 dry powder เหลือ):** IOT $39.57 (-7.09%) ยังไม่เข้า Entry Zone ที่ยืนยันได้ (valuation Inconclusive, รอ Q3 FY27 actual ~ธ.ค. 2026) — AVGO $328.75 (-4.52%, kill buffer +10.4%) ยังไม่เข้าเกณฑ์ Size-Up (2/3 sources: GuruFocus/conquest ยังไม่ยืนยัน Cheap; มีเพียง Morningstar บอก Cheap; buffer แคบลงเหลือเฉียดเส้น 10%) — ไม่มี Watchlist ticker เป็น 🟢 Buy เต็มรูปแบบ → **ไม่มีตัวเข้าเกณฑ์ ถือเงินสด $110.89 รอต่อ** (log รอบ 2026-10-14 ย้ายไป [archive/portfolio-cash-topup-log-2026-10.md](archive/portfolio-cash-topup-log-2026-10.md))
 
 ---
 
@@ -236,6 +236,8 @@
 > 🗒️ **2026-10-09 /brief 7 ตัวพร้อมกัน (parallel agents):** RGLD refresh (Watch คงเดิม, entry zone $214–228, Next Review earnings 2026-11-03) | SMTC incremental refresh (Watch Provisional คงเดิม, Northland downgrade, ยังรอ Teach-in 10-15) | **NAVN → 🟠 Watch (Provisional) เข้า Watchlist** | **Avoid ไม่เพิ่ม:** INSW (tanker, No Moat, growth จาก spot rate), SEI (Layer 1 ❌ leverage 3.7–4.9x + FCF H1 ≈ -$570M ไม่เข้า Growth Capex Exception), CVI (No Moat refiner, coverage ~3.8x, growth จาก crack spread), LOAR (Layer 1 ❌ net debt/EBITDA 3.57x + coverage 3.4x; organic +12.3% vs reported +39.4%) — ดู briefs/[TICKER]-2026-10-09.md
 
 > 🗒️ **2026-10-14 /brief 15 ตัวพร้อมกัน (parallel agents):** ผู้ใช้พิมพ์ STR → ตีความเป็น STRL | **Refresh (Watch/Provisional คงเดิมทุกตัว):** ASML, TSM, STRL, TPG, SMTC, PWR, MPWR, BE, KEYS | **CVNA ลดจาก 🔵 Starter → 🟠 Watch (Provisional)** เพราะ Valuation Inconclusive + Second opinion Tie เอียง Bear | **ใหม่เข้า Watchlist:** MWH (SOLV Energy, valuation single-source conquest), RYN (Timber REIT, growth จากควบรวม) | **Avoid ไม่เพิ่ม:** MGY (E&P ไม่มี moat ❌ Layer 1), MUR (E&P ไม่มี moat, revenue FY25 -10.9%), MIRM (Layer 1 ❌ interest coverage ติดลบ — agent คำนวณเอง Q2 EBIT ≈ -$42.6M; ราคา -7.48% วันนี้ ไม่พบข่าวสาเหตุ; recheck หลังงบ Q3 ถ้า operating income/OCF เป็นบวก) — ดู briefs/[TICKER]-2026-10-14.md
+
+> 🗒️ **2026-10-18 (อาทิตย์) Daily Brief — ราคา Watchlist ปิดศุกร์ Oct 16 (ยังไม่ได้ update คอลัมน์ราคาล่าสุดในตารางด้านล่าง ใช้ตัวเลขนี้แทน):** ASML $1,641.52 | TSM $412.61 | STRL $424.36 | CVNA $58.83 | TPG $42.52 | SMTC $136.73 | PWR $631.86 | MPWR $1,210.86 | BE $221.31 | KEYS $331.21 | NVDA $214.13 | MWH $23.96 | RYN $18.99 — ทุกตัวยังไม่เข้า Entry Zone เดิม (SMTC/ASML/TSM/STRL/KEYS/PWR/BE ยังห่างมาก) ไม่มีการเปลี่ยน Action | Market Scan ตัวใหม่: CRGY, CLMT, WHD, PTCT, CRC
 
 | Ticker | เหตุผลที่สนใจ | ราคาที่จะซื้อ | ราคาล่าสุด | Next Review |
 |--------|--------------|--------------|-----------|-------------|

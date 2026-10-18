@@ -106,7 +106,7 @@ WebSearch ใช้ได้เฉพาะ: ค้นข่าว/catalyst เ�
 ```bash
 for r in "" "&r=21" "&r=41" "&r=61" "&r=81" "&r=101" "&r=121" "&r=141" "&r=161" "&r=181"; do
   curl -sL -A "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0 Safari/537.36" "https://finviz.com/screener.ashx?v=111&f=cap_midover,fa_salesqoq_o30,geo_usa,sh_avgvol_o500,sh_price_o5&o=-marketcap${r}&ft=4"
-done | grep -oE 'class="company-ticker" href="stock\?t=[A-Z.\-]+' | sed 's/.*t=//' | awk '!seen[$0]++'
+done | grep -oE 'quote\?t=[A-Z.\-]+&amp;b=1' | sed 's/quote?t=//;s/&amp;b=1//' | awk '!seen[$0]++'
 ```
 **ห้ามใช้ `sort -u`** — จะทำให้ list กลับไปเรียงตัวอักษรทิ้ง market cap order ที่ตั้งใจไว้ ใช้ `awk '!seen[$0]++'` แทน (dedupe แต่รักษาลำดับเดิม)
 Filter ที่ใช้: `cap_midover` (mkt cap ≥$2B กันหุ้นเล็ก/ผันผวนเกิน) + `fa_salesqoq_o30` (sales growth QoQ >30% — proxy ของ growth bar ≥30% YoY ใน portfolio.md) + `geo_usa` + `sh_avgvol_o500` (สภาพคล่องพอ) + `sh_price_o5` (กัน penny stock) + `o=-marketcap` (เรียง market cap มากไปน้อย — ได้หุ้นตัวใหญ่/รู้จักก่อน) — 20 ตัว/หน้า ดึง 10 หน้า (`r=21/41/.../181` = หน้า 2-10) รวม ~200 ตัว
