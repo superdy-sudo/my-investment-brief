@@ -50,3 +50,14 @@
 > - **AVGO จะปิดเหนือ $310** (ห่าง ~5.7% จาก $328.75; kill $297.77) — trigger: AVGO ปิดจริง
 > - **VIX จะปิดเหนือ 17** (risk-off ยังไม่คลาย; Fri 19.99) — trigger: ปิดจริงเทียบ 19.99
 > - **📍 Intraday tracking (Oct 19 ~11:45 ET, ยังไม่ใช่ผล grade):** ^TNX 5.127% (<5.35 ✓ ทิศทาง) | AVGO $339.81 (>$310 ✓ ทิศทาง) | VIX 17.42 (>17 เฉียดเส้น — เสี่ยงพลาด)
+
+## 🔮 Today's Prediction (2026-10-20 อังคาร — Prediction สำหรับปิดวันอังคาร Oct 20 ET)
+
+> **Prediction Review (จาก 2026-10-18 — เทียบปิดจริง Oct 19, curl-confirmed จาก chartPreviousClose):** ✅ 10Y yield ปิด <5.35% (^TNX ปิด 5.136%) | ✅ AVGO ปิด >$310 (ปิด $334.59) | ✅ VIX ปิด >17 (ปิด 18.44) — **Accuracy 3/3 (100%)**
+>
+> **Prediction สำหรับปิดวันอังคาร Oct 20 ET (grade ตอน Close Brief):**
+> - **10Y yield จะปิดต่ำกว่า 5.35%** — trigger: ^TNX ปิดจริงเทียบ 5.136% (ปิด Oct 19)
+> - **AVGO จะปิดเหนือ $310** (ห่าง ~7.4% จาก $334.59; kill $297.77) — trigger: AVGO ปิดจริง
+> - **VIX จะปิดต่ำกว่า 20** — trigger: ปิดจริงเทียบ 18.44 (Oct 19)
+> - **📍 Intraday tracking (Oct 20 ~12:12 ET, ยังไม่ใช่ผล grade):** ^TNX 5.123% (<5.35 ✓ ทิศทาง) | AVGO $335.13 (>$310 ✓) | VIX 17.73 (<20 ✓)
+
