@@ -26,7 +26,7 @@
 
 > 📦 Top Pick daily notes ก่อนหน้า (2026-08-17 → 2026-10-13) ย้ายไป [archive/portfolio-top-pick-notes-2026-08-09.md](archive/portfolio-top-pick-notes-2026-08-09.md) — เก็บเฉพาะโน้ตล่าสุดไว้ที่นี่
 >
-> **📈 2026-10-24 (เสาร์ — ตลาดปิด ใช้ราคาปิดศุกร์ Oct 23 ET, curl-confirmed):** IOT (Top Pick) $44.92 (+2.60% จาก Oct 22 close $43.78, buffer +42.1%) — ไม่เกิน 3% ไม่ search ข่าว | thesis/Action ไม่เปลี่ยน ยังคง 🟢 Buy (Starter ถืออยู่), Conviction 8.0/10 (Thesis +3, Valuation Inconclusive +2, Zone +2, Growth +1) | ไม่มี Watchlist ticker อื่นเป็น Buy เต็มรูปแบบ
+> **📈 2026-10-25 (อาทิตย์ — ตลาดปิด ราคา T-1 = ปิดศุกร์ Oct 23 ET, curl-confirmed ไม่เปลี่ยนจาก brief 10-24):** IOT (Top Pick) $44.92 (+2.60% จาก $43.78, buffer +42.1%) | thesis/Action ไม่เปลี่ยน ยังคง 🟢 Buy (Starter ถืออยู่), Conviction 8.0/10 | ไม่มี Watchlist ticker อื่นเป็น Buy เต็มรูปแบบ (log 10-24 ย้ายไป [archive/portfolio-top-pick-notes-2026-08-09.md](archive/portfolio-top-pick-notes-2026-08-09.md))
 >
 > 📦 โน้ต Top Pick ถึง 2026-10-21 ย้ายไป [archive/portfolio-top-pick-notes-2026-08-09.md](archive/portfolio-top-pick-notes-2026-08-09.md)
 >
@@ -48,12 +48,12 @@
 
 ## Holdings
 
-> **📈 Oct 23 (ศุกร์ — ปิดจริง, curl-confirmed; % เทียบปิด Oct 22):** GWRE **$189.00 (-0.34%**, kill buffer +119.2%, ห่าง TP2 $215.52 +14.0%) | PLTR **$196.75 (+0.29%**, buffer +108.4%, ห่าง TP1 $233.85 +18.9%) | AVGO **$321.68 (-0.48%**, kill buffer **+8.0% ⚠️ ต่ำกว่า 10%**, Kill $297.77) | IOT **$44.92 (+2.60%**, buffer +42.1% ✅) | NVDA $210.96 (-0.59%) | Market (ปิด): **S&P 7,623.68 (-0.52%), NASDAQ 25,955.34 (-0.21%), VIX 19.45 (จาก 19.03), ^TNX 4.988%** | ไม่มี earnings / ไม่มี Kill trigger / ไม่มี Dynamic TP Reset / ไม่มี Holding ขยับ >3% | 📋 **Watchlist Due:** ABNB (stale 10-23 เลยกำหนด), MXL (earnings window 10-21~11-04), KKR (Q3 earnings ต.ค. ยังไม่ผ่าน /brief ซ้ำหลังงบ); ใกล้ถึง: AEIS stale 10-25, GKOS/CAI 10-27 | **Market Scan (10 หน้า ~200 ตัว):** ตัวใหม่ LRCX, MLI, RITM, RDN, HASI (ยังไม่ผ่าน /brief) | Avoid Recheck: SPCX/MCHP/RKLB ครบ 90 วันแต่ Layer 1 ❌ confirmed ทั้งหมด → ไม่เข้าเกณฑ์ | Catalyst Scan: ไม่พบ candidate น่าเชื่อถือ (ผลเป็น mega-cap defense NOC/LMT) | Pre-Consensus v2: A: APLD (President+CEO ซื้อ 10/16 ~$5.7M+$1.0M) แต่ /brief 2026-10-01 = Avoid (L1 ❌) ไม่เข้า; B: ไม่พบ; C: ไม่พบ | 💰 Top-up Check ($110.89): ไม่มีตัวเข้าเกณฑ์ — ถือเงินสดรอ
+> **📈 Oct 25 (อาทิตย์ — ตลาดปิด ราคา T-1 = ปิดศุกร์ Oct 23, curl-confirmed):** GWRE **$189.00** (buffer +119.2%) | PLTR **$196.75** (buffer +108.4%, ห่าง TP1 +18.9%) | AVGO **$321.68** (kill buffer **+8.0% ⚠️ <10%**, Kill $297.77) | IOT **$44.92** (buffer +42.1%) | Market (ปิด Oct 23): S&P 7,623.68 (-0.52%), NASDAQ 25,955.34 (-0.21%), VIX 19.45, ^TNX 4.988% | ไม่มี earnings/Kill trigger/TP Reset | 📋 **Watchlist Due:** AEIS (stale 10-25 วันนี้), ABNB (stale 10-23 เลยกำหนด), MXL (earnings window), KKR (post-Q3); ใกล้ถึง GKOS/CAI 10-27, BE earnings 10-26~30, SOFI/TTMI 10-27 | **Market Scan (10 หน้า ~200 ตัว):** ตัวใหม่ยังเป็นชุดเดิมของ 10-24: LRCX, MLI, RITM, RDN, HASI (ยังไม่ผ่าน /brief) | Avoid Recheck: ไม่มีตัวเข้าเกณฑ์ | Catalyst Scan: ไม่พบ candidate น่าเชื่อถือ | Pre-Consensus v2: A: APLD (Avoid L1 ❌ ไม่เข้า); B/C: ไม่พบ | 💰 Top-up Check ($110.89): ไม่มีตัวเข้าเกณฑ์ — ถือเงินสดรอ
 >
 > 📦 Holdings daily log ถึง 2026-10-20 ย้ายไป [archive/portfolio-holdings-log-2026-10.md](archive/portfolio-holdings-log-2026-10.md)
 >
 >
-> อัปเดต Oct 23, 2026 (ศุกร์ ปิดจริง) | Total holdings (4 ตัว): **$524.83** | Unrealized P&L: **+$140.07 (+36.41%)** (ต้นทุนรวม $384.76) + Cash Reserve **$110.89** | Total portfolio: **$635.72** (เพิ่มจาก $623.47 เมื่อ Oct 20 = +$12.25 / +1.96%)
+> อัปเดต Oct 25, 2026 (อาทิตย์ ราคา T-1 = ปิดศุกร์ Oct 23) | Total holdings (4 ตัว): **$524.83** | Unrealized P&L: **+$140.07 (+36.41%)** (ต้นทุนรวม $384.76) + Cash Reserve **$110.89** | Total portfolio: **$635.72** (เพิ่มจาก $623.47 เมื่อ Oct 20 = +$12.25 / +1.96%)
 >
 > 📦 Holdings daily log ก่อนหน้า (ถึง 2026-10-13) ย้ายไป [archive/portfolio-holdings-log-2026-09.md](archive/portfolio-holdings-log-2026-09.md) (ถึง 09-30) และ [archive/portfolio-holdings-log-2026-10.md](archive/portfolio-holdings-log-2026-10.md) (Oct 1-3) — เก็บเฉพาะวันล่าสุดไว้ที่นี่
 >
@@ -91,7 +91,7 @@
 > 3. GWRE size-up ต้องรอ **Q4 FY26 earnings (Sep 2026) ยืนยัน record quarter ก่อน** เท่านั้น ห้าม size up ก่อนหน้านั้น
 > - **2026-07-14:** ประเมิน SKHY (SK hynix, เพิ่ง IPO) เป็นตัวเลือกใช้เงินก้อนนี้ → ผลคือ 🔴 Avoid (Compounder 1/5 — ดู briefs/SKHY-2026-07-14.md) ไม่ผ่านเกณฑ์ → ตัดสินใจถือเงินสดรอแทน
 > 📦 Top-up Check log ก่อนหน้า (2026-09-11 → 2026-10-02) ย้ายไป [archive/portfolio-cash-topup-log-2026-09.md](archive/portfolio-cash-topup-log-2026-09.md) (รวม 2026-10-02) — เก็บเฉพาะรอบล่าสุดไว้ที่นี่ (กฎ rotation ดู daily-brief SKILL)
-> - **2026-10-24 (เสาร์, ราคาปิด Oct 23) Top-up Check ($110.89 dry powder เหลือ):** IOT $44.92 (+2.60%) ยังไม่เข้า Entry Zone ที่ยืนยันได้ (valuation Inconclusive, รอ Q3 FY27 ~ธ.ค. 2026) — AVGO $321.68 kill buffer +8.0% (<10%) ไม่เข้าเกณฑ์ Size-Up — ไม่มี Watchlist ticker เป็น 🟢 Buy เต็มรูปแบบ (TSM $418.51 อยู่ในโซน $375-427 แต่ Action ยัง Watch) → **ไม่มีตัวเข้าเกณฑ์ ถือเงินสด $110.89 รอต่อ** (log รอบ 2026-10-21 ย้ายไป [archive/portfolio-cash-topup-log-2026-10.md](archive/portfolio-cash-topup-log-2026-10.md))
+> - **2026-10-25 (อาทิตย์, ราคาปิด Oct 23) Top-up Check ($110.89):** ผลเหมือนรอบ 10-24 — IOT $44.92 ยังไม่เข้า Entry Zone ที่ยืนยันได้, AVGO kill buffer +8.0% (<10%) ไม่เข้า Size-Up, ไม่มี Watchlist เป็น 🟢 Buy เต็มรูปแบบ → **ถือเงินสด $110.89 รอต่อ** (log 10-24 ย้ายไป [archive/portfolio-cash-topup-log-2026-10.md](archive/portfolio-cash-topup-log-2026-10.md))
 
 ---
 
