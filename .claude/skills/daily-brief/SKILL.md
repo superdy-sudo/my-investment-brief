@@ -42,9 +42,39 @@ done
 **⚠️ ห้ามใช้วันที่จาก JSON/timestamp มาแปลงเอง** — Unix timestamp แปลงผิดบ่อย (เจอเคสจริง: ราคาถูกต้อง แต่บอกวันที่เป็น "May 2024" ทั้งที่จริงคือ Jul 2026)
 → **ใช้วันที่ปัจจุบันของระบบเสมอ** (วันที่รัน brief) ไม่ใช่วันที่จาก JSON/timestamp — ราคาที่ได้คือราคา ณ ตอนรันอยู่แล้ว ไม่ต้องพึ่งวันที่จาก API
 
+**✅ ตรวจวันของราคา + cross-check 2 endpoint (2026-10-31) — ใช้สคริปต์นี้แทน loop ข้างบนเป็นค่าเริ่มต้น:**
+```bash
+python .claude/skills/daily-brief/price_check.py GWRE PLTR AVGO IOT %5EGSPC %5EIXIC %5EVIX %5ETNX [Watchlist ticker ทั้งหมด]
+```
+ผลลัพธ์ต่อ ticker: `price | prev_close | pct | status` — สคริปต์ดึงทั้ง `query1` และ `query2`, เทียบวันของแท่งราคา (เวลา ET) กับวันซื้อขายล่าสุดที่คำนวณจากนาฬิการะบบ (เสาร์-อาทิตย์/ก่อนตลาดเปิด → ใช้ศุกร์/วันทำการก่อนหน้า)
+- `OK` → ใช้ได้
+- `CHECK-DATE` → วันของแท่งราคาไม่ตรง (วันหยุดตลาด หรือข้อมูลค้าง) **ห้ามใช้เลขนั้นจนกว่าจะตรวจมือ** แล้วระบุใน brief ว่า "ราคาอาจไม่ใช่ปิดล่าสุด"
+- `CHECK-XSRC` → query1/query2 ต่างกัน >0.5% **ห้ามใช้เลขจนกว่าจะยืนยัน**
+- `FAIL` → ดึงไม่ได้ ใช้ fallback ด้านล่าง
+- กฎ "ห้ามคัดลอกวันที่จาก API ไปเขียนใน brief" ยังอยู่เหมือนเดิม — สคริปต์ใช้วันที่แค่ตรวจความสอดคล้อง ผลที่เขียนใน brief ยังใช้วันที่ระบบ
+- ticker ที่ขึ้นต้นด้วย `^` ต้อง encode เป็น `%5E` (เช่น `%5EGSPC`)
+
 **Fallback ถ้า curl โดน block ด้วย** (rare): ลอง `query2.finance.yahoo.com` แทน `query1` ก่อน ถ้ายัง fail ทั้งคู่ค่อย fallback ไป WebSearch ตามกฎเดิม (ราคาอาจ lag)
 
 WebSearch ใช้ได้เฉพาะ: ค้นข่าว/catalyst เท่านั้น ห้ามใช้ดึงราคา
+
+## 🔎 ลำดับแหล่งข้อมูล (Source Hierarchy, 2026-10-31) — fact ทุกข้อต้องติดป้ายระดับแหล่ง
+
+WebSearch ในระบบนี้มักคืนผลของวัน/ปีอื่นปนมา (เจอเคสจริง 2026-10-31: ค้นข่าว 30 ต.ค. ได้แต่ผลเดือนอื่น) → **WebSearch ใช้ชี้ทางไปหาแหล่งหลักเท่านั้น ห้ามใช้เป็นแหล่งยืนยัน fact เอง**
+
+| ข้อมูล | แหล่งหลัก (ต้องใช้) | แหล่งรอง (ใช้ได้แค่เป็นสัญญาณ ต้องติดป้าย) |
+|---|---|---|
+| วัน earnings | IR ของบริษัท / press release บริษัท | Webull, เว็บข่าว, ปฏิทิน earnings |
+| Insider buying/selling | SEC EDGAR Form 4 (`sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=[TICKER]&type=4`) | Quiver Quant, เว็บสรุป insider |
+| ตัวเลขงบ/guidance | 10-K/10-Q/earnings release (keen/North) | สรุปข่าว, AI summary |
+| สาเหตุราคาขยับ | ข่าวจาก ≥2 แหล่งอิสระที่ตรง**วัน**เดียวกัน | แหล่งเดียว หรือบทความไม่ระบุวัน |
+
+**ป้ายที่ต้องแปะท้าย fact สำคัญใน brief** (ใช้ในหัวข้อ Fact Check และบรรทัดที่อ้างวัน earnings/insider/สาเหตุราคา):
+- `[หลัก]` = ยืนยันจากแหล่งหลักในตารางแล้ว
+- `[รอง]` = มาจากแหล่งรองเท่านั้น ยังไม่ยืนยันกับแหล่งหลัก
+- `[อนุมาน]` = ไม่มีแหล่งโดยตรง เป็นการสรุปเองจากบริบท (เช่น "ร่วงตามตลาดรวม")
+
+กฎ: ถ้าหาแหล่งหลักไม่เจอ ให้เขียน `[รอง]`/`[อนุมาน]` ตรงๆ หรือ "ไม่ทราบ" — ห้ามเขียนเหมือนยืนยันแล้ว | สาเหตุราคาขยับที่ไม่มี ≥2 แหล่งตรงวัน → เขียน "ไม่พบสาเหตุเฉพาะตัวที่ยืนยันได้" ห้ามเดา | Insider buying ที่จะนำไปเป็น Pre-Consensus candidate ต้องเทียบ Form 4 ก่อน ถ้าเทียบไม่ได้ให้ติดป้าย `[รอง]` และห้ามจัดเป็น candidate
 
 ---
 
@@ -80,13 +110,19 @@ WebSearch ใช้ได้เฉพาะ: ค้นข่าว/catalyst เ�
 **Top Pick:**
 - fetch ราคา + เช็ค entry zone เทียบ portfolio.md (เฉพาะตัวใน Watchlist ที่ผ่าน /brief แล้ว — ดู step 3)
 
-**Watchlist Next Review Check — เช็คทุกวันพร้อมกับ Top Pick (ไม่ต้อง fetch ราคา แค่เทียบวันที่/เงื่อนไข):**
+**Watchlist Price Refresh (2026-10-31) — fetch ราคา Watchlist "ทุกตัว" ทุก Full Brief ด้วย `price_check.py` (ยิงครั้งเดียวจบ):**
+- รายชื่อ ticker ดึงจากตาราง Watchlist ใน portfolio.md (อ่านด้วย grep/awk ไม่ต้อง Read ทั้งไฟล์) รวมกับ Holdings และดัชนี
+- บันทึกราคาทุกตัวเป็นบรรทัด snapshot รายวันใน section Watchlist ของ portfolio.md (รูปแบบเดียวกับโน้ต 🗒️ ที่มีอยู่) พร้อม status ของสคริปต์ — ตัวที่เป็น `CHECK-*` ห้ามลงเลข ให้ระบุว่า "รอตรวจ"
+- คอลัมน์ "ราคาล่าสุด" ในตาราง Watchlist เซลล์ยาวและมีข้อความผสม → **อัปเดตเฉพาะตัวที่รัน `/brief` ในรอบนั้น** ส่วนตัวอื่นให้ถือ snapshot รายวันเป็นราคาปัจจุบัน และห้ามอ้างราคาในคอลัมน์ตารางที่ไม่ได้ลงวันที่
+- ตัวที่ขยับ >3% ใน snapshot → flag ใน "Watchlist Due" (ไม่ต้อง search ข่าวทุกตัว เฉพาะที่ user สนใจหรือเป็น Starter)
+
+**Watchlist Next Review Check — เช็คทุกวันพร้อมกับ Top Pick (เทียบวันที่/เงื่อนไข ใช้ราคาจาก Watchlist Price Refresh ข้างบน):**
 
 อ่าน column `Next Review` ของทุก Watchlist ticker ใน portfolio.md แล้ว flag ตัวที่เข้าเงื่อนไข:
 - `earnings YYYY-MM-DD` → วันนี้ ≥ วันนั้น → flag
 - `stale YYYY-MM-DD` → วันนี้ ≥ วันนั้น → flag
 - `event: [description]` → flag เสมอ (user ต้องยืนยันเองว่า event เกิดหรือยัง)
-- `price: <$XXX` หรือ `price: $XXX–$YYY` → flag เฉพา���ถ้าตลาดย่อ >3% วันนั้น (ไม���ต้อง fetch ราคา Watchlist ทุกวัน)
+- `price: <$XXX` หรือ `price: $XXX–$YYY` → flag เฉพา���ถ้าตลาดย่อ >3% วันนั้น (ไม���ต้อง fetch ราคา Watchlist ทุกวัน — **ยกเลิกแล้ว 2026-10-31:** ตอนนี้ fetch ทุกตัวทุกวันผ่าน Watchlist Price Refresh ข้างบน ให้ flag `price:` เมื่อราคาจริงของตัวนั้นเข้าเงื่อนไข ไม่ต้องรอตลาดรวมย่อ >3%)
 - `⚠️ ย���งไม่ผ่าน /brief` → flag ทุกวัน
 
 แสดงผลใน output (ใน "สรุป Data vs Decision" ต่อจาก Market Scan):
@@ -111,9 +147,21 @@ done | grep -oE 'quote\?t=[A-Z.\-]+&amp;b=1' | sed 's/quote?t=//;s/&amp;b=1//' |
 **ห้ามใช้ `sort -u`** — จะทำให้ list กลับไปเรียงตัวอักษรทิ้ง market cap order ที่ตั้งใจไว้ ใช้ `awk '!seen[$0]++'` แทน (dedupe แต่รักษาลำดับเดิม)
 Filter ที่ใช้: `cap_midover` (mkt cap ≥$2B กันหุ้นเล็ก/ผันผวนเกิน) + `fa_salesqoq_o30` (sales growth QoQ >30% — proxy ของ growth bar ≥30% YoY ใน portfolio.md) + `geo_usa` + `sh_avgvol_o500` (สภาพคล่องพอ) + `sh_price_o5` (กัน penny stock) + `o=-marketcap` (เรียง market cap มากไปน้อย — ได้หุ้นตัวใหญ่/รู้จักก่อน) — 20 ตัว/หน้า ดึง 10 หน้า (`r=21/41/.../181` = หน้า 2-10) รวม ~200 ตัว
 
+**⚠️ ขั้นกรอง list ต้องรัน `scan_filter.py` เสมอ (2026-10-31) — ห้ามตัดตัวที่เคยมี brief ออกจากชื่อไฟล์อย่างเดียว:**
+```bash
+# บันทึก ticker จาก Finviz ลงไฟล์ (คั่นด้วยช่องว่าง ตามลำดับ market cap) แล้วรันที่ root โปรเจกต์
+python .claude/skills/daily-brief/scan_filter.py < scan.txt
+```
+สคริปต์อ่านเนื้อหา brief ล่าสุดของแต่ละ ticker (ไม่ใช่แค่ชื่อไฟล์) แล้วจัดกลุ่ม (รายละเอียดอยู่ใน docstring ของสคริปต์):
+- `HOLDING/WATCHLIST`, `BRIEFED-ACTIVE`, `AVOID-TOO-RECENT` → ตัดออก
+- `AVOID-NEEDS-READ` (Avoid และ ≥90 วัน) → **ต้องเปิด `briefs/[TICKER]-[DATE].md` อ่าน Layer 1 + Layer 4 เองเพื่อตัดสินเงื่อนไขข้อ 1** (สคริปต์ไม่ตัดสินแทน เพราะตรวจ ❌ อัตโนมัติจับเกินจริง)
+- `UNCLEAR` → เปิดไฟล์อ่านเอง ห้ามข้าม
+- `MENTIONED-NO-BRIEF` → ดูไฟล์ที่สคริปต์แสดง; ถ้าเป็นแค่โน้ต scan เก่า (ไม่มี brief) นับเป็น New Candidate ได้ แต่ถ้า mkt cap สูงมากและเพิ่งโผล่ ให้ตรวจก่อนว่าทำไมไม่เคยขึ้น
+- `NEVER-SEEN` → New Candidate
+
 **หลังได้ list ตัวเลือก:**
-1. ตัดตัวที่อยู่ใน Holdings หรือ Watchlist (portfolio.md) ออก — ไม่ต้องเอามาเทียบซ้ำ
-2. ตัดตัวที่เคย Avoid มาแล้วออกด้วย — **ยกเว้นเข้าเงื่อนไข Avoid Recheck ด้านล่าง** (2026-09-08)
+1. ตัดตัวที่อยู่ใน Holdings หรือ Watchlist (portfolio.md) ออก — ไม่ต้องเอามาเทียบซ้ำ (สคริปต์ทำให้แล้ว)
+2. ตัดตัวที่เคย Avoid มาแล้วออกด้วย — **ยกเว้นเข้าเงื่อนไข Avoid Recheck ด้านล่าง** (2026-09-08) — **ต้องประเมิน `AVOID-NEEDS-READ` ทุกตัวจริงก่อนสรุป** ห้ามเขียน "ไม่มีตัวเข้าเกณฑ์" ถ้ายังไม่ได้อ่าน
 3. ตัวที่เหลือ = **New Candidates** — **ห้ามฟันธง Buy/Avoid ทันที** เพราะยังไม่ผ่าน 4-Layer analysis (Moat, Valuation, ฯลฯ) ของ `/brief` แค่ผ่านตัวกรอง growth เชิงปริมาณเท่านั้น
 4. โชว์ New Candidates สูงสุด 5 ตัวใน output (**เรียงตาม market cap ที่ได้จาก screener แล้ว — เอาตัวแรกสุดของ list ที่เหลือหลังตัด**) พร้อมข้อความแนะนำให้รัน `/brief TICKER` ถ้าสนใจตัวไหน
 
@@ -315,7 +363,7 @@ Section ถาวรทุก Full Brief — สรุป 1 บรรทัด/t
 Fact Check: [อะไร confirmed แล้ว / อะไรยัง unconfirmed — 1 ประโยค]
 Comment ระบบ: [thesis ตัวไหนเปลี่ยนหรือไม่ + ระบบควรทำอะไร] | Confidence XX% | Action: Do Nothing / [action เดียว]
 🆕 Market Scan: [TICKER1, TICKER2, ...] (ยังไม่ผ่าน /brief — รัน `/brief TICKER` ถ้าสนใจ) หรือ "ไม่มีตัวใหม่วันนี้"
-🔁 Avoid Recheck: [TICKER1 — เคย Avoid วันที่/เหตุผลเดิมสั้นๆ, ...] (เข้าเกณฑ์ recheck ครบ 3 ข้อ — ยังไม่ผ่าน /brief) หรือข้ามบรรทัดนี้ถ้าไม่มีตัวเข้าเกณฑ์
+🔁 Avoid Recheck: [TICKER1 — เคย Avoid วันที่/เหตุผลเดิมสั้นๆ, ...] (เข้าเกณฑ์ recheck ครบ 3 ข้อ — ยังไม่ผ่าน /brief) | **ต้องแสดงบรรทัดนี้ทุกครั้ง (2026-10-31)** เลือกอย่างใดอย่างหนึ่ง: "ประเมินแล้ว N ตัว (AVOID-NEEDS-READ: [รายชื่อ]) ไม่มีตัวเข้าเกณฑ์ — [เหตุผลสั้นๆ ต่อตัว]" หรือ "ไม่ได้เช็ค — [เหตุผล]" ห้ามเขียน "ไม่มีตัวเข้าเกณฑ์" ลอยๆ โดยไม่ได้อ่าน brief เดิม
 🆕 Catalyst Scan: [TICKER1 — catalyst สั้นๆ 1 บรรทัด, ...] (จากข่าว ไม่ใช่ growth screener — ยังไม่ผ่าน /brief) หรือ "ไม่พบ catalyst candidate ที่น่าเชื่อถือวันนี้"
 🧪 Pre-Consensus Scan (v2, ทดลอง): [TICKER1 — sub-scan A/B/C + สัญญาณสั้นๆ 1 บรรทัด, ...] (speculative สูงกว่า Catalyst Scan ปกติ — ยังไม่ผ่าน /brief) หรือ "ไม่พบสัญญาณ pre-consensus ที่น่าเชื่อถือวันนี้"
 
