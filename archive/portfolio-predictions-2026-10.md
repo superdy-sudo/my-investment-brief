@@ -85,3 +85,11 @@
 > - **10Y yield จะปิดต่ำกว่า 5.10%** — trigger: ^TNX ปิดจริงเทียบ 4.993% (ปิด Oct 27)
 > - **AVGO จะปิดเหนือ $325** (ห่าง ~5.1% จาก $342.33; kill $297.77) — trigger: AVGO ปิดจริง
 > - **VIX จะปิดต่ำกว่า 22** — trigger: ปิดจริงเทียบ 17.48 (Oct 27)
+
+### (ย้ายจาก portfolio.md เมื่อ 2026-10-31) Prediction 2026-10-29
+> **Prediction Review (จาก 2026-10-28 — เทียบปิดจริง Oct 28 ET, curl-confirmed):** ✅ 10Y yield ปิด <5.10% (^TNX 5.045%) | ✅ AVGO ปิด >$325 (ปิด $351.81) | ✅ VIX ปิด <22 (ปิด 16.91) — **Accuracy 3/3 (100%)**
+>
+> **Prediction สำหรับปิดวันพฤหัส Oct 29 ET (grade ตอน Close Brief):**
+> - **10Y yield จะปิดต่ำกว่า 5.10%** — trigger: ^TNX ปิดจริงเทียบ 4.995% (intraday Oct 29)
+> - **AVGO จะปิดเหนือ $330** (ห่าง ~4.2% จาก $344.58; kill $297.77) — trigger: AVGO ปิดจริง
+> - **VIX จะปิดต่ำกว่า 22** — trigger: ปิดจริงเทียบ 16.32 (intraday Oct 29)

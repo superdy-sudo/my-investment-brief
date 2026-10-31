@@ -25,3 +25,5 @@
 > - **2026-10-25 (อาทิตย์, ราคาปิด Oct 23) Top-up Check ($110.89):** ผลเหมือนรอบ 10-24 — IOT $44.92 ยังไม่เข้า Entry Zone ที่ยืนยันได้, AVGO kill buffer +8.0% (<10%) ไม่เข้า Size-Up, ไม่มี Watchlist เป็น 🟢 Buy เต็มรูปแบบ → **ถือเงินสด $110.89 รอต่อ** (log 10-24 ย้ายไป [archive/portfolio-cash-topup-log-2026-10.md](archive/portfolio-cash-topup-log-2026-10.md))
 
 > - **2026-10-28 (พุธ, ราคาปิด Oct 27) Top-up Check ($110.89):** IOT $43.51 ยังไม่เข้า Entry Zone ที่ยืนยันได้, AVGO kill buffer +15.0% (>10% แล้ว) แต่ valuation 2/3 แหล่งยังไม่ Cheap → ไม่เข้า Size-Up, GWRE Avoid (mechanical), ไม่มี Watchlist เป็น 🟢 Buy เต็มรูปแบบ → **ถือเงินสด $110.89 รอต่อ** (log 10-25 ย้ายไป [archive/portfolio-cash-topup-log-2026-10.md](archive/portfolio-cash-topup-log-2026-10.md))
+
+> - **2026-10-29 (พฤหัส, intraday) Top-up Check ($110.89):** IOT $41.73 ยังไม่เข้า Entry Zone ที่ยืนยันได้, AVGO kill buffer +15.7% แต่ valuation 2/3 แหล่งยังไม่ Cheap → ไม่เข้า Size-Up, GWRE Avoid (mechanical), ไม่มี Watchlist เป็น 🟢 Buy เต็มรูปแบบ → **ถือเงินสด $110.89 รอต่อ** (log 10-28 ย้ายไป [archive/portfolio-cash-topup-log-2026-10.md](archive/portfolio-cash-topup-log-2026-10.md))
