@@ -1,0 +1,4 @@
+# Archive — Cash top-up log 2026-11
+
+> - **2026-11-02 (จันทร์, intraday ~10:20 ET) Top-up Check ($110.89):** IOT $41.40 ยังไม่เข้า Entry Zone ที่ยืนยันได้ (valuation Inconclusive + รอ Q3 FY27), AVGO kill buffer +10.4% ผ่านเงื่อนไขข้อนี้แต่ valuation 2/3 แหล่งยังไม่ Cheap, GWRE Avoid (mechanical), ไม่มี Watchlist เป็น 🟢 Buy เต็มรูปแบบ → **ถือเงินสด $110.89 รอต่อ** (log 10-31 ย้ายไป [archive/portfolio-cash-topup-log-2026-10.md](archive/portfolio-cash-topup-log-2026-10.md))
+
