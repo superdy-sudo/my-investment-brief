@@ -52,3 +52,13 @@
 > - **VIX จะปิดต่ำกว่า 30** — trigger: ปิดจริงเทียบ 17.71 (intraday)
 > - **AVGO จะปิดเหนือ Kill $297.77** — trigger: ปิดจริงเทียบ $353.67 intraday (buffer +18.8%)
 
+
+## 🔮 Today's Prediction (2026-11-13 ศุกร์ — Prediction สำหรับปิดวันศุกร์ Nov 13 ET)
+
+> **Prediction Review (จาก 2026-11-11 — เทียบปิดจริง Wed Nov 11 ET; ไม่มี brief วันที่ 11-12):** ✅ 10Y yield ปิด <5.10% (^TNX 4.998%) | ✅ VIX ปิด <30 (17.49) | ✅ AVGO ปิดเหนือ Kill $297.77 (ปิด $345.22) — **Accuracy 3/3 (100%)** [หลัก — Yahoo chart 5d]
+>
+> **Prediction สำหรับปิดวันศุกร์ Nov 13 ET (grade ตอนรอบถัดไป):**
+> - **10Y yield จะปิดต่ำกว่า 5.25%** — trigger: ^TNX ปิดจริงเทียบ 5.127% (intraday, ผ่านเส้น 5.10% ไปแล้วตั้งแต่ Nov 12 ปิด 5.103%)
+> - **VIX จะปิดต่ำกว่า 30** — trigger: ปิดจริงเทียบ 20.31 (intraday)
+> - **AVGO จะปิดเหนือ Kill $297.77** — trigger: ปิดจริงเทียบ $339.52 intraday (buffer +14.0%)
+
