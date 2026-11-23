@@ -70,3 +70,13 @@
 > - **NVDA จะปิดเหนือ $155.46 (ปิด Nov 17)** — trigger: after-hours Nov 17 ~$162 / pre-market ~$160.3 หลังงบ Q3 FY27 [หลัก Yahoo]; ผิดถ้าตลาดขายหลังงบ (sell-the-news)
 > - **VIX จะปิดต่ำกว่า 30** — trigger: ปิด Nov 17 = 25.46 (ขึ้นจาก 19.30 ใน 3 วัน), อ่านล่าสุด ~24.1
 > - **AVGO จะปิดเหนือ Kill $297.77** — trigger: ปิด Nov 17 $341.60 (buffer +14.7%)
+
+## 🔮 Today's Prediction (2026-11-19 พฤหัส — Prediction สำหรับปิดวันพฤหัส Nov 19 ET)
+
+> **Prediction Review (จาก 2026-11-18 — เทียบปิดจริง Wed Nov 18 ET):** ❌ NVDA ปิดเหนือ $155.46 (ปิดจริง $150.96, -2.89% — after-hours pop หลังงบไม่ยืนถึงปิด; สาเหตุเฉพาะตัวไม่ยืนยัน [อนุมาน]) | ✅ VIX ปิด <30 (24.56) | ✅ AVGO ปิดเหนือ Kill $297.77 (ปิด $354.05) — **Accuracy 2/3 (67%)** [หลัก — Yahoo chart; VIX จาก chart 5d ตรวจมือ]
+>
+> **Prediction สำหรับปิดวันพฤหัส Nov 19 ET (grade ตอนรอบถัดไป):**
+> - **VIX จะปิดต่ำกว่า 30** — trigger: ปิด Nov 18 = 24.56; quote ก่อนตลาดเปิด 22.10 (ยังไม่ใช่ราคาปิด)
+> - **AVGO จะปิดเหนือ Kill $297.77** — trigger: ปิด Nov 18 $354.05 (buffer +18.9%)
+> - **ANT (Anthropic) จะเริ่มเทรดบน Nasdaq วันนี้ (Yahoo มี regularMarketPrice)** — trigger: Webull listDate 2026-11-19 [หลัก]; ผิดถ้าเลื่อนหรือไม่เปิดเทรดวันนี้ (ไม่ทำนายราคา)
+
