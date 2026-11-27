@@ -80,3 +80,13 @@
 > - **AVGO จะปิดเหนือ Kill $297.77** — trigger: ปิด Nov 18 $354.05 (buffer +18.9%)
 > - **ANT (Anthropic) จะเริ่มเทรดบน Nasdaq วันนี้ (Yahoo มี regularMarketPrice)** — trigger: Webull listDate 2026-11-19 [หลัก]; ผิดถ้าเลื่อนหรือไม่เปิดเทรดวันนี้ (ไม่ทำนายราคา)
 
+
+## 🔮 Today's Prediction (2026-11-24 อังคาร — Prediction สำหรับปิดวันอังคาร Nov 24 ET)
+
+> **Prediction Review (จาก 2026-11-23 — เทียบปิดจริง Mon Nov 23 ET จาก price_check prev_close):** ✅ AVGO ปิดเหนือ Kill $297.77 (ปิด $313.55) | ✅ VIX ปิด <35.89 (ปิด 26.62) | ✅ DY รายงานงบ 11-24 ตามกำหนด [หลัก — 8-K/PR บริษัทลงวัน 11-24] — **Accuracy 3/3 (100%)** | ⚠️ ข้อสังเกต: วันนี้ AVGO intraday $298.63 เหนือ Kill เพียง +0.29% — prediction แบบ threshold ผ่านได้แม้ risk หางสูง
+>
+> **Prediction สำหรับปิดวันอังคาร Nov 24 ET (grade ตอนรอบถัดไป):**
+> - **AVGO จะปิดเหนือ Kill $297.77** — trigger: intraday ตอนรัน $298.63 (buffer +0.29%) ยังไม่ใช่ราคาปิด; ผิดถ้าปิดต่ำกว่า $297.77 (ไม่ทำนายราคา)
+> - **VIX จะปิดต่ำกว่า 30** — trigger: intraday ตอนรัน 28.55 (ปิด 11-23 26.62)
+> - **IOT จะปิดเหนือ Kill $31.61** — trigger: intraday $38.645 (buffer +22.3%)
+
